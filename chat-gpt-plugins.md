@@ -1,4 +1,4 @@
-### Welcome to ChatGPT for Job Seekers
+#### Welcome to ChatGPT for Job Seekers
 
 Check out [jopilot.net](https://jopilot.net/), a ChatGPT tool for job seekers.
 
