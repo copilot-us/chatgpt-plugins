@@ -1,6 +1,7 @@
-#### Welcome to ChatGPT for Job Seekers
+#### _Welcome to ChatGPT for Job Seekers_
 
-Check out [jopilot.net](https://jopilot.net/), a ChatGPT tool for job seekers.
+Check out [_jopilot.net_](https://jopilot.net/), a ChatGPT tool for job seekers.
+
 
 ## Official ChatGPT Plugins (May 11, 2023)
 
