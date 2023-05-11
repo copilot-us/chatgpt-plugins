@@ -1,4 +1,4 @@
-#### _Welcome to ChatGPT for Job Seekers_
+#### Welcome to ChatGPT for Job Seekers
 
 Check out [_jopilot.net_](https://jopilot.net/), a ChatGPT tool for job seekers.
 
