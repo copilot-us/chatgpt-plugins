@@ -1,3 +1,15 @@
+# Welcome to ChatGPT for Job Seekers
+
+Check out [jopilot.net](https://jopilot.net/), a ChatGPT tool for job seekers.
+
+## Official ChatGPT Plugins (May 11, 2023)
+
+We maintain an extensive list of ChatGPT plugins that can be found in this repository. These plugins are tools designed to enhance the functionality of the ChatGPT model for specific tasks related to job searching.
+
+You can find the list of all plugins [here](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chatgpt-pluginc.csv). Please note that this list was last updated on May 11, 2023, and we strive to keep it updated with the latest additions.
+
+
+
 | Index | Logo URL | Name for Human | Contact Email | Description for Model | Description for Human |
 |-------|----------|----------------|----------------|-----------------------|-----------------------|
 | 1 | ![Logo](https://voxscript.awt.icu/images/VoxScript_logo_32x32.png) | VoxScript | voxscript@allwiretech.com | Plugin for searching through varius data sources. | Enables searching of YouTube transcripts, financial data sources, and Google Search results, and more! |
