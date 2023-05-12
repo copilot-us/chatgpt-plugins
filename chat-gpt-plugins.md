@@ -7,7 +7,7 @@ Check out [_jopilot.net_](https://jopilot.net/), a ChatGPT tool for job seekers.
 
 We maintain an extensive list of ChatGPT plugins that can be found in this repository. These plugins are tools designed to enhance the functionality of the ChatGPT model for specific tasks related to job searching.
 
-You can find the list of all plugins [here](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chatgpt-pluginc.csv). Please note that this list was last updated on May 11, 2023, and we strive to keep it updated with the latest additions.
+You can find the list of all plugins in the CSV format [here](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chatgpt-pluginc.csv). Please note that this list was last updated on May 11, 2023, and we strive to keep it updated with the latest additions.
 
 
 
