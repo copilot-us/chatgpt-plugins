@@ -8,7 +8,7 @@ Our platform, [jopilot.net](https://jopilot.net/), serves as AI tool to aid your
 
 We maintain an extensive list of [ChatGPT plugins](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md) that can be found in this repository. These plugins are tools designed to enhance the functionality of the ChatGPT model for specific tasks related to job searching.
 
- - [CSV](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chatgpt-pluginc.csv). 
+ - [CSV](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chatgpt-pluginc.csv)
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json)
 
 
