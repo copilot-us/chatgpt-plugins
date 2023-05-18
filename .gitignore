@@ -1,0 +1,8 @@
+# Ignore Visual Studio .vs/ folder
+.vs/
+
+# Ignore compiled binary files in the /bin/ folder
+bin/
+
+# Ignore object files in the /obj/ folder
+obj/
