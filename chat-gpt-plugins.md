@@ -5,11 +5,6 @@ Check out [_jopilot.net_](https://jopilot.net/), a ChatGPT tool for job seekers.
 
 ## Official ChatGPT Plugins (May 18, 2023)
 
-We maintain an extensive list of ChatGPT plugins that can be found in this repository. These plugins are tools designed to enhance the functionality of the ChatGPT model for specific tasks related to job searching.
-
-You can find the list of all plugins in the [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json) and [CSV](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chatgpt-pluginc.csv). Please note that this list was last updated on May 11, 2023, and we strive to keep it updated with the latest additions.
-
-
 | Index | Name for Human | Domain  | Logo |
 |-------|----------------|---------|------|
 | 1 | BuyWisely | www.buywisely.com.au | ![Logo](https://buywisely.com.au/assets/logo.png) |
