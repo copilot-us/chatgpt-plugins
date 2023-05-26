@@ -4,9 +4,9 @@ This repository is dedicated to providing resources for job seekers by leveragin
 
 Our platform, [jopilot.net](https://jopilot.net/), serves as AI tool to aid your job hunt.
 
-## 127 Official ChatGPT Plugins 
+## 144 Official ChatGPT Plugins (Updated May 26, 2023)
 
- - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json). Updated on May 21, 2023
+ - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json). Updated on May 26, 2023
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
 
 
