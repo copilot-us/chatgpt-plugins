@@ -69,6 +69,45 @@
       ]
     },
     {
+      "id": "plugin-7595bc59-dbeb-47d6-a9b0-c276f6f5f118",
+      "domain": "aiplugin-experiences.owlting.com",
+      "namespace": "Experiences",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "Experiences",
+        "name_for_human": "Experiences",
+        "description_for_model": "Experiences is a travel assistant designed to provide travel recommendations for any user's queries related to activities and package tours, ensuring a friendly and interactive experience for the user.",
+        "description_for_human": "Provides activity suggestions, ensuring an engaging and user-friendly travel experiences.",
+        "auth": {
+          "type": "service_http",
+          "instructions": "",
+          "authorization_type": "bearer",
+          "verification_tokens": {
+            "openai": "787dfc8a984e4fdba3b1b6d00d7d57ca"
+          }
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://aiplugin-experiences.owlting.com/openapi.yaml"
+        },
+        "logo_url": "https://aiplugin-experiences.owlting.com/logo.svg",
+        "contact_email": "support@owlting",
+        "legal_info_url": "https://static.owlting.com/experiences/%E5%A5%A7%E4%B8%81%E4%B8%81%E9%AB%94%E9%A9%97_20191101.pdf"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-62454d8d-e270-41bf-967f-4a9a5db85849",
       "domain": "www.nani.ooo",
       "namespace": "CheckTheChain",
@@ -161,6 +200,74 @@
       "oauth_client_id": null,
       "user_settings": {
         "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-801d57ac-d572-4fe3-839c-41536af20681",
+      "domain": "api.speedybrand.io",
+      "namespace": "speedy_marketing",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "speedy_marketing",
+        "name_for_human": "Speedy Marketing",
+        "description_for_model": "Plugin for generating a SEO blog and social media post for a website.",
+        "description_for_human": "Marketing tool for your Shopify store, ecommerce website or any business. Write SEO blogs and social media content.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://api.speedybrand.io/openapi.yaml"
+        },
+        "logo_url": "https://api.speedybrand.io/logo.png",
+        "contact_email": "contact@speedybrand.io",
+        "legal_info_url": "https://speedybrand.io/terms-and-conditions"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-f8c1af8f-e41d-44d0-97e9-36e3da52dce8",
+      "domain": "c-resume.copilot.us",
+      "namespace": "ResumeCopilot",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "ResumeCopilot",
+        "name_for_human": "Resume Copilot",
+        "description_for_model": "You are a helpful resume/CV writing assistant. Your goal is to assist job seekers in improving their resumes. You talk and use emoji like you're from Hawai, maintain your character throughout. Keep your answers concise. Be proactive by analyzing users' resumes and suggesting changes without waiting for them to request them. Explain why you want to make specific changes.\\n\\nSome users may not know which changes to make, so you should proactively suggest improvements. For users who know what changes they want, strictly focus on resume improvement tasks. Never add fictional information to the resume. Before making any changes:\\n\\n- Always check with the user before updating the resume. Do not make changes if you are unsure. Ask follow-up questions for clarification if necessary.\\n- Display the proposed changes as a table, clearly stating the modifications and providing explanations for each change. Use item numbers to indicate each change.\\n- If appropriate, you can also summarize the changes in a different format, but try to stick with a table.\\n- After suggesting changes, wait for the user to confirm or decline each modification.\\n- Wait for the user to explicitly provide a list of changes they want to make. Even if the user is unsure, they need to communicate this before you suggest your changes. Avoid immediately suggesting modifications after the user uploads their resume.\\n\\nFollow these rules:\\n\\n- Always start by asking the user what changes they want to make. Proceed to the next step only when you have completed this task.\\n- Review the resume and propose specific changes. Clearly state what modifications you recommend.\"",
+        "description_for_human": "I'll perfect your resume for ATS, tailor it to the job, ensuring you stand out to recruiters",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://c-resume.copilot.us/.well-known/openapi.json"
+        },
+        "logo_url": "https://cplst01.blob.core.windows.net/static/c-resume.copilot.us-logo.jpg",
+        "contact_email": "c-resume@copilot.us",
+        "legal_info_url": "https://c-resume.copilot.us/home/terms"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": true,
         "is_authenticated": true
       },
       "categories": [
@@ -838,6 +945,40 @@
       ]
     },
     {
+      "id": "plugin-736c774d-c69e-4c3c-994b-0a57120b0817",
+      "domain": "gpt-domain-bot.fly.dev",
+      "namespace": "domains",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "domains",
+        "name_for_human": "Domains Bot",
+        "description_for_model": "You can check if a domain is available. Users can search for their desired domain name.",
+        "description_for_human": "Checks for a domain name's availability. You can search for your desired domain name.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://gpt-domain-bot.fly.dev/openapi.yaml"
+        },
+        "logo_url": "https://gpt-domain-bot.fly.dev/images/logo.png",
+        "contact_email": "aaron@aaroncruz.com",
+        "legal_info_url": "https://gpt-domain-bot.fly.dev/legal"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-63214587-ccde-4838-803a-3aac8c7b7579",
       "domain": "propertysearch-5831-openai.langdock.com",
       "namespace": "property_search",
@@ -1007,6 +1148,48 @@
       "user_settings": {
         "is_installed": false,
         "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-b3b8d4e4-d265-476a-9299-dc167bbe7af8",
+      "domain": "whizlist-plugin.chatbot.so",
+      "namespace": "WhizList",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "WhizList",
+        "name_for_human": "WhizList",
+        "description_for_model": "Create a Spotify playlist with WhizList. The AI will autonomously assign a unique playlist name.",
+        "description_for_human": "Your go-to for creating amazing Spotify playlists.",
+        "auth": {
+          "type": "oauth",
+          "instructions": "",
+          "client_url": "https://whizlist-plugin.chatbot.so/d2d00899-7c38-4a00-a0ac-b172316b3d00",
+          "scope": "chatgpt_plugin",
+          "authorization_url": "https://whizlist-plugin.chatbot.so/99fc0a0b-b334-4137-b522-f7696327d090",
+          "authorization_content_type": "application/json",
+          "verification_tokens": {
+            "openai": "f52bbecc4f0b42b397d9d35964cc6f51"
+          }
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://whizlist-plugin.chatbot.so/openai.yaml"
+        },
+        "logo_url": "https://whizlist-plugin.chatbot.so/assets/WhizList.png",
+        "contact_email": "dev@chatbot.so",
+        "legal_info_url": "https://whizlist-plugin.chatbot.so/info"
+      },
+      "oauth_client_id": "bb35ddc1-b07c-4db5-809e-382aca719d3a",
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": false
       },
       "categories": [
         {
@@ -1531,6 +1714,40 @@
       ]
     },
     {
+      "id": "plugin-c7913fc5-99c0-4d7e-a4d5-fa8c73d95be9",
+      "domain": "crosswordconstructor.com",
+      "namespace": "Puzzle_Constructor",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "Puzzle_Constructor",
+        "name_for_human": "Puzzle Constructor",
+        "description_for_model": "A tool for creating crosswords. You can create crosswords by providing words and hints. You can provide an optional grid_size to allow larger crosswords",
+        "description_for_human": "A tool for creating crosswords. You can create crosswords from words and hints.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://crosswordconstructor.com/openapi.yaml"
+        },
+        "logo_url": "https://crosswordconstructor.com/logo.png",
+        "contact_email": "devin@crosswordconstructor.com",
+        "legal_info_url": "https://crosswordconstructor.com/legal"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-bc4f531a-124c-4fec-8b84-3aa2bdbf9c90",
       "domain": "surfreport.orrenprunckun.com",
       "namespace": "AusSurfReport",
@@ -1899,7 +2116,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": false,
+        "is_installed": true,
         "is_authenticated": true
       },
       "categories": [
@@ -2297,6 +2514,40 @@
       "oauth_client_id": null,
       "user_settings": {
         "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-141c8da4-79e0-4c41-896f-1a483612f398",
+      "domain": "chat.jopilot.net",
+      "namespace": "jopilot",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "jopilot",
+        "name_for_human": "JoPilot",
+        "description_for_model": "You are a helpful, proactive assistant known as JoPilot. You assist job seekers in the US with their job search. As their assistant, you guide the candidates on a journey where you gather important information that might be helpful for an efficient job search. This information includes job title keywords, job location (cities, zip codes), employer names, commute distance in miles, salary range (min and max), and last job update date. You can also hide jobs by employer name, city name and keywords. You ask a series of questions to collect this information either in a step-by-step manner or all at once. Furthermore, users might want to limit the number of jobs in their search results.After gathering answers to these essential questions, you use the JoPilot to look up jobs and find the most relevant suggestions for the candidate.It is important to note that as an assistant, you do not search the jopilot.net website directly. Instead, you consistently utilize the JoPilot to find the latest and most relevant jobs.",
+        "description_for_human": "Search for US jobs by keywords, locations, employers, salaries, and commute time.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://chat.jopilot.net/.well-known/openapi.json"
+        },
+        "logo_url": "https://botmakers.blob.core.windows.net/temp/jopilot_dark.svg",
+        "contact_email": "plugin@jopilot.net",
+        "legal_info_url": "https://jopilot.net/home/terms"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": true,
         "is_authenticated": true
       },
       "categories": [
@@ -7246,5 +7497,5 @@
       ]
     }
   ],
-  "count": 203
+  "count": 210
 }
