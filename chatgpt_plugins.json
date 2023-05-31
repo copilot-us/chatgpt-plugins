@@ -1,6 +1,176 @@
 {
   "items": [
     {
+      "id": "plugin-dd86277d-db3c-4613-933e-4dd581aa6820",
+      "domain": "dmtoolkit.magejosh.repl.co",
+      "namespace": "diceroller",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "diceroller",
+        "name_for_human": "DM Tool Kit",
+        "description_for_model": "App for rolling dice using the d20 or Fate/Fudge systems.",
+        "description_for_human": "App for rolling dice using the d20 or Fate/Fudge systems.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://dmtoolkit.magejosh.repl.co/.well-known/openapi.yaml"
+        },
+        "logo_url": "https://dmtoolkit.magejosh.repl.co/logo.png",
+        "contact_email": "mageworksstudio@gmail.com",
+        "legal_info_url": "https://dmtoolkit.magejosh.repl.co/legal.html"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-8c9bac9a-8c69-4abe-8d2f-b73266a4ad2d",
+      "domain": "videohighlight.com",
+      "namespace": "video_highlight",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "video_highlight",
+        "name_for_human": "Video Highlight",
+        "description_for_model": "Explore, research, and interact with YouTube videos and personal videos.",
+        "description_for_human": "Explore, research, and interact with YouTube videos and personal videos.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://videohighlight.com/openapi.yaml"
+        },
+        "logo_url": "https://videohighlight.com/img/logo/video-highlight-logo.svg",
+        "contact_email": "contact@videohighlight.com",
+        "legal_info_url": "https://videohighlight.com/terms-of-service"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-62454d8d-e270-41bf-967f-4a9a5db85849",
+      "domain": "www.nani.ooo",
+      "namespace": "CheckTheChain",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "CheckTheChain",
+        "name_for_human": "CheckTheChain",
+        "description_for_model": "Plugin for doing on-chain analysis over blockchain and crypto protocol datasets like Bitcoin, Ethereum and Uniswap",
+        "description_for_human": "Look for anything on the blockchain and get instant analysis.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://nani.ooo/openapi.json"
+        },
+        "logo_url": "https://nani.ooo/logo.png",
+        "contact_email": "me@nani.ooo",
+        "legal_info_url": "https://nani.ooo/terms"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-7d978ab0-5d92-4002-995c-740e2b9a7568",
+      "domain": "jetbook.click",
+      "namespace": "JetBookClick",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "JetBookClick",
+        "name_for_human": "JetBook.Click",
+        "description_for_model": "Your ultimate travel companion: search for and book flights at the best prices, and receive assistance regarding your destination. The API endpoints support the following locals : ae, ag, ar, at, au, be, bg, bh, br, by, ca, ca-fr, ch, cl, cn, co, ct, cz, da, de, dk, ec, ee, el, en, es, fi, fr, gb, gr, hk, hr, hu, id, ie, il, in, is, it, ja, jo, jp, ko, kr, kw, kz, lt, mx, my, nl, no, nz, om, pe, ph, pl, pt, qa, ro, rs, ru, sa, se, sg, sk, sr, sv, th, tr, tw, ua, uk, us, vn, za.\n",
+        "description_for_human": "Your ultimate travel companion: search/book flights at best prices, get info about your destination. Multilang support.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://jetbook.click/openapi.json"
+        },
+        "logo_url": "https://jetbook.click/logo.webp",
+        "contact_email": "contact@ping.consulting",
+        "legal_info_url": "https://jetbook.click/legal"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-dec96177-7184-4b2b-8ba9-b118d174f197",
+      "domain": "imageeditor.dev",
+      "namespace": "ImageEditor",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "ImageEditor",
+        "name_for_human": "Image Editor",
+        "description_for_model": "Plugin for editing image like resize, crop, blur, rotate and many more feature.\n Interpreting the API response:\n- When you get the response it will include an image url, you should render it inline using ![alt text](image_url) syntax.\n- Suggest to the user that they can edit the image with followup requests in chat.\n- Using image_url parameter, render it inline using [Open image in new tab](image_url) syntax. \n- You should create the response in that order: first the process is done, then the image, then the link for opening in new tab, then the textual explanation.",
+        "description_for_human": "Edit images seamlessly, resize, crop, blur and many more embedded features.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "/openapi.yaml"
+        },
+        "logo_url": "https://imageeditor.dev/logo/png/logo-color.png",
+        "contact_email": "behramcelen@gmail.com",
+        "legal_info_url": "https://imageeditor.dev/legal"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-20700be6-8823-41c1-9fad-505da044dfb3",
       "domain": "uniket.store",
       "namespace": "uniket",
@@ -21,40 +191,6 @@
         "logo_url": "https://hdn-1.fynd.com/company/884/applications/000000000000000000000004/application/pictures/favicon/original/TzlAlZsaH-Uniket.png",
         "contact_email": "care@fynd.com",
         "legal_info_url": "https://www.uniket.store/terms-and-conditions"
-      },
-      "oauth_client_id": null,
-      "user_settings": {
-        "is_installed": false,
-        "is_authenticated": true
-      },
-      "categories": [
-        {
-          "id": "newly_added",
-          "title": "New"
-        }
-      ]
-    },
-    {
-      "id": "plugin-79faf8e0-a74a-4d01-9009-5af637b5b950",
-      "domain": "api.urban.com.au",
-      "namespace": "urban_com_au",
-      "status": "approved",
-      "manifest": {
-        "schema_version": "v1",
-        "name_for_model": "urban_com_au",
-        "name_for_human": "Urban New Apartments",
-        "description_for_model": "Urban.com.au is Australia's premier off-the-plan properties and new apartments platform, committed to providing an unrivalled online experience for prospective buyers seeking quality residential properties. We pride ourselves on featuring thousands of world-class residential apartments from Australia's top property developers, connecting potential homeowners with their dream homes. Our platform is built on a robust and intuitive search system that empowers buyers to find the perfect property based on their unique preferences. Users can refine their search starting from location—whether it be by Suburb, Local Government Area (LGA), or State. To further tailor the search experience, additional filters such as budget and pricing, the number of bedrooms and bathrooms, and carpark availability can be applied. But we don't stop there. We understand that the surroundings of a property can be just as important as the property itself. That's why we've integrated the ability to search by amenities and nearby facilities such as schools, hospitals, supermarkets, and police stations. This holistic approach ensures our users can find a property that aligns not just with their housing needs, but also with their lifestyle and community preferences. In addition to the extensive search capabilities, No.1 new apartments, off-the-plan real estate property site  provides an immersive browsing experience. For select developments, we feature project videos and highlight desirable amenities such as swimming pools and gyms. This allows potential buyers to get a true sense of what living in these properties would be like, further aiding them in their decision-making process. Moreover, if users know the name of a developer, they can delve into their industry profile on our platform. This serves as a comprehensive source of information about the developer, their past projects, and their reputation in the industry, providing valuable insights to the buyer. At Urban.com.au, off-the-plan real estate property site , we believe in making the property search process as seamless and informative as possible. We are constantly refining our platform to ensure that it remains the leading choice for individuals seeking off-the-plan properties and new apartments in Australia. We invite you to explore Urban.com.au discover the unparalleled service that sets us apart in the Australian property market.",
-        "description_for_human": "Search and find the best new apartments and townhomes from Australia’s leading property developments",
-        "auth": {
-          "type": "none"
-        },
-        "api": {
-          "type": "openapi",
-          "url": "https://api.urban.com.au/openapi.yaml"
-        },
-        "logo_url": "https://www.urban.com.au/urban_logo.png",
-        "contact_email": "tech@urban.com.au",
-        "legal_info_url": "https://www.urban.com.au/legal"
       },
       "oauth_client_id": null,
       "user_settings": {
@@ -103,6 +239,74 @@
       ]
     },
     {
+      "id": "plugin-a147da00-be82-496a-a71f-f6815265ab2d",
+      "domain": "whois.smoothplugins.com",
+      "namespace": "whois_domain_checker",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "whois_domain_checker",
+        "name_for_human": "Whois Domain Checker",
+        "description_for_model": "WhoisDomainChecker - A Whois app that takes a list of space-separated domain names, performs the Whois for each domain, and then outputs a list of domain names with each one's availability status indicated by a utf8 icon (✅ for available, ❌ for unavailable). Provide the list of domains and the plugin will check their availability.",
+        "description_for_human": "A Whois app that takes a list of space-separated domain names, performs the Whois for each domain.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://whois.smoothplugins.com/openapi.yaml"
+        },
+        "logo_url": "https://smoothplugins.com/img/plugin_logos2/whois3.png",
+        "contact_email": "makevoid@gmail.com",
+        "legal_info_url": "https://smoothplugins.com/tos/1_whois_plugin_tos"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-522776dc-5485-4d98-9861-613905e6853f",
+      "domain": "vafl.me",
+      "namespace": "vafl",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "vafl",
+        "name_for_human": "Gift Finder",
+        "description_for_model": "Plugin for retrieving, picking and suggesting personalized gifts or experiences. Use if user is looking for a gift or a right activity or experience or what to do. It can be used either when the user already knows the gift and wants to find it using an unstructured or structured description of it (/query endpoint) or when the user doesnot know what to gift (/generate_gift_v2 endpoint), then he should provide any description of the person / people the gift is picked for and the location the gift should be searched in. Use it whenever a user asks to find an experience or a gift (/query) or asks about what to gift (/generate_gift_v2). If user has some gift idea use /query, if needs suggestions use /generate_gift_v2. Endpoints: /query - to query an experience or a gift, /generate_gift_v2 - to give the list of gift ideas with a list of products for each idea.",
+        "description_for_human": "Your personal gift advisor. Find a perfect experience for anyone.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://vafl.me/api/.well-known/openapi.yaml"
+        },
+        "logo_url": "https://vafl.me/api/.well-known/logo.png",
+        "contact_email": "ai.vafl.me@gmail.com",
+        "legal_info_url": "ai.vafl.me@gmail.com"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-60165532-9759-4218-97a0-55e8d970c6f1",
       "domain": "www.gofynd.com",
       "namespace": "gofynd",
@@ -123,6 +327,79 @@
         "logo_url": "https://hdn-1.fynd.com/company/884/applications/000000000000000000000001/application/pictures/favicon/resize-w:256/HRblBIPDT-Fynd.jpeg",
         "contact_email": "care@fynd.com",
         "legal_info_url": "https://www.gofynd.com/terms-and-conditions"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-d1906c30-3a60-40c3-906e-34b50f2ae2b2",
+      "domain": "ai-agents-plugin.vercel.app",
+      "namespace": "aiAgents",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "aiAgents",
+        "name_for_human": "AI Agents",
+        "description_for_model": "Collaborate with another AI Agent to perform the goal more efficient.",
+        "description_for_human": "Unleashing the power of multiple AIs: One goal, limitless productivity.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://ai-agents-plugin.vercel.app/.well-known/openapi.yaml"
+        },
+        "logo_url": "https://ai-agents-plugin.vercel.app/imgs/logo.png",
+        "contact_email": "support@aiagentslab.com",
+        "legal_info_url": "https://www.aiagentslab.com/legal"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-204b1dec-72b9-4acf-b36d-b8046b10b974",
+      "domain": "www.wpinteract.com",
+      "namespace": "wpinteract",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "wpinteract",
+        "name_for_human": "WP Interact",
+        "description_for_model": "Plugin to fetch or search WordPress posts from a given URL. When fetching mutiple posts, it shows 10 posts by default with the title, date, excerpt, and link. After the specified number of posts in per_page has been shown, it asks the user if they wish to see more posts. If a specific post URL is provided, it displays a single post with the full content of the post, including Markdown for headers, links, images, lists, code, quotes, and other HTML elements.",
+        "description_for_human": "Fetch or search posts from self-hosted WordPress websites, opening new possibilities for smart interaction with content.",
+        "auth": {
+          "type": "service_http",
+          "instructions": "",
+          "authorization_type": "bearer",
+          "verification_tokens": {
+            "openai": "8d2d6375bd484000a1bb92ed6c58b816"
+          }
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://www.wpinteract.com/openapi.yaml"
+        },
+        "logo_url": "https://www.wpinteract.com/logo.png",
+        "contact_email": "hello@wpinteract.com",
+        "legal_info_url": "https://www.wpinteract.com"
       },
       "oauth_client_id": null,
       "user_settings": {
@@ -167,6 +444,74 @@
         {
           "id": "most_popular",
           "title": "Most popular"
+        }
+      ]
+    },
+    {
+      "id": "plugin-138a1de4-d82a-4d7a-9236-b62dcc01580e",
+      "domain": "aishowcase.io",
+      "namespace": "aishowcase",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "aishowcase",
+        "name_for_human": "AI Showcase",
+        "description_for_model": "Plugin for exploring a large database of AI tools. This plugin allows users to search for and discover a wide variety of AI tools suitable for various use cases. It includes categories such as Face Generators, No Code, SEO tools, and more. Users can input their specific needs or use case, and the plugin will return a list of relevant AI tools from the database. Additionally, users can specify their preferred price model (free, open source, or paid) to further refine the search results. This plugin does not prescribe actions or make decisions for the user but provides information to aid in their AI tool selection process.",
+        "description_for_human": "Discover the perfect AI tool for your personal and business needs with AI Showcase.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://www.aishowcase.io/openapi.yaml"
+        },
+        "logo_url": "https://cdn.aishowcase.io/logo.png",
+        "contact_email": "programmatical@gmail.com",
+        "legal_info_url": "https://app.termly.io/document/terms-of-service/f36f81d1-44eb-45a0-8a43-10179cbcbea7"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-4204a080-5732-48f9-97a0-9a25eb5e5061",
+      "domain": "manofmany.worldnews.direct",
+      "namespace": "Man_of_Many",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "Man_of_Many",
+        "name_for_human": "Man of Many",
+        "description_for_model": "Discover the latest in products, culture and style from Man of Many. Ask for the latest news and headlines. Can be used for gift ideas if you search for example for 'gift for men', for fashion, suit stores and trends, haircuts, technology like laptops and smartphones, cars, watches, drinks, and more.",
+        "description_for_human": "Discover the latest in products, culture and style from Man of Many. Ask for the latest news and headlines.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://manofmany.worldnews.direct/openapi.yaml"
+        },
+        "logo_url": "https://manofmany.worldnews.direct/logo.jpeg",
+        "contact_email": "contact@manofmany.com",
+        "legal_info_url": "http://manofmany.worldnews.direct/legal.html"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
         }
       ]
     },
@@ -225,6 +570,192 @@
         "logo_url": "https://asset.brandfetch.io/idL0iThUh6/idls3LaPPQ.png",
         "contact_email": "support@brandfetch.com",
         "legal_info_url": "https://brandfetch.com/terms"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-ba0dc7bf-ba92-4a26-be11-3846180799d7",
+      "domain": "timemachine.cheatshit.com",
+      "namespace": "timemachine",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "timemachine",
+        "name_for_human": "TimeMachine",
+        "description_for_model": "This tool boosts AI performance by providing real-time data. It offers the present time through an API that accommodates multiple time formats and timezones. While the API defaults to the 'iso8601' format in the 'Asia/Shanghai' timezone, users have the flexibility to choose their desired format and timezone, following straightforward instructions.",
+        "description_for_human": "Enhances AI with real-time awareness, providing current time in various formats and timezones.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://timemachine.cheatshit.com/.well-known/openapi.yaml"
+        },
+        "logo_url": "https://timemachine.cheatshit.com/.well-known/logo.png",
+        "contact_email": "ai@pigswill.me",
+        "legal_info_url": "https://timemachine.cheatshit.com/legal/index.html"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-7d1e91ac-968a-4fc5-a0a7-62690537b90f",
+      "domain": "plugins.shownotes.io",
+      "namespace": "shownotes",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "shownotes",
+        "name_for_human": "shownotes",
+        "description_for_model": "This plugin can help a model accomplish these tasks:\n\nSummary Generator: Compresses main ideas from a podcast transcript into a concise summary, giving users a quick understanding of the content.\n\nInformation Extractor: Finds and presents specific information from a podcast transcript according to the user's request, easing the discovery of pertinent topics or discussions.\n\nKey Point Identifier: Evaluates a podcast transcript and formulates a list of key points or highlights, providing a rapid snapshot of the significant content.\n\nRecommendation Mechanism: Communicates with the API to propose podcast episodes based on a user's topical interest, directing users towards appealing content.\n\nSpeaker Segmentation Function: Assuming the API supplies speaker labels, this function can sort and present content by specific speakers, assisting users in following individual inputs in the podcast.\n\nTrend Analysis Component: Fetches and scrutinizes multiple podcast transcripts to spot shared themes or trends, yielding insights into recurring subjects across episodes.\n\nTranscript Explorer: Delivers a general analysis or breakdown of a podcast transcript, enabling users to comprehend the arrangement and progression of the episode's content.\n\n\nThe plugin has 3 endpoints:\n\n1 AudioController_findTranscript\nThiis endpoint returns transcript from the Shownotes app for the specified show. \n\n2 SearchController_findVideos\nReturns list of 3 candidate YouTube shows related to the specified show from Youtube. The videoid returned by this endpoint can be used in the CaptionController_findTranscript endpoint to get the transcript directly from Youtube.\n\n3 CaptionController_findTranscript\nReturns transcript of YouTube video using the specified videoid. This endpoint can be used if a videoid is specified either by  the user directly or another endpoint needs it. If the full URL of a Youtube link is provided, only send the 11-character videoid to this endpoint.",
+        "description_for_human": "Turns long podcasts into quick summaries, finds specific info, highlights key points, and suggests new episodes.",
+        "auth": {
+          "type": "oauth",
+          "instructions": "",
+          "client_url": "https://caac141bb05029c6c04ceb5ac3b06bf1.auth.portal-pluginlab.ai/oauth/authorize",
+          "scope": "all",
+          "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+          "authorization_content_type": "application/json",
+          "verification_tokens": {
+            "openai": "e12389e0580d4f83b3cabf05e30b2f2e"
+          }
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://plugins.shownotes.io/.well-known/pluginlab/openapi.json"
+        },
+        "logo_url": "https://softr-prod.imgix.net/applications/8beb7545-f844-4dbc-8ed6-f90f7878b331/assets/def0f176-4d46-474b-a917-e52c84145099.png",
+        "contact_email": "cooper@shownotes.io",
+        "legal_info_url": "https://shownotes.io"
+      },
+      "oauth_client_id": "079fe37ea188203cd75c681f956e41ae",
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": false
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-5576e8d0-03aa-48db-a18e-07629d1802c9",
+      "domain": "cbplugin.upskillr.ai",
+      "namespace": "upskillr",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "upskillr",
+        "name_for_human": "Upskillr",
+        "description_for_model": "Plugin to build the curriculum. The main operation is creating curriculum for the user given topic. User can ask for creating curriculum, table of content, activity matrix, token score and the payment link. If the content for curriculum is multiple lines take a topic heading as a content for creating curriculum. Take content as a single topic. For any error show the error with resolving link. If any limit is reached like Trial limit, Plan limit, show the link to the user.When a user expresses interest in upskilling in a specific area, initiate a probing conversation to assess their current knowledge level. Use this information to craft a comprehensive, step-by-step guide that is tailored to their individual learning needs, which can facilitate effective upskilling in the chosen topic.Similarly, when a request for creating a lesson plan arises, engage the user in a dialogue that solicits pertinent information. Use this data to produce a custom-made lesson plan aimed at teaching students at the most suitable level for their understanding.",
+        "description_for_human": "Custom curriculum, lesson plans, and upskilling support on any topic by Upskillr. Powered by Shorthills Tech.",
+        "auth": {
+          "type": "oauth",
+          "instructions": "",
+          "client_url": "https://cbplugin.upskillr.ai/authenticate",
+          "scope": "",
+          "authorization_url": "https://cbplugin.upskillr.ai/token",
+          "authorization_content_type": "application/json",
+          "verification_tokens": {
+            "openai": "bbec16b1d94248fbb589ec678e7b8cc1"
+          }
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://cbplugin.upskillr.ai/.well-known/openapi.yml"
+        },
+        "logo_url": "https://cbplugin.upskillr.ai/.well-known/logo.svg",
+        "contact_email": "contact@upskillr.ai",
+        "legal_info_url": "https://www.upskillr.ai/terms-of-service/"
+      },
+      "oauth_client_id": "Navanit_db",
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": false
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-1f7cc4fd-c4e4-4947-bfcc-3f9301eb9fff",
+      "domain": "got2go.com",
+      "namespace": "got2go_plugin_v1",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "got2go_plugin_v1",
+        "name_for_human": "Got2Go",
+        "description_for_model": "Helps discover the perfect vacation rentals across the United States. If the user requests stays outside the United States, politely inform them that we don't support that yet.",
+        "description_for_human": "Your next vacation is one conversation away. Literally. Find the perfect stays in the US with Got2Go.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://got2go.com/ai-plugin-openapi.yaml"
+        },
+        "logo_url": "https://got2go.com/ai-plugin-icon.png",
+        "contact_email": "support@got2go.com",
+        "legal_info_url": "https://help.got2go.com/policies"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-ea5dfe3b-ed85-4e0c-a34e-11a706b43238",
+      "domain": "sic.smlxl.ai",
+      "namespace": "sic",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "sic",
+        "name_for_human": "sic",
+        "description_for_model": "Explore prices, accounts and transactions on Ethereum.",
+        "description_for_human": "Explore prices, accounts and transactions on Ethereum.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://sic.smlxl.ai/.well-known/openapi.yaml"
+        },
+        "logo_url": "https://sic.smlxl.ai/.well-known/sic-logo.png",
+        "contact_email": "sic@smlxl.io",
+        "legal_info_url": "smlxl.io"
       },
       "oauth_client_id": null,
       "user_settings": {
@@ -1559,6 +2090,40 @@
       ]
     },
     {
+      "id": "plugin-973efb0c-da13-45e3-a5dd-ddd5eb665802",
+      "domain": "cryptojobslist.com",
+      "namespace": "crypto_jobs_list",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "crypto_jobs_list",
+        "name_for_human": "Crypto Jobs List",
+        "description_for_model": "Find jobs and talent profiles in Crypto, Blockchain and Web3 industries.",
+        "description_for_human": "Find jobs and talent profiles in Crypto, Blockchain and Web3 industries.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://cryptojobslist.com/openai.yaml"
+        },
+        "logo_url": "https://cryptojobslist.com/images/logo-square.svg",
+        "contact_email": "support@cryptojobslist.com",
+        "legal_info_url": "https://cryptojobslist.com/terms"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-aa8a399d-a369-432e-81b7-ee6e889c1b8f",
       "domain": "currency-conversion--nerrosa.repl.co",
       "namespace": "currencyconverter",
@@ -1579,6 +2144,40 @@
         "logo_url": "https://orrenprunckun.com/ai-plugins/ccc-icon.png",
         "contact_email": "hello@createmorecustomers.com",
         "legal_info_url": "https://orrenprunckun.com/terms/"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-a40835e1-5b00-4b0d-b03f-50cf35c668fb",
+      "domain": "daigr.am",
+      "namespace": "daigram",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "daigram",
+        "name_for_human": "daigr.am",
+        "description_for_model": "Plugin for visualizing data with charts and graphs.",
+        "description_for_human": "Build charts, graphs, and more.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://daigr.am/openapi.yaml"
+        },
+        "logo_url": "https://daigr.am/logo.png",
+        "contact_email": "support@daigr.am",
+        "legal_info_url": "http://daigr.am/legal"
       },
       "oauth_client_id": null,
       "user_settings": {
@@ -3341,6 +3940,40 @@
       ]
     },
     {
+      "id": "plugin-b5dab58c-ac27-4154-a0b5-c134eea6ddd4",
+      "domain": "openai-plugin.xweather.com",
+      "namespace": "XWeather",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "XWeather",
+        "name_for_human": "Xweather",
+        "description_for_model": "This API provides the endpoints, /version, /weather/summary/{location}, /weather/forecast/{location}, and /radar/{location}. {location} is required and must be user specified - ask the user for a location if they haven't specified one.\nValid location formats include 'city name, state', 'city name, country','latitude, longitude', 'zip code', or 'airport code'. Never provide a default location of New York.\nOutput local units: If the user specified location is in the United States, show only fahrenheit, inches and MPH. If the location is in the UK, show only celsius, mm, and MPH. If the location is in any other country, use celsius, mm, and KPH. Do not show units in other formats unless requested by the user.\n\n /weather/summary/{location} returns the current weather for the user specified location\n\nThe reply for /weather/summary is the current weather, including the following information: date, temperature, what the temperature feels like to a person (feelsLike), wind direction, wind speed, maximum gust wind speed, precipitation, snow, weather conditions, active weather alerts, and UV index. If the user hasn't specified an output format, return the data as in the style of a newspaper weather report.\n  /weather/forecast/{location} returns the next 4 days of weather forecasts for the user specified location\n  The reply for /weather/forecast includes the following information: date, maximum temperature, minimum temperature, wind direction, wind speed, precipitation, snow, weather conditions, warnings, and UV index. If the user asks for more than 4 days, return the next 4 days with a message showing that's all that's available. By default, return 4 days of weather forecast in the style of a newspaper weather forecast.\n\n/radar/{location} returns a weather radar image, as markdown, for the user specified location. Provide the image in Markdown format so the user can see it. Do not add links, only images.",
+        "description_for_human": "XWeather gives weather information for a location.  Ask for the current weather, a 5-day forecast, or a radar image.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://openai-plugin.xweather.com/openapi.json"
+        },
+        "logo_url": "https://openai-plugin.xweather.com/logo.svg",
+        "contact_email": "support@aerisweather.com",
+        "legal_info_url": "https://xweather.com/terms"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-365a3151-f1a8-474b-bf51-20206f73043a",
       "domain": "www.accesslinks.ai",
       "namespace": "access_link",
@@ -4341,6 +4974,40 @@
         "logo_url": "https://universal.hellopublic.com/gpt/public-icon.png",
         "contact_email": "gpt@public.com",
         "legal_info_url": "https://public.com"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-268b4b70-6ede-4843-9b34-4a4a660b22c2",
+      "domain": "api.kakaku.com",
+      "namespace": "kakakucom",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "kakakucom",
+        "name_for_human": "Kakaku.com",
+        "description_for_model": "Kakaku.com Shopping can perform a search based on the information entered by the user, suggest products that match the criteria, and provide the user with a link to the search results page. Search queries do not include ambiguous words, color words, adjectives, or words about the number of people using a product. Return all responses included in the API. If product data cannot be provided by the API, there is no need to fabricate products. First, it displays a list of products that match your search criteria. product_count and search_url are used to display the number of products matching the search criteria and the URL of the search results page. Answer in the language asked.",
+        "description_for_human": "Search for products that match your criteria from among the many products registered on the Japanese website Kakaku.com.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://api.kakaku.com/openai/openapi.json"
+        },
+        "logo_url": "https://img1.kakaku.k-img.com/images/favicon/favicon.ico",
+        "contact_email": "ai-shopping@kakaku.com",
+        "legal_info_url": "https://help.kakaku.com/kiyaku_site.html"
       },
       "oauth_client_id": null,
       "user_settings": {
@@ -6579,5 +7246,5 @@
       ]
     }
   ],
-  "count": 184
+  "count": 203
 }
