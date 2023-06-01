@@ -34,3 +34,12 @@
 | 187   | Upskillr             | Custom curriculum, lesson plans, and upskilling support on any topic.                                                           |
 | 186   | Got2Go               | Helps discover the perfect vacation rentals across the United States.                                                           |
 | 185   | sic                  | Explore prices, accounts and transactions on Ethereum.  |
+| 185   | Crypto Jobs List     | Find jobs and talent profiles in Crypto, Blockchain and Web3 industries.                                                        |
+| 184   | Currency Conversion  | Convert currency values between different units.                                                                                |
+| 183   | Short Text Formatter | Format short text inputs for various purposes such as capitalization, punctuation, and more.                                    |
+| 182   | daigr.am             | Build charts, graphs, and more.                                                                                                 |
+| 181   | Jiggy.ai             | Generate memes, jokes, poems, quotes, and more.                                                                                 |
+| 180   | XWeather             | XWeather gives weather information for a location. Ask for the current weather, a 5-day forecast, or a radar image.             |
+| 179   | Access Links         | Create shortened URLs and track click analytics.                                                                                |
+| 178   | Kakaku.com           | Search for products that match your criteria from among the many products registered on the Japanese website Kakaku.com.        |
+| 177   | Gochitchat           | Generate conversational responses for chat applications.                                                                        |
