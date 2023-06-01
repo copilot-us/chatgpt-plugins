@@ -54,7 +54,6 @@
 | 179   | Access Links         | Create shortened URLs and track click analytics.                                                                                |
 | 178   | Kakaku.com           | Search for products that match your criteria from among the many products registered on the Japanese website Kakaku.com.        |
 | 177   | Gochitchat           | Generate conversational responses for chat applications.   
-| 177   | Gochitchat                | Generate conversational responses for chat applications.   
 
 ## May 29
 | Index | Name                 | Description                                                |
