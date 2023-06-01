@@ -4,7 +4,7 @@
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
 
 #### Added on June 1, 2023
-| Index | Name                 | Description                                                                                         |
+| #     | Name                 | Description                                                                                         |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------|
 | 218   | SEO                  | Send a URL and keyword and get a On Page SEO analysis & insights!                                   |
 | 217   | TalkFPL              | Talk with AI to help you manage your FPL team. Compare players, transfer options and more.          |
@@ -56,7 +56,7 @@
 | 177   | Gochitchat           | Generate conversational responses for chat applications.   
 
 #### Added on May 29, 2023
-| Index | Name                 | Description                                                |
+| #     | Name                 | Description                                                |
 |-------|----------------------|------------------------------------------------------------|                                                                     
 | 176   | Uniket                    | Elevate your shopping experience with Uniket.                                                                              |
 | 175   | Urban New Apartments      | Search and find the best new apartments and townhomes from Australia’s leading property developments.                                            |
