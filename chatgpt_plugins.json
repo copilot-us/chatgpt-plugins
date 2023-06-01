@@ -35,6 +35,74 @@
       ]
     },
     {
+      "id": "plugin-bf59b3ee-893d-4574-b718-ec8859aa242f",
+      "domain": "seo-plugin.orrenprunckun.com",
+      "namespace": "SEO",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "SEO",
+        "name_for_human": "SEO",
+        "description_for_model": "Send a URL and keyword and get a On Page SEO analysis. User provides a URL and keyword and ths gives back robots.txt, response code, load time, tags for: title, meta data, h1-h5, image file names, image alt text, ahref text, ahref outbound links, keyword occurance in both body text and URL for further analysis & insights.",
+        "description_for_human": "Send a URL and keyword and get a On Page SEO analysis & insights!",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://seo-plugin.orrenprunckun.com/openapi.yaml"
+        },
+        "logo_url": "https://seo-plugin.orrenprunckun.com/icon.png",
+        "contact_email": "hello@orrenprunckun.com",
+        "legal_info_url": "https://seo-plugin.orrenprunckun.com/terms.php"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-90f3216a-e760-4bd4-9b1f-178f42cd90d5",
+      "domain": "talkfpl.beegreeeen.workers.dev",
+      "namespace": "talkfpl",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "talkfpl",
+        "name_for_human": "TalkFPL",
+        "description_for_model": "Talk with AI to help you manage your FPL team. Compare players, transfer options and more.",
+        "description_for_human": "Talk with AI to help you manage your FPL team. Compare players, transfer options and more.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://talkfpl.beegreeeen.workers.dev/openapi.json"
+        },
+        "logo_url": "https://talkfpl.com/assets/football-icon-47e39991defc5f4e66807b288c8dedfde526927a788b9622edf8090a683aaeaa.png",
+        "contact_email": "info@merchant-software.com",
+        "legal_info_url": "http://talkfpl.com/"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-8c9bac9a-8c69-4abe-8d2f-b73266a4ad2d",
       "domain": "videohighlight.com",
       "namespace": "video_highlight",
@@ -278,6 +346,74 @@
       ]
     },
     {
+      "id": "plugin-8132b150-043f-45d4-b561-cc46b6e898c0",
+      "domain": "copilot.commit.dev",
+      "namespace": "career_copilot",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "career_copilot",
+        "name_for_human": "Career Copilot",
+        "description_for_model": "A trusted, always on assistant to help software developers find a better job. Built by Commit.dev.",
+        "description_for_human": "A trusted, always on assistant to help software developers find a better job. Built by Commit.dev.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://copilot.commit.dev/openapi.yaml"
+        },
+        "logo_url": "https://copilot.commit.dev/images/logo.png",
+        "contact_email": "tech@commit.dev",
+        "legal_info_url": "https://commit.dev"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-cbd3ee46-32e7-419a-b968-255caa7d25dd",
+      "domain": "openai-plugin.heygen.com",
+      "namespace": "heygen",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "heygen",
+        "name_for_human": "HeyGen",
+        "description_for_model": "Plugin for creating avatar videos (AI spokesperson videos). The plugin can generate an avatar video from simply a piece of text.",
+        "description_for_human": "Meet HeyGen - The best AI video generation platform for your team.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://openai-plugin.heygen.com/openapi.yaml"
+        },
+        "logo_url": "https://openai-plugin.heygen.com/logo.png",
+        "contact_email": "openai-plugin@heygen.com",
+        "legal_info_url": "https://www.heygen.com/terms"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-20700be6-8823-41c1-9fad-505da044dfb3",
       "domain": "uniket.store",
       "namespace": "uniket",
@@ -468,6 +604,40 @@
         "logo_url": "https://ai-agents-plugin.vercel.app/imgs/logo.png",
         "contact_email": "support@aiagentslab.com",
         "legal_info_url": "https://www.aiagentslab.com/legal"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-9e39ad86-7702-4f33-a809-690d8b6c5dc5",
+      "domain": "memepluginchatgpt.azurewebsites.net",
+      "namespace": "MemeGenerator",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "MemeGenerator",
+        "name_for_human": "Meme Generator",
+        "description_for_model": "Your AI meme generator.",
+        "description_for_human": "Your AI meme generator.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://memepluginchatgpt.azurewebsites.net/openapi.yaml"
+        },
+        "logo_url": "https://memepluginchatgpt.azurewebsites.net/logo.png",
+        "contact_email": "sasha.pad@gmail.com",
+        "legal_info_url": "https://memepluginchatgpt.azurewebsites.net/legal"
       },
       "oauth_client_id": null,
       "user_settings": {
@@ -1604,6 +1774,48 @@
       ]
     },
     {
+      "id": "plugin-2e82140c-c80a-4c0e-b745-8b4afc97c62a",
+      "domain": "api.replypdf.com",
+      "namespace": "PDF_Exporter",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "PDF_Exporter",
+        "name_for_human": "PDF Exporter",
+        "description_for_model": "PDF Exporter converts chat conversations into handy PDF documents.",
+        "description_for_human": "Export any chat response into a stylized PDF document.",
+        "auth": {
+          "type": "oauth",
+          "instructions": "",
+          "client_url": "https://auth.replypdf.com",
+          "scope": "app:read,app:write,pdf:read,pdf:write",
+          "authorization_url": "https://auth.replypdf.com/api/authorize",
+          "authorization_content_type": "application/json",
+          "verification_tokens": {
+            "openai": "6c6e23ce34c3469ea955b62bcb9c3648"
+          }
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://api.replypdf.com/openapi.yaml"
+        },
+        "logo_url": "https://api.replypdf.com/logo.png",
+        "contact_email": "legal@replypdf.com",
+        "legal_info_url": "http://replypdf.com/legal"
+      },
+      "oauth_client_id": "NWkKHCBCPt1cgfFkipq07SFNRssCVD5F",
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": false
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
       "id": "plugin-13207d0c-4dda-4ac1-a6ac-03f4b5bbbb0c",
       "domain": "quickrecall.cards",
       "namespace": "quickrecall",
@@ -2116,7 +2328,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -2962,6 +3174,40 @@
         "logo_url": "https://keyword-explorer.maila.ai/.well-known/logo.png",
         "contact_email": "kevin@maila.ai",
         "legal_info_url": "https://keyword-explorer.maila.ai/legal"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-18486edb-008c-45d3-b64f-c1e030e4ce8f",
+      "domain": "enigmatic-journey-85840.herokuapp.com",
+      "namespace": "MLPaperReader",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "MLPaperReader",
+        "name_for_human": "ML Paper Reader",
+        "description_for_model": "Fetch PDFs or URLs and anwser questions related to them at the level of an ML researcher. \n Return the link to the source URL so the user always knows what you are referencing",
+        "description_for_human": "Search for ML papers on different topics and speed up research by \"talking\" to the PDFs.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://enigmatic-journey-85840.herokuapp.com/openapi.yaml"
+        },
+        "logo_url": "https://enigmatic-journey-85840.herokuapp.com/browser_logo.png",
+        "contact_email": "shrestha.isu.k@gmail.com",
+        "legal_info_url": "https://enigmatic-journey-85840.herokuapp.com/legal"
       },
       "oauth_client_id": null,
       "user_settings": {
@@ -3963,6 +4209,40 @@
       "user_settings": {
         "is_installed": false,
         "is_authenticated": false
+      },
+      "categories": [
+        {
+          "id": "newly_added",
+          "title": "New"
+        }
+      ]
+    },
+    {
+      "id": "plugin-7aac1140-90eb-4780-9567-b825ec5d4f3b",
+      "domain": "amazon-best.vercel.app",
+      "namespace": "shopbest",
+      "status": "approved",
+      "manifest": {
+        "schema_version": "v1",
+        "name_for_model": "shopbest",
+        "name_for_human": "Shop Best",
+        "description_for_model": "Shop and get summarized reviews for the best products on Amazon.",
+        "description_for_human": "Shop and get summarized reviews for the best products on Amazon.",
+        "auth": {
+          "type": "none"
+        },
+        "api": {
+          "type": "openapi",
+          "url": "https://amazon-best.vercel.app/.well-known/openapi.yaml"
+        },
+        "logo_url": "https://amazon-best.vercel.app/imgs/logo96.png",
+        "contact_email": "support@aiagentslab.com",
+        "legal_info_url": "https://www.aiagentslab.com/legal"
+      },
+      "oauth_client_id": null,
+      "user_settings": {
+        "is_installed": false,
+        "is_authenticated": true
       },
       "categories": [
         {
@@ -5118,7 +5398,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -5194,7 +5474,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -5369,7 +5649,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -5620,7 +5900,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -6153,7 +6433,7 @@
       },
       "oauth_client_id": "45f9e672f86bf0ba7430941e6159d968",
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": false
       },
       "categories": [
@@ -6294,7 +6574,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -7167,7 +7447,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -7206,7 +7486,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -7273,7 +7553,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -7390,7 +7670,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -7424,7 +7704,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -7486,7 +7766,7 @@
       },
       "oauth_client_id": null,
       "user_settings": {
-        "is_installed": true,
+        "is_installed": false,
         "is_authenticated": true
       },
       "categories": [
@@ -7497,5 +7777,5 @@
       ]
     }
   ],
-  "count": 210
+  "count": 218
 }
