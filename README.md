@@ -51,7 +51,7 @@
 | 180   | XWeather             | XWeather gives weather information for a location. Ask for the current weather, a 5-day forecast, or a radar image.             |
 | 179   | Access Links         | Create shortened URLs and track click analytics.                                                                                |
 | 178   | Kakaku.com           | Search for products that match your criteria from among the many products registered on the Japanese website Kakaku.com.        |
-| 177   | Gochitchat           | Generate conversational responses for chat applications.   
+| 177   | Meme Creator         | Use Meme Creator to create memes on demand using the power of AI!  
 
 #### Added on May 29, 2023
 | #     | Name                 | Description                                                |
