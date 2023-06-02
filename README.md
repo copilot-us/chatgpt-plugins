@@ -83,17 +83,17 @@
 | 152   | CT Criteria Parser   | Analyze eligibility criteria in ClinicalTrials.gov. Example input: nctid NCT05859269        |
 | 151   | LawyerPR             | Matching your ideal lawyer, in Japan. Let's Start with a Preliminary Review.                       |
 | 150   | B12 AI Websites      | Create a professional, engaging, and user-friendly website for your business in seconds using AI.              |
-| 149   | Stock Market Plugin  | Get stock market data, including current prices, historical data, and company information.                                            |
-| 148   | WordCloud Generator  | Generate word clouds based on a given text by visualizing the frequency of words.                                                      |
-| 147   | Code Formatter       | Format code snippets and improve their readability by applying appropriate indentation, spacing, and syntax highlighting.            |
-| 146   | Question Generator   | Generate questions based on a given context or topic.                                                                                 |
-| 145   | Article Summarizer   | Summarize articles and long-form content into shorter, condensed versions.                                                            |
-| 144   | Dictionary Plugin    | Look up definitions, synonyms, antonyms, and examples of words in a dictionary.                                                       |
-| 143   | URL Shortener        | Generate shortened URLs for long web addresses.                                                                                       |
-| 142   | Joke Generator       | Generate jokes and one-liners for entertainment purposes.                                                                             |
-| 141   | Rhyme Generator      | Generate rhyming words based on a given word or phrase.                                                                                |
-| 140   | Recipe Finder        | Find recipes based on ingredients, dietary restrictions, cuisine types, and more.                                                      |
-| 139   | Grammar Checker      | Check the grammar and correctness of a given text by identifying and suggesting corrections for errors.                               |
+| 149   | Paxi AI              | Let AI tools speed up your tasks! Make it easy to find the right tool for the task.                       |
+| 148   | Bibliography Crossref | Search publications and generate bibtex bibliographies using Crossref and Zotero.                           |
+| 147   | Keyword Explorer     | Keyword Explorer provides popular related keywords to amplify your content optimization.            |
+| 146   | NextPaper.ai         | Fetch the latest research papers on a specific topic from PubMed. More to come.                                            |
+| 145   | Bardeen              | Create and run automations on the most popular web services.                        |
+| 144   | Calorie Chat         | Tracking what you eat doesn't have to be hard. With Calorie Chat, you'll find calorie counting simpler than ever before.   |
+| 143   | DeployScript         | DeployScript effortlessly launches web apps, handling the tech for you. Watch your ideas come to life!                     |
+| 142   | HaffPrice            | Shopping all kinds of products with the lowest price in the market.             |
+| 141   | ThemeParkHipster     | Find theme park waiting times around the world.                       |
+| 140   | WeatherWhiz          | WeatherWhiz: Accurate current weather and forecasts for any location.                                   |
+| 139   | ChatWithPDF          | Chat with everything from entire PDF books to Google Drive documents just by providing a link.                  |
 | 138   | Password Generator   | Generate strong and secure passwords with various customization options.                               |
 | 137   | Lyrics Search        | Search for song lyrics based on the title, artist, or a specific line from the song.                              |
 | 136   | Movie Recommendations| Get personalized movie recommendations based on a user's preferences and previous movie ratings.               |
