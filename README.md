@@ -100,7 +100,7 @@
 | 135   | ScholarAI            | Unlock the power of scientific research with peer-reviewed papers from PubMed, Arxiv, Springer, and more.           |
 | 134   | Acquire.com          | Everything you need to buy and sell startups.                          |
 | 133   | Appy Pie App Builder | AI-powered Text-to-App Generator turns your app idea into Android and iOS apps- just provide text input.                   |
-| 132   | Currency Converter   | Convert currency values between different units.                                                                  |
+| 132   | AI2sql               | Converts a natural language text into an SQL query.                                                                  |
 | 131   | AmazingTalker        | Elevate your language learning at any level with personalized 1-on-1 online lessons from tutors across the world. |
 | 130   | HTTP Webhooks        | Allows you to write, deploy, and manage HTTP Webhooks in JavaScript, right from the chat.                         |
 | 129   | Easy Resume          | Quickly create and edit your resume with the option to download as a docx or pdf, and find the job you deserve!   |
