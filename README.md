@@ -76,7 +76,7 @@
 | 161   | Aus Surf Report      | Get today's surf report for any break throughout Australia!                                                                     |
 | 160   | Questmate Forms      | Create forms, checklists, and workflows (Quests) directly from ChatGPT.                                                        |
 | 159   | Bitcoin Sentiment    | Track the current price of Bitcoin and the market sentiment based on the last 20 news media mentions!                                 |
-| 158   | Airtable Plugin      | Perform various operations on Airtable, such as creating, updating, and retrieving records.                                            |
+| 158   | Mindart              | Career test to help you find your dream job, with automation risk and average salary.       |
 | 157   | Cyberpunk Ipsum      | Generate placeholder text using cyberpunk-themed words and phrases.                                                                   |
 | 156   | GitHub Metrics       | Retrieve metrics and information about GitHub repositories and users.                                                                 |
 | 155   | Sentiment Analysis   | Analyze the sentiment of a given text and determine whether it is positive, negative, or neutral.                                      |
