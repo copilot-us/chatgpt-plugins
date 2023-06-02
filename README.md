@@ -56,8 +56,8 @@
 #### Added on May 29, 2023
 | #     | Name                 | Description                                                |
 |-------|----------------------|------------------------------------------------------------|                                                                     
-| 176   | Uniket                    | Elevate your shopping experience with Uniket.                                                                              |
-| 175   | Urban New Apartments      | Search and find the best new apartments and townhomes from Australia’s leading property developments.                                            |
+| 176   | Sakenowa                  | Find Sake and get detailed information in various ways.                                                            |
+| 175   | Aus Petrol Prices         | Ask for the average daily petrol price for any state or capital city region in Australia!                          |
 | 174   | Prompt Perfect            | Type 'perfect' to craft the perfect prompt, every time.                                                                                          |
 | 173   | WordCloud                 | Create word cloud images from text.                                                                                                              |
 | 172   | Brandfetch                | Retrieve company and brand data including logos, colors, fonts, and other brand information.                                                     |
