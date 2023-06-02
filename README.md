@@ -67,38 +67,41 @@
 | 168   | Scraper                   | Scrape content from webpages by providing a URL.                                                                                                  |
 | 167   | Bookworm                  | AI-powered personalized book recommendations, scanning countless titles to find your perfect read.                   |
 | 166   | Placid.app                | A design assistant that creates marketing visuals from your templates.                                              |
-| 166   | Clinical Trial Radar | Discover current info on global clinical trials, organizations, diseases, and biomarkers from public & private studies.   |
 | 165   | ChampDex             | Chat with your favorite League of Legends champions!                                                                           |
 | 164   | Job Search UK        | Get the latest job posts from the UK's top job boards including Reed, Indeed, and others.                                       |
 | 163   | What To Watch        | Search for current shows, get recommendations, and find out where things are streaming.                                               |
 | 162   | NFTs                 | Get the important details of any NFT collection and ask for insights based on that data!                                              |
 | 161   | CarYardBard          | AI-Powered Car Sales Ad Generator for Australian Car Dealers.                                                                  |
-| 161   | Aus Surf Report      | Get today's surf report for any break throughout Australia!                                                                     |
-| 160   | Questmate Forms      | Create forms, checklists, and workflows (Quests) directly from ChatGPT.                                                        |
-| 159   | Bitcoin Sentiment    | Track the current price of Bitcoin and the market sentiment based on the last 20 news media mentions!                                 |
-| 158   | Mindart              | Career test to help you find your dream job, with automation risk and average salary.       |
-| 157   | Cyberpunk Ipsum      | Generate placeholder text using cyberpunk-themed words and phrases.                                                                   |
-| 156   | GitHub Metrics       | Retrieve metrics and information about GitHub repositories and users.                                                                 |
-| 155   | Sentiment Analysis   | Analyze the sentiment of a given text and determine whether it is positive, negative, or neutral.                                      |
-| 154   | FAQ Generator        | Generate frequently asked questions (FAQs) based on a given set of questions and answers.                                             |
-| 153   | Shopify Integration  | Integrate with Shopify to perform various operations, such as managing products, orders, and customers.                               |
-| 152   | Word Counter         | Count the number of words in a given text.                                                                                            |
-| 151   | Recipe Assistant     | Get recipes, meal ideas, and cooking tips for various cuisines and dietary preferences.                                                |
-| 150   | Stock Market Plugin  | Get stock market data, including current prices, historical data, and company information.                                            |
-| 149   | WordCloud Generator  | Generate word clouds based on a given text by visualizing the frequency of words.                                                      |
-| 148   | Code Formatter       | Format code snippets and improve their readability by applying appropriate indentation, spacing, and syntax highlighting.            |
-| 147   | Question Generator   | Generate questions based on a given context or topic.                                                                                 |
-| 146   | Article Summarizer   | Summarize articles and long-form content into shorter, condensed versions.                                                            |
-| 145   | Dictionary Plugin    | Look up definitions, synonyms, antonyms, and examples of words in a dictionary.                                                       |
-| 144   | URL Shortener        | Generate shortened URLs for long web addresses.                                                                                       |
-| 143   | Joke Generator       | Generate jokes and one-liners for entertainment purposes.                                                                             |
-| 142   | Rhyme Generator      | Generate rhyming words based on a given word or phrase.                                                                                |
-| 141   | Recipe Finder        | Find recipes based on ingredients, dietary restrictions, cuisine types, and more.                                                      |
-| 140   | Grammar Checker      | Check the grammar and correctness of a given text by identifying and suggesting corrections for errors.                               |
-| 139   | Password Generator   | Generate strong and secure passwords with various customization options.                                                              |
-| 138   | Lyrics Search        | Search for song lyrics based on the title, artist, or a specific line from the song.                                                   |
-| 137   | Movie Recommendations| Get personalized movie recommendations based on a user's preferences and previous movie ratings.                                       |
-| 136   | Image Captioning     | Generate captions for images based on their content.                                                                                   |
-| 135   | Spell Checker        | Check the spelling of words in a given text and suggest corrections for misspelled words.                                              |
-| 134   | Email Validator      | Validate the syntax and existence of an email address.                                                                                 |
-| 133   | Currency Converter   | Convert currency values between different units.                                                                           
+| 160   | Aus Surf Report      | Get today's surf report for any break throughout Australia!                                                                     |
+| 159   | Questmate Forms      | Create forms, checklists, and workflows (Quests) directly from ChatGPT.                                                        |
+| 158   | Bitcoin Sentiment    | Track the current price of Bitcoin and the market sentiment based on the last 20 news media mentions!                                 |
+| 157   | Mindart              | Career test to help you find your dream job, with automation risk and average salary.       |
+| 156   | Outschool            | Search for top-quality online classes and teachers on Outschool.                                                             |
+| 155   | GitHub Metrics       | Retrieve metrics and information about GitHub repositories and users.                                                                 |
+| 154   | Sentiment Analysis   | Analyze the sentiment of a given text and determine whether it is positive, negative, or neutral.                                      |
+| 153   | FAQ Generator        | Generate frequently asked questions (FAQs) based on a given set of questions and answers.                                             |
+| 152   | Shopify Integration  | Integrate with Shopify to perform various operations, such as managing products, orders, and customers.                               |
+| 151   | Word Counter         | Count the number of words in a given text.                                                                                            |
+| 150   | Recipe Assistant     | Get recipes, meal ideas, and cooking tips for various cuisines and dietary preferences.                                                |
+| 149   | Stock Market Plugin  | Get stock market data, including current prices, historical data, and company information.                                            |
+| 148   | WordCloud Generator  | Generate word clouds based on a given text by visualizing the frequency of words.                                                      |
+| 147   | Code Formatter       | Format code snippets and improve their readability by applying appropriate indentation, spacing, and syntax highlighting.            |
+| 146   | Question Generator   | Generate questions based on a given context or topic.                                                                                 |
+| 145   | Article Summarizer   | Summarize articles and long-form content into shorter, condensed versions.                                                            |
+| 144   | Dictionary Plugin    | Look up definitions, synonyms, antonyms, and examples of words in a dictionary.                                                       |
+| 143   | URL Shortener        | Generate shortened URLs for long web addresses.                                                                                       |
+| 142   | Joke Generator       | Generate jokes and one-liners for entertainment purposes.                                                                             |
+| 141   | Rhyme Generator      | Generate rhyming words based on a given word or phrase.                                                                                |
+| 140   | Recipe Finder        | Find recipes based on ingredients, dietary restrictions, cuisine types, and more.                                                      |
+| 139   | Grammar Checker      | Check the grammar and correctness of a given text by identifying and suggesting corrections for errors.                               |
+| 138   | Password Generator   | Generate strong and secure passwords with various customization options.                                                              |
+| 137   | Lyrics Search        | Search for song lyrics based on the title, artist, or a specific line from the song.                                                   |
+| 136   | Movie Recommendations| Get personalized movie recommendations based on a user's preferences and previous movie ratings.                                       |
+| 135   | Image Captioning     | Generate captions for images based on their content.                                                                                   |
+| 134   | Spell Checker        | Check the spelling of words in a given text and suggest corrections for misspelled words.                                              |
+| 133   | Email Validator      | Validate the syntax and existence of an email address.                                                                                 |
+| 132   | Currency Converter   | Convert currency values between different units.    
+| 131   | AmazingTalker        | Elevate your language learning at any level with personalized 1-on-1 online lessons from tutors across the world. |
+| 130   | HTTP Webhooks        | Allows you to write, deploy, and manage HTTP Webhooks in JavaScript, right from the chat.   |
+| 129   | Easy Resume          | Quickly create and edit your resume with the option to download as a docx or pdf, and find the job you deserve!   |
+| 128   | ChatWithWebsite      | Have a conversation with any website, powered by magicform.ai    |
