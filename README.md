@@ -47,7 +47,7 @@
 | 184   | GoFynd               | Elevate your shopping experience with GoFynd.                                                                                   |
 | 183   | GetYourGuide         | Find tours, excursions and other travel activities.                                   |
 | 182   | daigr.am             | Build charts, graphs, and more.                                                                                                 |
-| 181   | Jiggy.ai             | Generate memes, jokes, poems, quotes, and more.                                                                                 |
+| 181   | Substack IQ          | Search, analyze, & summarize Substack newsletters, retrieve articles, and discover new Substacks!                               |
 | 180   | XWeather             | XWeather gives weather information for a location. Ask for the current weather, a 5-day forecast, or a radar image.             |
 | 179   | Access Links         | Create shortened URLs and track click analytics.                                                                                |
 | 178   | Kakaku.com           | Search for products that match your criteria from among the many products registered on the Japanese website Kakaku.com.        |
