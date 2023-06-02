@@ -45,7 +45,7 @@
 | 186   | Got2Go               | Helps discover the perfect vacation rentals across the United States.                                                           |
 | 185   | Crypto Jobs List     | Find jobs and talent profiles in Crypto, Blockchain and Web3 industries.                                                        |
 | 184   | GoFynd               | Elevate your shopping experience with GoFynd.                                                                                   |
-| 183   | Short Text Formatter | Format short text inputs for various purposes such as capitalization, punctuation, and more.                                    |
+| 183   | GetYourGuide         | Find tours, excursions and other travel activities.                                   |
 | 182   | daigr.am             | Build charts, graphs, and more.                                                                                                 |
 | 181   | Jiggy.ai             | Generate memes, jokes, poems, quotes, and more.                                                                                 |
 | 180   | XWeather             | XWeather gives weather information for a location. Ask for the current weather, a 5-day forecast, or a radar image.             |
