@@ -77,12 +77,12 @@
 | 158   | Bitcoin Sentiment    | Track the current price of Bitcoin and the market sentiment based on the last 20 news media mentions!                                 |
 | 157   | Mindart              | Career test to help you find your dream job, with automation risk and average salary.       |
 | 156   | Outschool            | Search for top-quality online classes and teachers on Outschool.                                                             |
-| 155   | GitHub Metrics       | Retrieve metrics and information about GitHub repositories and users.                                                                 |
-| 154   | Sentiment Analysis   | Analyze the sentiment of a given text and determine whether it is positive, negative, or neutral.                                      |
-| 153   | FAQ Generator        | Generate frequently asked questions (FAQs) based on a given set of questions and answers.                                             |
-| 152   | Shopify Integration  | Integrate with Shopify to perform various operations, such as managing products, orders, and customers.                               |
-| 151   | Word Counter         | Count the number of words in a given text.                                                                                            |
-| 150   | Recipe Assistant     | Get recipes, meal ideas, and cooking tips for various cuisines and dietary preferences.                                                |
+| 155   | Web Requests         | Goodbye Knowledge Cutoff, Hello World! This is your AI assistant's web browser. Just enter a URL. Google, Wiki, GitHub.      |
+| 154   | JiggyBase            | Use the knowledge in your JiggyBase document collections to help produce factual, up-to-date chat responses.                 |
+| 153   | Agones               | Agones provides soccer (football) results for matches played all over the world in the past 15 years.                        |
+| 152   | CT Criteria Parser   | Analyze eligibility criteria in ClinicalTrials.gov. Example input: nctid NCT05859269        |
+| 151   | LawyerPR             | Matching your ideal lawyer, in Japan. Let's Start with a Preliminary Review.                       |
+| 150   | B12 AI Websites      | Create a professional, engaging, and user-friendly website for your business in seconds using AI.              |
 | 149   | Stock Market Plugin  | Get stock market data, including current prices, historical data, and company information.                                            |
 | 148   | WordCloud Generator  | Generate word clouds based on a given text by visualizing the frequency of words.                                                      |
 | 147   | Code Formatter       | Format code snippets and improve their readability by applying appropriate indentation, spacing, and syntax highlighting.            |
@@ -94,14 +94,14 @@
 | 141   | Rhyme Generator      | Generate rhyming words based on a given word or phrase.                                                                                |
 | 140   | Recipe Finder        | Find recipes based on ingredients, dietary restrictions, cuisine types, and more.                                                      |
 | 139   | Grammar Checker      | Check the grammar and correctness of a given text by identifying and suggesting corrections for errors.                               |
-| 138   | Password Generator   | Generate strong and secure passwords with various customization options.                                                              |
-| 137   | Lyrics Search        | Search for song lyrics based on the title, artist, or a specific line from the song.                                                   |
-| 136   | Movie Recommendations| Get personalized movie recommendations based on a user's preferences and previous movie ratings.                                       |
-| 135   | Image Captioning     | Generate captions for images based on their content.                                                                                   |
-| 134   | Spell Checker        | Check the spelling of words in a given text and suggest corrections for misspelled words.                                              |
-| 133   | Email Validator      | Validate the syntax and existence of an email address.                                                                                 |
-| 132   | Currency Converter   | Convert currency values between different units.    
+| 138   | Password Generator   | Generate strong and secure passwords with various customization options.                               |
+| 137   | Lyrics Search        | Search for song lyrics based on the title, artist, or a specific line from the song.                              |
+| 136   | Movie Recommendations| Get personalized movie recommendations based on a user's preferences and previous movie ratings.               |
+| 135   | Image Captioning     | Generate captions for images based on their content.                                                        |
+| 134   | Spell Checker        | Check the spelling of words in a given text and suggest corrections for misspelled words.                            |
+| 133   | Email Validator      | Validate the syntax and existence of an email address.                                                       |
+| 132   | Currency Converter   | Convert currency values between different units.                                                                  |
 | 131   | AmazingTalker        | Elevate your language learning at any level with personalized 1-on-1 online lessons from tutors across the world. |
-| 130   | HTTP Webhooks        | Allows you to write, deploy, and manage HTTP Webhooks in JavaScript, right from the chat.   |
+| 130   | HTTP Webhooks        | Allows you to write, deploy, and manage HTTP Webhooks in JavaScript, right from the chat.                         |
 | 129   | Easy Resume          | Quickly create and edit your resume with the option to download as a docx or pdf, and find the job you deserve!   |
-| 128   | ChatWithWebsite      | Have a conversation with any website, powered by magicform.ai    |
+| 128   | ChatWithWebsite      | Have a conversation with any website, powered by magicform.ai  
