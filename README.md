@@ -43,7 +43,7 @@
 | 188   | shownotes            | Turns long podcasts into quick summaries, finds specific info, highlights key points, and suggests new episodes.                |
 | 187   | Upskillr             | Custom curriculum, lesson plans, and upskilling support on any topic.                                                           |
 | 186   | Got2Go               | Helps discover the perfect vacation rentals across the United States.                                                           |
-| 185   | sic                  | Explore prices, accounts and transactions on Ethereum.  |
+| 185   | GoFynd               | Elevate your shopping experience with GoFynd.  |
 | 185   | Crypto Jobs List     | Find jobs and talent profiles in Crypto, Blockchain and Web3 industries.                                                        |
 | 184   | Currency Conversion  | Convert currency values between different units.                                                                                |
 | 183   | Short Text Formatter | Format short text inputs for various purposes such as capitalization, punctuation, and more.                                    |
