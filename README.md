@@ -94,12 +94,12 @@
 | 141   | ThemeParkHipster     | Find theme park waiting times around the world.                       |
 | 140   | WeatherWhiz          | WeatherWhiz: Accurate current weather and forecasts for any location.                                   |
 | 139   | ChatWithPDF          | Chat with everything from entire PDF books to Google Drive documents just by providing a link.                  |
-| 138   | Password Generator   | Generate strong and secure passwords with various customization options.                               |
-| 137   | Lyrics Search        | Search for song lyrics based on the title, artist, or a specific line from the song.                              |
-| 136   | Movie Recommendations| Get personalized movie recommendations based on a user's preferences and previous movie ratings.               |
-| 135   | Image Captioning     | Generate captions for images based on their content.                                                        |
-| 134   | Spell Checker        | Check the spelling of words in a given text and suggest corrections for misspelled words.                            |
-| 133   | Email Validator      | Validate the syntax and existence of an email address.                                                       |
+| 138   | Crypto Market News   | It's your go-to solution for real-time cryptocurrency price updates, market insights, and the latest news.       |
+| 137   | Dr. Thoth's Tarot    | Tarot card novelty entertaiment & analysis, by Mnemosyne Labs.                  |
+| 136   | AutoInfra1           | Talk to your Servers. Works with AWS, GCP, Azure, and anywhere you can ssh!              |
+| 135   | ScholarAI            | Unlock the power of scientific research with peer-reviewed papers from PubMed, Arxiv, Springer, and more.           |
+| 134   | Acquire.com          | Everything you need to buy and sell startups.                          |
+| 133   | Appy Pie App Builder | AI-powered Text-to-App Generator turns your app idea into Android and iOS apps- just provide text input.                   |
 | 132   | Currency Converter   | Convert currency values between different units.                                                                  |
 | 131   | AmazingTalker        | Elevate your language learning at any level with personalized 1-on-1 online lessons from tutors across the world. |
 | 130   | HTTP Webhooks        | Allows you to write, deploy, and manage HTTP Webhooks in JavaScript, right from the chat.                         |
