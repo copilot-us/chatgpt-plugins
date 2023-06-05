@@ -1,7 +1,58 @@
-# 218 Official ChatGPT Plugins (Updated June 1, 2023) 🧩
+# 266 Official ChatGPT Plugins (Updated June 5, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 5, 2023
+| #     | Name                 | Description                                                                                                                   |
+|-------|----------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| 266   | Earthquake Info      | Get latest earthquake information.                                                                                            |
+| 265   | Playlist Follow      | Create and find the best music playlists, all in one place.                                                                   |
+| 264   | Wanted Job Search    | Explore and inquire about global job opportunities, and dive into the details of worldwide positions with precision.          |
+| 263   | Space Photo Explorer | Tool for exploring space through images including Mars Rover Photos, NASA image database, and space pictures of the day.      |
+| 262   | Defillama            | Retrieve data on DeFi protocols and blockchains.                                                                              |
+| 261   | My Writing Companion | Find, hire, and manage remote human writers, the best way to ensure your content is engaging, accurate, and error-free.       |
+| 260   | Paraphraser          | Say it better, say it different: Paraphrase like a Pro. Paraphrase for impact and inspire.                                    |
+| 259   | Cribbage Scorer      | Tool for scoring your cards in the game of cribbage.                                                                          |
+| 258   | WebRewind            | Get the picture of a website at a specific date.                                                                              |
+| 257   | Mini Habits          | Form new habits through small, daily actions.                                                                                 |
+| 256   | Traders Insight      | Decode the latest technical analysis ideas for stocks and bitcoin from top traders.                                           |
+| 255   | Figlet               | Utility for converting strings of text into ASCII fonts.                                                                      |
+| 254   | Scholarly            | Scholarly is an AI-powered search engine for exploring scientific literature.                                                 |
+| 253   | Peel Hunt AI         | Experimental Peel Hunt AI Research for UK Equities.                                                                           |
+| 252   | Kakaku.com/travel    | You can search for hotel that match your search criteria from among the many hotels registered on Kakaku.com.                 |
+| 251   | SimplyCodes          | Find reliable coupon codes at 300K+ stores.                                                                                   |
+| 250   | GIF Search           | Search through a wide range of gifs - Powered by Giphy.                                                                       |
+| 249   | Your AI Council      | The AI council assesses queries through various agents, offering insights from many perspectives.                             |
+| 248   | Create a QR code     | Create a QR code for any text or url.                                                                                         |
+| 247   | Scholar Assist       | Search academic research papers from arXiv and find answers to your questions.                                                |
+| 246   | TopHap               | Enriched real estate data and location-based tools.                                                                           |
+| 245   | Supercharge My EV    | Find superchargers for non-Tesla vehicles for a specific location.                                                            |
+| 244   | Pluginpedia          | Recommend plugins in the store based on your question, and introduce their usage.                                    |
+| 243   | SmartTicketsAI       | Get Tickets For All Sports Events, Music Concerts, Theater And More With SmartTicketsAI.com.                                  | 
+| 242   | Stories              | Create beautiful, illustrated stories easily.                                    | 
+| 241   | CharitySense         | Get data on US-based non-profits including mission, key people, governance, ratings and financial data.                     | 
+| 240   | HDB Car Park         | For checking availability of car park lots at various HDB car parks around Singapore.                                    | 
+| 239   | Companies In The UK  | Provides financial information on UK Companies.                                    | 
+| 238   | Rogo                 | Answers questions about open-source repositories.                                    | 
+| 237   | Reflect Notes        | Creates a Reflect note.                                    | 
+| 236   | Strology             | Get daily astrological predictions for your sun sign.                                    | 
+| 235   | Shop AIssistant      | A shopping assistant helping with the search through a large product catalog.                                   | 
+| 234   | ArtCollection        | Search through millions of art pieces from The Metropolitan Museum of Art.                                   | 
+| 233   | Weather              | Provides weather forecast based on location. Includes temperature, precipitation, cloud cover, wind and much more.          |
+| 232   | NFT News Roundup     | Get Today's NFT News Headlines As A Clickable Link Roundup!                                    | 
+| 231   | ISS Location         | Add-on for displaying the current coordinates of the ISS and the names of the current astronauts in space.                | 
+| 230   | Easy Product Search  | Easy Product Search simplifies shopping on Japanese EC sites using keywords. It providing product info.                  | 
+| 229   | GameSight            | Discover games, game-related content, get recommendations, and compare games based on player reviews.                         | 
+| 228   | 3 Sentence Service   | Managing a three sentence service. You can add, remove, view and invoke your 3 sentence services.                             | 
+| 227   | highPerplexity       | Integrates with highPerplexity and executes any prompts you need.                                    | 
+| 226   | CCData.io            | Access the latest crypto prices and news aggregated by CCData.io (formerly CryptoCompare.com).                               |
+| 225   | Sudoku               | This is a sudoku game. You use voice or text to play. |
+| 224   | TradingBro           | Get financial data for your trading/learning: earning call, analyst view, DCF, sales details, insider trading etc. |
+| 223   | ChatSSHPlug          | Ability to SSH into your server and turn your natural language into server commands. |
+| 222   | TXYZ AI              | Effortlessly decipher, compare, and answer questions about research papers using a simple Arxiv ID. |
+| 221   | Chat with Code       | Interact with code repositories, manage issues, and push code. |
+| 220   | Calorie Coach        | Track meals & gain insights for a healthier lifestyle from 1m+ restaurants & grocery stores. |
+| 219   | SceneXplain          | SceneXplain lets you attach images to your prompt. Explore image storytelling beyond pixels. |
 
 #### Added on June 1, 2023
 | #     | Name                 | Description                                                                                         |
