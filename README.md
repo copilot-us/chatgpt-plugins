@@ -1,7 +1,22 @@
-# 266 Official ChatGPT Plugins (Updated June 5, 2023) 🧩
+# 277 Official ChatGPT Plugins (Updated June 7, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 7, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 277   | Tira                 | Shop Tira for top beauty brands! Explore cosmetics, health products & more online. Your beauty store awaits.          |
+| 276   | Lsong AI             | Lsong's AI provides AI-powered content like news, images, music, movies, weather, stories, memes, and more.           |
+| 275   | Mobula               | Fetching real-time data for all crypto & blockchain metrics.                                                          |
+| 274   | Coupons by Tenere    | TenereTeam.com - Get the Best Deals & Coupons on Millions of Products At Over 50,000 Online Stores.                   |
+| 273   | Sentence Beasts      | Summon or create unique word monsters, engage them in thrilling battles, and record the outcomes using Word Monsters. |
+| 272   | Travelmyth           | Unleash personalized hotel search with Travelmyth, offering 60 unique categories for the perfect match.               |
+| 271   | Zumper Rentals       | Meet Zumper, your key to effortless apartment and house rentals in the US and Canada!                                 |
+| 270   | Job search by Indeed | Explore & discover the latest open jobs from the #1 job site in the world, Indeed.com.                                |
+| 269   | Stepstone Jobs       | Explore job openings in Germany. 120,000+ opportunities to discover.                                                  |
+| 268   | Indoor Plants        | Trusted Information About Indoor Plants and Gardening.                                                                |
+| 267   | Tax Calculator       | Given an address (or city) in the United States and an amount, calculate the sales tax. Powered by the Avalara.         
+
 #### Added on June 5, 2023
 | #     | Name                 | Description                                                                                                                   |
 |-------|----------------------|-------------------------------------------------------------------------------------------------------------------------------|
