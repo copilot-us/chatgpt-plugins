@@ -1,7 +1,19 @@
-# 277 Official ChatGPT Plugins (Updated June 7, 2023) 🧩
+# 285 Official ChatGPT Plugins (Updated June 9, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 9, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 285   | AIstrologer          | Search for the horoscope for each zodiac sign for a specific date.                                                    |
+| 284   | PortfolioMeta        | Analyze stocks and get comprehensive real-time investment data and analytics.                                         |
+| 283   | Exchange Rates       | Exchange Rates delivers real-time and historical data, enabling conversion and tracking for over 170 currencies.      |
+| 282   | Mantium              | Fetches user-created applications from Mantium and retrieves relevant info based on user queries.                     |
+| 281   | Tailor ERP Generator | A tool to help creating tailor-made ERP application.                                                                  |
+| 280   | Email by Nylas       | Connect with any email provider and engage with your email data seamlessly.                                           |
+| 279   | Crypto ERC20 Scout   | Browse ERC20 tokens on EVM blockchains. Includes address resolution, symbol/tag search, explorer links, and pricing.  |
+| 278   | Netlify Drop         | Describe a simple website you want to make, and deploy it to Netlify to share it with others and claim it as your own.       
+
 #### Added on June 7, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
