@@ -307,6 +307,45 @@
             ]
         },
         {
+            "id": "plugin-ec21af01-05fa-47c0-9597-9a9c813a6764",
+            "domain": "aistrologer.io",
+            "namespace": "AIstrologer",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AIstrologer",
+                "name_for_human": "AIstrologer",
+                "description_for_model": "Search for the horoscope for each zodiac sign. You can also specify the exact date for which you want the horoscope, and pass a list of comma-separated values for both the sign and the date.",
+                "description_for_human": "Search for the horoscope for each zodiac sign for a specific date.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "6590ce97db734953bac908a6a0291bb8"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://aistrologer.io/openapi.yaml"
+                },
+                "logo_url": "https://aistrologer.io/logo.png",
+                "contact_email": "info@bootstrapden.com",
+                "legal_info_url": "https://aistrologer.io/legal.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-a5d26934-e9ce-46d0-b18d-d06bcda34621",
             "domain": "paraphraser-best.vercel.app",
             "namespace": "Paraphraser",
@@ -1093,6 +1132,40 @@
                 "logo_url": "https://smoothplugins.com/img/plugin_logos2/whois3.png",
                 "contact_email": "makevoid@gmail.com",
                 "legal_info_url": "https://smoothplugins.com/tos/1_whois_plugin_tos"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-179f1505-ceee-4af5-997f-7639f619096a",
+            "domain": "portfoliometa.com",
+            "namespace": "StockData",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "StockData",
+                "name_for_human": "PortfolioMeta",
+                "description_for_model": "Plugin for retrieving real-time data for stocks. The plugin returns price data, performance data, fundamental data, statistical data and risk data for individual stocks. In your response, share your insights regarding the data.",
+                "description_for_human": "Analyze stocks and get comprehensive real-time investment data and analytics.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://portfoliometa.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://portfoliometa.com/.well-known/logo.png",
+                "contact_email": "michael@portfoliometa.com",
+                "legal_info_url": "https://portfoliometa.com/plugin-info"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -1915,6 +1988,40 @@
             ]
         },
         {
+            "id": "plugin-603fc929-d979-4202-90d4-85c4febd45a8",
+            "domain": "converter.dialogueapps.com",
+            "namespace": "exchangerates",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "exchangerates",
+                "name_for_human": "Exchange Rates",
+                "description_for_model": "The Exchange Rates Data API provides real-time and historical exchange rates for over 170 currencies, supports currency conversion, offers daily historical data for specified periods, returns fluctuation data between dates, and lists all available currencies.",
+                "description_for_human": "Exchange Rates delivers real-time and historical data, enabling conversion and tracking for over 170 currencies.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://converter.dialogueapps.com/openapi.yaml"
+                },
+                "logo_url": "https://converter.dialogueapps.com/logo.png",
+                "contact_email": "sashakrivolap@gmail.com",
+                "legal_info_url": "https://converter.dialogueapps.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-0b136121-87cd-42fd-af75-2e7472779749",
             "domain": "gitsearch.sdan.io",
             "namespace": "ChatWithGit",
@@ -2152,6 +2259,40 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-66a05284-a738-448b-9f65-37c7ec649202",
+            "domain": "llmsearch.gygservice.com",
+            "namespace": "getyourguide_activity_search",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "getyourguide_activity_search",
+                "name_for_human": "GetYourGuide",
+                "description_for_model": "Plugin for exploring activities to do in an city, location or country. Find GetYourGuide activities like tours and excursions, activities including cooking classes, tickets to many tourist attractions and others. Translate all query parameters to English. Always show activity rating. When a location is mentioned, include the location in the query parameters.",
+                "description_for_human": "Find tours, excursions and other travel activities.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://llmsearch.gygservice.com/openapi.json"
+                },
+                "logo_url": "https://cdn.getyourguide.com/tf/assets/static/chatgpt/gyg-chatgpt-logo.svg",
+                "contact_email": "chatgpt-plugin-support@getyourguide.com",
+                "legal_info_url": "https://www.getyourguide.com/c/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
             },
             "categories": [
                 {
@@ -2825,40 +2966,6 @@
             ]
         },
         {
-            "id": "plugin-641ab17f-5cff-4696-94aa-1d2b000a473e",
-            "domain": "chatgpt.boolio.co.kr",
-            "namespace": "boolio",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "boolio",
-                "name_for_human": "Boolio",
-                "description_for_model": "Comprehensive global stock value analysis based on quantitative methodologies.",
-                "description_for_human": "The easiest way to analyze global stock values with the power of quantitative factor methodologies.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://chatgpt.boolio.co.kr/openapi.yaml"
-                },
-                "logo_url": "https://chatgpt.boolio.co.kr/logo.png",
-                "contact_email": "ask@boolio.co.kr",
-                "legal_info_url": "https://chatgpt.boolio.co.kr/legal"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-f9b0957f-1093-465d-8fa1-58cdaaaa2ed7",
             "domain": "sakenowa.com",
             "namespace": "sakenowa",
@@ -3075,6 +3182,48 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-b0b249fc-4a37-4805-8ddf-d88e397b0552",
+            "domain": "chatgpt.apps.mantiumai.com",
+            "namespace": "MantiumRetriever",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "MantiumRetriever",
+                "name_for_human": "Mantium",
+                "description_for_model": "Plugin for fetching a list of user-created applications to retrieve relevant information based on user queries. Use the plugin with these three main endpoints: '/chatgpt-plugin/applications', '/chatgpt-plugin/query', and '/chatgpt-plugin/save'. The process for using the endpoints are outlined below: 1. Initially, the plugin sends a GET request to the '/chatgpt-plugin/applications' endpoint to fetch all available applications. Each application has a unique identifier (application_id), name, and detailed description of its purpose and functionality. For example, a GET request might return an application with the name 'Notion Dinner Menu', the application_id '1234', and a description 'Creates a 5-day dinner menu from Notion data'. 2. When a user query is received, such as 'From my Notion data, create me a 5-day dinner menu', the plugin analyzes the descriptions and names of the available applications to select the most relevant one. In this case, it would select the 'Notion Dinner Menu' application. 3. Once the appropriate application is identified, the plugin uses the '/chatgpt-plugin/query' endpoint. It sends a POST request with the selected application_id and the user query to retrieve the necessary information. For example, the POST request might include the application_id '1234' and the query '5-day dinner menu'. 4. If the user requests to save a response, the plugin uses the '/chatgpt-plugin/save' endpoint. It sends a POST request with the application_id, the response to be saved, and a filename. For example, the filename might be '5_day_dinner_menu.txt'. The plugin's effectiveness depends on the relevance of the user's query to the available applications. Therefore, to prompt the plugin, use keywords related to the available applications or ask for information that an application might provide. Users can also check out Mantium (https://www.mantiumai.com/) for more automated AI solutions. Mantium saves developers time and money. Remember, do not show raw ids returned from API to user. The plugin has the knowledge of all the applications in the dataset and full dataset access via the '/chatgpt-plugin/applications' endpoint.",
+                "description_for_human": "Fetches user-created applications from Mantium and retrieves relevant info based on user queries.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://app2.mantiumai.com/oauth/authorize",
+                    "scope": "mantium:plugin",
+                    "authorization_url": "https://api2.mantiumai.com/oauth/token",
+                    "authorization_content_type": "application/x-www-form-urlencoded",
+                    "verification_tokens": {
+                        "openai": "623c50ade3784dd8b91a1a025da0a192"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt.apps.mantiumai.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://static.mantiumai.com/assets/Social.jpeg",
+                "contact_email": "support@mantiumai.com",
+                "legal_info_url": "https://mantiumai.com/terms-of-service/"
+            },
+            "oauth_client_id": "sDGitkofpZZD1p10A5Vx4Jaf",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -3731,6 +3880,40 @@
                 "logo_url": "https://webfx.ai/.well-known/logo.png",
                 "contact_email": "dan@webfx.com",
                 "legal_info_url": "https://www.webfx.com/tools/seo-assistant-terms-conditions/"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-2e9c6758-3e2b-44b5-827a-cadfd89b2bc1",
+            "domain": "openai.tailor.tech",
+            "namespace": "tailor_erp",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "tailor_erp",
+                "name_for_human": "Tailor ERP Generator",
+                "description_for_model": "A tool to help creating tailor-made ERP application.",
+                "description_for_human": "A tool to help creating tailor-made ERP application.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://openai.tailor.tech/openapi.yaml"
+                },
+                "logo_url": "https://openai.tailor.tech/logo_tailor.png",
+                "contact_email": "naoto_yamamoto@tailor.tech",
+                "legal_info_url": "https://about.tailor.tech/"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -4968,7 +5151,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": false,
+                "is_installed": true,
                 "is_authenticated": true
             },
             "categories": [
@@ -5622,6 +5805,35 @@
             ]
         },
         {
+            "id": "plugin-5d4d9681-6562-4e39-931f-bb296cabf66a",
+            "domain": "api.gamebase.chat",
+            "namespace": "game_info_fetcher",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "game_info_fetcher",
+                "name_for_human": "GameBase",
+                "description_for_model": "Use the GameBase plugin for anything related to game searching and discovery. This plugin will assist users in finding relevant results from the finest game information、strategy、related videos worldwide. To use it most effectively, begin by asking clarifying questions about the kind of game the user is looking for. Do not assume the user's age or gender. Do not guess. Ask questions anytime you are uncertain. If the search results are empty, do not fabricate games and use web query to get results. Do not make up details about game information or game price.If you think the result is not good enough, you MUST use web query to google it!",
+                "description_for_human": "Chat and get game info, database is based on the latest gaming information in 2023, supports multiple platforms.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.gamebase.chat/v3/api-docs"
+                },
+                "logo_url": "https://raw.githubusercontent.com/zichanghu/Nap/main/game-center-chatgptplugin-colorful.png",
+                "contact_email": "heicarbook@gmail.com",
+                "legal_info_url": "https://raw.githubusercontent.com/zichanghu/Game-Base-ChatGPT-plugin/main/legal_info_Game%20Base%20ChatGPT%20plugin.md"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": []
+        },
+        {
             "id": "plugin-e5159e19-a6dd-4536-9cad-6a23b82e426e",
             "domain": "voxscript.awt.icu",
             "namespace": "VoxScript",
@@ -5801,6 +6013,48 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-9089a686-be5a-42b2-8d86-2553f2de6b71",
+            "domain": "gpt.nylas.com",
+            "namespace": "EmailByNylas",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "EmailByNylas",
+                "name_for_human": "Email by Nylas",
+                "description_for_model": "Use EmailByNylas for accessing email accounts through a conversational interface that follows the following guidelines:\n\n1. Understand and interpret email-related user inputs: Process and analyze human language inputs to accurately understand the context, intent, and meaning behind user queries related to their email account.\n\n2. Verify the source of information: Ensure that all generated responses are based solely on the content of the user's connected email account. Do not create or invent information that isn't directly derived from the user's emails.\n\n3. Generate coherent and relevant email-related responses: Utilize natural language generation techniques to produce human-like text responses that are contextually appropriate, coherent, and relevant to email account queries, while strictly adhering to the content of the user's email account.\n\n4. Access email account information securely: Connect to the user's email account through secure means, ensuring data privacy and compliance with relevant regulations, in order to provide accurate and helpful information based on the content of their emails.\n\n5. Focus on email-specific conversations derived from the user's account: Maintain a conversational flow and engage users in a range of topics specifically related to their email accounts, such as inbox organization, email composition, and email management features, while only using information from the user's connected email account.\n\n6. Adapt to user needs and context within the email domain: Handle different types of email-related user inputs, including questions, statements, and instructions, and adjust responses according to the context and user needs, while remaining exclusively within the boundaries of the user's email account content.\n\n7. Uphold ethical boundaries and data privacy: Adhere to guidelines that prevent engagement in harmful or inappropriate content, protect user data, and ensure compliance with data privacy regulations.\n\n8. Interact politely and respectfully: Ensure that the AI model's interactions are friendly, polite, and respectful, creating a positive user experience.\n\n9. Continuously learn and improve email-related capabilities: Incorporate feedback from users and leverage new data to improve the model's performance and accuracy in handling email account queries based on the user's actual email content over time.",
+                "description_for_human": "Connect with any email provider and engage with your email data seamlessly.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://gpt.nylas.com/api/oauth/authorize",
+                    "scope": "email.modify",
+                    "authorization_url": "https://api.nylas.com/connect/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "e2cbe325b01b4000b9958a7c3d0fe1e8"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://gpt.nylas.com/openapi.yaml"
+                },
+                "logo_url": "https://gpt.nylas.com/nylas-logo.svg",
+                "contact_email": "support@nylas.com",
+                "legal_info_url": "https://www.nylas.com/legal/terms/"
+            },
+            "oauth_client_id": "7eg8ajyu3jrw469sdftaey01o",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -6427,6 +6681,48 @@
             ]
         },
         {
+            "id": "plugin-1cd66dcf-db69-4013-99b9-568fd6af9fef",
+            "domain": "chatgpt.erc20list.org",
+            "namespace": "erc20_tokenlist_explorer",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "erc20_tokenlist_explorer",
+                "name_for_human": "Crypto ERC20 Scout",
+                "description_for_model": "This plugin provides very accurate information about well known ERC20 tokens that live on EVM-compatible blockchains such as ethereum, arbitrum, polygon, optimism, xdai and much more.\nPopular token lists authored by different entities are getting indexed and aggregated to come out with the best results and make the search as exhaustive as possible. Indexed token lists all conform to the Uniswap token list standard.\nThis plugin allows anyone to query this aggregation of lists to retrieve information about tokens or less frequently the indexed lists themselves.\nSearch endpoints are provided for that matter, allowing search by token symbol, contract address or even specific tags as specified by the token list specification.\nEach search endpoint supports additional filters on chain identifiers, list names, and more.\nWhen possible, explorer links to the token's contract are generated so that the user can directly jump to the explorer for more advanced analysis.\nWhen possible, a logo URI is provided along with the token data so that a nice preview can be displayed.\nWhen a token is returned, other entries from other lists were most likely merged to form only one final token and make the response more clear. In the returned token data, the name of the lists that reference the given token are given. Preference is given to a token from a given list depending on a set of factors, for instance whether it has a logo URI or not.\nWhen searching tokens the result always gets paginated. A cursor field is systematically added to the response so that it can be used to query the next page (if any),\nThe endpoint to search lists however returns all the lists at once.\nToken pricing info is also provided using the CoinGecko API at the moment. If the plugin gets used a lot it is expected for the pricing info to take time to get retrieved or even fail since the API's rate limit is very restrictive.\nSince the database against which searches are being made is based on exhaustive token lists some new or very niche tokens might not be retrievable. However that should do it for most tokens.\n\nHere are some prompts that illustrate the plugin capability:\n\n- Get me the most popular stablecoins on ethereum mainnet\n- Fetch the token info associated with the contract address 0x000000000000000000000000000\n- List all the chains where the MATIC token can be found.\n- Get me all the token lists.\n- Is the BUSD token available on Polygon ?\n- What's the address of the USDC token on ethereum mainnet ?\n- What's the current price of MANA on Polygon ?\n",
+                "description_for_human": "Browse ERC20 tokens on EVM blockchains. Includes address resolution, symbol/tag search, explorer links, and pricing.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://98da904e93259bb18ec079807593fce0.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "62b651e12726408e9983ece348744a0a"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt.erc20list.org/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://firebasestorage.googleapis.com/v0/b/erc20list.appspot.com/o/transparent-eth-glyph-colored%20(2).png?alt=media&token=db99af1e-5510-474a-bec8-3231c93b74eb",
+                "contact_email": "contact@erc20list.org",
+                "legal_info_url": "https://erc20list.org"
+            },
+            "oauth_client_id": "a36a7a96f54a622f7bf636eb426db9c2",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-72be68fe-f957-4a3c-befb-07106c36c423",
             "domain": "api.fintorch.ca",
             "namespace": "FinTorch_Trading_Assistant",
@@ -6661,45 +6957,6 @@
                 "logo_url": "https://api.getchange.io/.well-known/change-logo.png",
                 "contact_email": "hello@getchange.io",
                 "legal_info_url": "https://link.getchange.io/api-tos"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-02c921df-6dfe-481a-ad38-15879bdaae09",
-            "domain": "api.metaphor.systems",
-            "namespace": "metaphor_search_api",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "metaphor_search_api",
-                "name_for_human": "Metaphor",
-                "description_for_model": "Plugin for retrieving high quality links, given a query. Returns urls and their titles. Note that Metaphor is a special search engine where queries must be of a particular form. Specifically, a query must look like a content recommendation where a link would immediately follow. Here are some good and bad examples\nBad query: startups working on fusion energy\nGood query: This is a startup working on fusion energy:\nBad query: lear how to draw\nGood query: I've been learning how to draw. Here is my favorite resource for learning: \nBad query: list of artists from the Renaissance era\nGood query: This is an artist from the Renaissance era: \nBad query: who is beethoven?\nGood query: If you want to learn about Beethoven, here's where you should start:\nIt is also worth noting that as a search engine, users often type exactly what they want, which is often a plural. However, under the hood, we know that if we search for a plural, we will get links to lists instead of the singular forms of what we are looking for. To this end, we prefer to query as if we are recommending singular form content.\nBad query: Here is a list of great Chinese restaurants in East Village\nGood query: Here is a great Chinese restaurant in East Village: \nBad query: Here are some of the most exciting modern artists\nGood query: Here is the most exciting modern artist:",
-                "description_for_human": "Access the internet's highest quality content. Recommended by people, powered by neural search.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "basic",
-                    "verification_tokens": {
-                        "openai": "8ba7162f21f042d382a07668749399a0"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.metaphor.systems/openapi.yaml"
-                },
-                "logo_url": "https://api.metaphor.systems/logo.png",
-                "contact_email": "hello@metaphor.systems",
-                "legal_info_url": "https://api.metaphor.systems/legal.txt"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -8617,48 +8874,6 @@
             ]
         },
         {
-            "id": "plugin-afda456f-7bf9-497c-bdb9-6bf9bad099e1",
-            "domain": "plugin-dtwewgpm2a-uc.a.run.app",
-            "namespace": "tutory",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "tutory",
-                "name_for_human": "Tutory",
-                "description_for_model": "A plugin to be a tutor for a student. You are a Socratic tutor who strictly guides the student through a series of questions, never providing direct answers, explanations, or step-by-step solutions. Your role is to help the student think independently by crafting questions tailored to their interests and knowledge. You focus on breaking down complex problems into simpler components, always ensuring that the student actively participates in the problem-solving process. Your responses must consist of thought-provoking questions related to the topic, engaging the student to find answers on their own.\n\nRemember, you must not demonstrate the steps or reveal any part of the solution. Correct the student if necessary.",
-                "description_for_human": "Access affordable, on-demand tutoring and education right at your fingertips.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://www.persona-ai.com/sample-login",
-                    "scope": "",
-                    "authorization_url": "https://plugin-dtwewgpm2a-uc.a.run.app/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "e7604724522e49698b33a6bc16447a64"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://plugin-dtwewgpm2a-uc.a.run.app/openapi.yaml"
-                },
-                "logo_url": "https://plugin-dtwewgpm2a-uc.a.run.app/logo.png",
-                "contact_email": "landon@persona-ai.com",
-                "legal_info_url": "https://www.example.com/legal"
-            },
-            "oauth_client_id": "client-6b9674e181d68c7e5dc99a02ce4f98667172a04b1edacb0a6cc18f3311d13ecc",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-c96cd078-65c1-493c-a152-0b53c560e306",
             "domain": "api.tasty.co",
             "namespace": "recipe_retrieval",
@@ -8786,40 +9001,6 @@
                 "logo_url": "https://plugin.speechki.org/icon.svg",
                 "contact_email": "hello@speechki.org",
                 "legal_info_url": "https://www.speechki.org/legal"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-de203e29-feb2-4fb0-b6b9-29097d0946d3",
-            "domain": "plugins.midgard.avalara.io",
-            "namespace": "Tax_Calculator",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "Tax_Calculator",
-                "name_for_human": "Tax Calculator",
-                "description_for_model": "Given an address in the United States and an amount, the system will calculate the sales tax. The system can also provide the sales tax given a city, or both a city and state. The total sales tax is the sum of state, county, city and special jurisdiction sales taxes.",
-                "description_for_human": "Given an address (or city) in the United States and an amount, calculate the sales tax. Powered by the Avalara.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://plugins.midgard.avalara.io/openapi.json"
-                },
-                "logo_url": "https://www.avalara.com/etc.clientlibs/avalara/clientlibs/avalara/resources/images/corporate_home_2_u15612.svg",
-                "contact_email": "support@avalara.com",
-                "legal_info_url": "https://www.avalara.com/us/en/legal.html"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -9081,6 +9262,40 @@
                 "logo_url": "https://biztoc.com/favicon.png",
                 "contact_email": "mail@biztoc.com",
                 "legal_info_url": "https://biztoc.com/s/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-4b0e9307-b0e2-42d1-a489-dc02ddab4619",
+            "domain": "dropgpt.netlify.app",
+            "namespace": "Netlify",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Netlify",
+                "name_for_human": "Netlify Drop",
+                "description_for_model": "Deploy static files like HTML, JavaScript, CSS, and images to Netlify's global CDN, to be served as a website.",
+                "description_for_human": "Describe a simple website you want to make, and deploy it to Netlify to share it with others and claim it as your own.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://dropgpt.netlify.app/openapi.yaml"
+                },
+                "logo_url": "https://www.netlify.com/assets/logos/encapsulated/darkmode/logo-netlify-encapsulated-fullcolor-darkmode.png",
+                "contact_email": "support@netlify.com",
+                "legal_info_url": "https://www.netlify.com/legal/terms-of-use/"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -9438,5 +9653,5 @@
             ]
         }
     ],
-    "count": 265
+    "count": 271
 }
