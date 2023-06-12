@@ -1,7 +1,126 @@
-# 285 Official ChatGPT Plugins (Updated June 9, 2023) 🧩
+# 400 Official ChatGPT Plugins (Updated June 12, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 12, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 400   | Vio.com            | A better deal on your next hotel, motel or accommodation booking.                                                    |
+| 399   | Timeport           | Begin an exciting journey through time, interact with unique characters, and learn history in this time-travel game! |
+| 398   | SG Places Beta     | Provides information on attractions, F&B outlets, accommodation, tours, shops, and events in Singapore. |
+| 397   | Gimmee Air Quality | Planning something outdoors? Get the 2-day air quality forecast for any US zip code. |
+| 396   | Deep Memory        | Create flashcards and review them on Deep Memory, a spaced repetition app.       |
+| 395   | Lingo              | Lingo - Direct Access to the Japanese Lifestyle with One Click.                    |
+| 394   | MixerBox Podcasts  | Search podcasts easily! Explore podcasts covering society, sports, business, news, music, and more!      |
+| 393   | California Law     | Get up to date access to California law.                                                    |
+| 392   | Repo Radar         | Your one-stop shop for up to date Github repo information. Find repos by topic, language, or name.   |
+| 391   | ReviewReader       | Tired of comparing countless Amazon reviews? Input a product name or link for an instant AI summary.  |
+| 390   | PlugFinder         | PlugFinder is your personal assistant for discovering AI tools.    |
+| 389   | Diagrams           | Create and display diagrams from kroki.io or using networkx and matplotlib.     |
+| 388   | Coursera           | Find recommendation for courses, specializations, and degrees on Coursera.    |
+| 387   | NASA Media Explorer | Discover and learn about space exploration using NASA's vast media library!      |
+| 386   | CoPilot            | Searches every dealer, analyzes & ranks every car for you so you can buy with confidence.    |
+| 385   | Repo Inspector     | Inspect Git Repositories. Submit a GitHub, Gitlab, etc., HTTPS link. The repo will be reviewed by Repo Inspector.  |
+| 384   | Calculator         | A calculator app that executes a given formula and returns a result. This app can execute basic and advanced operations. |
+| 383   | Skrive             | Envision your concepts through Diagrams. This tool allows you to create and modify diagrams within the chat interface. |
+| 382   | Crypto Price Checker | A Crypto Prices app that takes a pair of crypto or fiat tickers and returns the current price of the pair. |
+| 381   | Ferryhopper          | Search for ferries and plan your trip with the assistance of AI and Ferryhopper.                                       |
+| 380   | Copywriter           | Send a URL and get sales copywriting suggestions for any page!      |
+| 379   | Memory Bank          | Extend AI memory. Ask it to store and retrieve your information to get personalized assistance tailored to your needs.   |
+| 378   | Reminders            | Add, remove, list and tag reminders.                                                    |
+| 377   | NewsBreak            | Learn about the most popular local or national news in the United States.     |
+| 376   | TotalQuery Search    | Go beyond google search: harness the combined power of 70+ search engines for ultimate web discovery.  |
+| 375   | Maps                 | A Maps app that takes latitude and longitude coordinates and generates a map with a marker on the given spot. |
+| 374   | Now                  | Get Google Trends. In Japan, you can also get Twitter trends and search Twitter keywords.   |
+| 373   | Forex-Rates          | Forex Rates: Price analysis for currency markets. Gain insights, sentiment evaluation, and text completion. |
+| 372   | MixerBox Scholar     | Free and reliable academic search engine! Find research papers and get answers in an instant!  |
+| 371   | ProApp Learn Design  | Level up your design skills quickly with a wide range of design courses, interactive workshops and AI-guided mentorship.  |
+| 370   | SummarizeAnything.ai | Summarize YouTube videos, web pages, and PDF documents by providing a link. This is a free preview.  |
+| 369   | ChatOCR              | The best way to read text from from any document. Extract text from scanned PDFs, photos, and even handwriting.  |
+| 368   | HumanInf             | Humanizing AI content via paraphrasing.                     |
+| 367   | 60sec site           | Generate a beautiful website in 60 seconds using AI.                                                    |
+| 366   | midpage caselaw      | Interact with US caselaw: Summarizes text, answers questions, and checks legal statements.    |
+| 365   | Broadway             | Search for shows that are currently playing on Broadway in New York City.  |
+| 364   | Ai PDF               | Super-fast, interactive chats with PDFs of any size, complete with page references for fact checking.  |
+| 363   | ad4mat               | API to monetize outgoing traffic via tracking links.                                                    |
+| 362   | HACKIT Web Scanner   | AI Powered Web Scanner by HACKIT.                                                    |
+| 361   | MixerBox ChatToVideo | Summarize videos from YouTube! Ask questions and get answers right away!  |
+| 360   | Search UK Companies  | Fetching public information on UK registered Companies and it's Officers from Companies House. |
+| 359   | MixerBox Translate   | Translate any language right away! Learn foreign languages easily by conversing with AI tutors!     |
+| 358   | Father's Day Deals   | Ideas, recommendations, and deals for Father's Day gifts.   |
+| 357  | Gate2AI              | Discover the perfect AI tools for your needs.        |
+| 356   | MagiCodex            | Ask about Magic: The Gathering cards, rules and interactions.            |
+| 355   | Video Highlight      | Explore, research, and interact with YouTube videos and personal videos.   |
+| 354   | P/E For NFTs         | Get the price to earnings ratio for any NFT collection!    |
+| 353   | MBTI                 | For administering an MBTI test. You can get a list of questions and calculate your MBTI type.     |
+| 352   | Export Chat          | A Tool to export your conversation or specific parts of your conversation.   |
+| 351   | Social Search        | The Social Search provides access to tweets, users, followers, images, media and more.                                |
+| 350   | Talkface IELTS Prep  | Use the latest IELTS Speaking exam questions to prep your IELTS speaking with Talkface.  |
+| 349   | Checkers             | This allows you to play a game of checkers.              |
+| 348   | TalentOrg            | Find and hire freelance engineering talents from around the world.        |
+| 347   | Peel Hunt AI-ERA     | AI Equity Research Assistant (AI-ERA).     |
+| 346   | PartSecure           | Search & compare electronic component inventory, pricing, & lead time from top suppliers.       |
+| 345   | Sembot               | Manage your Search Engine Marketing. Get keywords reports, CPCs, domain visibility, SEO results and more. |
+| 344   | HiCollectors Finder  | Search and price comparison for eBay products. Only available in the United States.  |
+| 343   | MixerBox ChatPDF     | Save time! MixerBox ChatPDF can summarize & analyze PDF files for you!  |
+| 342   | MixerBox ChatMap     | Powered by Google Maps API, MixerBox ChatMap is the world's 1st AI chatbot for Maps! |
+| 341   | Quiver Quantitative  | Access data on congressional stock trading, lobbying, insider trading, and proposed legislation. |
+| 340   | PPC - StoreYa.com    | Your personal assistance for automating advertising – Google Ads (AdWords) and Microsoft Ads (Bing).  |
+| 339   | Italy Latest News    | Get the most recent news from Italy.        |
+| 338   | CLINQ                | Manage your CLINQ Account. Retrieve infos about calls, create call reminders and more.         |
+| 337   | TechPulse            | Get top/new/ask/show/job stories from HackerNews.                                                    |
+| 336   | QEEQ                 | Our mission is to make journeys more enjoyable and bring better travel experiences to QEEQ with the help of technology.   |
+| 335   | MixerBox Weather     | Get real-time worldwide weather updates & forecasts, instantly!                |
+| 334   | Litmaps              | Get help exploring the scientific literature. Find relevant papers and generate mindmaps of the literature.     |
+| 333   | AskYourCode          | Ask your source code directly. The intelligent rubber ducky!                                |
+| 332   | sic                  | Your gateway to crypto. Explore prices, accounts, and transactions on blockchains, starting with Ethereum.  |
+| 331   | Word Counter         | Count the number of words, and characters (with and without spaces).     |
+| 330   | Finna Bolag          | Seamlessly search for and retrieve Swedish companies' financial data.                |
+| 329   | Comparison           | An advanced e-commerce tool, providing robust capabilities for efficient product search and accurate price comparison..   |
+| 328   | MixerBox WebSearchG  | Search and summarize the web with our customized search engine powered by Google Search API!      |
+| 327   | Universal            | Enables to access web pages, analyze PDFs, generate QR codes, etc.                    |
+| 326   | Gift ideas suggester | Generate gift ideas for any occasion, such as birthdays, Mother's Day, etc. Please, provide details about recipient.  |
+| 325   | Trending Music       | Service for finding the trending music, by genre, countries, and top songs globally.          |
+| 324   | QR Generator         | Generate QR code in seconds.                                                   |
+| 323   | Hadith Advice        | Ask a question and get advice from hadith.                                                    |
+| 322   | ScholarlyInsight     | Query research papers from Arxiv.                                                    |
+| 321   | Chat With Workspace  | Chat with your Notion workspace.                                                    |
+| 320   | Jobsearch            | This is a job search service. For now only for jobs in Germany.                                                    |
+| 319   | Earth                | Generates a map image based on provided location, tilt and style.                                                    |
+| 318   | LIFULL HOME'S        | Encounter the life you want. Search listings, view property and neighborhood details in Japan.                 |
+| 317   | Boolio Invest        | The easiest way to analyze global stock values with the power of quantitative factor methodologies.         |
+| 316   | Video Summary        | Summarize YouTube video highlights. Generate summaries from YouTube video URLs.      |
+| 315   | Dover Assistant      | Generate a personalized email to someone you're interested in reaching out to for a job opportunity.                        |
+| 314   | Ask MFM              | Ask the hosts of the My First Million questions about business, tech, entrepreneurship, and life.                           |
+| 313   | Free Kiddie Books    | Access thousands of free children's picture books (storybee.space). Get recommendations for young readers' interests.       |
+| 312   | SA Speed Cameras     | See if a mobile speed camera or roadwork is on a South Australian road today!                         |
+| 311   | Wordpress Publisher  | Publish content directly to a Wordpress blog.                              |
+| 310   | Lark Base Importer   | Importing data into Lark Base for further analysis and presentation. An easy-to-use data management solution.      |
+| 309   | Able Style Fashion   | Able Style is a fashion assistant who will help you answer the question, 'What shall I wear today?       |
+| 308   | TickTick             | TickTick for managing a TODO list, you can add, remove and view your TODOs.     |
+| 307   | HackTrack            | This tool checks if credentials linked to an email have been exposed in data breaches or hacks.  |
+| 306   | Asset Ovi            | Search and preview millions of 3D assets for games, AIGC, AR/VR and others.                     |
+| 305   | Korea subway route   | Korea  metro subway route info.                                                    |
+| 304   | UK Politics          | Search through UK political documents such as speeches, press releases, voting records, and candidates' profiles.           |
+| 303   | WikiDocs             | You can search for books on Wikidocs and create books.                                                    |
+| 302   | Horoscopes           | Daily, weekly, and monthly horoscopes tailored to you. Brought to you by Inner Self.                               |
+| 301   | Jini                 | Get factual, knowledge-base and real-time information. \n Search news, images, videos, music, apps, pages and facts.        |
+| 300   | CranePumps Manuals   | Returns the catalog and manual for a pump based on model number.        |
+| 299   | Top Agencies         | Find top marketing and design agencies around the World by service, locations, and ratings.     |
+| 298   | Kyujinbox            | Searching jobs in Japan. You can search jobs by keyword, location and employ type.                |
+| 297   | Smarter Contracts    | Analyze smart contracts and tokens on Ethereum.                            |
+| 296   | Dr. Thoth's Tarot    | Tarot card novelty entertainment & analysis, by Mnemosyne Labs.           |
+| 295   | Shuto.IO             | Shuto.IO is a multi-tool for creators and developers with SMS, Email, Wordpress and SSH Command Execution capabilities.     |
+| 294   | txyz.ai              | Effortlessly decipher, compare, and answer questions about research papers using a simple Arxiv ID.       |
+| 293   | Clearbit             | Access Clearbit Enrichment, Prospecting, Reveal APIs and website visitors data to access information about companies.   |
+| 292   | Definitive Facts     | Ask questions using 100+ relational datasets - sports, finance, and more at https://definitive.io/datasets.\n               |
+| 291   | BART Real-Time       | Getting real-time BART information for a specified origination station and direction.     |
+| 290   | Uberchord            | Find guitar chord diagrams by specifying the chord name.            |
+| 289   | BuildBetter          | Chat with the knowledge of all your calls in BuildBetter (Zoom, GMeet, Webex). Start for free @ BuildBetter.ai         |
+| 288   | Domatron Domains     | Find available, brandable .com domain names for your business businesses.                          |
+| 287   | Astrodaily           | Search and discover NASA images.                                                    |
+| 286   | MixerBox FreecableTV | Watch free ad-supported TV shows, series, live channels, movies, news & sports from across the web!
+
 #### Added on June 9, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
