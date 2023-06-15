@@ -31,7 +31,7 @@
 | 420   | Andorra  | All of Andorra with the power of AI.    |
 | 419   | GoDaddy Name Search  | Search and check the availability of domain names using GoDaddy.    |
 | 418   | Company Transcripts  | Search and analyze the latest company transcripts for any stock (powered by Koyfin).    |
-| 417   | Mermaid Chart  |     | Visualize Mermaid Diagrams and fine-tune them in the Mermaid Chart editor.
+| 417   | Mermaid Chart  | Visualize Mermaid Diagrams and fine-tune them in the Mermaid Chart editor.    | 
 | 416   | Basketball Stats  | Find and analyze basketball stats from various databases of games, players, teams, and play-by-plays.    |
 | 415   | instabase  | Search for rooms and venues all across Japan from instabase.    |
 | 414   | Chi Data Buddy  | Chicago data from the City of Chicago Data Portal.    |
