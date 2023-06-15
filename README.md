@@ -1,7 +1,54 @@
-# 400 Official ChatGPT Plugins (Updated June 12, 2023) 🧩
+# 443 Official ChatGPT Plugins (Updated June 15, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 15, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 443   | NJSI Beta by SSG  | National Jobs Skills Intelligence. Skillsfuture Singapore AI Graph for insights and relationships in the JS landscape.   |
+| 442   | MomentX GuideX  | It gives real-time info on our store, including brand locations and promotions.    |
+| 441   | The Diet Search  | You can search the Japanese Diet Proceedings by request, news, or other text.     |
+| 440   | Filtir  | Verify the provided text using external sources.    |
+| 439   | ByByAI  | Search for the best Amazon products ordered by rating.    |
+| 438   | eSIM Travel Asst  | Find eSIM data plans easily! Enter location and eSIM keywords to get apt package suggestions. Ideal for travelers.    |
+| 437   | staypia  | Find your perfect travel destination & hotels. Look for pet-friendly towns in USA, stargazing spots in Europe, and more!    |
+| 436   | TimeNavi  | Interact with your calendar. Analyze and create events, understand and plan your time better.    |
+| 435   | Converter App  | Convert currencies or files like images and videos from web links and Google Drive to other formats, or work with PDFs.    |
+| 434   | Preply  | Finding the best language tutors.    |
+| 433   | Etihad Airline  | Search flights, and answer other related questions of flights.    |
+| 432   | AI Gift Finder  | Use the power of AI to find the perfect gift.    |
+| 431   | Spirify QR Code  | QR Code generator for text or URLs. It's a general-purpose tool that also enables QR code puzzle games with AI.    |
+| 430   | Text Count  | Count the number of words and characters in a text.    |
+| 429   | FreshTech  | Fetches and presents the latest tech documentation content.    |
+| 428   | OpenTools AI  | Find the right AI tools for your needs from the largest collection on the web.    |
+| 427   | Pixellow  | Pixellow: Unveiling image insights, aiding understanding, and creating detailed captions and descriptions.    |
+| 426   | Shopping tools  | Shopping tools let you search for products to buy in AliExpress and eBay.    |
+| 425   | Drink Maestro  | Learn to mix any drink you can imagine (real or made-up), and discover new ones. Includes drink images.    |
+| 424   | AI Chatbot Builder  | Build AI chatbots with ALL your business content, in a secure/business-grade platform.    |
+| 423   | US Federal Law  | Get up to date access to Federal law.    |
+| 422   | Research By Vector  | Unearth precise academic research effortlessly with the power of vector embeddings for relevance and accuracy.    |
+| 421   | Chat Raku Journey  | Search for Rakuten services in Japan. You can easily search for products, facilities in travel, and more.     |
+| 420   | Andorra  | All of Andorra with the power of AI.    |
+| 419   | GoDaddy Name Search  | Search and check the availability of domain names using GoDaddy.    |
+| 418   | Company Transcripts  | Search and analyze the latest company transcripts for any stock (powered by Koyfin).    |
+| 417   | Mermaid Chart  |     | Visualize Mermaid Diagrams and fine-tune them in the Mermaid Chart editor.
+| 416   | Basketball Stats  | Find and analyze basketball stats from various databases of games, players, teams, and play-by-plays.    |
+| 415   | instabase  | Search for rooms and venues all across Japan from instabase.    |
+| 414   | Chi Data Buddy  | Chicago data from the City of Chicago Data Portal.    |
+| 413   | Turing Developer  | Search and hire the world's most deeply vetted developers from Turing.com.    |
+| 412   | FilmFindr AI  | Tell me your favorite movies and I'll unveil your next cinematic gem!    |
+| 411   | SHOP.COM  | SHOP.COM Website Search for products, brands, stores and more. Great to find products, great deals, and earn rewards.    |
+| 410   | Currency Today  | Converts currency values based on the latest exchange rates.    |
+| 409   | Charts by Kesem AI  | Generate charts. The user can request a chart to be generated.    |
+| 408   | Bubble Goods  | Marketplace of 1000+ tasty & healthy foods. Discover new Vegan, Keto, Gluten-Free products & more.    |
+| 407   | Code Runner  | Compile and save your code while creating visualizations (charts and graphs) supports upto 70 programming languages.    |
+| 406   | Crypto Pulse  | From News to Profit: Decode Crypto's Market Impact with Ease. Instantly, analyse latest crypto news.    |
+| 405   | Ask Cars  | Ask about car issues and get answers based on verified complaints to government agencies & public forums.    |
+| 404   | Secretary Kim  | Korean weather, subway information! Enjoy a smart life with Secretary Kim.    |
+| 403   | Owler  | Owler provides real-time business news and insights on private and public companies.    |
+| 402   | Avalara  | Calculate sales tax or lookup tax rates for any address in the U.S.    |
+| 401   | Magic  | Assign tasks to a 24/7 on-demand remote worker with 1-click using Magic.    
+
 #### Added on June 12, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
