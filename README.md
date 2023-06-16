@@ -1,7 +1,23 @@
-# 443 Official ChatGPT Plugins (Updated June 15, 2023) 🧩
+# 455 Official ChatGPT Plugins (Updated June 16, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 16, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 455   | [Job Interview](https://c-interview.copilot.us)| I'll prepare you for a job interview by asking questions and providing feedback. |
+| 454   | Supercharger | Awesome Tesla trips: find a route, including supercharger stops. Bonus: chat with the Tesla manual! |
+| 453   | BOXIL SaaS | Help Japanese companies find the best system to enhance their productivity. |
+| 452   | AskTheCode | Provide a GitHub repository URL with the C# project and ask about any aspect of the code. |
+| 451   | InfoJobs | Search jobs on InfoJobs. |
+| 450   | PuginAI | Recommend extensions based on prompt from user. |
+| 449   | MixerBox PhotoMagic | Enhance photo resolution magically! Achieve clearer & more detailed visuals for your images! |
+| 448   | Document AI | The only Document AI that shows you where it got your answer from. |
+| 447   | alaga.ai_PH | Get the latest info about the health programs and services in the Philippines. |
+| 446   | QyrusTestPilot | You can test your webapp without writing a single line of code by just giving the URL |
+| 445   | Lighthouse | Browse apartments and get free locator assistance. |
+| 444   | Show Me Diagrams | Create and edit diagrams directly in chat. |
+
 #### Added on June 15, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
