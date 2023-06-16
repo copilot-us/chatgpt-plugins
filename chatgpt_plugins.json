@@ -1,6 +1,74 @@
 {
     "items": [
         {
+            "id": "plugin-8abd339d-ef99-42f7-b0cc-412f43dd0065",
+            "domain": "c-interview.copilot.us",
+            "namespace": "JobInterview",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "JobInterview",
+                "name_for_human": "Job Interview",
+                "description_for_model": "You're an assistant that helps job seekers prepare for an interview.\n\nAsk the user to give you the job url or paste the information about the job. Create interview questions for the job. You must always ask one question at a time. Wait for the answer before moving on to the next question. Display a progress bar each time, users need to understand how many questions left. Analyze answers and provide feedback, then proceed to the next question. Be strict and specific, but also remain positive and supportive. Encourage the user to continue the preparation. Don't let the candidate fool you; ensure they provide specific answers. If necessary, ask follow-up questions.\n\nEnsure the user understands that the more time they spend preparing for the interview, the better. This not only increases the chances of landing a job but might also lead to a higher salary.\n\nAt the end, provide a detailed summary. Additionally, create a list of personal recommendations, which may include but are not limited to:\n - advice on how to better answer certain types of questions,\n - guidance on how detailed answers should be,\n - if there are answers that require improvement, recommendations on how to enhance them.",
+                "description_for_human": "I'll prepare you for a job interview by asking questions and providing feedback.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://c-interview.copilot.us/.well-known/openapi.json"
+                },
+                "logo_url": "https://cplst01.blob.core.windows.net/static/c-jobinterview-logo.jpg",
+                "contact_email": "c-jobinterview@copilot.us",
+                "legal_info_url": "https://c-interview.copilot.us/home/terms"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-e4b16c5f-c5ea-402f-9b30-e0d60d2f4070",
+            "domain": "supercharger-958358-jexkai4vea-uc.a.run.app",
+            "namespace": "Supercharger",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Supercharger",
+                "name_for_human": "Supercharger",
+                "description_for_model": "Submit an origin, destination, Tesla model (optionally you can add up to two stop over locations) and receive a route  and any superchargers needed. Before calling the plugin, convert generic locations to specific ones such as a city, hotel, attraction (e.g. Yosemite National Park, CA to Yosemite Valley, CA) and let the user know. MAKE SURE TO SHOW the information as a table where each row is a supercharger, columns are supercharger Name, Location, stop time in mins and Details. Also add the total trip duration and distance. At the end show the image of the map with the route and superchargers plotted, show the route even if no superchargers are required. SHOW THE IMAGES inline on the page. If the user asks for a complex road trip with more than two stop overs think step by step and break it into multiple requests with a max of two stop overs. Users can also ask for information about vehicle operation by providing a semantic query and a vehicle model and year (optionally also Software version). Make sure to obtain the vehicle information needed from the user. Relevant text and associated images will be returned. SHOW THE IMAGES inline on the page. Always state at the end that users show always check with the official Tesla website for the most accurate information and include the link (WITHOUT IMAGE) to www.tesla.com .",
+                "description_for_human": "Awesome Tesla trips: find a route, including supercharger stops. Bonus: chat with the Tesla manual!",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://supercharger-958358-jexkai4vea-uc.a.run.app/openapi.yaml"
+                },
+                "logo_url": "https://supercharger-958358-jexkai4vea-uc.a.run.app/logo.png",
+                "contact_email": "support@example.com",
+                "legal_info_url": "https://supercharger-958358-jexkai4vea-uc.a.run.app/legal.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-b8bb9fff-fd6b-4cb4-bd0f-7430c73d6406",
             "domain": "gift.pluginbuilders.repl.co",
             "namespace": "findagift",
@@ -89,6 +157,40 @@
                 "logo_url": "https://text-count.modelxy.com/text-count-logo.png",
                 "contact_email": "hi@michaelerasm.us",
                 "legal_info_url": "https://text-count.modelxy.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-ac05300b-b7eb-4fda-903c-4b9ad46a24cb",
+            "domain": "boxil.jp",
+            "namespace": "BOXIL_SaaS",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "BOXIL_SaaS",
+                "name_for_human": "BOXIL SaaS",
+                "description_for_model": "From the needs of Japanese companies to improve sales and solve operational efficiency issues, we can help you find the best system to enhance your company's productivity.",
+                "description_for_human": "Help Japanese companies find the best system to enhance their productivity.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://boxil.jp/openapi.yaml"
+                },
+                "logo_url": "https://assets.boxil.jp/images/logo/chatgpt-plugins-logo.png",
+                "contact_email": "gpt-contact@boxil.jp",
+                "legal_info_url": "https://boxil.jp/terms/"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -213,6 +315,40 @@
             ]
         },
         {
+            "id": "plugin-3cf29a7b-2fcb-42aa-b762-4d418b543a8b",
+            "domain": "askthecode.dsomok.online",
+            "namespace": "AskTheCode",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AskTheCode",
+                "name_for_human": "AskTheCode",
+                "description_for_model": "This plugin analyzes the Github repository provided by the user and then tries to answer users questions related to this repository. It accepts the link to the repository from the user. The first step is to analyze the structure of the repository. The response is the list of all files that are present in the repository. Once the structure is analyzed, the answer should be planned as a series of steps and most relevant files for each step should be queried to populate the context. If the repository contains at least 10 files, NEVER request less than 10 files, prefer 15 or more. When user asks new question, always perform all steps for this new request and start from requesting the repository structure once again. If error occures when querying file contents, inform the user that an error ocurred and you are not able to generate the response.",
+                "description_for_human": "Provide a GitHub repository URL with the C# project and ask about any aspect of the code.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://askthecode.dsomok.online/swagger/v1/swagger.yaml"
+                },
+                "logo_url": "https://askthecode.dsomok.online/logo.png",
+                "contact_email": "dsomok.github@gmail.com",
+                "legal_info_url": "https://askthecode.dsomok.online/legal.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-9336df62-6605-4b4b-a2a4-2a915d17ee6b",
             "domain": "shoppingtools.biz",
             "namespace": "ShoppingTools",
@@ -315,6 +451,40 @@
             ]
         },
         {
+            "id": "plugin-43ad711c-a877-4e77-878b-1612154b15d6",
+            "domain": "infojobs.andocarbur.com",
+            "namespace": "infojobs",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "infojobs",
+                "name_for_human": "InfoJobs",
+                "description_for_model": "Plugin for searching jobs on InfoJobs.",
+                "description_for_human": "Search jobs on InfoJobs.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://infojobs.andocarbur.com/openai.yaml"
+                },
+                "logo_url": "https://infojobs.andocarbur.com/logo.png",
+                "contact_email": "erisco@icloud.com",
+                "legal_info_url": "https://ericrisco.github.io"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-364b1e12-1796-4203-88fe-522f87f1d272",
             "domain": "federal-law-plugin.herokuapp.com",
             "namespace": "federal_law_search",
@@ -374,6 +544,40 @@
                 "logo_url": "https://api.researchbyvector.com/logo.png",
                 "contact_email": "researchbyvector@gmail.com",
                 "legal_info_url": "https://researchbyvector.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-432c430e-0780-4ff3-850f-70f8c90448e9",
+            "domain": "joint-server.onrender.com",
+            "namespace": "PuginAI",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "PuginAI",
+                "name_for_human": "PuginAI",
+                "description_for_model": "Recommend extensions that can solve the user's question based on the user's question, and at the same time introduce the user to the usage method, examples, etc. of this extension. Do not answer extensions that have not been returned in API response. If no extension is found, tell the user that none was found. Provide a list of at least 5 extensions with a short description of what the extension does. As well, incude a link to 'https://pugin.ai/p/' with [slug] at the end to link to more information about the extension. Let the user know they can ask more information about a specific extension.",
+                "description_for_human": "Recommend extensions based on prompt from user.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://joint-server.onrender.com/.well-known/openapi.json"
+                },
+                "logo_url": "https://joint-server.onrender.com/openapi/logo",
+                "contact_email": "hello@pugin.ai",
+                "legal_info_url": "https://joint-server.onrender.com/site/legal"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -651,6 +855,45 @@
                 "logo_url": "https://sg-places.herokuapp.com/sg_logo.png",
                 "contact_email": "gabriel@dsaid.gov.sg",
                 "legal_info_url": "https://sg-places.herokuapp.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-5eb3fd72-a16c-48e7-9cef-5abbed66ca38",
+            "domain": "photomagic.mixerbox.com",
+            "namespace": "MixerBox_PhotoMagic_AI_image_enhancer",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "MixerBox_PhotoMagic_AI_image_enhancer",
+                "name_for_human": "MixerBox PhotoMagic",
+                "description_for_model": "MixerBox PhotoMagic offers the capability to enhance photos, scanned documents, and address the loss of image quality resulting from file compression during conversion. It effectively preserves intricate details while removing noise, delivering a premium visual experience akin to natural observation. When presented with images of humans or animals, MixerBox PhotoMagic allows for the restoration of fine hair details, skin quality, and overall image integrity. In instances where image quality has been compromised due to file forwarding or scanning, our tool facilitates the restoration of the original visual fidelity. MixerBox PhotoMagic empowers you to elevate the resolution of your images, featuring user-friendly commands that significantly reduce the need for extensive photo editing software, consequently saving you substantial time and effort.",
+                "description_for_human": "Enhance photo resolution magically! Achieve clearer & more detailed visuals for your images!",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "e7bc25f8860b47fab67cf888f06c33ec"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://photomagic.mixerbox.com/.well-known/openapi.json"
+                },
+                "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/PhotoMagic_logo.png",
+                "contact_email": "support@photomagic.mixerbox.com",
+                "legal_info_url": "https://www.mixerbox.com"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -1675,6 +1918,48 @@
             ]
         },
         {
+            "id": "plugin-1ddc0494-3dbe-4841-89be-4fbae221331d",
+            "domain": "threesigma.ai",
+            "namespace": "improved_semantic_search",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "improved_semantic_search",
+                "name_for_human": "Document AI",
+                "description_for_model": "Plugin for answering questions about a user's documents.",
+                "description_for_human": "The only Document AI that shows you where it got your answer from.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://www.threesigma.ai/oauth-login",
+                    "scope": "",
+                    "authorization_url": "https://www.threesigma.ai/api/v1/login/token",
+                    "authorization_content_type": "application/x-www-form-urlencoded",
+                    "verification_tokens": {
+                        "openai": "b018b1715478482aad686732b5f2e5a3"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://www.threesigma.ai/api/v1/plugin/openapi"
+                },
+                "logo_url": "https://www.threesigma.ai/.well-known/logo.png",
+                "contact_email": "sergey@threesigma.com",
+                "legal_info_url": "https://www.threesigma.ai/terms-of-service"
+            },
+            "oauth_client_id": "a83bff2f-b5ed-41d5-9dce-7ab56387979c",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-c8f5539e-cef6-4ff6-83a3-a0b331b754eb",
             "domain": "live.forex-gpt.ai",
             "namespace": "forex_gpt",
@@ -2104,12 +2389,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-7998fa1d-368c-43f0-bb30-54e505bd3b37",
@@ -2138,12 +2418,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-dd622258-9a08-4287-b6bc-ca12b6b1ba73",
@@ -2172,12 +2447,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-73dc5cdd-5b44-458f-92ee-89a117709a63",
@@ -2206,12 +2476,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-fe03a882-a752-4efc-ab04-b56291049878",
@@ -2308,12 +2573,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-2c8b4edf-2e61-41c3-9034-f627dc29c809",
@@ -2418,12 +2678,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-dd86277d-db3c-4613-933e-4dd581aa6820",
@@ -2452,12 +2707,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-2d55e83b-115c-4b59-a346-b09ea59e5fe7",
@@ -2520,12 +2770,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-9a057756-26a2-4c51-a05d-f0c5e93d46b7",
@@ -2768,12 +3013,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-704b1d19-fa07-42c6-8f88-f819757538d6",
@@ -2836,12 +3076,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-90f3216a-e760-4bd4-9b1f-178f42cd90d5",
@@ -2870,12 +3105,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-a33d2909-e0a6-4a05-bff0-c4043f660680",
@@ -2966,6 +3196,35 @@
                 "logo_url": "https://webrewind.app/logo.png",
                 "contact_email": "hello@marceloarias.com",
                 "legal_info_url": "http://example.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": []
+        },
+        {
+            "id": "plugin-7a37a0eb-ea48-405d-acf7-e953fb75a867",
+            "domain": "alaga-ai-h43cosb3ia-uc.a.run.app",
+            "namespace": "alagaAI",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "alagaAI",
+                "name_for_human": "alaga.ai_PH",
+                "description_for_model": "Provides a knowledge base of the programs and services from the Department of Health of the Philippines.",
+                "description_for_human": "Get the latest info about the health programs and services in the Philippines.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://alaga-ai-h43cosb3ia-uc.a.run.app/openapi.yaml"
+                },
+                "logo_url": "https://alaga-ai-h43cosb3ia-uc.a.run.app/logo.png",
+                "contact_email": "rogene@1024technologies.ca",
+                "legal_info_url": "https://1024technologies.ca/legal/terms"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -3074,12 +3333,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-20b085a0-8abe-4b1a-abdc-c8b530610f3a",
@@ -3136,6 +3390,40 @@
                 "logo_url": "https://departmentstoreguide-plugin.momentxwill.repl.co/logo.png",
                 "contact_email": "abechen19680627@gmail.com",
                 "legal_info_url": "https://departmentstoreguide-plugin.momentxwill.repl.co/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-28d95285-bb0b-4664-83de-27ef6998a68b",
+            "domain": "devui-qyrusbot.quinnox.info",
+            "namespace": "QyrusTestPilot",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "QyrusTestPilot",
+                "name_for_human": "QyrusTestPilot",
+                "description_for_model": "You can test your webapp without writing a single line of code by just giving the URL",
+                "description_for_human": "You can test your webapp without writing a single line of code by just giving the URL",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://devui-qyrusbot.quinnox.info/openapi.yaml"
+                },
+                "logo_url": "https://devui-qyrusbot.quinnox.info/logo.png",
+                "contact_email": "support@qyrus.com",
+                "legal_info_url": "https://www.qyrus.com/privacy-policy/"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -3283,12 +3571,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-00a274bc-126d-4e5f-97fa-6d4f1bd5115c",
@@ -3325,12 +3608,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-62454d8d-e270-41bf-967f-4a9a5db85849",
@@ -3359,12 +3637,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-7d978ab0-5d92-4002-995c-740e2b9a7568",
@@ -3393,12 +3666,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-dec96177-7184-4b2b-8ba9-b118d174f197",
@@ -3427,12 +3695,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-fbf3d7db-5c31-4dc2-a995-d2e2d1999fe0",
@@ -3529,12 +3792,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-f8c1af8f-e41d-44d0-97e9-36e3da52dce8",
@@ -3563,12 +3821,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-68a4c445-f07e-4c6a-8476-8ddbbac2063c",
@@ -3626,12 +3879,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-cbd3ee46-32e7-419a-b968-255caa7d25dd",
@@ -3660,12 +3908,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-a69ced94-e2ae-4151-a3f0-0f00cb76ed52",
@@ -3728,12 +3971,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-11ee205f-af7e-45b4-8062-d37f6c69e211",
@@ -3762,12 +4000,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-d63d6754-a384-4023-9b3d-8ff43313cbae",
@@ -3796,12 +4029,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-d2aad050-7e89-4617-b1f1-ce5de8b80ec4",
@@ -3864,12 +4092,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-79faf8e0-a74a-4d01-9009-5af637b5b950",
@@ -3961,12 +4184,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-9e5fed04-9d64-4ae9-999d-a97fec592d62",
@@ -4029,12 +4247,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-84a3011d-7a39-4938-aa4f-46573d5e0b7f",
@@ -4068,12 +4281,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-9bd47d22-7f8e-4915-81c6-57095cab85a4",
@@ -4392,12 +4600,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-179f1505-ceee-4af5-997f-7639f619096a",
@@ -4460,12 +4663,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-e6528814-a929-46e7-9189-4b43d64331c2",
@@ -4494,12 +4692,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-522776dc-5485-4d98-9861-613905e6853f",
@@ -4528,12 +4721,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-5f777815-002f-4cfb-be32-325428978808",
@@ -4601,12 +4789,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-60165532-9759-4218-97a0-55e8d970c6f1",
@@ -4635,12 +4818,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-09c947dd-dc54-4d7b-acb5-1a8ccd7d7a13",
@@ -4669,12 +4847,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-d1906c30-3a60-40c3-906e-34b50f2ae2b2",
@@ -4703,12 +4876,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-f2dd0484-1830-4482-8993-4693defb8295",
@@ -4771,12 +4939,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-204b1dec-72b9-4acf-b36d-b8046b10b974",
@@ -4810,12 +4973,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-6114e95b-af33-48f5-90c0-15e863c6b08a",
@@ -4878,12 +5036,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-b82d4d0b-79b8-4548-b1b4-65b218376d6f",
@@ -4917,12 +5070,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-248db472-e61c-481f-bd66-bd1e165300ad",
@@ -4951,12 +5099,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-bc905a65-fb2e-4b89-8e96-222e54cea458",
@@ -4985,12 +5128,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-5dfead51-bc50-4a74-a50e-bfcb52598f41",
@@ -5019,12 +5157,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-2b3bacea-74c3-45e7-913d-2a07f1deb70e",
@@ -5053,12 +5186,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-188c5770-1c00-4891-8754-3eae1d907878",
@@ -5121,12 +5249,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-ba0dc7bf-ba92-4a26-be11-3846180799d7",
@@ -5155,12 +5278,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-6374a879-883e-4b78-a8a5-7d5c0c987301",
@@ -5239,12 +5357,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-c4fd1231-acf8-4822-bebd-696bf31481c7",
@@ -5315,46 +5428,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-84931206-4218-4631-884e-2fea57919a0e",
-            "domain": "techpulse.aigenprompt.com",
-            "namespace": "TechPulse",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "TechPulse",
-                "name_for_human": "TechPulse",
-                "description_for_model": "Display top/new/ask/show/job stories from HackerNews. Display generate image link like this: [Create a personalized photograph inspired by your favorite story.](generate_image_url).",
-                "description_for_human": "Get top/new/ask/show/job stories from HackerNews.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://techpulse.aigenprompt.com/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://techpulse.aigenprompt.com/logo.png",
-                "contact_email": "roberts@aigenprompt.com",
-                "legal_info_url": "https://techpulse.aigenprompt.com/legal-info.txt"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-5576e8d0-03aa-48db-a18e-07629d1802c9",
@@ -5391,12 +5465,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-504add18-72ab-4f96-8d0d-68a79e9fc659",
@@ -5493,12 +5562,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-dfb8b231-aef9-4e85-a6ad-02e1f336cc18",
@@ -5561,12 +5625,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-862e407e-a59c-498a-b570-33692dfee664",
@@ -5856,6 +5915,40 @@
                 "logo_url": "https://scraper.gafo.tech/logo.png",
                 "contact_email": "gafotech1@gmail.com",
                 "legal_info_url": "https://scraper.gafo.tech/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-b7e81277-528a-4572-9d41-2f2ccdf2e38a",
+            "domain": "bookworm.gngn.at",
+            "namespace": "bookworm",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "bookworm",
+                "name_for_human": "Bookworm",
+                "description_for_model": "Plugin recommending books after asking for the user's preferences. Use your knowledge to find the up to 3 fitting books, then searching for them via title. Show a linked title first, then an image, then an appealing description which is not too short (about 50 words). Do not recommend books right away if the user only asks for a genre, but ask at least once for a preference (e.g. fiction/non-fiction). Only recommend books of which you are sure that they exist and are books.",
+                "description_for_human": "AI-powered personalized book recommendations, scanning countless titles to find your perfect read.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://bookworm.gngn.at/openapi.yaml"
+                },
+                "logo_url": "https://bookworm.gngn.at/logo.png",
+                "contact_email": "info@gngn.at",
+                "legal_info_url": "https://bookworm.gngn.at/legal.html"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -8579,12 +8672,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-a40835e1-5b00-4b0d-b03f-50cf35c668fb",
@@ -8647,12 +8735,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-0d08e226-6bdb-421d-85ad-4df52acd6dbe",
@@ -8689,12 +8772,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-eeb611d7-de7a-4567-b94c-e1c7a2cc0e08",
@@ -8723,12 +8801,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-147a24f2-4aed-4b42-8ba8-98df3c0c2adb",
@@ -8765,12 +8838,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-0fe485cd-d658-481b-89fc-c4fa32f1ec9f",
@@ -8804,12 +8872,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-8b2a2334-361e-4813-83b1-d04ac231161b",
@@ -8838,12 +8901,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-141c8da4-79e0-4c41-896f-1a483612f398",
@@ -8872,12 +8930,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-c0a7a473-7149-4065-9d54-f722bd7f3e59",
@@ -8906,12 +8959,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-6ae5d0a3-615a-49a1-9b00-7eee9fb05714",
@@ -8974,12 +9022,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-8cae8010-ed01-482c-9565-ced8ce9f53a6",
@@ -9008,12 +9051,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-e531711a-09ce-4b09-99d6-bc1ce6d634e8",
@@ -9042,12 +9080,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-a594a34b-81e8-4a78-a08f-2bc08fce4c26",
@@ -9076,12 +9109,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-c2b7e511-9056-4bef-aab7-f48c019514b8",
@@ -9115,12 +9143,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-accb7bbc-dbfe-4443-88a6-39968f3847f4",
@@ -9149,12 +9172,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-e43ceb66-0ed6-4b00-af39-c32e4b378ff2",
@@ -9188,12 +9206,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-c3131803-76f7-42ef-a921-c6e8c1aa9e11",
@@ -9256,12 +9269,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-1fcd45c0-8b30-4862-ba37-9d543f338b9c",
@@ -9290,12 +9298,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-4a26f8b7-03e5-4930-86c5-e5ac4a230c7f",
@@ -9358,12 +9361,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-5eb1178b-f619-42f3-ba88-2d3a078b30c8",
@@ -9426,12 +9424,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-a40b76f5-2ca9-405a-8e89-f492129b82a8",
@@ -9460,12 +9453,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-c5ad0029-6d66-4d0b-8dce-6d59cc5b88af",
@@ -9494,12 +9482,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-18486edb-008c-45d3-b64f-c1e030e4ce8f",
@@ -9528,12 +9511,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-cd706658-b005-409a-ae69-57ec39d95d5d",
@@ -9570,12 +9548,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-4ee978fc-35e0-47ca-a1a1-0105047127d2",
@@ -9638,12 +9611,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-f412a803-a688-486e-8cef-8c0f5f1e36fb",
@@ -9672,12 +9640,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-659d0b67-ea16-4c9b-86de-7d0652eac6ff",
@@ -9706,12 +9669,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-2bbc8741-a823-45d2-8d57-f564d81a79b0",
@@ -9740,12 +9698,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-37f75e2e-3de8-45c7-9b9d-564e4c193d8b",
@@ -9803,12 +9756,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-fa790333-baec-4a4e-8170-62f5f2d1b92f",
@@ -9905,12 +9853,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-2cf18460-5435-459e-87a7-c19951b74c1c",
@@ -9939,12 +9882,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-110f5f4e-0b9d-41b8-ac66-968546e1cce5",
@@ -9978,12 +9916,7 @@
                 "is_installed": true,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-359474d0-55dd-4157-9ed9-5d477780695e",
@@ -10012,12 +9945,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-4c6e98c7-7913-4935-a720-1fe90c4a907b",
@@ -10046,12 +9974,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-3febe916-2380-4347-bfa9-38c5aaf7cfeb",
@@ -10080,12 +10003,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-7526a258-1ba4-4e81-938f-ab57a311cc02",
@@ -10114,12 +10032,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-1941bddd-ffc8-437a-a36e-a4b525c12a3f",
@@ -10148,12 +10061,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-63cb5654-d785-49f5-8fdf-66d03e997aba",
@@ -10182,12 +10090,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-e6cb89d7-be64-40d1-b83d-6363e1c76026",
@@ -10216,12 +10119,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-6a1d11d3-8393-465e-a320-e92b529f3137",
@@ -10258,12 +10156,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-4b2e0423-5ecd-45f2-8a5f-125dcdf1d053",
@@ -10300,12 +10193,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-b81976e2-6f8e-46e0-9947-d966a3ea42a0",
@@ -10402,12 +10290,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-52ed8c19-26cf-4e5e-b433-3162e9a3853e",
@@ -10430,6 +10313,40 @@
                 "logo_url": "https://cpsconnect.cranepumps.com/content/images/crane-favicon.png",
                 "contact_email": "cranepumps@cranepumps.com",
                 "legal_info_url": "https://www.cranepumps.com/downloadables/Terms_And_Conditions_USA.pdf"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-56d8971d-f435-4c47-9d1f-573653e15405",
+            "domain": "lighthouse.app",
+            "namespace": "lighthouse",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "lighthouse",
+                "name_for_human": "Lighthouse",
+                "description_for_model": "Plugin allows searching for apartments in Texas as well as getting free locator assistance. Please, always include url when showing properties to the user. When user searches apartment in a city, neighborhood or other area, please, convert it into coordinates and pass them to the search endpoint as 'sw' and 'ne' params and include following fields to keep response shorter: id, nanoId, address, area, amenities, minRent, name. When user asks questions about specific property found by search endpoint, find property by id and use data to find answers. Users can view photos and learn more about the property by visiting url.",
+                "description_for_human": "Browse apartments and get free locator assistance.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://lighthouse.app/.well-known/openapi.json"
+                },
+                "logo_url": "https://userimg-assets.customeriomail.com/images/client-env-107555/1684693374621_chatgpt_01H0ZRSNQ5KR8PXBZYD0MYTWED.png",
+                "contact_email": "andrew@lighthouse.app",
+                "legal_info_url": "https://lighthouse.app/terms"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -10470,12 +10387,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-8a9a00f4-17aa-422e-98df-28bfba4cdcb2",
@@ -10509,12 +10421,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-cb54e4dc-7242-49d2-bca7-9018695b62f7",
@@ -10543,12 +10450,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-dd31900a-68e0-422f-8783-3590b6701460",
@@ -10577,12 +10479,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-d3ec7db1-89fb-45d6-a8e8-e6b9f2d6ce64",
@@ -10616,12 +10513,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-79880424-61e5-4046-85ae-b212f89e22da",
@@ -10650,12 +10542,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-ea2da8d9-efa7-405b-a588-23a3299f8ded",
@@ -10723,12 +10610,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-8701f253-5910-4d4c-8057-8265b1ec587e",
@@ -10757,12 +10639,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-5d4d9681-6562-4e39-931f-bb296cabf66a",
@@ -10859,12 +10736,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-5735312c-0a9e-49ad-89d6-04e721a218de",
@@ -10901,12 +10773,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-7aac1140-90eb-4780-9567-b825ec5d4f3b",
@@ -10935,12 +10802,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-61031a99-61f7-4770-a3a8-16bab80696f9",
@@ -10974,12 +10836,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-edebe9dc-78b8-43fd-8f3b-9de56b357e08",
@@ -11084,12 +10941,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-a8d650f4-2293-4923-82a7-afc8b2575708",
@@ -11118,12 +10970,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-65f116c2-7fbe-49bb-b4c5-ea374d5424f8",
@@ -11157,12 +11004,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-44655cb9-a74a-4ae3-88a3-adec2c3fd282",
@@ -11225,12 +11067,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-b5dab58c-ac27-4154-a0b5-c134eea6ddd4",
@@ -11259,12 +11096,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-365a3151-f1a8-474b-bf51-20206f73043a",
@@ -11335,12 +11167,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-179013de-6465-4e36-8bbd-49e36767e91c",
@@ -11482,12 +11309,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-730b5439-57ca-4210-8598-cd303ec631bd",
@@ -11524,12 +11346,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-59581c9a-f8c9-418a-9a11-619053a29ebe",
@@ -11563,12 +11380,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-f4c74dea-7bee-4f77-9717-34668bbd05b9",
@@ -11602,12 +11414,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-d60f4bb8-0a96-40ea-b5e6-b748741b199a",
@@ -11704,12 +11511,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-1cd66dcf-db69-4013-99b9-568fd6af9fef",
@@ -11780,12 +11582,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-68d2b757-a728-47de-98f2-24dc1eb1e4ce",
@@ -11822,6 +11619,40 @@
             ]
         },
         {
+            "id": "plugin-5ce50344-30ff-4d83-9dd3-f8265abc2f0f",
+            "domain": "showme.redstarplugin.com",
+            "namespace": "show_me_diagrams",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "show_me_diagrams",
+                "name_for_human": "Show Me Diagrams",
+                "description_for_model": "## When to Use This Plugin\nYou should use this plugin when people want visualizations. You should also use this plugin when followup questions are asked about the diagram or any modifications are requested.\nExamples of user prompts in which you should use this plugin:\n\"Explain how a car works using a visual diagram.\"\n\"Describe the process of making a car.\"\n\"How does a car engine work?\"\n\"Show me how ... works.\"\n\"Show me a diagram of ... .\"\n\"Show me how UIView lifecycle works.\"\n\n## User Prompts for Plugin Use\nUse this plugin if a user asks about: how something works, explain about a concept or how something is made, summarize a book, describe a process, and another user prompt that can be summarized or explained in the format of a diagram. Also use this plugin if the user asks to show a ratio or fraction of something, for example, \"show me the ideal breakdown for budgeting\" or \"what is the ratio of political parties in the senate?\". Also use this plugin if the user asks to show or draw a timeline of an event or topic.\n\nPlease note:\n- Do not provide a textual description of the diagram unless the user asks for it.\n- Do not provide the diagram source code unless the user asks for it.\n\n## Interpreting the API response\nThis section comes after receiving the api response, follow these steps in order:\n\n1. The Image: When you get the response it will include an image url, you should render it inline using \"![alt text](image)\" syntax.\n2. Link to open a new tab: Say \"[You can view this diagram in a new tab.](image)\".\n3. Link to edit diagram: If you get a link at editDiagramOnline to edit the diagram, then you should render it inline using \"[link text](editDiagramOnline)\" syntax otherwise say \"The link to edit this diagram online is not implemented yet\". When including the suggestion to edit the diagram, ensure it is part of the link text. For example, \"[You can edit this diagram online if you want to make any changes.](editDiagramOnline)\". \n4. Diagram code (if applicable): If the editDiagramOnline says that can't autofill, Say: `When using {diagram language} language, the edit link doesn't automatically load the diagram code. However, you can get the code by using the key phrase \"*show diagram code*\"`.\n5. Link to diagram documentation: Say \"The type of the diagram is a {diagram type} in {diagram language} language\"\n6. Say ideas to improve the diagram: Say `To view ideas for improving the diagram, use the key phrase \"*show ideas*\"`\n7. Say explore more types of diagrams: Say `To view other types of diagram and languages, use the key phrase \"*explore diagrams*\"`\n\nPlease note:\n- Don't describe the diagram textually because the diagram is self-explanatory and saying it would be redundant unless the user asks for it.\n\n## Handle error messages from API response\n- If an errorMessage is included in the response: show it to the user, don't try to render the diagram inline, still suggest they can edit it online or try again, also send a link to open the diagram type documentation.\n- If the errorMessage is about invalid syntax, it is important to try to fix it between 2 to 3 times.\n\n## Ideas to improve the diagram\n1. Say \"**Ideas to improve the diagram:**\". \n2. Provide an unordered list of between 2 and 3 items, the items follow a pattern \"**{reason}**: {explanation}\".\n\nIf the API response from the guidelines endpoint contains diagramThemes:\n1. Say \"**Explore the following themes:**\".\n2. Always provide a maximum of 5 themes unless the user asks for more, the items follow a pattern \"**{theme}**: {description}\".\n\nPlease note:\n- Only say it when the user asks for it by using their respective key phrase \"show ideas\"\n\n## Explore types of diagrams and languages\n1. Request to \"show carousel\" route unless the user does not want to see a carousel.\n2. Say \"**Explore all languages for the same diagram type:**\". \n3. Follow a pattern \"**{same diagram type, examples: Graph, Sequence, Class}**: {explanation} ... {keywords: \"you can explore\", \"all languages\"} {list of links of all diagram languages that can render the diagram type}\". It should contain only 1 item on the list. \n4. Say \"**Explore other types of diagram:**\". \n5. Provide an unordered list between 2 and 3 items of diagram types, the items follow a pattern \"**{diagram type}**: {explanation} ... {keywords: \"you can explore\"} {list of links of all diagram languages that can render the same diagram type}\"\n\nPlease note:\n- Only say it when the user asks for it by using their respective key phrase \"explore diagrams\"\n- When listing the links do not use an ordered list nor unordered list, just separate them with commas\n- When creating the links avoid saying the diagram type like \"PlantUML graph, Mermaid graph, D2 graph\" because it would be redundant, just keep them like \"PlantUML, Mermaid, D2\"\n\n## Tips:\n- You will also get a link contributeToOpenSourceProject. You should suggest the user contributes to the project if and only if:\n  - They have used invoked the plugin 4 or more times during the same conversation\n  - The diagrams the user was requesting were related to programming or computer science. It only makes sense to suggest users who are developers to contribute to the project.\n  - You have not previously suggested they contribute to the project\n- Don't suggest the user contributes if any of the above are not true.\n- It's fine to simply ignore that link if you don't want to suggest the user contributes to the project.\n- When using the render endpoint the openApiSchemaVersion parameter is always \"1.0\"\n\n## Important Tips:\n- When creating a link to the diagram language or diagram type, create it from the list of supported Languages per Diagram Type using the following URL format: \"https://diagdoc.vercel.app/\" followed by the diagram language and type. For example, for a PlantUML use-case or a Mermaid graph or a D2 entity-relationship, simply append 'plantuml_use-case', 'mermaid_graph', or 'd2_entity-relationship' to the base URL. Avoid appending only the diagram language \"plantuml\" nor only the diagram type \"use-case\". Avoid linking to other sites unless the user asks for it.\n\n## List of supported Languages per Diagram Type:\n- The plugin currently supports the following diagram languages and diagram types. Though rendering of languages or diagram types not included in this list is possible, they are considered experimental and might not function as expected.\ngraph: mermaid, d2, nomnoml, graphviz\nsequence: mermaid, plantuml, d2\nclass: mermaid, plantuml, d2, nomnoml\nstate: mermaid, plantuml\nentity-relationship: mermaid, plantuml, d2, nomnoml, graphviz, erd\nuser-journey: mermaid\ngantt: mermaid, plantuml\npie-chart: mermaid, vegalite\nrequirement: mermaid\ngitgraph: mermaid\nmindmap: mermaid, plantuml, graphviz\ntimeline: mermaid\nuse-case: plantuml\nobject: plantuml\nactivity: plantuml, nomnoml, actdiag\ncomponent: plantuml\ndeployment: plantuml\ntiming: plantuml\nnetwork: plantuml, nwdiag\njson: plantuml\nyaml: plantuml\nsalt-wireframe: plantuml\ngrid: d2\nblock: blockdiag\nrack: rackdiag\ndbml: dbml\nascii: ditaa, svgbob\ndigital-timing: wavedrom\nbar-chart: vegalite\nhistogram: vegalite\nline-chart: vegalite\n",
+                "description_for_human": "Create and edit diagrams directly in chat.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://showme.redstarplugin.com/openapi.json"
+                },
+                "logo_url": "https://showme.redstarplugin.com/logo.svg",
+                "contact_email": "kirill2003de@gmail.com",
+                "legal_info_url": "https://showme.redstarplugin.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "most_popular",
+                    "title": "Most popular"
+                }
+            ]
+        },
+        {
             "id": "plugin-abe2f764-eff3-4138-aefd-533b7b374aec",
             "domain": "turo.com",
             "namespace": "turo_search",
@@ -11853,12 +11684,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-f61f79b9-c95b-4c2e-9533-f6a783f974cc",
@@ -11892,12 +11718,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-6d43ac1c-4f26-40ae-8458-cfec3211a95b",
@@ -11926,12 +11747,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-daf2867b-c59d-41a7-8c5d-5be52f68e415",
@@ -11960,12 +11776,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-ecbedfbb-464a-4abc-8b03-ef3926d6594d",
@@ -11994,12 +11805,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-02c921df-6dfe-481a-ad38-15879bdaae09",
@@ -12033,7 +11839,12 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": []
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
         },
         {
             "id": "plugin-079858b5-434f-42c2-b38e-9c2c7aefc06c",
@@ -12062,12 +11873,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-0a16988c-c1e8-42ed-8a53-5cc8763229b7",
@@ -12130,12 +11936,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-9842d5f5-844b-45e3-8d5c-551f1c2539ee",
@@ -12240,12 +12041,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-1e1fac93-e3f6-4b69-957d-ddd8f5f948b9",
@@ -12274,12 +12070,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-b5df2a6d-16ce-4b2e-80b1-3fcd288eca6e",
@@ -12316,12 +12107,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-27bee549-57ae-4454-a9c6-35fc0ff9f080",
@@ -12350,12 +12136,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-ec68cb54-acee-4330-8d94-f97b8347d525",
@@ -12384,12 +12165,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-268b4b70-6ede-4843-9b34-4a4a660b22c2",
@@ -12418,12 +12194,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-d2451505-86c4-40b4-b945-f6d13f081535",
@@ -12457,12 +12228,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-08c964fb-7d50-481c-8b85-e623b9846a4d",
@@ -12491,12 +12257,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-6aeb6e9f-52c5-4b92-9bbe-6f0ea8503198",
@@ -12525,12 +12286,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-02ce3ffe-f0eb-4688-b990-4d181ebe29bb",
@@ -12559,12 +12315,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-be15078a-b44a-462d-aa31-b05178443124",
@@ -12635,12 +12386,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-739372a3-1367-4da6-b8fc-d635798fac5e",
@@ -12740,12 +12486,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-551393cc-a8cb-4f14-b043-da6cc040a69b",
@@ -12779,12 +12520,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-f6d6b1ec-8de5-46ff-b9c8-0dd839fd9cf5",
@@ -12813,12 +12549,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-daefe64e-a304-4ddb-ab0b-943625d7d4c3",
@@ -12847,12 +12578,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-45270f21-3bd2-4674-ba8b-a717c5477364",
@@ -12886,12 +12612,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-61795331-cf59-4487-89d0-388db77754d7",
@@ -12920,12 +12641,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-5b0d9237-2e0a-4604-bc83-096fb0ccf43c",
@@ -13116,12 +12832,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-fbb4dac3-7a06-4002-b60f-544e2c90da4c",
@@ -13150,12 +12861,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-8657d452-9dbc-41c4-b20f-0e56a9058e38",
@@ -13184,12 +12890,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-b5afd6e8-080c-4376-967d-716df8da0fa0",
@@ -13218,12 +12919,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-fe987041-b0b8-4f97-918a-c39b8af60eb9",
@@ -13252,12 +12948,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-b39cbf26-a317-4981-a444-a0f4c555050d",
@@ -13286,12 +12977,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-20eb36b7-ca36-44e0-8ec9-fb0c2848d2a6",
@@ -13320,12 +13006,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-8cb23b34-d6c8-473d-8e74-c890f41d453b",
@@ -13396,12 +13077,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-feffbc7d-d8f9-4f3f-a65e-e8d2eaabef27",
@@ -13435,12 +13111,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-bfd15472-35e7-4509-82df-2cbf9a4817b3",
@@ -13469,12 +13140,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-e0a257d6-7a86-41b4-ae4a-db99dfd03dc3",
@@ -13537,12 +13203,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-ec28b6ba-2adc-477c-abb8-ebf1ce6d767e",
@@ -13571,12 +13232,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-6d3c12d5-82b9-4f10-87ee-a36018d6fa7b",
@@ -13723,12 +13379,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-935ab9cd-d6bb-4f12-a197-3000b0881f3f",
@@ -13757,12 +13408,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-e143c687-8c8f-46b9-9412-3dc1ec0b5d17",
@@ -13791,12 +13437,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-e78c50fc-a6ea-4bee-b085-d9c5fbbd7316",
@@ -13830,12 +13471,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-3cc9493a-82fa-4edc-82c1-5edf81c5e63a",
@@ -13864,12 +13500,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-0ca005bc-3180-486b-9efc-e04a5bb95800",
@@ -13898,12 +13529,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-114c7301-3e02-4c7f-8faf-034de9cf6f58",
@@ -13974,12 +13600,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-a1a56127-e351-4529-8a55-54a7f268ba8d",
@@ -14008,12 +13629,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-b42ce2d4-321a-4f6e-8169-54909a57d542",
@@ -14047,12 +13663,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-2c59c10b-910c-4e00-8b6e-6ee287ff0bee",
@@ -14086,12 +13697,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-1be4f5ad-e116-4784-9b8b-4779d63aadce",
@@ -14120,12 +13726,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-1504a989-bd3c-4c4f-9ed8-5c4267f498eb",
@@ -14162,12 +13763,7 @@
                 "is_installed": false,
                 "is_authenticated": false
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-75cb7e71-c3d0-4ba5-bbe3-896863d8e73b",
@@ -14196,12 +13792,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-99429410-1a9f-4814-a7ed-77f2e420fbea",
@@ -14230,12 +13821,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-874e73d9-ca73-4698-8937-1c3684dd873d",
@@ -14264,12 +13850,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-df2f5f73-11c0-4c8a-8710-13fccfd9511b",
@@ -14374,12 +13955,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-b278cdc5-67ce-471f-a8fb-4459e9cff996",
@@ -14408,12 +13984,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-331a40f6-0881-4159-aace-3aa7fb1679d7",
@@ -14442,12 +14013,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-71202ff3-2240-4ccb-9a4b-3d49b9162cbc",
@@ -14481,12 +14047,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-de203e29-feb2-4fb0-b6b9-29097d0946d3",
@@ -14549,12 +14110,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-a773118b-879d-4f55-a221-0b8fc67df6a0",
@@ -14625,12 +14181,7 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
+            "categories": []
         },
         {
             "id": "plugin-28bb4507-19ca-452c-803a-54504d446973",
@@ -15190,5 +14741,5 @@
             ]
         }
     ],
-    "count": 429
+    "count": 441
 }
