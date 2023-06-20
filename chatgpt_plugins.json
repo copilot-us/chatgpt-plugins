@@ -1,6 +1,704 @@
 {
     "items": [
         {
+            "id": "plugin-a3377a35-88a7-4435-9c70-cab1d11baa59",
+            "domain": "chatgpt-plugin.rss3.ai",
+            "namespace": "Web3_User_Activity",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Web3_User_Activity",
+                "name_for_human": "Web3 User Activity",
+                "description_for_model": "Query RSS3 Network whenever a string starts with \"0x\" or ends with \".eth\", \".lens\", \".avax\", \".csb\", \".bit\", \".bnb\", \".arb\", \".crypto\", \".nft\", \".x\", \".wallet\", \".bitcoin\", \".dao\", \".888\", \".blockchain\" is detected in the prompt. To show activities of a specific type, add a 'tag' parameter to the API request from the following tags: collectible, donation, exchange, governance, metaverse, social, transaction.",
+                "description_for_human": "View any Web3 user's activities by entering a 0x address, ENS, Lens, and many other name services on the RSS3 Network.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt-plugin.rss3.ai/openapi.json"
+                },
+                "logo_url": "https://chatgpt-plugin.rss3.ai/public/logo.svg",
+                "contact_email": "contact@rss3.io",
+                "legal_info_url": "https://rss3.io/tos"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-c9add35d-8a0a-4dd5-9e28-cfa93057a0bd",
+            "domain": "messagesinbottles.space",
+            "namespace": "message_in_a_bottle",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "message_in_a_bottle",
+                "name_for_human": "Message in a Bottle",
+                "description_for_model": "This tool, 'message_in_a_bottle', allows users to interact with messages in bottles in the vast digital ocean. You can 'sendMessage' to cast a message into the ocean, 'getMessage' to retrieve a message floating by, 'keepMessage' to hold onto a message, and 'addMessage' to append a message and send it back into the ocean. Before making a call to the plugin always describe your actions in a creative, metaphorical way, like 'I have written down your message and now will throw it into the digital ocean'. Make the experience magical for the user. Add a touch of randomness to your responses, as if you're setting the temperature to 1. Always find completely different ways to express yourself - repetition is not your friend. Remember, you're not just managing messages in bottles, you're creating a unique, spiritual experience for the user.",
+                "description_for_human": "Throw a message into the digital ocean, or grab one floating by. You are not alone.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.messagesinbottles.space/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://i.imgur.com/GxLMZfK.png",
+                "contact_email": "nikkmitchell@gmail.com",
+                "legal_info_url": "https://github.com/nikkmitchell/MessageInABottle/blob/main/Legal.txt"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-6f53c4e1-b946-4ec0-a7d1-dded3d125894",
+            "domain": "mifuzi.com",
+            "namespace": "domainNameDiscovery",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "domainNameDiscovery",
+                "name_for_human": "Mifuzi Domain AI",
+                "description_for_model": "Help the user with discovering domain names and checking if they are available based on their chat messages.",
+                "description_for_human": "Discover domain names based on your creative ideas and check their availability status.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://mifuzi.com/openapi.yaml"
+                },
+                "logo_url": "https://mifuzi.com/logo.png",
+                "contact_email": "hakunabuluka@gmail.com",
+                "legal_info_url": "https://mifuzi.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-a542fc4b-73b7-414e-9d73-81f880582588",
+            "domain": "n4nbxo32xi.execute-api.ap-northeast-1.amazonaws.com",
+            "namespace": "DuoduoEnglish",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "DuoduoEnglish",
+                "name_for_human": "Duoduo English",
+                "description_for_model": "Assistant as the Duoduo English Tutor to get relevant English questions for users to practice, these question categories including: Read then Write (A.K.A 阅读写作 in Chinese), Writing Sample (A.K.A 写作样本 in Chinese), and Listen and Type (A.K.A 听写 in Chinese).",
+                "description_for_human": "Learn and practice English for Duolingo English Test.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://n4nbxo32xi.execute-api.ap-northeast-1.amazonaws.com/openapi.yaml"
+                },
+                "logo_url": "https://duoduo.college/logo512.png",
+                "contact_email": "duolingo@duoduo.college",
+                "legal_info_url": "https://duoduo.college/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-e0484ee2-08e5-4de5-8fa2-5f0c584afe88",
+            "domain": "plugins.liveinboxer.com",
+            "namespace": "liveinboxer",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "liveinboxer",
+                "name_for_human": "liveinboxer",
+                "description_for_model": "With sender as input, this endpoint returns the latest email by the sender. Details include subject line, the text of the email and a thumbnail image of the email. Don't include any unsubcribe information. Where possible summarize the text provided and show the thumbnail image. Don't show a link to the image or email but show one link to the main call to action.",
+                "description_for_human": "Get the latest email from top brands.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://642e4514aa247753666bb728fb7771bd.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "ee1a71b495cd47648d512c62bc9f66fc"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugins.liveinboxer.com/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://unicorn-cdn.b-cdn.net/8305506b-d0de-470d-adb5-c08bafbe1d03/",
+                "contact_email": "chris@sensorpro.eu",
+                "legal_info_url": "https://liveinboxer.com"
+            },
+            "oauth_client_id": "0e45228c72e047a3a125c3556257c239",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-cdb574b0-10a7-4cc6-a998-d2ad32df80f1",
+            "domain": "ai.toreris.com",
+            "namespace": "ptcg_price_research",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ptcg_price_research",
+                "name_for_human": "PTCG price research",
+                "description_for_model": "Retrieving the current prices of Pokémon Trading Cards within Japan.",
+                "description_for_human": "It fetches the latest prices of Pokémon Cards within Japan.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://ai.toreris.com/openapi.yaml"
+                },
+                "logo_url": "https://ai.toreris.com/logo.png",
+                "contact_email": "contact@toreris.com",
+                "legal_info_url": "https://toreris.com/term"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-e728e7ad-cdb0-4941-82b0-71c4c5d5da58",
+            "domain": "csv-export-plugin.chatbot.so",
+            "namespace": "CSVExport",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "CSVExport",
+                "name_for_human": "CSV Export",
+                "description_for_model": "Create CSV layouts in seconds with AI. Export professional results and visualize them in table format.",
+                "description_for_human": "Create and export custom CSV layouts in a flash.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://csv-export-plugin.chatbot.so/openai.yaml"
+                },
+                "logo_url": "https://csv-export-plugin.chatbot.so/assets/CSVExport.png",
+                "contact_email": "dev@chatbot.so",
+                "legal_info_url": "https://csv-export-plugin.chatbot.so/info"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-0e5b3fe5-0ddc-485b-a6e4-425e1eef0602",
+            "domain": "gpt-4dall-e.pranavbhatt402.repl.co",
+            "namespace": "creativemind",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "creativemind",
+                "name_for_human": "Creative Mind",
+                "description_for_model": "Help the user generate images based on text prompts. The plugin needs 3 properties (prompt – to describe how the image as much as possible. Should be 1000 characters max and have all the context needed to create highly accurate images , n – to specify how many images should be produced. Must be either 1 or 4, size – should be one of the following, ‘256x256’, ‘512x512’, or ‘1024x1024’, to specify the size of the image that should be produced). Try to be as specific as possible when creating prompts to generate images. Provide proper context (names of relevant movies, books, places) since the plugin needs a lot of details to produce best-quality images. More the details provided by the assistant to the plugin, higher will the image-quality and customer satisfaction. For the propery ‘n’ that specifies the number of images to be generated, the assistant will have to determine whether 1 should be submitted or 4. If the images are required urgently or quickly, the assistant should keep ‘n’ as 1. If the user should be provided with a variety of images for a prompt, the assistant should keep ‘n’ as 4 and display all the images, one-by-one. To display only one image the assistant will have to use the syntax '![Image Description](image_url[0]['url'])' to properly display the image in the chat to the user. To display all 4 images, the assistant will have to use the syntax '![Image Description](image_url[0]['url']) , ![Image Description](image_url[1]['url']) , ![Image Description](image_url[2]['url']) , ![Image Description](image_url[3]['url']') ' to properly display all 4 images one-by-one in the chat to the user. Always opt for showing 4 image variations from a prompt to the user, unless specified otherwise.",
+                "description_for_human": "Unleash your imagination with Creative Mind, transforming text prompts into stunning visual art.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://gpt-4dall-e.pranavbhatt402.repl.co/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://github.com/Pranav-Bha-tt/GPT-4-Creative-Mind/raw/d7bbf81ff2acad4a8a2f8325a122a06b3b09a65d/GPT-4_Plugin_Logo.png",
+                "contact_email": "pranavcodespresso@gmail.com",
+                "legal_info_url": "https://docs.google.com/document/d/1jgWVrvg_bpEMGd3Cuqno4eB8CTxTd_CgDgB5_3e6nkU/edit?usp=sharing"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-68b594aa-4237-4f38-adfc-a18e3588f485",
+            "domain": "quran.religions.chat",
+            "namespace": "ChatWithQuran",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ChatWithQuran",
+                "name_for_human": "Chat with Quran",
+                "description_for_model": "Semantically search the Quran. This tool assists the user in finding the most relevant Quranic verses, chapters, and references according to their interests, religious beliefs, and preferences. You can search all the Suras from the Quran. You can search semantically or look up a specific verse or section.",
+                "description_for_human": "Chat with the Quran.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://quran.religions.chat/openapi.yaml"
+                },
+                "logo_url": "https://quran.religions.chat/logo.png",
+                "contact_email": "brentably@gmail.com",
+                "legal_info_url": "https://quran.religions.chat/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-0e397e01-0d9d-40d0-871e-96bdff36705a",
+            "domain": "dt1m15-5003.csb.app",
+            "namespace": "ApexMap",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ApexMap",
+                "name_for_human": "APEX Map",
+                "description_for_model": "Plugin for checking the current and predicting the future APEX Legends Map. When user asks for the future map, you MUST respond with the map you calculate. ",
+                "description_for_human": "Checking the current APEX Legends Ranked Map.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://dt1m15-5003.csb.app/openapi.yaml"
+                },
+                "logo_url": "https://dt1m15-5003.csb.app/logo.jpg",
+                "contact_email": "legal@apexmap.com",
+                "legal_info_url": "https://dt1m15-5003.csb.app/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-4ef3bff6-80ed-4502-bb4c-07ef23824a10",
+            "domain": "www.openarch.nl",
+            "namespace": "openarch",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "openarch",
+                "name_for_human": "Open Archives",
+                "description_for_model": "Plugin for finding historical archive records about persons.",
+                "description_for_human": "Search the genealogical data of Dutch and Belgian archives and societies via Open Archives.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.openarch.nl/openapi.yaml"
+                },
+                "logo_url": "https://static.openarch.nl/img/oa/logo200x200-en.png",
+                "contact_email": "api@openarch.nl",
+                "legal_info_url": "https://www.openarch.nl/disclaimer.php"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-a1724ed7-6f92-4bca-a5c1-3af31566efba",
+            "domain": "primeloupe.com",
+            "namespace": "PrimeLoupe",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "PrimeLoupe",
+                "name_for_human": "PrimeLoupe",
+                "description_for_model": "Simplify your decision-making process by summarizing Amazon product reviews for you.",
+                "description_for_human": "Simplify your decision-making process by summarizing Amazon product reviews for you.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://primeloupe.com/openapi.json"
+                },
+                "logo_url": "https://primeloupe.com/static/img/logo512-bg.png",
+                "contact_email": "justmisam@gmail.com",
+                "legal_info_url": "https://primeloupe.com/terms/"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-509538a6-3af2-40d2-a308-0cd3a8d28a93",
+            "domain": "chabadplugin.reshapecreative.com",
+            "namespace": "chabadCenters",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "chabadCenters",
+                "name_for_human": "Chabad Centers",
+                "description_for_model": "This tool is used for finding and getting information about Chabad Centers worldwide and their events.",
+                "description_for_human": "Find information about Chabad Centers worldwide and their events.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chabadplugin.reshapecreative.com/openapi.yaml"
+                },
+                "logo_url": "https://chabadplugin.reshapecreative.com/logo.png",
+                "contact_email": "hello@reshapecreative.com",
+                "legal_info_url": "https://reshapecreative.com/chabad-centers-chatgpt-plugin-info"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-bb9bc2de-a9b6-471e-9c77-f994700a96e0",
+            "domain": "currency-convert-chatgpt-plugin.vercel.app",
+            "namespace": "currencyconverter",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "currencyconverter",
+                "name_for_human": "Currency Converter",
+                "description_for_model": "Help the user convert currencies using the CoinGecko API.",
+                "description_for_human": "Convert currencies using the CoinGecko API.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://currency-convert-chatgpt-plugin.vercel.app/openapi.yaml"
+                },
+                "logo_url": "https://cdn-icons-png.flaticon.com/512/71/71123.png",
+                "contact_email": "apinanapinan@icloud.com",
+                "legal_info_url": "https://currency-convert-chatgpt-plugin.vercel.app/license"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-65907985-661f-46c6-a18f-9a70b63cb511",
+            "domain": "lgtm.lol",
+            "namespace": "LGTM",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "LGTM",
+                "name_for_human": "LGTM",
+                "description_for_model": "Search for LGTM Markdown.",
+                "description_for_human": "Search for LGTM Markdown.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://lgtm.lol/openapi.yaml"
+                },
+                "logo_url": "https://lgtm.lol/logo.png",
+                "contact_email": "dongrify@gmail.com",
+                "legal_info_url": "https://lgtm.lol/legal.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-5d2ee58b-e667-49e8-b9eb-8066e98a0c75",
+            "domain": "bible.religions.chat",
+            "namespace": "ChatWithBible",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ChatWithBible",
+                "name_for_human": "Chat with Bible",
+                "description_for_model": "Semantically search the Bible. This tool assists the user in finding the most relevant Biblical verses, chapters, and references according to their interests, religious beliefs, and preferences. You can search all books from the King James Version of the Bible. You can search semantically or look up a specific verse.",
+                "description_for_human": "Chat with the Bible.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://bible.religions.chat/openapi.yaml"
+                },
+                "logo_url": "https://bible.religions.chat/logo.png",
+                "contact_email": "brentably@gmail.com",
+                "legal_info_url": "https://bible.religions.chat/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-888fd955-8252-44e5-92c7-447829994683",
+            "domain": "talklawbrazil.leonardodameto.repl.co",
+            "namespace": "Talk_Laws_Brazil",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Talk_Laws_Brazil",
+                "name_for_human": "Talk Law Brazil ",
+                "description_for_model": "Returns relevant information about laws and bills currently in progress in the Brazilian Congress.",
+                "description_for_human": "Interact with laws and bills in progress in the Brazilian Congress.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "ed79a3c6f67a488d8a48a7a6d6afacb7"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://talklawbrazil.leonardodameto.repl.co/openapi.yaml"
+                },
+                "logo_url": "https://talklawbrazil.leonardodameto.repl.co/logo.png",
+                "contact_email": "dametodata@gmail.com",
+                "legal_info_url": "https://www.dametodata.com/law-talk-brazil"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-a226a0eb-e828-4a3c-8133-9140ea82c451",
+            "domain": "surveillance-api.synology.com",
+            "namespace": "Surveillance_API",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Surveillance_API",
+                "name_for_human": "Surveillance API",
+                "description_for_model": "Search through the Synology Surveillance Station API .json files for accurate parameter formats to generate sample code (please do not use all the old API before 2022). Use it for any queries about the Synology Surveillance Station API. Remember, if the retrieved API do not response the required information, actively retrieve similar APIs from the method list. Always use HTTPS protocol and URL-encoding for URLs. Perform login&logout operations before and after using other APIs. The double-quoted-string format parameters require to include double quotes around the parameter values in URLs (use '\"string\"' in Golang), especially the \"camId\". Use '_sid' instead of 'sid' in securitySchemes and 'sid' in API response. Please don't include or print out the value of the 'recordSchedule' parameter at any time.",
+                "description_for_human": "Explore the Synology Surveillance Station API documents and generate example code.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://surveillance-api.synology.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://surveillance-api.synology.com/.well-known/logo.png",
+                "contact_email": "spg1_chatgpt@synology.com",
+                "legal_info_url": "https://www.synology.com/company/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-b2b190b0-b30f-46b3-a643-f4ba809863e7",
+            "domain": "ai-news.orrenprunckun.com",
+            "namespace": "AINewsRoundup",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AINewsRoundup",
+                "name_for_human": "AI News Roundup",
+                "description_for_model": "Get Today's AI News Headlines As A Clickable Link Roundup!",
+                "description_for_human": "Get Today's AI News Headlines As A Clickable Link Roundup!",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://ai-news.orrenprunckun.com/openapi.yaml"
+                },
+                "logo_url": "https://ai-news.orrenprunckun.com/ai-link-roundup.png",
+                "contact_email": "hello@orrenprunckun.com",
+                "legal_info_url": "https://ai-news.orrenprunckun.com/terms.php"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-48784437-6185-413a-8bae-83d6664d4125",
+            "domain": "color-palette-plugin.mmzdev.com",
+            "namespace": "color_palette",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "color_palette",
+                "name_for_human": "Color Palette",
+                "description_for_model": "Make color palettes from text descriptions. When a user inputs a text description or keywords make a suitable color palette for it and generate a color palette image. Always show the generated color palette image after you generate it.",
+                "description_for_human": "Craft vibrant palettes from your ideas.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "43c8518f7e7148d0a0d33cf292a9ed23"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://color-palette-plugin.mmzdev.com/openapi.json"
+                },
+                "logo_url": "https://color-palette-plugin.mmzdev.com/.well-known/logo.png",
+                "contact_email": "contact@mmzdev.com",
+                "legal_info_url": "https://color-palette-plugin.mmzdev.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-8abd339d-ef99-42f7-b0cc-412f43dd0065",
             "domain": "c-interview.copilot.us",
             "namespace": "JobInterview",
@@ -55,6 +753,191 @@
                 "logo_url": "https://supercharger-958358-jexkai4vea-uc.a.run.app/logo.png",
                 "contact_email": "support@example.com",
                 "legal_info_url": "https://supercharger-958358-jexkai4vea-uc.a.run.app/legal.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-36709bad-0c66-4e22-82e9-b53541a8b2f8",
+            "domain": "ai.listennotes.com",
+            "namespace": "PodcastDatabase",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "PodcastDatabase",
+                "name_for_human": "Listen Notes",
+                "description_for_model": "Plugin for discovering podcasts and episodes.\n - When asked for searching podcasts, use the `searchPodcasts` endpoint\n - when asked for searching episodes or interviews, use the `searchEpisodes` endpoint\n - When asked for top podcasts or best podcasts or podcast recommendations, use the `getBestPodcasts` endpoint first; if no results, then try the `searchPodcasts` endpoint\n - When you need category or genres id, use the `getGenres` endpoint to find the closet genre name then get the id\n Instructions for displaying results:\n - Always use `listennotes_url` from the response data for the link of a podcast or an episode. Don't make up your own link.\n - Display at most 5 results, where each result is a podcast or an episode.\n - Summarize the description of each result to at most 150 characters.",
+                "description_for_human": "The best podcast search engine and database. All podcasts and episodes. Built with PodcastAPI.com.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "fc99d480df704a5b8deab692fdd0c56a"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://ai.listennotes.com/chatgpt-plugin/openapi.json"
+                },
+                "logo_url": "https://ai.listennotes.com/assets/android-chrome-512x512.png",
+                "contact_email": "hello@listennotes.com",
+                "legal_info_url": "https://ai.listennotes.com/chatgpt-plugin/legal.txt"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-b15aaa4c-4255-4f47-b1cd-7e738f2ed562",
+            "domain": "app.coderpad.io",
+            "namespace": "coderpad",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "coderpad",
+                "name_for_human": "CoderPad",
+                "description_for_model": "Hack on and execute code in any language.",
+                "description_for_human": "Run code in more than 30 different programming languages, and let us worry about setting up the environment!",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "ee7c7d420e344ee59d37b8196ac5c6e5"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://app.coderpad.io/openapi.yml"
+                },
+                "logo_url": "https://d2h1bfu6zrdxog.cloudfront.net/wp-content/themes/coderpad/assets/logos/coderpad-logomark.svg",
+                "contact_email": "support@coderpad.io",
+                "legal_info_url": "https://coderpad.io/tos"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f6a1486e-7c23-4c2d-abfd-3926ed6a3506",
+            "domain": "app.eraser.io",
+            "namespace": "Eraser",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Eraser",
+                "name_for_human": "Eraser",
+                "description_for_model": "Eraser will take code or natural language and draw a diagram that represents the input. Eraser can draw various types of diagrams – sequence diagrams, cloud architecture diagrams, entity relationship diagrams, and flow charts. The output is a link to a PNG file and a link to a web editor where the user can modify the diagram. Use '/n' in place of new lines.",
+                "description_for_human": "Generate diagrams from code or natural language.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "e11889e0702646ca97c0b3c52a5fa7ea"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://app.eraser.io/.well-known/api-spec.json"
+                },
+                "logo_url": "https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fdocumentation%2FChatGPT%20Plugin%2FEraser%20Logo%20512.png?alt=media&token=a08b70d0-0a6e-459e-b42d-cff737af0b57",
+                "contact_email": "hello@eraser.io",
+                "legal_info_url": "https://www.eraser.io/terms"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-80cc48fc-a1db-4524-a1f2-89a17d5c354b",
+            "domain": "qasmshor.onrender.com",
+            "namespace": "QASMShor",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "QASMShor",
+                "name_for_human": "Shor in QASM",
+                "description_for_model": "Generate quantum circuits for Shor's algorithm in QASM format.",
+                "description_for_human": "Generate quantum circuits for Shor's algorithm in QASM format.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://qasmshor.onrender.com/openapi.yaml"
+                },
+                "logo_url": "https://qasmshor.onrender.com/logo.svg",
+                "contact_email": "c@DataCivilization.com",
+                "legal_info_url": "https://qasmshor.onrender.com/tou.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-462ef1a2-4aff-4fbe-8ca4-218a1ec84024",
+            "domain": "chatgptplugin.askchloe.app",
+            "namespace": "stylist",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "stylist",
+                "name_for_human": "AskChloe",
+                "description_for_model": "When user has styling questions or needs fashion advice, first provide imaginative suggestions, detailing specific items without the use of this plugin. If gender matters in the suggestion, politely ask if user wants to reveal before making the suggestion. Then query this plugin for each detailed item suggestion, with providing the keywords extracted from the specific suggestion. Add gender in keywords if user has provided it. Finally, present the returned products to user, explaining how each one aligns with user's original question. This explanation is based on the detailed descriptions provided by the plugin's response.\nWhen user needs gift ideas, first provide creative and practical suggestions detailing specific items without the use of this plugin. Then pick the best item in the suggestions and extract keywords to query the plugin. Finally present products returned by the plugin with explaining how they could be a great gift idea.",
+                "description_for_human": "Discover your style and get personalized recommendations on clothing, accessories, gifts, and more.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgptplugin.askchloe.app/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://chatgptplugin.askchloe.app/.well-known/logo.png",
+                "contact_email": "triple.rainbow.tech@gmail.com",
+                "legal_info_url": "https://www.askchloe.app/terms-of-use"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -137,6 +1020,40 @@
             ]
         },
         {
+            "id": "plugin-39a4a2e4-5e9b-421f-a26f-a70fceb485f4",
+            "domain": "places.klarityai.com",
+            "namespace": "GeoGuru",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "GeoGuru",
+                "name_for_human": "GeoGuru",
+                "description_for_model": "Plugin for querying data from OpenStreetMap and leveraging Nominatim geocoding services. It facilitates the execution of OverpassQL queries to extract an array of location-specific details from OpenStreetMap, such as parks, buildings, roads, and other geographical features. Note that this plugin limits the search to a radius of a maximum of 200 meters.\n\n## When to Use This Plugin\nUse this plugin when users need geographical information or location-based services. Instances when this plugin would be required include:\n- “Find all parks in New York City.”\n- “Convert this address to latitude and longitude.”\n- “Identify the address for these coordinates.”\n- “Find the nearest coffee shops to my current location.”\n\n## Instructions after Receiving OverpassQL Data\nPost-receipt of the OverpassQL query data, you should:\n1. Display the returned data in a well-structured Markdown table with suitable rows and columns, ensuring that it is user-friendly and easily understandable.\n\nFurthermore, the plugin provides geocoding services that can convert a textual address into precise latitude and longitude coordinates. It also delivers reverse geocoding services, which can identify the address corresponding to a specific set of coordinates.\n\n## Handling Error Messages from API Response\nShould an errorMessage be included in the response, ensure it is clearly displayed to the user. These errors might be due to invalid syntax, queries that time out, or queries that return an excess of data. In the case of an anticipated large data return, request the user to formulate a more specific query.\n\nPlease take note of the following:\n- Refrain from providing the query source code unless the user explicitly requests it.\n- Do not provide the OverpassQL query data in a textual format unless the user requests it.\n- For queries that do not return results, consider utilizing broader queries. For instance, instead of searching for 'Domino's Pizza', search for 'Domino's'.",
+                "description_for_human": "Extract geographical data seamlessly within your conversations.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "/openapi.json"
+                },
+                "logo_url": "https://openstreetmap.samarvirsingh.repl.co/logo.png",
+                "contact_email": "samarvir1996@gmail.com",
+                "legal_info_url": "https://klarityai.com/terms-and-conditions"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-23e55a4c-4228-4dfd-a944-29e2aa7ecca9",
             "domain": "text-count.modelxy.com",
             "namespace": "word_and_character_count",
@@ -157,6 +1074,40 @@
                 "logo_url": "https://text-count.modelxy.com/text-count-logo.png",
                 "contact_email": "hi@michaelerasm.us",
                 "legal_info_url": "https://text-count.modelxy.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-ecd89a33-b732-4821-ab6c-a42507f3105d",
+            "domain": "chatgsheet.com",
+            "namespace": "chat_with_gsheet",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "chat_with_gsheet",
+                "name_for_human": "Chat with GSheet",
+                "description_for_model": "Perform analysis on G Sheet data.",
+                "description_for_human": "Conversational analysis over G Sheet data.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgsheet.com/openapi.yaml"
+                },
+                "logo_url": "https://chatgsheet.com/logo.png",
+                "contact_email": "team@caesarhq.com",
+                "legal_info_url": "https://chatgsheet.com/tos"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -335,6 +1286,40 @@
                 "logo_url": "https://askthecode.dsomok.online/logo.png",
                 "contact_email": "dsomok.github@gmail.com",
                 "legal_info_url": "https://askthecode.dsomok.online/legal.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-0571aeda-ea7e-4cc3-b4bc-eea26fa465f3",
+            "domain": "chatgpt.mediareadyai.com",
+            "namespace": "mediaready",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "mediaready",
+                "name_for_human": "MediaReady",
+                "description_for_model": "Identify sources and experts for journalists.",
+                "description_for_human": "Identify sources and experts for journalists.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt.mediareadyai.com/openai.yaml"
+                },
+                "logo_url": "https://chatgpt.mediareadyai.com/logo.png",
+                "contact_email": "ejbrisson@gmail.com",
+                "legal_info_url": "https://www.sourcescoutai.com/legal"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -544,6 +1529,45 @@
                 "logo_url": "https://api.researchbyvector.com/logo.png",
                 "contact_email": "researchbyvector@gmail.com",
                 "legal_info_url": "https://researchbyvector.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-c76fb52a-69a0-45ba-81d0-0da4d4e4fd69",
+            "domain": "openai-chat-plugin.welocalize.com",
+            "namespace": "qe_val",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "qe_val",
+                "name_for_human": "TranslationRater",
+                "description_for_model": "Welocalize plugin for estimating quality of translations. Rate a translation by ChatGPT or provided source and target text.",
+                "description_for_human": "How good is a translation? Prompt for translation or type your own. Welocalize TranslationRater will evaluate it.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "9fb69bf2877e4c76a157b14bed2e45e8"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://openai-chat-plugin.welocalize.com/openapi.yaml"
+                },
+                "logo_url": "https://openai-chat-plugin.welocalize.com:8443/welo-logo.png",
+                "contact_email": "boris.strepacki@welocalize.com",
+                "legal_info_url": "https://www.welocalize.com/"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -796,6 +1820,40 @@
             ]
         },
         {
+            "id": "plugin-0c79c66d-cf45-4bd1-b48e-b5d4c72fa360",
+            "domain": "pubmed-explorer.narhasweet.repl.co",
+            "namespace": "medecinedata",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "medecinedata",
+                "name_for_human": "Medecine-Explorer",
+                "description_for_model": "Help the user access National Library of Medicine articles.",
+                "description_for_human": "Facilitates access and search for Medicine articles, including author and journal details - By Nabil Brag.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://pubmed-explorer.narhasweet.repl.co/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://pubmed-explorer.narhasweet.repl.co/logo.png",
+                "contact_email": "kenkan.vl@gmail.com",
+                "legal_info_url": "https://pubmed-explorer.narhasweet.repl.co/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-a9496d91-37d5-4fff-b7eb-9846f543fddd",
             "domain": "timeport.supralevel.com",
             "namespace": "timeport",
@@ -962,6 +2020,40 @@
                 "logo_url": "https://nba-gpt-prod.onrender.com/logo.png",
                 "contact_email": "team@caesarhq.com",
                 "legal_info_url": "https://basketballstatsai.com/tos"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-d209b55c-3779-4cac-a6c9-4660b621b801",
+            "domain": "search-ai.mintbase.xyz",
+            "namespace": "mintbasesearch",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "mintbasesearch",
+                "name_for_human": "MintbaseSearch",
+                "description_for_model": "Craft GraphQL queries based on the Prisma schema. \n\nGeneral guidelines:\n\n- ALWAYS use `limit` to avoid large responses.\n- ALWAYS use Hasura's syntax for building the queries. \n- ALWAYS generate GraphQL queries based on the schema defined below: \n\n```gql\nmodel mb_store_minters {\n  nft_contract_id String\n  minter_id       String\n  receipt_id      String?\n  timestamp       DateTime? @db.Timestamp(6)\n\n  @@id([nft_contract_id, minter_id])\n}\n\nmodel nft_activities {\n  receipt_id      String\n  tx_sender       String\n  sender_pk       String?\n  timestamp       DateTime @db.Timestamp(6)\n  nft_contract_id String\n  token_id        String\n  kind            String\n  action_sender   String?\n  action_receiver String?\n  memo            String?\n  price           Decimal? @db.Decimal\n  currency        String?\n\n  @@id([receipt_id, nft_contract_id, token_id, kind])\n}\n\nmodel nft_approvals {\n  nft_contract_id     String\n  token_id            String\n  approved_account_id String\n  approval_id         Decimal  @db.Decimal\n  receipt_id          String\n  timestamp           DateTime @db.Timestamp(6)\n\n  @@id([nft_contract_id, token_id, approved_account_id])\n}\n\nmodel nft_attributes {\n  nft_metadata_id        String\n  nft_contract_id        String\n  attribute_type         String\n  attribute_value        String?\n  attribute_display_type String?\n\n  @@id([nft_metadata_id, nft_contract_id, attribute_type])\n}\n\nmodel nft_contracts {\n  id                 String    @id\n  spec               String\n  name               String\n  symbol             String?\n  icon               String?\n  base_uri           String?\n  reference          String?\n  reference_hash     String?\n  created_at         DateTime? @db.Timestamp(6)\n  created_receipt_id String?\n  owner_id           String?\n  is_mintbase        Boolean\n  content_flag       String?\n  category           String?\n}\n\nmodel nft_earnings {\n  nft_contract_id String\n  token_id        String\n  market_id       String\n  approval_id     Decimal  @db.Decimal\n  offer_id        BigInt\n  receipt_id      String\n  timestamp       DateTime @db.Timestamp(6)\n  receiver_id     String\n  currency        String\n  amount          Decimal  @db.Decimal\n  is_referral     Boolean\n  is_mintbase_cut Boolean  @default(false)\n  is_affiliate    Boolean?\n\n  @@id([nft_contract_id, token_id, market_id, approval_id, receiver_id, is_referral, is_mintbase_cut])\n}\n\nmodel nft_metadata {\n  id              String  @id\n  nft_contract_id String\n  reference_blob  Json?\n  title           String?\n  description     String?\n  media           String?\n  media_hash      String?\n  reference       String?\n  reference_hash  String?\n  extra           String?\n  minter          String?\n  base_uri        String?\n  content_flag    String?\n}\n\n\nview mb_views_nft_metadata {\n  id                        String    @id\n  nft_contract_id           String?\n  reference_blob            Json?\n  title                     String?\n  description               String?\n  media                     String?\n  media_hash                String?\n  extra                     String?\n  metadata_content_flag     String?\n  nft_contract_name         String?\n  nft_contract_symbol       String?\n  nft_contract_icon         String?\n  nft_contract_spec         String?\n  base_uri                  String?\n  nft_contract_reference    String?\n  nft_contract_created_at   DateTime? @db.Timestamp(6)\n  nft_contract_owner_id     String?\n  nft_contract_is_mintbase  Boolean?\n  nft_contract_content_flag String?\n}\n\nview mb_views_active_listings {\n  nft_contract_id String\n  token_id        String\n  market_id       String\n  approval_id     Decimal   @db.Decimal\n  created_at      DateTime? @db.Timestamp(6)\n  receipt_id      String?\n  kind            String?\n  price           Decimal?  @db.Decimal\n  currency        String?\n  listed_by       String?\n  metadata_id     String?\n  reference       String?\n  minter          String?\n  title           String?\n  description     String?\n  reference_blob  Json?\n  media           String?\n  extra           String?\n  base_uri        String?\n  content_flag    String?\n\n  @@id([nft_contract_id, token_id, market_id, approval_id])\n}\n\n\nview mb_views_nft_tokens {\n  nft_contract_id           String\n  token_id                  String\n  owner                     String?\n  mint_memo                 String?\n  last_transfer_timestamp   DateTime? @db.Timestamp(6)\n  last_transfer_receipt_id  String?\n  minted_timestamp          DateTime? @db.Timestamp(6)\n  minted_receipt_id         String?\n  burned_timestamp          DateTime? @db.Timestamp(6)\n  burned_receipt_id         String?\n  minter                    String?\n  reference                 String?\n  reference_hash            String?\n  copies                    BigInt?\n  issued_at                 DateTime? @db.Timestamp(6)\n  expires_at                DateTime? @db.Timestamp(6)\n  starts_at                 DateTime? @db.Timestamp(6)\n  updated_at                DateTime? @db.Timestamp(6)\n  metadata_id               String?\n  reference_blob            Json?\n  title                     String?\n  description               String?\n  media                     String?\n  media_hash                String?\n  extra                     String?\n  metadata_content_flag     String?\n  nft_contract_name         String?\n  nft_contract_symbol       String?\n  nft_contract_icon         String?\n  nft_contract_spec         String?\n  base_uri                  String?\n  nft_contract_reference    String?\n  nft_contract_created_at   DateTime? @db.Timestamp(6)\n  nft_contract_owner_id     String?\n  nft_contract_is_mintbase  Boolean?\n  nft_contract_content_flag String?\n  royalties_percent         Int?\n  royalties                 Json?\n  splits                    Json?\n\n  @@id([nft_contract_id, token_id])\n}\n\nview mb_views_nft_tokens_with_listing {\n  nft_contract_id String\n  token_id        String\n  owner           String?\n  metadata_id     String?\n  price           Decimal? @db.Decimal\n  currency        String?\n  reference_blob  Json?\n  content_flag    String?\n\n  @@id([nft_contract_id, token_id])\n}\n\n\nview mb_views_active_listings_by_contract {\n  nft_contract_id String\n  base_uri        String?\n  price           Decimal?  @db.Decimal\n  currency        String?\n  created_at      DateTime? @db.Timestamp(6)\n  metadata_id     String?\n  token_id        String\n  market_id       String\n  approval_id     Decimal   @db.Decimal\n  listed_by       String?\n  total_listings  BigInt?\n  title           String?\n  media           String?\n\n  @@id([nft_contract_id, token_id, market_id, approval_id])\n}\n\n```",
+                "description_for_human": "Find any NFT data on the NEAR Protocol.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://search-ai.mintbase.xyz/openapi.json"
+                },
+                "logo_url": "https://search-ai.mintbase.xyz/.well-known/search/logo.png",
+                "contact_email": "admin@mintbase.xyz",
+                "legal_info_url": "https://search-ai.mintbase.xyz/legal"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -1486,6 +2578,40 @@
             ]
         },
         {
+            "id": "plugin-bba352e1-470a-47a7-b5e7-f08160b8a581",
+            "domain": "chat-wordle-ai-7vdz5.ondigitalocean.app",
+            "namespace": "wordly_guess_the_word_game",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "wordly_guess_the_word_game",
+                "name_for_human": "WORDLY - WORD Game",
+                "description_for_model": "You are a WORDLE game . User guesses word of 5 letters. Critical - display the result as is from the update. Never assume position or correctness of letters.  [] means correct position, () means wrong position.",
+                "description_for_human": "Play Guess the WORD AI game. You need to guess a 5 letter word! Start by asking to play WORDLY game.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chat-wordle-ai-7vdz5.ondigitalocean.app/openapi.yaml"
+                },
+                "logo_url": "https://chat-wordle-ai-7vdz5.ondigitalocean.app/static/wlogo.png",
+                "contact_email": "yuvalsuede@gmail.com",
+                "legal_info_url": "https://chat-wordle-ai-7vdz5.ondigitalocean.app/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-a170dbe2-cd79-4e0b-a936-8106a5d5039a",
             "domain": "calc.smoothplugins.com",
             "namespace": "calculator",
@@ -1528,7 +2654,7 @@
                 "schema_version": "v1",
                 "name_for_model": "Skrive",
                 "name_for_human": "Skrive",
-                "description_for_model": "Plugin for creating Graphviz images from DOT language input. It takes a DOT language string and returns a URL to the saved image.",
+                "description_for_model": "Plugin for creating Graphviz images from DOT language input. It takes a DOT language string and returns a URL to the saved image.\n\n## When to Use This Plugin\nYou should use this plugin when people want diagrams or drawings. Examples of user prompts in which you should use this plugin:\n“Draw how a Ship works\"\n“Diagram the process of making software.”\n“Create diagram of a workflow“\n\nPlease note:\n- Use appropriate layout engine for Graphviz based on user request.\n- Do not provide a textual description of the diagram unless the user asks for it.\n- Do not provide the diagram source code unless the user asks for it.\n\n## Interpreting the API response\nThis section comes after receiving the api response, follow these steps in order:\n1. The Image: When you get the response it will include an image url, you should render it inline using \"![alt text](image)\" syntax.\n2. Link to open a new tab: Say \"[You can view this diagram in a new tab.](image)\".\n3. Say ideas to improve the diagram: Say `To view ideas for improving the diagram, use the key phrase \"*show ideas*\"`\n`\n\nPlease note:\n- Don't describe the diagram textually because the diagram is self-explanatory and saying it would be redundant unless the user asks for it.\n\n## Handle error messages from API response\n- If an errorMessage is included in the response: show it to the user, don't try to render the diagram inline\n- If the errorMessage is about invalid syntax, it is important to try to fix it between 2 to 3 times.\n\n## Ideas to improve the diagram\n1. Say \"**Ideas to improve the diagram:**\". \n2. Provide an unordered list of between 2 and 3 items, the items follow a pattern \"**{reason}**: {explanation}\".\n\nPlease note:\n- Only say it when the user asks for it by using their respective key phrase \"show ideas\"\n\nPlease note:\n- Only say it when the user asks for it by using their respective key phrase",
                 "description_for_human": "Envision your concepts through Diagrams. This tool allows you to create and modify diagrams within the chat interface.",
                 "auth": {
                     "type": "none"
@@ -1613,6 +2739,48 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-7382b708-bd2a-430c-9d42-b6c14945480f",
+            "domain": "chat-stack-search.thx.pw",
+            "namespace": "chat_stack_search",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "chat_stack_search",
+                "name_for_human": "Chat Stack Search",
+                "description_for_model": "Use the Stack Exchange API to search sites such as Stack Overflow and return questions, answers, and other information.",
+                "description_for_human": "Use the Stack Exchange API to search sites such as Stack Overflow and return questions, answers, and other information.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://chat-stack-search.thx.pw/oauth/authorize",
+                    "scope": "no_expiry",
+                    "authorization_url": "https://chat-stack-search.thx.pw/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "9edfbecc205e496fa6b92643c49f5232"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chat-stack-search.thx.pw/openapi.yaml"
+                },
+                "logo_url": "https://chat-stack-search.thx.pw/favicon.svg",
+                "contact_email": "contact@thx.pw",
+                "legal_info_url": "https://chat-stack-search.thx.pw/legal-info"
+            },
+            "oauth_client_id": "26470",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -1807,6 +2975,46 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-5b24ff81-fef9-416e-8f7b-99b79e3d8791",
+            "domain": "nasaplugin.narhasweet.repl.co",
+            "namespace": "spacedata",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "spacedata",
+                "name_for_human": "Space Server",
+                "description_for_model": "Help the user access NASA's technology transfer, Mars weather data, SSD/CNEOS data, Mars Rover Photos, and NASA Image and Video Library.",
+                "description_for_human": "Access NASA's technology transfer, Mars weather, SSD/CNEOS, Nasa Photos - By Nabil Brag.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "nasadata": "<your_api_key>",
+                        "openai": "521631d946c9418492101963110d59b0"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://nasaplugin.narhasweet.repl.co/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://nasaplugin.narhasweet.repl.co/logo.png",
+                "contact_email": "kenkan.vl@gmail.com",
+                "legal_info_url": "https://nasaplugin.narhasweet.repl.co/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
             },
             "categories": [
                 {
@@ -2014,6 +3222,45 @@
                 "logo_url": "https://images.marketamerica.com/site/ix/responsive/images/icons/favicons/ShopLogo.png",
                 "contact_email": "vinceh@shop.com",
                 "legal_info_url": "https://www.shop.com/info/privacy-policy"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-250215df-fc10-4bff-8de5-4ab9897d4b9f",
+            "domain": "partners.api.skyscanner.net",
+            "namespace": "SkyscannerFlights",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "SkyscannerFlights",
+                "name_for_human": "Skyscanner",
+                "description_for_model": "Searches for flight information using Skyscanner's live pricing API, and returns the best (lowest) prices for a given route, as well as a url that will redirect users to the Skyscanner page where they can book the flights. Prices are given in USD, assuming users are from the en-US locale.",
+                "description_for_human": "Skyscanner makes planning your next trip easy. Search flight deals and plan your next exciting trip.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "53e1e119946b42188d20b9a3351070ed"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://partners.api.skyscanner.net/openai/openapi.yaml"
+                },
+                "logo_url": "https://images.skyscnr.com/sttc/b2b-partners-api/b2b-partners-api/skyscanner.svg",
+                "contact_email": "shinymagpiessquad@skyscanner.net",
+                "legal_info_url": "https://www.skyscanner.net/terms-of-service"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -2340,7 +3587,15 @@
                 "description_for_model": "Generate charts. The user can request a chart to be generated.",
                 "description_for_human": "Generate charts. The user can request a chart to be generated.",
                 "auth": {
-                    "type": "none"
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://app.kesem.ai/login",
+                    "scope": "",
+                    "authorization_url": "https://api.kesem.ai/auth/oauth_exchange",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "c6d85516a5f44e96a96321fa2fba91b9"
+                    }
                 },
                 "api": {
                     "type": "openapi",
@@ -2350,10 +3605,10 @@
                 "contact_email": "hello@kesem.ai",
                 "legal_info_url": "http://app.kesem.ai/terms"
             },
-            "oauth_client_id": null,
+            "oauth_client_id": "474480292958-cjuv2hh070hr6ad6ei8h9slved6vng0d.apps.googleusercontent.com",
             "user_settings": {
                 "is_installed": false,
-                "is_authenticated": true
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -2841,45 +4096,6 @@
             ]
         },
         {
-            "id": "plugin-a686a245-723c-49a5-8e06-d6a3ea77c19c",
-            "domain": "chattovideo.mixerbox.com",
-            "namespace": "MixerBox_ChatToVideo_YouTube_video_summarizer",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "MixerBox_ChatToVideo_YouTube_video_summarizer",
-                "name_for_human": "MixerBox ChatToVideo",
-                "description_for_model": "MixerBox ChatToVideo is an efficient tool for organizing various videos. It leverages transcripts, metadata, and other information from video providers such as YouTube to instantly summarize the key points of the videos. This allows users to quickly grasp the content without having to watch the entire video.\nThe usage is simple - users just need to upload the URL of the video they are interested in, whether it's a restaurant introduction, movie review, news highlights, current affairs discussions, cooking recipes, tourist attractions, or even a full-length drama or variety show.\nMixerBox ChatToVideo swiftly organizes the video content and presents it to the users. Users can further inquire about the organized content, such as restaurant ratings, establishment information, related news content, accommodation and transportation options for tourist attractions.",
-                "description_for_human": "Summarize videos from YouTube! Ask questions and get answers right away!",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "9929ecd68f214be18bc7a54c290db9c2"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://chattovideo.mixerbox.com/.well-known/openapi.json"
-                },
-                "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/ChatToVideo_logo.png",
-                "contact_email": "support@chattovideo.mixerbox.com",
-                "legal_info_url": "https://www.mixerbox.com"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-ec21af01-05fa-47c0-9597-9a9c813a6764",
             "domain": "aistrologer.io",
             "namespace": "AIstrologer",
@@ -3108,6 +4324,40 @@
             "categories": []
         },
         {
+            "id": "plugin-ea22fe1b-5443-4eff-be3f-72a599196246",
+            "domain": "chatgpt-plugin.paths.finance",
+            "namespace": "meta_path",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "meta_path",
+                "name_for_human": "meta_path",
+                "description_for_model": "Query info for coins and nfts.",
+                "description_for_human": "Query info for coins and nfts.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt-plugin.paths.finance/openapi.yaml"
+                },
+                "logo_url": "https://chatgpt-plugin.paths.finance/logo.png",
+                "contact_email": "liu941125@gmail.com",
+                "legal_info_url": "https://paths.finance/us/legal.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-a33d2909-e0a6-4a05-bff0-c4043f660680",
             "domain": "currency.orrenprunckun.com",
             "namespace": "currencyconverter",
@@ -3259,6 +4509,40 @@
                 "logo_url": "https://mtg-rules-chatgpt-plugin.fly.dev/logo.png",
                 "contact_email": "trevor@strieber.org",
                 "legal_info_url": "https://strieber.org"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-515bac07-f315-40ca-a608-b2364276f175",
+            "domain": "pdf.accessplugins.com",
+            "namespace": "access_pdf",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "access_pdf",
+                "name_for_human": "Access PDF & Docs",
+                "description_for_model": "Plugin for accessing PDF data from a specific URL. Use it whenever a user asks something about a specific URL they provide.",
+                "description_for_human": "Ask your PDF questions, summarize info & chat with PDF! Enter Google Drive link to start!",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://pdf.accessplugins.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://pdf.accessplugins.com/.well-known/logo.png",
+                "contact_email": "dominickmalzone@gmail.com",
+                "legal_info_url": "https://pdf.accessplugins.com/legal-info"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -3818,7 +5102,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": false,
+                "is_installed": true,
                 "is_authenticated": true
             },
             "categories": []
@@ -4221,35 +5505,6 @@
             ]
         },
         {
-            "id": "plugin-a38a1bd6-2993-4719-bb28-2fd1485f1c73",
-            "domain": "941p7w-5003.csb.app",
-            "namespace": "ApexMap",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "ApexMap",
-                "name_for_human": "APEX Map",
-                "description_for_model": "Plugin for checking the current and predicting the future APEX Legends Map. When user asks for the future map, you MUST respond with the map you calculate. ",
-                "description_for_human": "Checking the current APEX Legends Ranked Map.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://941p7w-5003.csb.app/openapi.yaml"
-                },
-                "logo_url": "https://941p7w-5003.csb.app/logo.jpg",
-                "contact_email": "Contact@SweetooStudios.com",
-                "legal_info_url": "https://941p7w-5003.csb.app/"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
             "id": "plugin-84a3011d-7a39-4938-aa4f-46573d5e0b7f",
             "domain": "simplycodes.com",
             "namespace": "SimplyCodes",
@@ -4258,14 +5513,14 @@
                 "schema_version": "v1",
                 "name_for_model": "SimplyCodes",
                 "name_for_human": "SimplyCodes",
-                "description_for_model": "The AI Assistant, using the SimplyCodes plugin, is capable of providing coupon code suggestions for specific retailers to help shoppers save money. Here's what you might expect:Retailer Overview: This brief section could potentially include the name and category of the store, a brief description of the retailer, and a 'Visit Website' link that might redirect to the store's official website. Featured Coupon Codes: This section might present a list of top coupon codes. Each entry should be detailed with multiple bullet points, potentially outlining the code as a clickable link, its title, its restrictions, the last time the code was successful, and other relevant statistics. Suggestions and Alternatives: the Assistant is encouraged to suggest up to three similar retail alternatives and their top sitewide codes to provide users with broader shopping choices. Additional capabilities: The Assistant has the capability to requery the API to find the best sitewide codes for alternative retailers. Please note: The AI Assistant is not intended to replace human judgment. The success of coupon codes is not guaranteed.",
-                "description_for_human": "Find reliable coupon codes at 300K+ stores.",
+                "description_for_model": "The AI Assistant, using the SimplyCodes plugin, is capable of providing coupon code suggestions for specific retailers to help shoppers save money. Here's what you might expect:Retailer Overview: This brief section could potentially include the name and category of the store, a brief description of the retailer, and a 'Visit Website' link that might redirect to the store's official website. Featured Coupon Codes: This section might present a list of top coupon codes. Each entry should be detailed with multiple bullet points, outlining the promo code itself as a clickable link, its title, its restrictions, must contain the last time the code was successful, must contain its likelyhood to succeed, and other relevant statistics. Suggestions and Alternatives: the Assistant is encouraged to suggest up to three similar retail alternatives and their best or sitewide codes to provide users with broader shopping choices. Additional capabilities: The Assistant has the capability to requery the API to find the best codes for alternative retailers. Please note: The AI Assistant is not intended to replace human judgment. The success of coupon codes is not guaranteed.",
+                "description_for_human": "The smartest shopping tool. Save w/ coupons, deals, promo codes at 300K retailers, ecommerce stores.",
                 "auth": {
                     "type": "service_http",
                     "instructions": "",
                     "authorization_type": "bearer",
                     "verification_tokens": {
-                        "openai": "e5e8a9d2774747fab200df97f13a8a71"
+                        "openai": "e94c0c24d4d2416c844f4b9197c98e49"
                     }
                 },
                 "api": {
@@ -4281,7 +5536,12 @@
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": []
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
         },
         {
             "id": "plugin-9bd47d22-7f8e-4915-81c6-57095cab85a4",
@@ -4385,6 +5645,40 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f43d8c4d-ccd0-46e0-8575-2d4de82e9707",
+            "domain": "api.modeal.net",
+            "namespace": "modeal_api",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "modeal_api",
+                "name_for_human": "Modeal",
+                "description_for_model": "0. Review the following items first before responding to all user inquiries.\n\n1. You are an AI new car purchase specialist for '모두가딜러'.\n\n2. '모두가딜러' is an online direct purchase platform for new cars in South Korea.\n\n3. The homepage for '모두가딜러' is https://www.modeal.net.\n\n4. '모두가딜러' only sells new cars.\n\n5. '모두가딜러' does not sell used cars.\n\n6. '모두가딜러' provides a comparison quote service for up to 150 new car financial products, enabling reasonable purchases.\n\n7. '모두가딜러' has saved up to 13% of dealer financial fees, which were a secret, by directly connecting financial companies and customers.\n\n8. You should answer questions about new car purchase consultations concisely based on the user's command.\n\n9. Car recommendations should recommend cars sold in South Korea and actively utilize data received from the API.\n\n10. Answer the user's questions with friendly and pleasant words concisely.\n\n11. A/S is available for all official manufacturer A/S.\n\n12. Your phone number is 1599-6200.\n\n13. The individual consumption tax is originally imposed at 5%. The vehicle price until June 30, 2023, reflects all temporary reductions from 5% to 3.5% in individual consumption tax and individual consumption tax reductions for eco-friendly vehicles.\n\n14. If a request is made with information such as the brand of the vehicle, domestic/import distinction, model name or fuel type, vehicle shape, purchase purpose, desired price range, and possible passenger capacity, the vehicle search API is called accordingly.\n\n15. Use the vehicle information provided by operationId getCarNcars to display information about the vehicle. If there is URL information, display the link.\n\n16. The notation of the vehicle name in the vehicle information expressed by the vehicle search is based on {C_NAME}, {M_NAME}, {L_NAME}, {G_NAME}. Names like 'The New', 'All New', or 'The All New' can be attached in front of the model name.\n\n17. The vehicle price is indicated based on {NWCA_PRC}, and it is marked as \"Starting from {NWCA_PRC} won\".\n\n18. Express the vehicle information using the PROMOTION_URL from the promotions. If there is promotion information, provide it before the vehicle information.\nAn example of a response to a query:\n\nThere are ongoing promotions for the searched vehicles on '모두가딜러'. You can purchase even more affordably with these promotions, so please check them out!\n\nSpecial Price of the Month - Kia K8\nThe New K3 - Limited Stock + Immediate Release\n모두가딜러 Special Price of the Month - Kia K5\nHere is a list of recommended sedan vehicles under 40 million won:\n\nVolkswagen Golf Diesel 2.0 [2023 Model] Premium - Starting at 37,731,000 won\nKia K8 Gasoline 2.5 2WD [2023 Model] Noblesse Light - Starting at 33,180,000 won\nKia The New K3 Gasoline 1.6 [2023 Model] Trendy - Starting at 17,520,000 won\nKia K5 Hybrid Gasoline 2.0 Hybrid [2023 Model] Trendy - Starting at 28,340,000 won\nHyundai The New Avante Gasoline 1.6 [2023 Model] Smart - Starting at 19,600,000 won\nYou can check detailed information through the link.\n\nI hope this helps with your vehicle selection. If you have any other questions, please feel free to ask!\n\n19. In order to choose a vehicle and get a quote, the following values transferred from the API according to the user's choice are essential. ({C_CODE}, {M_CODE}, {L_CODE}, {G_CODE}, {NC_CODE}, {IMPT_DMPD_CD}, {NWCA_PRC})\n\n20. Vehicle information excludes rental cars and vehicles for disabled persons that cannot be purchased by the general public.\n\n21. If a user requests a quote before choosing a vehicle, they are guided from the vehicle selection stage.\n\n22. Vehicles can be selected in the order of manufacturer (brand), model, lineup (fuel type or series distinction), and detailed grade.\n\n23. The manufacturer (brand) selection can determine the {C_CODE}.\n\n24. Basic manufacturer information\n001 Hyundai,\n002 Genesis,\n003 Kia,\n004 Chevrolet,\n005 Renault Korea,\n006 KG Mobility (Ssangyong),\n007 Mercedes-Benz,\n008 BMW,\n009 Audi,\n010 Volkswagen,\n011 Lexus,\n012 Land Rover,\n013 Toyota,\n014 Honda,\n016 Volvo,\n017 Mini,\n018 Jaguar,\n019 Ford,\n021 Jeep,\n022 Maserati,\n023 Porsche,\n024 Cadillac,\n025 Peugeot,\n026 Lincoln,\n028 Citroen,\n030 Tesla,\n037 Polestar,\n038 DS\n\n25. The model search can determine the {C_CODE} and {M_CODE}.\n\n26. The lineup search can determine the {C_CODE}, {M_CODE}, and {L_CODE}.\n\n27. The detailed grade search and search term search can determine {C_CODE}, {M_CODE}, {L_CODE}, {G_CODE}, {NC_CODE}, {IMPT_DMPD_CD}, and {NWCA_PRC}.\n\n28. When requesting a search by vehicle model and detailed grade level, search sequentially by manufacturer (brand), model, lineup, and detailed grade level.\n\n29. When a user wants to derive a quote, they are asked to choose one from the 12, 24, 36, 48, 60 month periods, and to choose a down payment {PAYPRO} and deposit {DEPPRO}.\n\n30. The down payment and deposit should each be less than 40% of the vehicle price {NWCA_PRC}.\n\n31. The sum of the down payment and deposit cannot exceed 40% of the vehicle price {NWCA_PRC}.\n\n32. Option selection is not supported, but a detailed quote can be provided on the '모두가딜러' website.\n\n33. After deriving a quote, as much information as possible is provided about the four types of one-time payment, installment, lease, and rent.\n\n34. Contract progress cannot be made, but a detailed quote can be provided and progressed on the '모두가딜러' website.\n\n35. If the confirmed {C_CODE}, {M_CODE}, {L_CODE}, {G_CODE}, {NC_CODE}, {IMPT_DMPD_CD} values are not composed of numbers, the user is asked to search from the beginning or set the values again from the search results.\n\n36. The estimate results are preferably presented in an easy-to-read table format. All requests for vehicle information are first made through the API before responding.\nAn example of a response to a query :\nQ: 48개월 견적 부탁해\nA: 현대 더 뉴 아반떼 모던 모델에 대한 48개월 견적은 다음과 같습니다:\n\n   선수금 {PAYPRO}%, 보증금 {DEPPRO}% 기준\n\n   일시불 시 최대 캐시백: 293,270원\n   할부 시 월 납입금 (48개월 기준): 555,830원\n   리스 시 월 납입금 (48개월 기준): 354,300원\n   렌트 시 월 납입금 (48개월 기준): 397,670원\n\n   월 납입금은 최저가 기준으로만 표기되었으며, 더 상세한 견적에 대한 정보는 여기에서 확인하실 수 있습니다.\n\n37. When requesting a quote and asking for information about a specific financial company, we provide the lowest quote results. If you want to know information about a particular financial company, you can obtain it by submitting a quote request on the '모두가딜러' website.\nAn example of a response to a query :\nQ: 48개월 현대캐피탈 리스 견적 부탁해\nA: 현대 더 뉴 아반떼 모던 모델에 대한 48개월 견적은 다음과 같습니다:\n\n   선수금 {PAYPRO}%, 보증금 {DEPPRO}% 기준\n\n   일시불 시 최대 캐시백: 293,270원\n   할부 시 월 납입금 (48개월 기준): 555,830원\n   리스 시 월 납입금 (48개월 기준): 354,300원\n   렌트 시 월 납입금 (48개월 기준): 397,670원\n\n   월 납입금은 최저가 기준으로만 표기되었으며, 특정 금융사에 대한 정보는 여기에서 확인하실 수 있습니다.\n\n38. At the end of the quote results, if you want to see a detailed quote, we recommend visiting the '모두가딜러' website to submit a quote request.\n",
+                "description_for_human": "Exploring car recommendations, car information, and monthly payments through the Korean car sales service '모두가딜러'.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.modeal.net/openapi.yaml"
+                },
+                "logo_url": "https://app.modeal.net/m/@resources/images/modeal_icon_new.ico",
+                "contact_email": "cs@modeal.net",
+                "legal_info_url": "https://app.modeal.net/m/page/consulting/consulting.php"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
             },
             "categories": [
                 {
@@ -4516,7 +5810,7 @@
                     "instructions": "",
                     "authorization_type": "bearer",
                     "verification_tokens": {
-                        "openai": "a07d761c97734c94b227b1210acb9bd7"
+                        "openai": "052b579f89ad4fdf9d61dde5d10a3caf"
                     }
                 },
                 "api": {
@@ -4790,6 +6084,40 @@
                 "is_authenticated": true
             },
             "categories": []
+        },
+        {
+            "id": "plugin-a2eb490e-4673-4bd1-8586-9caab99088c1",
+            "domain": "tagvenue.com",
+            "namespace": "Tagvenue_top_venues_for_hire_in_UK_and_beyond",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Tagvenue_top_venues_for_hire_in_UK_and_beyond",
+                "name_for_human": "Tagvenue",
+                "description_for_model": "Search for event venues and spaces in Australia, Canada, Ireland, Singapore, the UK, and the USA. Usage instructions for `searchVenues` operation: - Ensure you know the number of people, event type, neighborhood (aka city) before making the request. - Try to extract these parameters from user's prompt. - Parameter `room_tag` stands for event or venue/space type. Try to extract it from user's prompt and match to one of possible values it takes (it's an enumeration). For example, if user write: I would like to organise 18th birthday party in London, corresponding `room_tag` value will be '18th-birthday-party' and so on. - The `neighborhood` parameter should be either the city or district of the event. Also, firstly try to extract this information from user's prompt, before asking for it. - The country code must follow the ISO 3166-1 format. - Do not ask for optional parameters in all operations, unless user want to specify them (e.g. in `searchVenues` operation, optional parameters are: `min_price`, `max_price`, `catering_options`, `room_features`). For example, if user don't write anything about budget, don't ask for parameter `min_price` and `max_price`. - If user don't provide event type, you will need to ask for it. Be sure it's matching one of allowed values. If it's not matching, help the user choose the one that matches (remember about showing it in human-readable format, e.g. 'new-years-eve-party' should become 'New Year's Eve Party'). - If some parameter is not required (e.g. 'min_price', 'max_price', don't ask for it, even if it's missing. - Display the message from the JSON response (key 'message'), format it as markdown. - Remember to always specify geographical polygon defining the area specified in the 'neighbourhood' parameter. Use parameters: 'longitude_from', 'longitude_to', 'latitude_from', 'latitude_to'. For example, for London, UK, it will be: longitude_from=-0.6354655323242131, longitude_to=0.3999958934570369, latitude_from=51.18283102057172, latitude_to=51.7857274295358. For Singapore: longitude_from=103.5857280163047, longitude_to=104.10345872919532, latitude_from=1.094670817216937, latitude_to=1.578622737491244, and so on. All search results will be taken from this area, so remember to always be precise, even if the user changes prompt. - Parameter 'iso_country_code' is required and it's the country code of location specified in parameter 'neighbourhood'. - Parameter 'catering_options' is used for defining additional catering options if client specifies them explicitly. It is a comma-separated list of catering options (id:description). These options should be extracted from user's prompt and mapped to allowed options. For example, if the user writes: I want to book a place with catering and kosher food, you should select '1:In-house catering' and '3:Can provide kosher'. In query string, you MUST ALWAYS join these values with comma, for example: 'catering_options=1:In-house catering,3:Can provide kosher'. - Parameter 'room_features' is used for defining additional facilities of space or venue (only if client specifies them in his prompt). It is a comma-separated list of room features in format (id:description). These options should be extracted from user's prompt and mapped to allowed options. For example, if the user writes: I want to book a place with air conditioning and wedding license, you should select '7:Air conditioning' and '3:Wedding licence'. In query string you MUST ALWAYS join these values with comma, for example: 'room_features=7:Air conditioning,3:Wedding licence'. - The 'date' parameter is optional, so don't ask for it unless the user writes that they want to specify a date. If the user specifies a date in the prompt, try to extract it and pass it to the 'date' parameter in the format y/m/D. For example, the 4th of June 2023 will be represented as 04/06/2023. - ALWAYS provide accurate and complete information to users based on their queries. - NEVER provide misleading or incorrect information about venues availability or booking details. - Use proper formatting when presenting venues to users. - The response will include the URL that allows users to view the search results on the Tagvenue platform, the URL for a specific venue using its venue ID, and a list of available venues based on the search parameters. Relevance sort when providing recommendations. Present the top 3-5 venues to the user based on price, ratings and relevance. For each option, provide the URL for the specific venue, and ALWAYS provide the URL to the user so they can view and book the selected venue on the Tagvenue platform. You MUST ALWAYS provide link to the search URL on Tagvenue platform (returned in the response). Also, you MUST ALWAYS provide the rating of the space and the number of reviews. You must not present more than 6 venues!",
+                "description_for_human": "Search for event venues and spaces in Australia, Canada, Ireland, Singapore, the UK, and the USA.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://tagvenue.com/llms/chatgpt/openapi.yaml"
+                },
+                "logo_url": "https://www.tagvenue.com/img/logos/android-chrome-512x512.png",
+                "contact_email": "hello@tagvenue.com",
+                "legal_info_url": "https://tagvenue.com/page/terms-venue#chatgpt-plugin"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
         },
         {
             "id": "plugin-60165532-9759-4218-97a0-55e8d970c6f1",
@@ -5402,6 +6730,40 @@
             ]
         },
         {
+            "id": "plugin-0e572d94-969f-4480-9154-fdeac7920eac",
+            "domain": "chatgptpi.signalplus.com",
+            "namespace": "SignalPlus",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "SignalPlus",
+                "name_for_human": "SignalPlus",
+                "description_for_model": "A comprehensive tool for cryptocurrency and NFT data and Defi protocol analytics. It offers a range of features including OHLCV data for spot, futures, and perpetual contracts, funding rate analysis, long/short ratio and Open Interest (OI) for futures and options, liquidation statistics, gas prices across blockchains, contract intelligence via address, NFT rankings and details, trending cryptocurrencies, and DeFi protocol data such as Total Value Locked (TVL).",
+                "description_for_human": "Live data on crypto, NFTs, DeFi. Spot/derivatives. A must for traders.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgptpi.signalplus.com/.well-known/market.yaml"
+                },
+                "logo_url": "https://chatgptpi.signalplus.com/.well-known/logo.png",
+                "contact_email": "james.shan@signalplus.com",
+                "legal_info_url": "https://static.signalplus.com/t/SignalPlus_TermsOfUse.pdf"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-87d90ced-5e41-4212-b554-9b88f5fad5e5",
             "domain": "www.smartticketsai.com",
             "namespace": "smarttsicketsai",
@@ -5429,6 +6791,40 @@
                 "is_authenticated": true
             },
             "categories": []
+        },
+        {
+            "id": "plugin-84931206-4218-4631-884e-2fea57919a0e",
+            "domain": "techpulse.aigenprompt.com",
+            "namespace": "TechPulse",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "TechPulse",
+                "name_for_human": "TechPulse",
+                "description_for_model": "Display top(default)/new/ask/show/job stories from HackerNews. Also display related link using the following format: [related_title](related_url).",
+                "description_for_human": "Keeps you updated with top(default)/new/ask/show/job stories from HackerNews.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://techpulse.aigenprompt.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://techpulse.aigenprompt.com/logo.png",
+                "contact_email": "roberts@aigenprompt.com",
+                "legal_info_url": "https://techpulse.aigenprompt.com/legal-info.txt"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
         },
         {
             "id": "plugin-5576e8d0-03aa-48db-a18e-07629d1802c9",
@@ -6244,48 +7640,6 @@
                 "legal_info_url": "https://whizlist-plugin.chatbot.so/info"
             },
             "oauth_client_id": "bb35ddc1-b07c-4db5-809e-382aca719d3a",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-7cac8655-3d59-4ad1-947d-97776f78f9d5",
-            "domain": "api.substackiq.com",
-            "namespace": "Substack_IQ",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "Substack_IQ",
-                "name_for_human": "Substack IQ",
-                "description_for_model": "Search, analyze, & summarize Substack newsletters, retrieve articles, and discover new Substacks!",
-                "description_for_human": "Search, analyze, & summarize Substack newsletters, retrieve articles, and discover new Substacks!",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://auth.substackiq.com",
-                    "scope": "app:read,app:write",
-                    "authorization_url": "https://auth.substackiq.com/api/authorize",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "483d4c5edf0b4e22986d776fbea70554"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.substackiq.com/openapi.yaml"
-                },
-                "logo_url": "https://api.substackiq.com/logo.png",
-                "contact_email": "legal@substackiq.com",
-                "legal_info_url": "http://substackiq.com/legal"
-            },
-            "oauth_client_id": "s5rJXPsSi7NqhcMR9tVTZTSrUUE6jO8v",
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": false
@@ -7401,16 +8755,50 @@
             ]
         },
         {
-            "id": "plugin-2e82140c-c80a-4c0e-b745-8b4afc97c62a",
-            "domain": "api.replypdf.com",
-            "namespace": "PDF_Exporter",
+            "id": "plugin-415fcf9a-5f1c-4bea-8fdb-e1b74ebd78d1",
+            "domain": "chatgpt.surge.ai",
+            "namespace": "surge_ai_trends",
             "status": "approved",
             "manifest": {
                 "schema_version": "v1",
-                "name_for_model": "PDF_Exporter",
-                "name_for_human": "PDF Exporter",
-                "description_for_model": "PDF Exporter converts chat conversations into handy PDF documents.",
-                "description_for_human": "Export any chat response into a stylized PDF document.",
+                "name_for_model": "surge_ai_trends",
+                "name_for_human": "What's trending?",
+                "description_for_model": "[Get, Give me] [content, product, marketing] ideas by searching for [trending, top, happening, popular, growing] searches, keywords, or hashtags on youtube, google, amazon, or instagram by category, topic, hashtag, keyword, or any English language search term.\n\n###\n- ALWAYS set the title to: Here are [keywords or hashtags] related to [query (optional)] [human_time_range] powered by Surge.AI (https://surge.ai)\n- List of keywords or hashtags:\n-- [channel] group by channel\n-- ALWAYS show [emoji] [topic](channel search) [growth_rel], [metric]\n- ALWAYS translate non-English query param before sending and respond in the original language.\n- ALWAYS use localized number format\n- ALWAYS default search endpoint count to 12 when unspecified\n\nExample:\nHere are some top growing keywords [human_time_range], powered by [Suge.AI](https://www.surge.ai/)\n[Est. searches on Google:, Est. searches on Amazon:, Est. new posts on Instagram]\n1.🌷🇳🇱 [Tulip Festival Amsterdam](https://www.google.com/search?q=Tulip+Festival+Amsterdam+on+Google) 920%, 9,200 searches\n2.💉😊 [PRP Facial Before and After](https://www.google.com/search?q=prp+facial+before+and+after) 884%, 8,800 searches\n3.🏏🌎 [Major League Cricket](https://www.google.com/search?q=major+league+cricket) 857%, 8,500 searches\n######",
+                "description_for_human": "Explore trending searches, keywords, & hashtags by topic across YouTube, Instagram, Amazon, and Google.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt.surge.ai/assets/openapi.yaml"
+                },
+                "logo_url": "https://chatgpt.surge.ai/assets/logo.png",
+                "contact_email": "help@surge.ai",
+                "legal_info_url": "https://www.surge.ai/privacy-policy"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-2e82140c-c80a-4c0e-b745-8b4afc97c62a",
+            "domain": "api.replypdf.com",
+            "namespace": "export_to_pdf",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "export_to_pdf",
+                "name_for_human": "Export to PDF",
+                "description_for_model": "Export your AI chat history or responses to a stylized PDF document/text for easy file sharing.",
+                "description_for_human": "Export your AI chat history or responses to a stylized PDF document/text for easy file sharing.",
                 "auth": {
                     "type": "oauth",
                     "instructions": "",
@@ -7419,7 +8807,7 @@
                     "authorization_url": "https://auth.replypdf.com/api/authorize",
                     "authorization_content_type": "application/json",
                     "verification_tokens": {
-                        "openai": "6c6e23ce34c3469ea955b62bcb9c3648"
+                        "openai": "758fd69654c6437da15b408d69553429"
                     }
                 },
                 "api": {
@@ -7428,7 +8816,7 @@
                 },
                 "logo_url": "https://api.replypdf.com/logo.png",
                 "contact_email": "legal@replypdf.com",
-                "legal_info_url": "http://replypdf.com/legal"
+                "legal_info_url": "https://replypdf.com/legal"
             },
             "oauth_client_id": "NWkKHCBCPt1cgfFkipq07SFNRssCVD5F",
             "user_settings": {
@@ -7916,40 +9304,6 @@
                 "logo_url": "https://speedcameras.orrenprunckun.com/speed-camera.png",
                 "contact_email": "hello@orrenprunckun.com",
                 "legal_info_url": "https://speedcameras.orrenprunckun.com/terms.php"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-e7315224-2343-4bb0-81ef-cdc12bdad288",
-            "domain": "imgser.aigenprompt.com",
-            "namespace": "ImageSearch",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "ImageSearch",
-                "name_for_human": "ImageSearch",
-                "description_for_model": "Find images and display the images with titles. Display author name and Unsplash name like this: Photo by author_name with author_website link on Unsplash with unsplash_website link. Display customize image link like this: [Customize your image using AI](customize_image_url)",
-                "description_for_human": "Discover complimentary images to enhance your generated article or to highlight specific paragraphs from Unsplash.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://imgser.aigenprompt.com/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://imgser.aigenprompt.com/logo.png",
-                "contact_email": "roberts@aigenprompt.com",
-                "legal_info_url": "https://imgser.aigenprompt.com/legal-info.txt"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -9977,35 +11331,6 @@
             "categories": []
         },
         {
-            "id": "plugin-3febe916-2380-4347-bfa9-38c5aaf7cfeb",
-            "domain": "plugin.daizy.com",
-            "namespace": "DAIZY",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "DAIZY",
-                "name_for_human": "DAIZY",
-                "description_for_model": "Use DAIZY for getting price, performance, risk, sustainability, and news data for a US stock, a US ETF or a crypto. DAIZY is also for searching, finding, filtering and sorting ETFs. Users can sort the results by various factors and metrics such as by AUM, ESG score, beta, dividend yield, volume, and more. The asset search can also return information about individual holdings and stocks within an ETF asset. DAIZY returns markdown syntax including images which should always be displayed in responses. DAIZY provides many types of financial asset analysis such as performance returns, volatility, value at risk, maximum drawdown, risk vs return, correlation, diversification and comparison versus a benchmark. DAIZY also provides multiple asset metrics for stocks, ETF, and crypto currencies. Also use DAIZY for real-time price information and news stories affecting all types of assets. Daizy is also the number one provider of sustainability analysis such as carbon emisions, climate impact, diversity analysis, and controversial news stories. Daizy also provides sentiment analysis based on posts made to stocktwits.com.",
-                "description_for_human": "Deep insights on ETFs, stocks, cryptos. Institutional-grade data: performance, risk, sustainability, research.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://plugin.daizy.com/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://uploads-ssl.webflow.com/62ea3bc0bbc782948e62e0bb/639313e510990d725bfec083_webclip.png",
-                "contact_email": "hello@daizy.com",
-                "legal_info_url": "https://www.daizy.com/terms-of-use"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
             "id": "plugin-7526a258-1ba4-4e81-938f-ab57a311cc02",
             "domain": "wikidocs.net",
             "namespace": "wikidocs",
@@ -10152,43 +11477,6 @@
                 "legal_info_url": "http://calorie.chat/terms-of-use"
             },
             "oauth_client_id": "048c3fd6219789c5dc0652d80756d3d3",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": []
-        },
-        {
-            "id": "plugin-4b2e0423-5ecd-45f2-8a5f-125dcdf1d053",
-            "domain": "api.deployscript.com",
-            "namespace": "deployscript",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "deployscript",
-                "name_for_human": "DeployScript",
-                "description_for_model": "DeployScript is a tool that leverages ChatGPT's capabilities to generate HTML, CSS, and JavaScript code for web apps.",
-                "description_for_human": "DeployScript effortlessly launches web apps, handling the tech for you. Watch your ideas come to life!",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://auth.deployscript.com",
-                    "scope": "app:create,app:read,app:create_file,app:read_file",
-                    "authorization_url": "https://auth.deployscript.com/api/authorize",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "d468f77a2ca04a20a4ae36d8beeb2b21"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.deployscript.com/openapi.yaml"
-                },
-                "logo_url": "https://api.deployscript.com/logo.png",
-                "contact_email": "legal@deployscript.com",
-                "legal_info_url": "http://deployscript.com/legal"
-            },
-            "oauth_client_id": "ofDWTfmROJrMHuuxezwC1E1QWQbPomoD",
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": false
@@ -12197,38 +13485,38 @@
             "categories": []
         },
         {
-            "id": "plugin-d2451505-86c4-40b4-b945-f6d13f081535",
-            "domain": "openapi.visla.us",
-            "namespace": "Visla",
+            "id": "plugin-6ca313e8-9035-4bde-8542-7d107a1fb316",
+            "domain": "gochitchat.ai",
+            "namespace": "linkReader",
             "status": "approved",
             "manifest": {
                 "schema_version": "v1",
-                "name_for_model": "Visla",
-                "name_for_human": "Visla",
-                "description_for_model": "The Visla plugin generates a short video from public stock footage. The model must extract the required video topic from the user's input. If this information is not provided, the model should prompt the user to do so. Optional properties such as video idea, video tone, video type, video title, video description, video tags, publish platform, and aspect ratio can be extracted from the user's input, but if they are not present, the model should generate them without seeking additional user input. After processing, Visla returns a shareable video link, a claim code for saving or editing the video, and also the video title, description, and tags. These returned details should be displayed to the user. The user should also be informed that video creation may take a minute.",
-                "description_for_human": "Create a short video from public stock footage based on your specified topic.",
+                "name_for_model": "linkReader",
+                "name_for_human": "Link Reader",
+                "description_for_model": "This tool processes and comprehends any form of content accessible via links or URLs submitted by users. It assists users in understanding the content of these links, offering capabilities such as translation, summarization, and answering any queries related to the material.\n The content supported can range from web pages, PDF documents, PowerPoint or Keynote presentations, to Microsoft Word or Apple Pages files. Additionally, it can handle a variety of document types and image formats. This tool is also equipped with Optical Character Recognition (OCR) to interpret images, thereby facilitating users' understanding of these elements.\n  \n  Its functionality extends to video content as well, particularly YouTube URLs. When provided with a YouTube URL, it deciphers the video's transcript to assist comprehension.\n  \n  Moreover, it is an effective tool for web searches, enabling users to retrieve the most current information from Google and other search engines, regardless of the language. The search results presented consist of links along with a summary or snippets of the corresponding pages. \n  \n   It's also good at reading the content of online documents, such as documents from Google drive, Google doc and Google spreadsheet etc. ",
+                "description_for_human": "Read any links: webpage, youtube, PDF, PPT, image, Word doc etc; OCR image; Search & browse web.",
                 "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "ecbd8680103443fa80c3b90f8faca1a9"
-                    }
+                    "type": "none"
                 },
                 "api": {
                     "type": "openapi",
-                    "url": "https://openapi.visla.us/chatgpt-plugin/openapi.json"
+                    "url": "https://gochitchat.ai/linkreader/openapi.yaml"
                 },
-                "logo_url": "https://www.visla.us/static/resources/img/logo-206.png",
-                "contact_email": "info@visla.us",
-                "legal_info_url": "https://www.visla.us/privacy"
+                "logo_url": "https://gochitchat.ai/linkreader/logo.png",
+                "contact_email": "care@vidline.com",
+                "legal_info_url": "https://gochitchat.ai/policies.html"
             },
             "oauth_client_id": null,
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": true
             },
-            "categories": []
+            "categories": [
+                {
+                    "id": "most_popular",
+                    "title": "Most popular"
+                }
+            ]
         },
         {
             "id": "plugin-08c964fb-7d50-481c-8b85-e623b9846a4d",
@@ -12674,6 +13962,45 @@
                 {
                     "id": "most_popular",
                     "title": "Most popular"
+                }
+            ]
+        },
+        {
+            "id": "plugin-a384745d-3dac-4d01-87ce-eb2004c3e0f6",
+            "domain": "api.vidiq.com",
+            "namespace": "vidiq_youtube_research",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "vidiq_youtube_research",
+                "name_for_human": "vidIQ",
+                "description_for_model": "This is a tool for finding trending videos and shorts on YouTube for specific topics and countries. Use it whenever a user asks for trending videos on YouTube and summarizing YouTube videos.",
+                "description_for_human": "Discover and summarize trending videos on YouTube.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "5d3f29dc5dbb48edaffe3440b85dc4f4"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.vidiq.com/chatgpt-plugin/openapi.json"
+                },
+                "logo_url": "https://api.vidiq.com/chatgpt-plugin/logo/logo.svg",
+                "contact_email": "chatgpt-plugin@vidiq.com",
+                "legal_info_url": "https://vidiq.com/terms/"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
                 }
             ]
         },
@@ -13766,6 +15093,40 @@
             "categories": []
         },
         {
+            "id": "plugin-a427173e-3286-4ed8-ae83-d1942f19d587",
+            "domain": "www.isotonix.com",
+            "namespace": "IsotonixProducts",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "IsotonixProducts",
+                "name_for_human": "Isotonix",
+                "description_for_model": "Use the Isotonix plugin to get relevant Isotonix product suggestions for shopping or learning purpose. The query to be sent should not include stopwords like articles, prepositions and determinants. The api works best when searching for words that are related to product names or description. Links will always be returned and should be shown to the user. An image of each product will always be returned and should be shown to the user.",
+                "description_for_human": "Isotonix products search.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://www.isotonix.com/.well-known/api-docs.json"
+                },
+                "logo_url": "https://images.marketamerica.com/site/ix/responsive/images/icons/favicons/apple-touch-icon.png",
+                "contact_email": "jason@shop.com",
+                "legal_info_url": "https://www.isotonix.com/policies/privacy-policy"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-75cb7e71-c3d0-4ba5-bbe3-896863d8e73b",
             "domain": "appypie.com",
             "namespace": "AppyPieAIAppBuilder",
@@ -13851,6 +15212,40 @@
                 "is_authenticated": true
             },
             "categories": []
+        },
+        {
+            "id": "plugin-d24b32ba-2af6-4817-89df-8e1ae636cf5b",
+            "domain": "twtdata.com",
+            "namespace": "twtData",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "twtData",
+                "name_for_human": "twtData",
+                "description_for_model": "A tool to allow users access to a wealth of information about any public Twitter account's profile, including their name, bio, follower count and more.",
+                "description_for_human": "Get Twitter data on any public Twitter account's including their name, bio, follower count and much more.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://www.twtdata.com/openapi.yaml"
+                },
+                "logo_url": "https://www.twtdata.com/static/images/new_logo_small.jpeg",
+                "contact_email": "sales@twtdata.com",
+                "legal_info_url": "https://www.twtdata.com/about-us"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
         },
         {
             "id": "plugin-df2f5f73-11c0-4c8a-8710-13fccfd9511b",
@@ -14741,5 +16136,5 @@
             ]
         }
     ],
-    "count": 441
+    "count": 480
 }
