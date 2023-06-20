@@ -1,7 +1,54 @@
-# 455 Official ChatGPT Plugins (Updated June 16, 2023) 🧩
+# 498 Official ChatGPT Plugins (Updated June 20, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 20, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 498   | Web3 User Activity| View any Web3 user's activities by entering a 0x address, ENS, Lens, and many other name services on the RSS3 Network.|
+| 497   | Message in a Bottle| Throw a message into the digital ocean, or grab one floating by. You are not alone.|
+| 496   | Mifuzi Domain AI| Discover domain names based on your creative ideas and check their availability status.|
+| 495   | Duoduo English| Learn and practice English for Duolingo English Test.|
+| 494   | liveinboxer| Get the latest email from top brands.|
+| 493   | PTCG price research| It fetches the latest prices of Pokémon Cards within Japan.|
+| 492   | CSV Export| Create and export custom CSV layouts in a flash.|
+| 491   | Creative Mind| Unleash your imagination with Creative Mind, transforming text prompts into stunning visual art.|
+| 490   | Chat with Quran| Chat with the Quran.|
+| 489   | Open Archives| Search the genealogical data of Dutch and Belgian archives and societies via Open Archives.|
+| 488   | PrimeLoupe| Simplify your decision-making process by summarizing Amazon product reviews for you.|
+| 487   | Chabad Centers| Find information about Chabad Centers worldwide and their events.|
+| 486   | LGTM| Search for LGTM Markdown.|
+| 485   | Chat with Bible| Chat with the Bible.|
+| 484   | Talk Law Brazil| Interact with laws and bills in progress in the Brazilian Congress.|
+| 483   | Surveillance API| Explore the Synology Surveillance Station API documents and generate example code.|
+| 482   | AI News Roundup| Get Today's AI News Headlines As A Clickable Link Roundup!|
+| 481   | Color Palette| Craft vibrant palettes from your ideas.|
+| 480   | Listen Notes| The best podcast search engine and database. All podcasts and episodes. Built with PodcastAPI.com.|
+| 479   | CoderPad| Run code in more than 30 different programming languages, and let us worry about setting up the environment!|
+| 478   | Eraser| Generate diagrams from code or natural language.|
+| 477   | Shor in QASM| Generate quantum circuits for Shor's algorithm in QASM format.|
+| 476   | AskChloe| Discover your style and get personalized recommendations on clothing, accessories, gifts, and more.|
+| 475   | GeoGuru| Extract geographical data seamlessly within your conversations.|
+| 474   | Chat with GSheet| Conversational analysis over G Sheet data.|
+| 473   | MediaReady| Identify sources and experts for journalists.|
+| 472   | TranslationRater| How good is a translation? Prompt for translation or type your own. Welocalize TranslationRater will evaluate it.|
+| 471   | Medecine-Explorer| Facilitates access and search for Medicine articles, including author and journal details - By Nabil Brag.|
+| 470   | MintbaseSearch| Find any NFT data on the NEAR Protocol.|
+| 469   | WORDLY - WORD Game| Play Guess the WORD AI game. You need to guess a 5 letter word! Start by asking to play WORDLY game.|
+| 468   | Chat Stack Search| Use the Stack Exchange API to search sites such as Stack Overflow and return questions, answers, and other information.|
+| 467   | Space Server| Access NASA's technology transfer, Mars weather, SSD/CNEOS, Nasa Photos - By Nabil Brag.|
+| 466   | Skyscanner| Skyscanner makes planning your next trip easy. Search flight deals and plan your next exciting trip.|
+| 465   | meta_path| Query info for coins and nfts.|
+| 464   | Access PDF & Docs| Ask your PDF questions, summarize info & chat with PDF! Enter Google Drive link to start!|
+| 463   | Modeal| Exploring car recommendations, car information, and monthly payments through the Korean car sales service '모두가딜러'.|
+| 462   | Tagvenue| Search for event venues and spaces in Australia, Canada, Ireland, Singapore, the UK, and the USA.|
+| 461   | SignalPlus| Live data on crypto, NFTs, DeFi. Spot/derivatives. A must for traders.|
+| 460   | What's trending?| Explore trending searches, keywords, & hashtags by topic across YouTube, Instagram, Amazon, and Google.|
+| 459   | Export to PDF| Export your AI chat history or responses to a stylized PDF document/text for easy file sharing.|
+| 458   | vidIQ| Discover and summarize trending videos on YouTube.|
+| 457   | Isotonix| Isotonix products search.|
+| 456   | twtData| Get Twitter data on any public Twitter account's including their name, bio, follower count and much more.
+
 #### Added on June 16, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
