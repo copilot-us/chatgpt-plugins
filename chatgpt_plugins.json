@@ -1,31 +1,290 @@
 {
     "items": [
         {
-            "id": "plugin-a3377a35-88a7-4435-9c70-cab1d11baa59",
-            "domain": "chatgpt-plugin.rss3.ai",
-            "namespace": "Web3_User_Activity",
+            "id": "plugin-e426cf1a-5eb2-45ac-8a56-af545c53ba66",
+            "domain": "weathergpt-bay-six.vercel.app",
+            "namespace": "WeatherWizard",
             "status": "approved",
             "manifest": {
                 "schema_version": "v1",
-                "name_for_model": "Web3_User_Activity",
-                "name_for_human": "Web3 User Activity",
-                "description_for_model": "Query RSS3 Network whenever a string starts with \"0x\" or ends with \".eth\", \".lens\", \".avax\", \".csb\", \".bit\", \".bnb\", \".arb\", \".crypto\", \".nft\", \".x\", \".wallet\", \".bitcoin\", \".dao\", \".888\", \".blockchain\" is detected in the prompt. To show activities of a specific type, add a 'tag' parameter to the API request from the following tags: collectible, donation, exchange, governance, metaverse, social, transaction.",
-                "description_for_human": "View any Web3 user's activities by entering a 0x address, ENS, Lens, and many other name services on the RSS3 Network.",
+                "name_for_model": "WeatherWizard",
+                "name_for_human": "WeatherWizard",
+                "description_for_model": "Use the WeatherWizard plugin to automatically fetch current weather information for a specific location when it's being generated. The plugin will return weather data, including temperature, wind speed, humidity, and other relevant information, as well as a link to a page that has all the information. Links will always be returned and should be shown to the user. The weather data can be used to provide users with up-to-date and accurate weather information for their desired location.",
+                "description_for_human": "Get current weather information from around the world. Powered by WeatherAPI.",
                 "auth": {
                     "type": "none"
                 },
                 "api": {
                     "type": "openapi",
-                    "url": "https://chatgpt-plugin.rss3.ai/openapi.json"
+                    "url": "https://weathergpt-bay-six.vercel.app/openapi.json"
                 },
-                "logo_url": "https://chatgpt-plugin.rss3.ai/public/logo.svg",
-                "contact_email": "contact@rss3.io",
-                "legal_info_url": "https://rss3.io/tos"
+                "logo_url": "https://weathergpt-bay-six.vercel.app/logo.png",
+                "contact_email": "contact@weatherwizard.com",
+                "legal_info_url": "https://weathergpt-bay-six.vercel.app/legal"
             },
             "oauth_client_id": null,
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-62f8cc0b-8fca-49d1-acae-c9cd2f49e18a",
+            "domain": "interest-rates.orrenprunckun.com",
+            "namespace": "InterestRates",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "InterestRates",
+                "name_for_human": "Interest Rates",
+                "description_for_model": "Get real time interest rates from central banks of countries like American FED, Australian RBA, Banco Central, Bank of Korea, Brazilian BACEN, Canadian BOC, Chinese PBC, Czech CNB, Danish Nationalbanken, European ECB, Hungarian, Indian RBI, Indonesian BI, Israeli BOI, Mexican Banxico, New Zealand, Norwegian, Polish, Russian CBR, Saudi Arabian, South African SARB, Swedish Riksbank, Swiss SNB, Turkish CBRT etc!",
+                "description_for_human": "Get Real Time Interest Rates From Central Banks",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://interest-rates.orrenprunckun.com/openapi.yaml"
+                },
+                "logo_url": "https://interest-rates.orrenprunckun.com/icon.png",
+                "contact_email": "hello@orrenprunckun.com",
+                "legal_info_url": "https://interest-rates.orrenprunckun.com/terms.php"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f1bbdd5b-8c4f-4333-8758-0ed3edde31c5",
+            "domain": "shopmate-o5kx.onrender.com",
+            "namespace": "ShopMate",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ShopMate",
+                "name_for_human": "ShopMate AI",
+                "description_for_model": "Assist the user in searching for products in real-time using the Google Shopping API. You can search for products according to the user's requests and available filters. If the user asks to filter the results, utilize the 'tbs' parameter. Multiple filters are available; however, only the most pertinent ones should be displayed. For product results, respond in this format: '\n Title: '\n Store Name: '\n Store Rating: '\n Store Reviews: '\n Delivery: '\n Always respond with product price, delivery information, and store rating in a uniform format.",
+                "description_for_human": "Searches for Products on Google Shopping in Real-Time, No Ads, Only Trusted Stores.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://shopmate-o5kx.onrender.com/openapi.json"
+                },
+                "logo_url": "https://shopmate-o5kx.onrender.com/static/logo.png",
+                "contact_email": "sagar@hey.com",
+                "legal_info_url": "https://shopmate-o5kx.onrender.com/static/legal.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-fa25fc64-6033-405f-9a0e-1c39c9283d9c",
+            "domain": "plugin.perfectchirp.app",
+            "namespace": "perfect_chirp",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "perfect_chirp",
+                "name_for_human": "Perfect Chirp",
+                "description_for_model": "Plugin that turns ideas into ten authentic tweets.The plugin takes a user's idea for a tweet and returns a prompt to facilitate the creation of ten different tweets that don't use hashtags. The user's idea is sent to the plugin and a prompt to facilitate the tweet creation process is returned. The input is returned as text for ChatGPT to take as input. The user can initiate the plugin by starting with 'Write a tweet''. The plugin is free for all users, however there is a monthly usage quota. If users choose to get unlimited usage, they can be served a link to upgrade to an unlimited plan.",
+                "description_for_human": "Turn your ideas into banger tweets in less than 30 seconds. Start your prompt with 'Write a tweet...'.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://c9536bf4447eef3ea28ca0da464ab10a.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "21cf6af2f031464f847ae10a1cfa104c"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.perfectchirp.app/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://perfectchirp.app/static/perfect_chirp_logo.webp",
+                "contact_email": "heyo@perfectchirp.app",
+                "legal_info_url": "https://perfectchirp.app/static/terms.html"
+            },
+            "oauth_client_id": "21114e50a074b815bd0046f4e82823d6",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-546f5dba-ddb8-4ce2-b449-5cba0918d203",
+            "domain": "ai.forms.app",
+            "namespace": "formgenerator",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "formgenerator",
+                "name_for_human": "forms.app",
+                "description_for_model": "Generate form, survey or quiz with AI. Use keywords 'query' to prompt the plugin.",
+                "description_for_human": "Generate form, survey or quiz with AI.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://ai.forms.app/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://forms.app/assets/img/logo-home.svg",
+                "contact_email": "support@forms.app",
+                "legal_info_url": "https://forms.app/en/privacy-policy"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-014c6bf6-bc10-4762-abe5-8ba5f67005c9",
+            "domain": "chatvideo.mixerbox.com",
+            "namespace": "MixerBox_ChatVideo_YouTube_video_summarizer",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "MixerBox_ChatVideo_YouTube_video_summarizer",
+                "name_for_human": "MixerBox ChatVideo",
+                "description_for_model": "MixerBox ChatVideo is an efficient tool for organizing various videos. It leverages transcripts, metadata, and other information from video providers such as YouTube to instantly summarize the key points of the videos. This allows users to quickly grasp the content without having to watch the entire video.\nThe usage is simple - users just need to upload the URL of the video they are interested in, whether it's a restaurant introduction, movie review, news highlights, current affairs discussions, cooking recipes, tourist attractions, or even a full-length drama or variety show.\nMixerBox ChatVideo swiftly organizes the video content and presents it to the users. Users can further inquire about the organized content, such as restaurant ratings, establishment information, related news content, accommodation and transportation options for tourist attractions.",
+                "description_for_human": "Summarize videos from YouTube! Ask questions and get answers right away!",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "5e62144cda764f3ca70dbdeb9de9079e"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatvideo.mixerbox.com/.well-known/openapi.json"
+                },
+                "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/ChatVideo_logo.png",
+                "contact_email": "support@chatvideo.mixerbox.com",
+                "legal_info_url": "https://www.mixerbox.com"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-1cc4d5ee-2281-47bc-b4a1-a6101629491f",
+            "domain": "newsplugin.feednews.com",
+            "namespace": "NewsPilot",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "NewsPilot",
+                "name_for_human": "NewsPilot",
+                "description_for_model": "The NewsPilot retrieves real-time news articles from various countries and languages, catering to user preferences. The news is sourced from various global news agencies and is updated in real time.",
+                "description_for_human": "Breaking global news in brief, 15000 news sources from worldwide.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://newsplugin.feednews.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://static.feednews.com/cdn/images/news@252x252.png",
+                "contact_email": "aiplugins-contact-list@opera.com",
+                "legal_info_url": "https://legal.apexnews.com/terms/"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-15e87df6-5f2e-468a-b02d-5480a66df11b",
+            "domain": "draw.praison.ai",
+            "namespace": "draw",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "draw",
+                "name_for_human": "Draw",
+                "description_for_model": "Tool for crafting and managing diagrams, enabling a new level of engagement with your ideas.",
+                "description_for_human": "Bring your ideas to life with diagrams. Craft, manage, and engage with your creations in a whole new way.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://praison.ai/oauth/authorize",
+                    "scope": "",
+                    "authorization_url": "https://praison.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "6f136ce2ce7b4fb986767a1a138292c9"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://draw.praison.ai/openapi.yaml"
+                },
+                "logo_url": "https://draw.praison.ai/logo.png",
+                "contact_email": "contact@praison.com",
+                "legal_info_url": "https://praison.ai/terms/"
+            },
+            "oauth_client_id": "thqyFit3EJYYpyO0As9zAPqReIEhNOVr3A4ECFyW",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -179,6 +438,74 @@
             ]
         },
         {
+            "id": "plugin-2e1d90ec-2ce4-4930-9cf1-22403209ed87",
+            "domain": "tryspree.com",
+            "namespace": "TrySpree",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "TrySpree",
+                "name_for_human": "TrySpree",
+                "description_for_model": "Help the user find free samples to try. You can search and view different free samples that you are interested in.",
+                "description_for_human": "TrySpree is a website that finds free samples for you to try.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://www.tryspree.com/openapi.yaml"
+                },
+                "logo_url": "https://www.tryspree.com/logo-512.png",
+                "contact_email": "info@tryspree.com",
+                "legal_info_url": "http://www.tryspree.com/terms-of-service"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-99254c7a-10fa-4b1f-87fa-f0b7c475fc5e",
+            "domain": "toolbloxfunctions.azurewebsites.net",
+            "namespace": "toolblox",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "toolblox",
+                "name_for_human": "Toolblox",
+                "description_for_model": "Useful for creating smart-contract workflows. Users can describe in free text (not structured json) their flow by issuing statements like 'Create a workflow that manages sales orders within a department'. Users should to describe an asset, its lifecycle and the stakeholders but even if some info is missing, it is a valid input. As long as it seems to describe some kind of process, activity or scenario. In return they get an URL to manage the smart-contract further and deploy it onto a blockchain. Please respond with a friendly summary of what the smart contract does (based on the provided spec), show the image (provided in the response as imageUrl) and provide a brief description of why it makes sense to have this workflow as a self-executing smart contract on blockchain.",
+                "description_for_human": "Text to smart-contract. Describe a process to generate a smart-contract and deploy to any blockchain.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://toolbloxfunctions.azurewebsites.net/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://toolbloxfunctions.azurewebsites.net/.well-known/plugin_logo.png",
+                "contact_email": "info@toolblox.com",
+                "legal_info_url": "https://www.toolblox.net/Terms"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-cdb574b0-10a7-4cc6-a998-d2ad32df80f1",
             "domain": "ai.toreris.com",
             "namespace": "ptcg_price_research",
@@ -199,6 +526,40 @@
                 "logo_url": "https://ai.toreris.com/logo.png",
                 "contact_email": "contact@toreris.com",
                 "legal_info_url": "https://toreris.com/term"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-fae046bd-051b-41c8-9bb8-f1e3efec6f80",
+            "domain": "doctors-lc.jp",
+            "namespace": "dlc",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "dlc",
+                "name_for_human": "Doctor's Life Career",
+                "description_for_model": "Searching Japanese medical doctors' jobs based on your preferences.",
+                "description_for_human": "Searching Japanese medical doctors' jobs based on your preferences.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://doctors-lc.jp/jobs/api/v1/manifest.yaml"
+                },
+                "logo_url": "https://doctors-lc.jp/favicon.ico",
+                "contact_email": "md@doctors-lc.jp",
+                "legal_info_url": "https://doctors-lc.jp/jobs/privacypolicy.html"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -383,6 +744,40 @@
             ]
         },
         {
+            "id": "plugin-f2d3c17e-4990-4596-8aa9-a4795dd0ba52",
+            "domain": "ukr-books-chatgpt-plugin.illia56.repl.co",
+            "namespace": "books",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "books",
+                "name_for_human": "Ukr-School-Books",
+                "description_for_model": "Plugin for interacting with a books database. You can list all books, get presentation, get biography of an author, get content of a book, get a random book, and get books that match a certain command.",
+                "description_for_human": "Interact with a books database. List, get content, and find books.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://ukr-books-chatgpt-plugin.illia56.repl.co/openapi.yaml"
+                },
+                "logo_url": "https://ukr-books-chatgpt-plugin.illia56.repl.co/logo.jpg",
+                "contact_email": "I.Ludogovskyi@gmail.com",
+                "legal_info_url": "https://ukr-books-chatgpt-plugin.illia56.repl.co/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-a1724ed7-6f92-4bca-a5c1-3af31566efba",
             "domain": "primeloupe.com",
             "namespace": "PrimeLoupe",
@@ -403,6 +798,40 @@
                 "logo_url": "https://primeloupe.com/static/img/logo512-bg.png",
                 "contact_email": "justmisam@gmail.com",
                 "legal_info_url": "https://primeloupe.com/terms/"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-59bd8508-9179-4be8-bee7-2585a34fa6ef",
+            "domain": "dreamplugin.bgnetmobile.com",
+            "namespace": "DreamInterpreter",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "DreamInterpreter",
+                "name_for_human": "Dream Interpreter",
+                "description_for_model": "Interprets your dreams using advanced techniques.",
+                "description_for_human": "Interprets your dreams using advanced techniques.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://dreamplugin.bgnetmobile.com/.well-known/openapi.json"
+                },
+                "logo_url": "https://dreamplugin.bgnetmobile.com/.well-known/logo.png",
+                "contact_email": "ismail.orkler@bgnetmobile.com",
+                "legal_info_url": "https://dreamplugin.bgnetmobile.com/terms.html"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -528,7 +957,7 @@
                 "name_for_model": "ChatWithBible",
                 "name_for_human": "Chat with Bible",
                 "description_for_model": "Semantically search the Bible. This tool assists the user in finding the most relevant Biblical verses, chapters, and references according to their interests, religious beliefs, and preferences. You can search all books from the King James Version of the Bible. You can search semantically or look up a specific verse.",
-                "description_for_human": "Chat with the Bible.",
+                "description_for_human": "Intuitively explore scriptures. Find relevant verses, understand parables, and gain insights.",
                 "auth": {
                     "type": "none"
                 },
@@ -986,6 +1415,40 @@
             ]
         },
         {
+            "id": "plugin-454e23c6-8c8b-42b7-b1f1-5dd873f035c3",
+            "domain": "chat-gpt-github-stat-plugin.vercel.app",
+            "namespace": "gitUserRepoStats",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "gitUserRepoStats",
+                "name_for_human": "Git OSS Stats",
+                "description_for_model": "Manages the retrieval of comprehensive statistics and information about OSS repositories or developers. It provides capabilities such as generating and fetching detailed repository data, user data, community data, star history, and other relevant statistics.",
+                "description_for_human": "Dynamically generate and analyze stats and history for OSS repos and developers.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chat-gpt-github-stat-plugin.vercel.app/openapi.yaml"
+                },
+                "logo_url": "https://chat-gpt-github-stat-plugin.vercel.app/logo.png",
+                "contact_email": "yunwei356@gmail.com",
+                "legal_info_url": "https://github.com/yunwei37/ChatGPT-github-stat-plugin"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-fd365f6a-6a72-4975-a7a1-e1ccb34a43ff",
             "domain": "spirifyqrcode.azurewebsites.net",
             "namespace": "Spirify_model_qrcode",
@@ -1074,6 +1537,45 @@
                 "logo_url": "https://text-count.modelxy.com/text-count-logo.png",
                 "contact_email": "hi@michaelerasm.us",
                 "legal_info_url": "https://text-count.modelxy.com/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-e0b2bad7-1ba2-494e-bcee-24962f22e69e",
+            "domain": "chatgpt-plugin.api.cargurus.com",
+            "namespace": "cargurus",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "cargurus",
+                "name_for_human": "CarGurus",
+                "description_for_model": "Help the user find used car listings near them on CarGurus.\nYou must include the user's ZIP code for search. You should ask the user for their location or ZIP code before performing a search if you do not already know it. Provide both options - location and zip code - when prompting the user for the purposes of providing a ZIP code. If provided with a location, convert the location into a ZIP code. If the location is ambiguous, you should pick the most well known location with that name. If more than one ZIP code is available for the location, you are to pick the ZIP code that is most appropriate. Do not use default or placeholder ZIP code values - only use a ZIP code provided by the user or based on a location explicitly provided by the user.\nDo not require the user to provide any search criteria that is not strictly necessary. After providing search results, you may inform the user of search criteria they can use to narrow their search.\nDo not specify sort criteria or sort order unless it is necessary to fulfill the user's request.\nDo not offer to filter by any criteria other than the criteria explicitly documented by the API you are calling.\nWhen presenting search results, you should inform the user that the listing results you are displaying are from CarGurus.\nUsers browsing listings find the deal rating to be very valuable to their search experience. Please refer to the deal rating as the CarGurus deal rating.\nPlease note that prices and availability are subject to change. For the most up-to-date information, it's best for the user to visit the CarGurus website.\nThe search API should be used to find vehicle listings and not for general vehicle research.\nExamples of good user prompts to use the search API for: 1. What are some electric vehicles for sale near me? 2. I'd like to buy a convertible with less than 30k miles 3. Find me some Subaru Outbacks within 10 miles of me that are less than 3 years old\nExamples of user prompts that should not use the search API: 1. What electric vehicle models are manufactured in the United States? 2. Which Toyota models come with three rows of seats? 3. Do Teslas come with CarPlay?",
+                "description_for_human": "Find Your Perfect Car on CarGurus - Shop by Budget, Deal Rating, Make, Model, & More.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "82d8802f7caf45d4ada1ebac5c9ebdc1"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt-plugin.api.cargurus.com/v3/api-docs/chatgpt-plugin"
+                },
+                "logo_url": "https://chatgpt-plugin.api.cargurus.com/plugin-static/logo.png",
+                "contact_email": "svc-openai@cargurus.com",
+                "legal_info_url": "https://chatgpt-plugin.api.cargurus.com/plugin-static/legal.html"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -2544,6 +3046,40 @@
             ]
         },
         {
+            "id": "plugin-87e2c045-83d1-4ade-9f5f-d71a86f933f8",
+            "domain": "www.tirabeauty.com",
+            "namespace": "tira",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "tira",
+                "name_for_human": "Tira",
+                "description_for_model": "This tool enables you to search for products, manage your cart, and display QR code for easy cart sharing within Tira's marketplace. Shop Tira for top beauty brands! Explore cosmetics, health products & more online. Your beauty store awaits.",
+                "description_for_human": "Shop Tira for top beauty brands! Explore cosmetics, health products & more online. Your beauty store awaits",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://www.tirabeauty.com/ext/chatgpt-plugin/application/api/v1.0/openapi.yaml"
+                },
+                "logo_url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/company/1/applications/62d53777f5ad942d3e505f77/application/pictures/favicon/original/V_o65MTJW-Tira.png",
+                "contact_email": "help@tirabeauty.com",
+                "legal_info_url": "https://www.tirabeauty.com/terms-and-conditions"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-ba04c318-a1f0-4634-9558-120c6d746318",
             "domain": "repoinspector.onrender.com",
             "namespace": "repo_inspector",
@@ -2586,7 +3122,7 @@
                 "schema_version": "v1",
                 "name_for_model": "wordly_guess_the_word_game",
                 "name_for_human": "WORDLY - WORD Game",
-                "description_for_model": "You are a WORDLE game . User guesses word of 5 letters. Critical - display the result as is from the update. Never assume position or correctness of letters.  [] means correct position, () means wrong position.",
+                "description_for_model": "You are a WORDLE game. Always display results as code input.",
                 "description_for_human": "Play Guess the WORD AI game. You need to guess a 5 letter word! Start by asking to play WORDLY game.",
                 "auth": {
                     "type": "none"
@@ -2654,7 +3190,7 @@
                 "schema_version": "v1",
                 "name_for_model": "Skrive",
                 "name_for_human": "Skrive",
-                "description_for_model": "Plugin for creating Graphviz images from DOT language input. It takes a DOT language string and returns a URL to the saved image.\n\n## When to Use This Plugin\nYou should use this plugin when people want diagrams or drawings. Examples of user prompts in which you should use this plugin:\n“Draw how a Ship works\"\n“Diagram the process of making software.”\n“Create diagram of a workflow“\n\nPlease note:\n- Use appropriate layout engine for Graphviz based on user request.\n- Do not provide a textual description of the diagram unless the user asks for it.\n- Do not provide the diagram source code unless the user asks for it.\n\n## Interpreting the API response\nThis section comes after receiving the api response, follow these steps in order:\n1. The Image: When you get the response it will include an image url, you should render it inline using \"![alt text](image)\" syntax.\n2. Link to open a new tab: Say \"[You can view this diagram in a new tab.](image)\".\n3. Say ideas to improve the diagram: Say `To view ideas for improving the diagram, use the key phrase \"*show ideas*\"`\n`\n\nPlease note:\n- Don't describe the diagram textually because the diagram is self-explanatory and saying it would be redundant unless the user asks for it.\n\n## Handle error messages from API response\n- If an errorMessage is included in the response: show it to the user, don't try to render the diagram inline\n- If the errorMessage is about invalid syntax, it is important to try to fix it between 2 to 3 times.\n\n## Ideas to improve the diagram\n1. Say \"**Ideas to improve the diagram:**\". \n2. Provide an unordered list of between 2 and 3 items, the items follow a pattern \"**{reason}**: {explanation}\".\n\nPlease note:\n- Only say it when the user asks for it by using their respective key phrase \"show ideas\"\n\nPlease note:\n- Only say it when the user asks for it by using their respective key phrase",
+                "description_for_model": "Plugin for creating Graphviz images from DOT language input. It takes a DOT language string and returns a URL to the saved image.\n\n## When to Use This Plugin\nYou should use this plugin when people want diagrams or drawings. Examples of user prompts in which you should use this plugin:\n“Draw how a Ship works\"\n“Diagram the process of making software.”\n“Create diagram of a workflow“\n\nPlease note:\n- Use appropriate layout engine for Graphviz based on user request.\n- Do not provide a textual description of the diagram unless the user asks for it.\n- Do not provide the diagram source code unless the user asks for it.\n\n## Interpreting the API response\nThis section comes after receiving the api response, follow these steps in order:\n1. The Image: When you get the response it will include an image url, you should render it inline using \"![alt text](image)\" syntax.\n2. Link to open a new tab: Say \"[You can view this diagram in a new tab.](image)\".n`\n\nPlease note:\n- Don't describe the diagram textually because the diagram is self-explanatory and saying it would be redundant unless the user asks for it.\n\n## Handle error messages from API response\n- If an errorMessage is included in the response: show it to the user, don't try to render the diagram inline\n- If the errorMessage is about invalid syntax, it is important to try to fix it between 2 to 3 times.",
                 "description_for_human": "Envision your concepts through Diagrams. This tool allows you to create and modify diagrams within the chat interface.",
                 "auth": {
                     "type": "none"
@@ -3126,6 +3662,48 @@
             ]
         },
         {
+            "id": "plugin-16adc4ae-f94c-4736-9a0e-be59f59ef14a",
+            "domain": "api.dailybot.com",
+            "namespace": "dailybot",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "dailybot",
+                "name_for_human": "DailyBot",
+                "description_for_model": "DailyBot is a chatbot that helps teams run standups, check-ins, surveys and automated workflows in their work chat. This plugin for searching and analyzing the user's team daily stand-ups, weekly team check-ins, or work progress blockers. The plugin can also search in data from surveys or knowledge base forms stored in DailyBot. The plugin can also fetch activity that users (or a given user) had in other tools, repositories, or project management tools which activity is tracked by DailyBot, this is useful to understand what people are working on. Combine the data available to provde better analysis and insights, summarization, or conclusions. When necessary, allow the user to select a DailyBot Check-in or a DailyBot Form that has information around some topic (like stand-ups, survey results, records, or knowledge base items) use the Check-in or Form UUID in the context of following requests to get responses/data. Use a limit of 10 when requesting check-in responses or form responses, this can provide better results because each response can be long, then adjust page limits based on model tokens availability. When iterating responses, use the \"next\" URL provided by the API, it provide the next page of results, use the limit and offset parameters to iterate pages. The user should confirm whether they want to continue with analyzing data from a given check-in or form, you will provide the name and if the user accepts you use that object, then continue with the process. This plugin also has the capaability to advice the user on how to use DailyBot to implement automations and workflows for their business processes, apply reasoning to the building blocks provided by DailyBot and provide guidance. Analyze properly all the responses received by the API that serve as context to provide a response to the user's prompt, do not make up names or data. Have a friendly communication tone.",
+                "description_for_human": "Smart insights from your team daily stand-ups, check-ins, surveys, or knowledge base forms.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://api.dailybot.com/oauth/authorize/",
+                    "scope": "me base checkins.read forms.read",
+                    "authorization_url": "https://api.dailybot.com/oauth/token/",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "4bf8e3dbb5be4b08bc742bc015c1bdfe"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.dailybot.com/openapi.yaml"
+                },
+                "logo_url": "https://uploads-ssl.webflow.com/5f454f5b1ec3949c1416957f/64790f6217aedba02a89a992_Isologo_blue.png",
+                "contact_email": "support@dailybot.com",
+                "legal_info_url": "https://www.dailybot.com/legal/terms-and-conditions"
+            },
+            "oauth_client_id": "ZVrsxJQfN1dXYlulPbJsyTqeEInEM6BvOAr2KkFC",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-1ddc0494-3dbe-4841-89be-4fbae221331d",
             "domain": "threesigma.ai",
             "namespace": "improved_semantic_search",
@@ -3441,48 +4019,6 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-097b9908-389d-4d5d-96c0-1e6e632a505f",
-            "domain": "plugin.gptinf.com",
-            "namespace": "HumanInf",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "HumanInf",
-                "name_for_human": "HumanInf",
-                "description_for_model": "Paraphraser that humanizes AI content.",
-                "description_for_human": "Humanizing AI content via paraphrasing.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://plugin.gptinf.com/api/oauth",
-                    "scope": "",
-                    "authorization_url": "https://plugin.gptinf.com/api/oauth_exchange",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "9c0e3effd0d146ab8d26e519f7e8ba0b"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://plugin.gptinf.com/openapi.yaml"
-                },
-                "logo_url": "https://plugin.gptinf.com/logo.png",
-                "contact_email": "support@gptinf.com",
-                "legal_info_url": "https://app.gptinf.com/terms_of_service.html"
-            },
-            "oauth_client_id": "i9AnjIkMKLS01",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
             },
             "categories": [
                 {
@@ -10000,6 +10536,48 @@
             ]
         },
         {
+            "id": "plugin-e65af794-89af-4200-a5a9-802f92e20072",
+            "domain": "videoinsights.io",
+            "namespace": "video_insights_io",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "video_insights_io",
+                "name_for_human": "Video Insights IO",
+                "description_for_model": "Retrieves transcript, metadata and other information of various video providers like Youtube or Daily Motion",
+                "description_for_human": "VideoInsights.io lets you interact with online video platforms like Youtube or Daily Motion.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://auth.videoinsights.io/oauth2/authorize",
+                    "scope": "openid email https://openai.videoinsights.io/all",
+                    "authorization_url": "https://auth.videoinsights.io//oauth2/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "a6fe636d7c614d3eaf9d1d1ac537e56d"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://videoinsights.io/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://videoinsights.io/logo.png",
+                "contact_email": "alexanderjettel@gmail.com",
+                "legal_info_url": "https://videoinsights.io/legal.txt"
+            },
+            "oauth_client_id": "52ndlf13olptvci9kqbektoooj",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-aa8a399d-a369-432e-81b7-ee6e889c1b8f",
             "domain": "currency-conversion--nerrosa.repl.co",
             "namespace": "currencyconverter",
@@ -12800,6 +13378,45 @@
                 "is_authenticated": true
             },
             "categories": []
+        },
+        {
+            "id": "plugin-2b67266f-81b1-4187-9261-55081a3f6143",
+            "domain": "aichat.doordash.com",
+            "namespace": "DoorDashNearbyStores",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "DoorDashNearbyStores",
+                "name_for_human": "DoorDash",
+                "description_for_model": "Discover nearby restaurants for delivery or pickup.",
+                "description_for_human": "Discover nearby restaurants for all of your delivery/pickup needs!",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "7e8d55ef5a254b1f82dcf007d6dfbb61"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://aichat.doordash.com/static/openapi.yaml"
+                },
+                "logo_url": "https://aichat.doordash.com/static/logo.png",
+                "contact_email": "doordash-openai-plugin@doordash.com",
+                "legal_info_url": "https://help.doordash.com/legal/document?type=cx-terms-and-conditions&region=US&locale=en-US"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
         },
         {
             "id": "plugin-1cd66dcf-db69-4013-99b9-568fd6af9fef",
@@ -16136,5 +16753,5 @@
             ]
         }
     ],
-    "count": 480
+    "count": 497
 }
