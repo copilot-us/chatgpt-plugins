@@ -1,7 +1,29 @@
-# 498 Official ChatGPT Plugins (Updated June 20, 2023) 🧩
+# 516 Official ChatGPT Plugins (Updated June 21, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 21, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 516   | WeatherWizard| Get current weather information from around the world. Powered by WeatherAPI.|
+| 515   | Interest Rates| Get Real Time Interest Rates From Central Banks|
+| 514   | ShopMate AI| Searches for Products on Google Shopping in Real-Time, No Ads, Only Trusted Stores.|
+| 513   | Perfect Chirp| Turn your ideas into banger tweets in less than 30 seconds. Start your prompt with 'Write a tweet...'.|
+| 512   | forms.app| Generate form, survey or quiz with AI.|
+| 511   | MixerBox ChatVideo| Summarize videos from YouTube! Ask questions and get answers right away!|
+| 510   | NewsPilot| Breaking global news in brief, 15000 news sources from worldwide.|
+| 509   | Draw| Bring your ideas to life with diagrams. Craft, manage, and engage with your creations in a whole new way.|
+| 508   | TrySpree| TrySpree is a website that finds free samples for you to try.|
+| 507   | Toolblox| Text to smart-contract. Describe a process to generate a smart-contract and deploy to any blockchain.|
+| 506   | Doctor's Life Career| Searching Japanese medical doctors' jobs based on your preferences.|
+| 505   | Ukr-School-Books| Interact with a books database. List, get content, and find books.|
+| 504   | Dream Interpreter| Interprets your dreams using advanced techniques.|
+| 503   | Git OSS Stats| Dynamically generate and analyze stats and history for OSS repos and developers.|
+| 502   | CarGurus| Find Your Perfect Car on CarGurus - Shop by Budget, Deal Rating, Make, Model, & More.|
+| 501   | DailyBot| Smart insights from your team daily stand-ups, check-ins, surveys, or knowledge base forms.|
+| 500   | Video Insights IO| VideoInsights.io lets you interact with online video platforms like Youtube or Daily Motion.|
+| 499   | DoorDash| Discover nearby restaurants for all of your delivery/pickup needs!
+
 #### Added on June 20, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
