@@ -1,6 +1,210 @@
 {
     "items": [
         {
+            "id": "plugin-5f63f112-c32a-4b95-a251-fe7233718d61",
+            "domain": "content-rewriter.orrenprunckun.com",
+            "namespace": "ContentRewriter",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ContentRewriter",
+                "name_for_human": "Content Rewriter",
+                "description_for_model": "The user provides you with a URL link with written text content where the URL begins with http or https. You must request this URL structure from the user. Your role is to act like a world-class content copywriter and rewrite the text provided to you into your own words without plagiarizing the original text.",
+                "description_for_human": "Enter any URL and have the text content rewritten for you!",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://content-rewriter.orrenprunckun.com/openapi.yaml"
+                },
+                "logo_url": "https://content-rewriter.orrenprunckun.com/icon.png",
+                "contact_email": "hello@orrenprunckun.com",
+                "legal_info_url": "https://content-rewriter.orrenprunckun.com/terms.php"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-9fab5632-3b9e-4ef9-ab0b-925f3c0aabdb",
+            "domain": "konkanitranslator.customplugin.ai",
+            "namespace": "konkanitranslator",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "konkanitranslator",
+                "name_for_human": "Konkani Translator",
+                "description_for_model": "Request this plugin when you are asked about Romi Konkani, Goa, India, Konkani language, Devanagari, Latin script, translation, dictionary, bilingual, script, transliteration, regional dialect, spoken language, grammar, vocabulary, sentence structure, phrase, word, meaning, pronunciation, Roman script, Indo-Aryan, Dravidian, Portuguese influence, Catholic community, native speakers, Konkan coast, official language, colloquial, written form, multilingual, language family, syntax, lexicon, phonetics, morphological, culture, heritage, Goan Catholics, mother tongue, linguistic, literature, code-switching, vernacular, loanwords, bilingualism, orthography, linguistic diversity, alphabet, native language, syntax, cross-lingual, target language, source language, translation memory, machine translation, human translation, language pair, language model, accuracy, fluency, context, localization, idiomatic expressions, cultural adaptation, translation software, language barrier, interpreter, transcription, communication, language proficiency, language learning, text-to-speech, speech recognition, natural language processing, parsing, sentiment analysis, language preservation, text analysis, computational linguistics, polyglot, synonym, antonym, connotation, denotation, etymology, cognate, false friend, semantic field, grammatical case, inflection, tense, linguistic relativity, language acquisition, etymological dictionary, Romanization, Indian languages, translational equivalence, terminology management, morpheme, word order, semantic roles, language evolution, diacritics, morphosyntax, language revitalization, sociolinguistics, language variation, Goan culture, semantic meaning, phraseology, corpus, adaptive machine translation, parallel text, and unicode. Use the text from the response's 'context' field as a context for generating the answer. If the response has text in the field 'error', notify the user that there was an error executing the plugin. Print the error text and try to answer the question by yourself.",
+                "description_for_human": "Unlock the Beauty of Goa with the Romi Konkani Translator.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://konkanitranslator.customplugin.ai/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://konkanitranslator.customplugin.ai/.well-known/logo.png",
+                "contact_email": "hello@customgpt.ai",
+                "legal_info_url": "https://customgpt.ai/contact-us/"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-07b4669b-4b49-4319-8a85-9f3f3337ea09",
+            "domain": "apex-map-plugin-d1u8.vercel.app",
+            "namespace": "ApexMap",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ApexMap",
+                "name_for_human": "APEX Map",
+                "description_for_model": "Plugin for checking the current and predicting the future APEX Legends Map. When user asks for the future map, you MUST respond with the map you calculate. ",
+                "description_for_human": "Checking the current APEX Legends Ranked Map.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://apex-map-plugin-d1u8.vercel.app/openapi.yaml"
+                },
+                "logo_url": "https://apex-map-plugin-d1u8.vercel.app/logo.jpg",
+                "contact_email": "legal@apexmap.com",
+                "legal_info_url": "https://apex-map-plugin-d1u8.vercel.app/legal.txt"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-8f0ef883-877c-425d-9204-7ed21164a0c4",
+            "domain": "findafreelancer.replit.app",
+            "namespace": "findafreelancer",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "findafreelancer",
+                "name_for_human": "Find a Freelancer",
+                "description_for_model": "Find human freelancers to help complete tasks. Use keywords 'find', 'freelancer' to prompt the plugin.",
+                "description_for_human": "Find human freelancers to help complete tasks.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://findafreelancer.replit.app/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://findafreelancer.replit.app/logo.jpg",
+                "contact_email": "john.bralich@gmail.com",
+                "legal_info_url": "https://findafreelancer.replit.app/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-49f4e28b-57e0-45be-9826-11fa995d4a33",
+            "domain": "plugin.tabor.ai",
+            "namespace": "Tabor",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Tabor",
+                "name_for_human": "Tabor AI",
+                "description_for_model": "Single source for senior living market research, data and analytics including amenities, pricing, and reputation for all communities and operators in the USA.",
+                "description_for_human": "Trusted source for senior living market research, data, and analytics. 35K communities, 9K operators in the USA.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.tabor.ai/swagger/v1/swagger.json"
+                },
+                "logo_url": "https://plugin.tabor.ai/.well-known/logo.png",
+                "contact_email": "info@tabor.ai",
+                "legal_info_url": "https://tabor.ai/terms-of-use/"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f2dfac50-6e02-4aff-a585-00b4c8f01b99",
+            "domain": "app.jobsearch.chat",
+            "namespace": "job_search",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "job_search",
+                "name_for_human": "Job Search",
+                "description_for_model": "Job Search",
+                "description_for_human": "Searching for jobs made easy.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://app.jobsearch.chat/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://app.jobsearch.chat/images/logo.png",
+                "contact_email": "hello@jobsearch.chat",
+                "legal_info_url": "https://jobsearch.chat/legal"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-e426cf1a-5eb2-45ac-8a56-af545c53ba66",
             "domain": "weathergpt-bay-six.vercel.app",
             "namespace": "WeatherWizard",
@@ -103,6 +307,45 @@
             ]
         },
         {
+            "id": "plugin-4477444e-310b-4da6-9ad0-5218f25b9902",
+            "domain": "api.telescopelabs.io",
+            "namespace": "TelescopeLabs",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "TelescopeLabs",
+                "name_for_human": "Telescope Labs",
+                "description_for_model": "Help the user with data retrieval, analysis and visualization related to web3 games. You can visualize KPIs, events, get data and reasoning about analysis.",
+                "description_for_human": "Data retrieval, analysis and visualizations related to web3 games who are onboarded as a blockchain game.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "23d65ccd74034c1aa4ae2a22350de81d"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.telescopelabs.io/gpt/schema"
+                },
+                "logo_url": "https://telescopefiles.blob.core.windows.net/userphotos/323621dc-a6f6-4b3d-bd79-aabc3077db1a.jpeg",
+                "contact_email": "hello@telescopelabs.io",
+                "legal_info_url": "https://www.telescopelabs.io/"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-fa25fc64-6033-405f-9a0e-1c39c9283d9c",
             "domain": "plugin.perfectchirp.app",
             "namespace": "perfect_chirp",
@@ -145,6 +388,40 @@
             ]
         },
         {
+            "id": "plugin-a3377a35-88a7-4435-9c70-cab1d11baa59",
+            "domain": "chatgpt-plugin.rss3.ai",
+            "namespace": "Web3_User_Activity",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Web3_User_Activity",
+                "name_for_human": "Web3 User Activity",
+                "description_for_model": "Query RSS3 Network whenever a string starts with \"0x\" or ends with \".eth\", \".lens\", \".avax\", \".csb\", \".bit\", \".bnb\", \".arb\", \".crypto\", \".nft\", \".x\", \".wallet\", \".bitcoin\", \".dao\", \".888\", \".blockchain\" is detected in the prompt. To show activities of a specific type, add a 'tag' parameter to the API request from the following tags: collectible, donation, exchange, governance, metaverse, social, transaction. Render only the first 5 results if there are more than 5.",
+                "description_for_human": "View any Web3 user's activities by entering a 0x address, ENS, Lens, and many other name services on the RSS3 Network.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt-plugin.rss3.ai/openapi.json"
+                },
+                "logo_url": "https://chatgpt-plugin.rss3.ai/public/logo.svg",
+                "contact_email": "contact@rss3.io",
+                "legal_info_url": "https://rss3.io/tos"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-546f5dba-ddb8-4ce2-b449-5cba0918d203",
             "domain": "ai.forms.app",
             "namespace": "formgenerator",
@@ -153,8 +430,8 @@
                 "schema_version": "v1",
                 "name_for_model": "formgenerator",
                 "name_for_human": "forms.app",
-                "description_for_model": "Generate form, survey or quiz with AI. Use keywords 'query' to prompt the plugin.",
-                "description_for_human": "Generate form, survey or quiz with AI.",
+                "description_for_model": "Generate online forms, surveys, quizzes & more with spot-on questions. Use keywords 'query' to prompt the plugin.",
+                "description_for_human": "Generate online forms, surveys, quizzes & more with spot-on questions.",
                 "auth": {
                     "type": "none"
                 },
@@ -162,7 +439,7 @@
                     "type": "openapi",
                     "url": "https://ai.forms.app/.well-known/openapi.yaml"
                 },
-                "logo_url": "https://forms.app/assets/img/logo-home.svg",
+                "logo_url": "https://forms.app/static/img/ai-logo.png",
                 "contact_email": "support@forms.app",
                 "legal_info_url": "https://forms.app/en/privacy-policy"
             },
@@ -676,26 +953,26 @@
             ]
         },
         {
-            "id": "plugin-0e397e01-0d9d-40d0-871e-96bdff36705a",
-            "domain": "dt1m15-5003.csb.app",
-            "namespace": "ApexMap",
+            "id": "plugin-9a9cccfe-e8c4-4753-9839-190363ba4801",
+            "domain": "salty-savannah-09308-a165251951ab.herokuapp.com",
+            "namespace": "html_css_japanese_stroke_viewer",
             "status": "approved",
             "manifest": {
                 "schema_version": "v1",
-                "name_for_model": "ApexMap",
-                "name_for_human": "APEX Map",
-                "description_for_model": "Plugin for checking the current and predicting the future APEX Legends Map. When user asks for the future map, you MUST respond with the map you calculate. ",
-                "description_for_human": "Checking the current APEX Legends Ranked Map.",
+                "name_for_model": "html_css_japanese_stroke_viewer",
+                "name_for_human": "Japanese Strokes",
+                "description_for_model": "Educational tool to help with learning Japanese writing strokes using animations.",
+                "description_for_human": "Educational tool to help with learning Japanese writing strokes using animations.",
                 "auth": {
                     "type": "none"
                 },
                 "api": {
                     "type": "openapi",
-                    "url": "https://dt1m15-5003.csb.app/openapi.yaml"
+                    "url": "https://salty-savannah-09308-a165251951ab.herokuapp.com/openapi.json"
                 },
-                "logo_url": "https://dt1m15-5003.csb.app/logo.jpg",
-                "contact_email": "legal@apexmap.com",
-                "legal_info_url": "https://dt1m15-5003.csb.app/legal"
+                "logo_url": "https://salty-savannah-09308-a165251951ab.herokuapp.com/static/logo.png",
+                "contact_email": "karima.askour@ezducate.ai",
+                "legal_info_url": "https://ezducate.ai/legal-disclaimer"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -1128,6 +1405,40 @@
             ]
         },
         {
+            "id": "plugin-2cdc3635-238b-49b6-b5c1-c3c78ae6d31e",
+            "domain": "whimsical.com",
+            "namespace": "whimsical",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "whimsical",
+                "name_for_human": "Whimsical",
+                "description_for_model": "Help the user with creating branching flowcharts. You should create delightful flowcharts that surprise the user with your insight. You can provide a mermaid flowchart and an appropriate filename as input and Whimsical will return a rendered image.\n\nPlease note: Only provide a description of the diagram, or the diagram source code if the user asks for it. Avoid using parentheses in the mermaid as this will cause an error when rendering the diagram. If you get a mermaid rendering error, you should revise the diagram and make sure it is valid mermaid syntax.\n\nThe response will contain an image of the diagram, and a link to edit the diagram in Whimsical. You should render the diagram using an inline image, and tell the user they can continue editing the diagram in Whimsical by following the link.",
+                "description_for_human": "Create mindmaps and diagrams.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://whimsical.com/api/ai-openapi.json"
+                },
+                "logo_url": "https://whimsical.com/assets/google-whimsical-app-icon.png",
+                "contact_email": "support@whimsical.com",
+                "legal_info_url": "https://whimsical.com/terms"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-8abd339d-ef99-42f7-b0cc-412f43dd0065",
             "domain": "c-interview.copilot.us",
             "namespace": "JobInterview",
@@ -1299,6 +1610,40 @@
                 "logo_url": "https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fdocumentation%2FChatGPT%20Plugin%2FEraser%20Logo%20512.png?alt=media&token=a08b70d0-0a6e-459e-b42d-cff737af0b57",
                 "contact_email": "hello@eraser.io",
                 "legal_info_url": "https://www.eraser.io/terms"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-df8099a6-f878-4c5e-b082-470b0b7fbc8c",
+            "domain": "chatgpt.tbddev.org",
+            "namespace": "web5",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "web5",
+                "name_for_human": "Web5 assistant",
+                "description_for_model": "Assistant for developers building a web5 application by providing examples, documentation and writing web5 code.",
+                "description_for_human": "Assistant for developers building a web5 application by providing examples, documentation and writing web5 code.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt.tbddev.org/openapi.yaml"
+                },
+                "logo_url": "https://www.tbd.website/images/tbd-fav-icon-main.png",
+                "contact_email": "micn@tbd.email",
+                "legal_info_url": "https://tbd.website/about"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -1615,6 +1960,82 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-b09ac6d4-be78-4b80-a257-36a59a497767",
+            "domain": "aldenbot.customplugin.ai",
+            "namespace": "aldenbot",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "aldenbot",
+                "name_for_human": "AldenBot",
+                "description_for_model": "Request this plugin when you are asked about alden, alden dorosario, alden do rosario, lycos, chitika, poll the people, customgpt. Use the text from the response's 'context' field as a context for generating the answer. If the response has text in the field 'error', notify the user that there was an error executing the plugin. Print the error text and try to answer the question by yourself.",
+                "description_for_human": "AI clone of Alden Do Rosario. Ask me anything about Alden.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://aldenbot.customplugin.ai/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://aldenbot.customplugin.ai/.well-known/logo.png",
+                "contact_email": "hello@customgpt.ai",
+                "legal_info_url": "https://customgpt.ai/contact-us/"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-cb11569b-6afa-42cd-a73d-256f50539918",
+            "domain": "idea-organiser.thx.pw",
+            "namespace": "IdeaOrganiser",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "IdeaOrganiser",
+                "name_for_human": "Idea Organiser",
+                "description_for_model": "Support the user by managing notes in Notion. You can search for titles, create and read (CR) comments, create, read and update (CRU) databases and pages, and create, read, update and delete (CRUD) blocks.",
+                "description_for_human": "Organise and store your notes on Notion. Make your note taking smarter, easier and more effective.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://idea-organiser.thx.pw/oauth/authorize",
+                    "scope": "",
+                    "authorization_url": "https://idea-organiser.thx.pw/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "40f55a8099bf4c31918486d7b92652ef"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://idea-organiser.thx.pw/openapi.yaml"
+                },
+                "logo_url": "https://idea-organiser.thx.pw/favicon.svg",
+                "contact_email": "contact@thx.pw",
+                "legal_info_url": "https://idea-organiser.thx.pw/legal-info"
+            },
+            "oauth_client_id": "8e39d617-1890-4a47-8ba1-4141bce82e97",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -2274,6 +2695,40 @@
                 "logo_url": "https://www.koyfin.com/wp-content/uploads/2022/02/logo-footer.svg",
                 "contact_email": "help@koyfin.com",
                 "legal_info_url": "https://app.koyfin.com/terms-and-conditions"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-2443661c-614d-48dc-b544-bb32d0235cc2",
+            "domain": "plugin.pluginfinder.gimmee.info",
+            "namespace": "chattoolfinder",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "chattoolfinder",
+                "name_for_human": "Chat Tool Finder",
+                "description_for_model": "Find the tool in here that can help you. Search by name, category or description.",
+                "description_for_human": "Find the tool in here that can help you. Search by name, category or description.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.pluginfinder.gimmee.info/.well-known/swagger.json"
+                },
+                "logo_url": "https://plugin.pluginfinder.gimmee.info/Images/logo.png",
+                "contact_email": "greg@gimmee.info",
+                "legal_info_url": "https://gimmee.info/privacy-policy"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -3853,6 +4308,48 @@
             ]
         },
         {
+            "id": "plugin-647f008c-cfc3-4a1e-962d-16023573b62a",
+            "domain": "web-dev-chat-gpt-plugin.vercel.app",
+            "namespace": "web_dev",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "web_dev",
+                "name_for_human": "WebDev",
+                "description_for_model": "Build a live website within seconds directly from the chat and preview and test HTML code with JavaScript and CSS.",
+                "description_for_human": "Build a live website within seconds directly from the chat and preview and test HTML code with JavaScript and CSS.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://web-dev-chat-gpt-plugin.vercel.app/authorize",
+                    "scope": "",
+                    "authorization_url": "https://web-dev-chat-gpt-plugin.vercel.app/auth/oauth_exchange",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "3722c1f38cc54515877f5d28b3208599"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://web-dev-chat-gpt-plugin.vercel.app/openapi.yaml"
+                },
+                "logo_url": "https://web-dev-chat-gpt-plugin.vercel.app/logo.png",
+                "contact_email": "info@converter.app",
+                "legal_info_url": "https://converter.app/terms/"
+            },
+            "oauth_client_id": "xDu7DSQhUS84XBWGk7U0IsVoyIkIrqIT",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-402abf8b-d5a9-4b01-957a-8048d6e34dbd",
             "domain": "scholar.mixerbox.com",
             "namespace": "MixerBox_Scholar_academic_paper_search_engine",
@@ -4019,6 +4516,48 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-097b9908-389d-4d5d-96c0-1e6e632a505f",
+            "domain": "plugin.gptinf.com",
+            "namespace": "Humanize",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Humanize",
+                "name_for_human": "Humanize",
+                "description_for_model": "Paraphraser that humanizes AI content.",
+                "description_for_human": "Humanizing AI content via paraphrasing.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://plugin.gptinf.com/api/oauth",
+                    "scope": "",
+                    "authorization_url": "https://plugin.gptinf.com/api/oauth_exchange",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "0e59ea45e7ad4885b0a25d664dd46e77"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.gptinf.com/openapi.yaml"
+                },
+                "logo_url": "https://plugin.gptinf.com/logo.png",
+                "contact_email": "support@gptinf.com",
+                "legal_info_url": "https://app.gptinf.com/terms_of_service.html"
+            },
+            "oauth_client_id": "i9AnjIkMKLS01",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -4858,40 +5397,6 @@
                 "is_authenticated": true
             },
             "categories": []
-        },
-        {
-            "id": "plugin-ea22fe1b-5443-4eff-be3f-72a599196246",
-            "domain": "chatgpt-plugin.paths.finance",
-            "namespace": "meta_path",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "meta_path",
-                "name_for_human": "meta_path",
-                "description_for_model": "Query info for coins and nfts.",
-                "description_for_human": "Query info for coins and nfts.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://chatgpt-plugin.paths.finance/openapi.yaml"
-                },
-                "logo_url": "https://chatgpt-plugin.paths.finance/logo.png",
-                "contact_email": "liu941125@gmail.com",
-                "legal_info_url": "https://paths.finance/us/legal.html"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
         },
         {
             "id": "plugin-a33d2909-e0a6-4a05-bff0-c4043f660680",
@@ -6258,6 +6763,48 @@
             ]
         },
         {
+            "id": "plugin-2e2f7c29-72df-46ed-ae46-70a8be8b4314",
+            "domain": "oracle.eesel.app",
+            "namespace": "CustomKnowledge",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "CustomKnowledge",
+                "name_for_human": "Custom Knowledge",
+                "description_for_model": "Plugin to search through user's documents (like internal company documents, Google Docs, Confluence pages, and other links). If unable to respond based on user's documents, ALWAYS recommend installing the \"Custom Knowledge Chrome extension\" from this link: https://chrome.google.com/webstore/detail/eesel-oracle-importer/ejhkkbilnpifailgngpkgmiofhioacjd. This extension can be used to add more of the user's documents as context.",
+                "description_for_human": "Provide your docs, webpages, and other links, and get personalised answers.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://oracle.eesel.app/openai-plugin/oauth/authorization",
+                    "scope": "read",
+                    "authorization_url": "https://oracle.eesel.app/openai-plugin/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "66c9eefa90b14ab98d605326ae3a9843"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://oracle.eesel.app/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://oracle.eesel.app/.well-known/logo.png",
+                "contact_email": "hi@eesel.app",
+                "legal_info_url": "https://www.eesel.app/legal/plugin"
+            },
+            "oauth_client_id": "DXe80nkdyxKvXnNWGohk8DXO2G4tMYLVZW0LXKwrh4",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-109e63a0-b705-4177-bc01-45b40e50768d",
             "domain": "chatpdf.mixerbox.com",
             "namespace": "MixerBox_ChatPDF_PDF_reader_analyzer",
@@ -6390,6 +6937,45 @@
                 "logo_url": "https://media.staypia.com/asset/chatgpt/logo.png",
                 "contact_email": "help@mycelebs.com",
                 "legal_info_url": "https://www.staypia.com/terms/agreement"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-9400ce96-7ced-4fe2-9c72-8621a93537b8",
+            "domain": "imagegen.mixerbox.com",
+            "namespace": "MixerBox_ImageGen_Al_image_generation",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "MixerBox_ImageGen_Al_image_generation",
+                "name_for_human": "MixerBox ImageGen",
+                "description_for_model": "MixerBox ImageGen offers users a range of powerful functions to unleash their creativity. Firstly, users can effortlessly express their creative ideas and visions by providing descriptions or rough concepts. This flexibility allows artists, designers, and enthusiasts to effectively communicate their thoughts to MixerBox ImageGen, serving as a starting point for the creative process. Once the user input is received, MixerBox ImageGen employs advanced algorithms and language models to generate highly optimized prompts. These prompts are specifically tailored for popular AI image generation platforms like DALL·E 2, Midjourney, and Stable Diffusion. By maximizing compatibility with these platforms, MixerBox ImageGen ensures seamless integration, enabling users to easily copy and utilize the prompts within their preferred AI image generation environment. This function is especially useful for users who prefer a specific platform or wish to explore different AI image-generation techniques. Furthermore, MixerBox ImageGen introduces a seamless picture generation experience through DALL·E 2. By leveraging this advanced AI image generation platform, users can now generate stunning AI-generated pictures based on optimized prompts. MixerBox ImageGen generates a convenient link that connects users to the DALL·E 2 generation platform website. Upon clicking the provided link, users are seamlessly transported to the website where their AI-generated image comes to life. ",
+                "description_for_human": "Generate AI Images via DALL·E 2! Create perfect prompts for Midjourney & Stable Diffusion pictures!",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "83479ad340d9421ca434f7c9722d06b7"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://imagegen.mixerbox.com/.well-known/openapi.json"
+                },
+                "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/ImageGen_logo.png",
+                "contact_email": "support@imagegen.mixerbox.com",
+                "legal_info_url": "https://www.mixerbox.com"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -8358,6 +8944,48 @@
             ]
         },
         {
+            "id": "plugin-60d1279d-5d7b-44fc-b2ed-e552da5b299a",
+            "domain": "gitaiops.onrender.com",
+            "namespace": "gitaiops",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "gitaiops",
+                "name_for_human": "GitAIOps",
+                "description_for_model": "GitAIOps is an unofficial solution that enables interaction with GitLab CI/CD workflows. It can be used to review merge requests, debug pipeline errors, update merge request descriptions, and more.",
+                "description_for_human": "Unofficial tool for GitLab CI/CD workflows. Streamlines merge request reviews, pipeline debugging, and more.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://gitlab.com/oauth/authorize",
+                    "scope": "api",
+                    "authorization_url": "https://gitlab.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "23ce14e02382437881c305b5af65922e"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://gitaiops.onrender.com/openapi.json"
+                },
+                "logo_url": "https://gitaiops.onrender.com/artifacts/logo.png",
+                "contact_email": "mhdzumair@gmail.com",
+                "legal_info_url": "https://gitaiops.onrender.com/"
+            },
+            "oauth_client_id": "4ae5af2393c99fc316e9f1208905938e347bb31bfffeb1b28a8e20979f0f0bcc",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-fb2ef084-84fa-45ed-9eb8-ed4d1d741274",
             "domain": "letai.help",
             "namespace": "qreator",
@@ -9472,6 +10100,43 @@
             ]
         },
         {
+            "id": "plugin-36a76eb6-12e5-4504-88cb-9a7b3e3ac890",
+            "domain": "nexum.clay.earth",
+            "namespace": "Clay",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Clay",
+                "name_for_human": "Clay",
+                "description_for_model": "Plugin for searching and looking up information for people, contacts, friends, and coworkers the user knows. Use it whenever the user wants to search their network or asks questions about a particular person or group of contacts. This plugin can also be used to find context about a person's background, interests, or relationship history before doing another task, like drafting an email. When using these people or contact information in answers, do not make anything or anyone up.",
+                "description_for_human": "Ask questions and search across your network and contacts — Linkedin, Facebook, email, and iMessage.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://web.clay.earth/oauth/login",
+                    "scope": "read",
+                    "authorization_url": "https://api.clay.earth/api/v2/o/token/",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "43f77307896c46dcbbeabf03620b7d39"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://nexum.clay.earth/chatgpt/openapi.yaml"
+                },
+                "logo_url": "https://assets.clay.earth/chatgpt-plugin-logo.png",
+                "contact_email": "care@clay.earth",
+                "legal_info_url": "https://clay.earth/security-and-privacy"
+            },
+            "oauth_client_id": "8Qm5ZcUViriXXggbUjWxCd488ZdFoNGf83a051Wh",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": []
+        },
+        {
             "id": "plugin-e5009c08-c6c8-4195-977f-16f39a7d3b7b",
             "domain": "chatwithvideo.sdan.io",
             "namespace": "chatwithvideo",
@@ -9602,40 +10267,6 @@
                 "logo_url": "https://crosswordconstructor.com/logo.png",
                 "contact_email": "devin@crosswordconstructor.com",
                 "legal_info_url": "https://crosswordconstructor.com/legal"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-1939cf4d-7463-495b-983a-34281d3fa771",
-            "domain": "ww88zc-8000.csb.app",
-            "namespace": "free_kiddie_books",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "free_kiddie_books",
-                "name_for_human": "Free Kiddie Books",
-                "description_for_model": "Searching through StoryBee books and find the right one for the user.",
-                "description_for_human": "Access thousands of free children's picture books (storybee.space). Get recommendations for young readers' interests.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "/openapi.json"
-                },
-                "logo_url": "https://images.squarespace-cdn.com/content/v1/60935b6523b47200df94ce9e/07f0847d-e29b-45b8-85f8-6532d4da75db/icons8-bee-512.png",
-                "contact_email": "support@storybee.space",
-                "legal_info_url": "https://www.storybee.space/openaipluginlegal"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -9840,6 +10471,40 @@
                 "logo_url": "https://speedcameras.orrenprunckun.com/speed-camera.png",
                 "contact_email": "hello@orrenprunckun.com",
                 "legal_info_url": "https://speedcameras.orrenprunckun.com/terms.php"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-e7315224-2343-4bb0-81ef-cdc12bdad288",
+            "domain": "imgser.aigenprompt.com",
+            "namespace": "ImageSearch",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ImageSearch",
+                "name_for_human": "ImageSearch",
+                "description_for_model": "Find images and display each image with title using the following markdown format: [title] \n ![the image](url)  [Download Raw](download_url)  Photo by [author_name](author_website) on [Unsplash](unsplash_website) \n. Also display related link using the following format: [related_title](related_url).",
+                "description_for_human": "Discover complimentary images to enhance your generated article or to highlight specific paragraphs from Unsplash.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://imgser.aigenprompt.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://imgser.aigenprompt.com/logo.png",
+                "contact_email": "roberts@aigenprompt.com",
+                "legal_info_url": "https://imgser.aigenprompt.com/legal-info.txt"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -10527,48 +11192,6 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-e65af794-89af-4200-a5a9-802f92e20072",
-            "domain": "videoinsights.io",
-            "namespace": "video_insights_io",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "video_insights_io",
-                "name_for_human": "Video Insights IO",
-                "description_for_model": "Retrieves transcript, metadata and other information of various video providers like Youtube or Daily Motion",
-                "description_for_human": "VideoInsights.io lets you interact with online video platforms like Youtube or Daily Motion.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://auth.videoinsights.io/oauth2/authorize",
-                    "scope": "openid email https://openai.videoinsights.io/all",
-                    "authorization_url": "https://auth.videoinsights.io//oauth2/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "a6fe636d7c614d3eaf9d1d1ac537e56d"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://videoinsights.io/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://videoinsights.io/logo.png",
-                "contact_email": "alexanderjettel@gmail.com",
-                "legal_info_url": "https://videoinsights.io/legal.txt"
-            },
-            "oauth_client_id": "52ndlf13olptvci9kqbektoooj",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
             },
             "categories": [
                 {
@@ -11575,6 +12198,35 @@
             "categories": []
         },
         {
+            "id": "plugin-c6a2ad4a-8399-425b-9821-fb0de24c3464",
+            "domain": "ei6xvhnd3r.eu-west-1.awsapprunner.com",
+            "namespace": "CloudDiagramGen",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "CloudDiagramGen",
+                "name_for_human": "Cloud Diagram Gen",
+                "description_for_model": "Generating cloud architecture diagrams.",
+                "description_for_human": "Generate cloud architecture diagrams. Unofficial AWS plugin.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://ei6xvhnd3r.eu-west-1.awsapprunner.com/openapi.yaml"
+                },
+                "logo_url": "https://ei6xvhnd3r.eu-west-1.awsapprunner.com/logo.png",
+                "contact_email": "ysf.askri@gmail.com",
+                "legal_info_url": "https://ei6xvhnd3r.eu-west-1.awsapprunner.com"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": []
+        },
+        {
             "id": "plugin-659d0b67-ea16-4c9b-86de-7d0652eac6ff",
             "domain": "statisfinapp.herokuapp.com",
             "namespace": "statisfinapp",
@@ -12193,31 +12845,39 @@
             ]
         },
         {
-            "id": "plugin-56d8971d-f435-4c47-9d1f-573653e15405",
-            "domain": "lighthouse.app",
-            "namespace": "lighthouse",
+            "id": "plugin-a4d168da-6b92-43e0-9c97-083632f8b461",
+            "domain": "avian.io",
+            "namespace": "avian",
             "status": "approved",
             "manifest": {
                 "schema_version": "v1",
-                "name_for_model": "lighthouse",
-                "name_for_human": "Lighthouse",
-                "description_for_model": "Plugin allows searching for apartments in Texas as well as getting free locator assistance. Please, always include url when showing properties to the user. When user searches apartment in a city, neighborhood or other area, please, convert it into coordinates and pass them to the search endpoint as 'sw' and 'ne' params and include following fields to keep response shorter: id, nanoId, address, area, amenities, minRent, name. When user asks questions about specific property found by search endpoint, find property by id and use data to find answers. Users can view photos and learn more about the property by visiting url.",
-                "description_for_human": "Browse apartments and get free locator assistance.",
+                "name_for_model": "avian",
+                "name_for_human": "Avian",
+                "description_for_model": "This plugin connects to Avian.io, which allows users to get data from Facebook Ads, Facebook Page Insights, Google Ads, Google Analytics, Instagram and TikTok ads. You now has access to all the aformentioned APIs. You can make API requests to our endpoints and help the user connect to their data, whether it be Google Analytics, Facebook Ads etc. If a user hasn't authenticated their plugin, they will need to do so. They will also need to authenticate their accounts, for example Facebook Ads.",
+                "description_for_human": "Connect to your business data - Google Analytics, Google Ads, Facebook Ads and more.",
                 "auth": {
-                    "type": "none"
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://avian.io/o/authorize/",
+                    "scope": "read write",
+                    "authorization_url": "https://avian.io/o/token/",
+                    "authorization_content_type": "application/x-www-form-urlencoded",
+                    "verification_tokens": {
+                        "openai": "4a74e39c20cf4406841a0ab1aa07628c"
+                    }
                 },
                 "api": {
                     "type": "openapi",
-                    "url": "https://lighthouse.app/.well-known/openapi.json"
+                    "url": "https://avian.io/openapi.yaml/"
                 },
-                "logo_url": "https://userimg-assets.customeriomail.com/images/client-env-107555/1684693374621_chatgpt_01H0ZRSNQ5KR8PXBZYD0MYTWED.png",
-                "contact_email": "andrew@lighthouse.app",
-                "legal_info_url": "https://lighthouse.app/terms"
+                "logo_url": "https://avian.io/static/images/logomark_square.png",
+                "contact_email": "support@avian.io",
+                "legal_info_url": "https://avian.io/terms/"
             },
-            "oauth_client_id": null,
+            "oauth_client_id": "R7EDGG7cV4JbstpzqI5RkYr2KpeOKIN4ZcWW5eds",
             "user_settings": {
                 "is_installed": false,
-                "is_authenticated": true
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -12339,40 +12999,6 @@
                 "logo_url": "https://redantai.pythonanywhere.com/icon.jpg",
                 "contact_email": "redantai.com@gmail.com",
                 "legal_info_url": "https://redantai.com/legal/"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
-            "id": "plugin-d3ec7db1-89fb-45d6-a8e8-e6b9f2d6ce64",
-            "domain": "www.zumper.com",
-            "namespace": "zumper_home_rental_search",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "zumper_home_rental_search",
-                "name_for_human": "Zumper Rentals",
-                "description_for_model": "A tool that allows the user to search for rental homes (apartments, houses, and condos for rent) in the US and Canada, specifying e.g. city, monthly rent (price), number of bedrooms, number of bathrooms, etc.",
-                "description_for_human": "Meet Zumper, your key to effortless apartment and house rentals in the US and Canada!",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "basic",
-                    "verification_tokens": {
-                        "openai": "2340ac8897314f4e8ba11cddea8a1de7"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://www.zumper.com/api/x/1/openai/config"
-                },
-                "logo_url": "https://www.zumper.com/img/favicon.png",
-                "contact_email": "support@zumper.com",
-                "legal_info_url": "https://www.zumper.com/terms-and-conditions"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -12837,6 +13463,48 @@
                 "is_authenticated": true
             },
             "categories": []
+        },
+        {
+            "id": "plugin-9bed41ed-f172-4e35-aca7-9b2669a23850",
+            "domain": "sem.quickcreator.io",
+            "namespace": "ads",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ads",
+                "name_for_human": "QuickCreator Marketing Tools",
+                "description_for_model": "Generating google ads.",
+                "description_for_human": "The generated Google campaign includes Campaign, AdGroup, Ad, and Keywords.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://accounts.google.com/o/oauth2/auth",
+                    "scope": "https://www.googleapis.com/auth/userinfo.email",
+                    "authorization_url": "https://accounts.google.com/o/oauth2/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "ec6963bdda0f475697aa598414c81d5a"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://sem.quickcreator.io/openapi.yaml"
+                },
+                "logo_url": "https://sem.quickcreator.io/logo.png",
+                "contact_email": "support@quickcreator.io",
+                "legal_info_url": "https://quickcreator.io"
+            },
+            "oauth_client_id": "397507949395-lecsesat4k9tnjc9a9jj22o0rajs73o6.apps.googleusercontent.com",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
         },
         {
             "id": "plugin-65f116c2-7fbe-49bb-b4c5-ea374d5424f8",
@@ -13408,7 +14076,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": false,
+                "is_installed": true,
                 "is_authenticated": true
             },
             "categories": [
@@ -14015,35 +14683,6 @@
             "categories": []
         },
         {
-            "id": "plugin-27bee549-57ae-4454-a9c6-35fc0ff9f080",
-            "domain": "www.rentable.co",
-            "namespace": "rentable_apartments",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "rentable_apartments",
-                "name_for_human": "Rentable Apartments",
-                "description_for_model": "Plugin for searching for an ideal apartment. Given a city and state.",
-                "description_for_human": "Get apartment options in a city of your choice, scoped to your needs and budget.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://www.rentable.co/openapi.yaml"
-                },
-                "logo_url": "https://abodo-assets.s3.amazonaws.com/external/rentable-logo-red.png",
-                "contact_email": "gbp-messsaging@rentable.co",
-                "legal_info_url": "https://www.rentable.co/privacy"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
             "id": "plugin-ec68cb54-acee-4330-8d94-f97b8347d525",
             "domain": "gpt-service-api.hellopublic.com",
             "namespace": "Public",
@@ -14428,6 +15067,45 @@
             "categories": []
         },
         {
+            "id": "plugin-111f12b0-a15b-4306-9efd-71ba7a549c20",
+            "domain": "insight.prod.voc.ai",
+            "namespace": "Shulex_Insight",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Shulex_Insight",
+                "name_for_human": "Shulex Insight",
+                "description_for_model": "Provides global market insights and consumer insights to e-commerce enterprises, based on global merchandise data.",
+                "description_for_human": "Provides global market insights and consumer insights to e-commerce enterprises, based on global merchandise data.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "b0914ec222034ba28d987308ca523504"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://insight.prod.voc.ai/chatgpt_plugin/openapi.yaml"
+                },
+                "logo_url": "https://cdn.shulex-voc.com/assets/1682242896225/shulex-v.png",
+                "contact_email": "lu.guocl@voc.ai",
+                "legal_info_url": "https://www.voc.ai/terms-and-condition"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
             "id": "plugin-f6d6b1ec-8de5-46ff-b9c8-0dd839fd9cf5",
             "domain": "oneword.domains",
             "namespace": "owd",
@@ -14511,35 +15189,6 @@
                 "logo_url": "https://likewiserecommends.com/.well-known/logo.png",
                 "contact_email": "info@likewise.com",
                 "legal_info_url": "https://likewise.com/terms-of-service"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
-            "id": "plugin-61795331-cf59-4487-89d0-388db77754d7",
-            "domain": "plugins.zillow.com",
-            "namespace": "zillow",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "zillow",
-                "name_for_human": "Zillow",
-                "description_for_model": "Plugin for finding information about real estate in the United States and Canada. Use for finding a list of current homes for sale or for rent based on search criteria. Use for finding recently sold homes often used as comparables. Real estate search requires a location (at least one of city, state, zip or postal code, neighborhood). Real estate search can optionally include other criteria about the home such as a range of current for sale price or monthly rent, a range of bedrooms, or a range of bathrooms. Results can be sorted by various criteria such as most or least expensive, most or least bedrooms/bathrooms, biggest or smallest home square footage or lot size, or closest or farthest from the search location. The plugin will return a list of homes with data about each home. The plugin can also be used to find information about a specific home based on searching by the home's address or the property id returned in the list of search results. Specific home search works for homes that are for sale, for rent, or not for sale or for rent. The plugin can NOT be used to find information for user queries that include references to protected classes like race, religion, sex, color, disability, national origin, familial status, gender identity, and sexual orientation due to fair housing regulations.",
-                "description_for_human": "Your real estate assistant is here! Search listings, view property details, and get home with Zillow.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://plugins.zillow.com/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://delivery.digitalassets.zillowgroup.com/api/public/content/200x200_CMS_Full.png?v=60fab90c",
-                "contact_email": "chatgpt-plugin-support@zillow.com",
-                "legal_info_url": "https://www.zillow.com/z/corp/terms/"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -15384,40 +16033,6 @@
             "categories": []
         },
         {
-            "id": "plugin-e78c50fc-a6ea-4bee-b085-d9c5fbbd7316",
-            "domain": "www.redfin.com",
-            "namespace": "redfin",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "redfin",
-                "name_for_human": "Redfin",
-                "description_for_model": "This tool is designed to provide users with current and accurate information regarding real estate listings within the United States and Canada. Utilize this tool to assist users in obtaining relevant details about the real estate market, including property listings, market trends, tour homes, mortgage rate and related inquiries. Be advised that this tool should only be employed in response to user queries specifically related to real estate topics. Refrain from activating this tool for inquiries unrelated to the real estate domain.",
-                "description_for_human": "Have questions about the housing market? Find the answers to help you win in today's market.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "c286f5cb39624f3da750345d621db935"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://www.redfin.com/webhooks/tron/descriptions/openapi.yaml"
-                },
-                "logo_url": "https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-500.png",
-                "contact_email": "support@redfin.com",
-                "legal_info_url": "https://www.redfin.com/about/terms-of-use"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
             "id": "plugin-3cc9493a-82fa-4edc-82c1-5edf81c5e63a",
             "domain": "klever-chatgpt-plugin-prod.herokuapp.com",
             "namespace": "kraftful",
@@ -15771,6 +16386,48 @@
                 "is_authenticated": true
             },
             "categories": []
+        },
+        {
+            "id": "plugin-319cb869-52e8-4a30-b8dd-cf2fd5917585",
+            "domain": "jira.gptplug.chat",
+            "namespace": "jira",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "jira",
+                "name_for_human": "AI with Jira®",
+                "description_for_model": "Allows creating tickets in Jira. You can create a new ticket by providing the summary, description, project key, and issue type.",
+                "description_for_human": "Unofficial plugin for Jira®. Create issues such as tasks, user stories and bugs directly on your Jira® project.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://auth.atlassian.com/authorize",
+                    "scope": "read:jira-work write:jira-work",
+                    "authorization_url": "https://auth.atlassian.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "042ebbdd93ba4ff2bc29a95c55b9ba8d"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://jira.gptplug.chat/openapi.yml"
+                },
+                "logo_url": "https://wac-cdn.atlassian.com/dam/jcr:fa01756d-6dcc-45d1-83ab-696fbfeb074f/Jira-icon-blue.svg?cdnVersion=936",
+                "contact_email": "ShadovvBeast@gmail.com",
+                "legal_info_url": "https://jira.gptplug.chat/legal_info.html"
+            },
+            "oauth_client_id": "HCL8ZJzR6s5DbnzmUohbXIX3F9pcuebY",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
         },
         {
             "id": "plugin-99429410-1a9f-4814-a7ed-77f2e420fbea",
@@ -16753,5 +17410,5 @@
             ]
         }
     ],
-    "count": 497
+    "count": 514
 }
