@@ -1,7 +1,34 @@
-# 516 Official ChatGPT Plugins (Updated June 21, 2023) 🧩
+# 538 Official ChatGPT Plugins (Updated June 22, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 22, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 538   | Content Rewriter| Enter any URL and have the text content rewritten for you!|
+| 537   | Konkani Translator| Unlock the Beauty of Goa with the Romi Konkani Translator.|
+| 536   | Find a Freelancer| Find human freelancers to help complete tasks.|
+| 535   | Tabor AI| Trusted source for senior living market research, data, and analytics. 35K communities, 9K operators in the USA.|
+| 534   | Job Search| Searching for jobs made easy.|
+| 533   | Telescope Labs| Data retrieval, analysis and visualizations related to web3 games who are onboarded as a blockchain game.|
+| 532   | Japanese Strokes| |
+| 531   | Whimsical| Create mindmaps and diagrams.|
+| 530   | AldenBot| AI clone of Alden Do Rosario. Ask me anything about Alden.|
+| 529   | Idea Organiser| Organise and store your notes on Notion. Make your note taking smarter, easier and more effective.|
+| 528   | Chat Tool Finder| Find the tool in here that can help you. Search by name, category or description.|
+| 527   | WebDev| Build a live website within seconds directly from the chat and preview and test HTML code with JavaScript and CSS.|
+| 526   | Humanize| Humanizing AI content via paraphrasing.|
+| 525   | Custom Knowledge| Provide your docs, webpages, and other links, and get personalised answers.|
+| 524   | MixerBox ImageGen| Generate AI Images via DALL·E 2! Create perfect prompts for Midjourney & Stable Diffusion pictures!|
+| 523   | GitAIOps| Unofficial tool for GitLab CI/CD workflows. Streamlines merge request reviews, pipeline debugging, and more.|
+| 522   | Clay| Ask questions and search across your network and contacts — Linkedin, Facebook, email, and iMessage.|
+| 521   | Cloud Diagram Gen| Generate cloud architecture diagrams. Unofficial AWS plugin.|
+| 517   | Avian| Connect to your business data - Google Analytics, Google Ads, Facebook Ads and more.|
+| 520   | QuickCreator Marketing Tools| The generated Google campaign includes Campaign, AdGroup, Ad, and Keywords.|
+| 519   | Shulex Insight| Provides global market insights and consumer insights to e-commerce enterprises, based on global merchandise data.|
+| 518   | AI with Jira®| Unofficial plugin for Jira®. Create issues such as tasks, user stories and bugs directly on your Jira® project.|
+| 517   | Web5 assistant| Assistant for developers building a web5 application by providing examples, documentation and writing web5 code.
+
 #### Added on June 21, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
