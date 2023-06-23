@@ -1,7 +1,44 @@
-# 538 Official ChatGPT Plugins (Updated June 22, 2023) 🧩
+# 571 Official ChatGPT Plugins (Updated June 23, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 23, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 571   | [Mojito] (https://copilot.us)| |
+| 570   | VideoInsights.io| VideoInsights.io lets you interact with online video platforms like Youtube, Zoom or BiliBili.|
+| 569   | VBOUT| Interact seamlessly with VBOUT's APIs using natural language. Need help? Request 'help' for a list of commands.|
+| 568   | Ask VG| Search through VG's content archive.|
+| 567   | NotesAISync| Unofficial connector to Notion for interactive note-taking.|
+| 566   | MightyOwl K-8| MightyOwl is a K-8 educational resource offering fun and engaging videos, quizzes and worksheets.|
+| 565   | CryptoMation| Crypto transactions, addresses, balances, conversions for any blockchain (Ethereum, Binance, Near, Tron, etc.)|
+| 564   | Live Game| Get real-time scores and news updates from the world of eSports. LOL, Dota2, CS:GO, PUBG live scores and news.|
+| 563   | Tom Brady Bot| The ultimate trusted guide for all things about Tom Brady.|
+| 562   | Austrian Bank Rates| Compare the rates and terms of checking accounts and savings accounts from Austrian banks.|
+| 561   | Webbots - Ask a Bot| Start with 'Ask bot <bot id>'. Visit webbot.chat to create & share a free bot. Powered by Maigrate.|
+| 560   | YT Caption Retriever| Tool for retrieving YouTube video captions. You can retrieve captions from any YouTube video by providing its URL.|
+| 559   | TokenInsights| Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.|
+| 558   | Disteur| Quickstart for creating a product draft on the Disteur platform.|
+| 557   | Argil AI| Generate images without learning how to prompt.|
+| 556   | Ask Marcie| For viewing house listings in Park City, Utah.|
+| 555   | IndoorPlantBot| The ultimate guide for indoor plants.|
+| 554   | Magic Conch Shell| Guide your most important life decisions with the magic conch shell. (Please don't actually, it's only satire).|
+| 553   | Skipit AI| The Skipit AI plugin extract context data from URLs (YouTube, websites, PDFs) for comprehensive information.|
+| 552   | AMZPRO| Plugin for AMAZON product listing, help you write a product description.|
+| 551   | Domain Finder AI| Verify if a domain is available by searching across multiple domain registrars.|
+| 550   | Metaphor Search| Access the internet's highest quality content. Recommended by people, powered by neural search.|
+| 549   | OfferZen World| Queries OfferZen's database for tech career, recruitment, service, and pay insights.|
+| 548   | Poll the People| The ultimate guide for market research and surveys.|
+| 547   | WebsiteChat| Chat with any website link.|
+| 546   | Recombinant AI™| Input a Github repo URL. Get a holistic,deep, relational understanding of the codebase.|
+| 545   | Resume| Enhance your resume with AI. Submit your PDF URL and ask for quick, AI-guided feedback.|
+| 544  | Chat With Your Data| Conversational analysis over your databases and spreadsheets.|
+| 543   | Roshi| Create interactive lessons from online articles or Youtube videos.|
+| 542   | Talk With Docs| Ask any questions to your docs.|
+| 541   | Feng Shui Divination| Using traditional Chinese theories such as the I Ching (Book of Changes) to predict the past, present, and future.|
+| 540   | OnePage Stock Ideas| Find a list of stock ideas by asking it or feeding it with news or article.|
+| 539   | Spendless| Discover personalized Amazon products at unbeatable prices. Now available in the US.
+
 #### Added on June 22, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
