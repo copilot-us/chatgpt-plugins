@@ -5,7 +5,7 @@
 #### Added on June 23, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
-| 571   | [Mojito] (https://copilot.us)| I can convert your chats to articles and posts them online🍹.|
+| 571   | [Mojito](https://copilot.us)| I can convert your chats to articles and posts them online🍹.|
 | 570   | VideoInsights.io| VideoInsights.io lets you interact with online video platforms like Youtube, Zoom or BiliBili.|
 | 569   | VBOUT| Interact seamlessly with VBOUT's APIs using natural language. Need help? Request 'help' for a list of commands.|
 | 568   | Ask VG| Search through VG's content archive.|
