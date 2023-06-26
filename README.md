@@ -1,7 +1,30 @@
-# 571 Official ChatGPT Plugins (Updated June 23, 2023) 🧩
+# 590 Official ChatGPT Plugins (Updated June 26, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 26, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 590 | Science| Search over 250M scientific papers and research articles. Perfect for researchers or students.|
+| 589 | Welt NewsVerse| Stay informed with the latest news from welt.de.|
+| 588 | AIPLUX TM| Analyse your business and recommend NICE classifications and items to file for trademarks.|
+| 587 | AskYourKG| This plugin uses the knowledge of the documents uploaded to askyourkg.cogniswitch.ai and chats with that knowledge.|
+| 586 | Smart Connections| Chat with your notes integration for Obsidian.|
+| 585 | VoiceOver| Convert text into natural-sounding speech.|
+| 584 | Sleek Choice| Save time! Let's try effortlessly discover top-rated items within a specified budget range on Amazon.|
+| 583 | LincolnBot| The ultimate trusted guide for all things related to Abraham Lincoln.|
+| 582 | UK House Prices| Provides information on UK House Prices and Sales.|
+| 581 | Content.app| Effortlessly buffer & post Social, SEO, Ad content. Supports WordPress, Twitter, YouTube, Shopify, Medium + more!|
+| 580 | Today's Top Deal| Find the best deals on Amazon today.| 
+| 579 | BUZZ.NEW| BUZZ.NEW: A smart business creator for business management. Create, manage inventory, and handle orders efficiently.|
+| 578 | Edmunds Cars| Use Edmunds to get trusted car reviews and local new and used vehicle listings.|
+| 577 | Hedera Account Info| Gets the HBAR and token balance of a Hedera account.|
+| 576 | Devhunt| Find your next favorite tool.|
+| 575 | Tabechoku| We propose the perfect peaches for you from all over Japan.|
+| 574 | FaceTheFacts| Access profiles of German politicians, retrieve voting records, analyze side jobs, and monitor party donations.|
+| 573 | NFT Guru| Discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time|
+| 572 | People Search| Search Clay's public people graph by keyword & industry. Build lists & recruit faster than Linkedin.
+
 #### Added on June 23, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
