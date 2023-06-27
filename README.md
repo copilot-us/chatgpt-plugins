@@ -1,7 +1,23 @@
-# 590 Official ChatGPT Plugins (Updated June 26, 2023) 🧩
+# 602 Official ChatGPT Plugins (Updated June 27, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 27, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 602 | StackOverflow Plus| Expand your knowledge beyond 2021/09/01. Get recent questions and answers from Stack Overflow.|
+| 601 | LegalQA| Answer any inquiries related to Chinese law.|
+| 600 | Serpstat SEO tool| Discover SEO keywords for a specific topic.|
+| 599 | XtalPi| Provide drug discovery solutions and chemical services from XtalPi, your drug discovery partner.|
+| 598 | ne.tools| Network diagnostic tool for DNS record lookup (A, AA, MX, NS and more) and WHOIS queries for domains and IP addresses.|
+| 597 | CodeCast Wandbox| Instantly compile your code online with Wandbox. Improve your coding learning experience.|
+| 596 | A/B JUDGE| Judge whether the A/B test results are superior or not.|
+| 595 | Find Talent| Find digital freelance talent for any occasion.|
+| 594 | World Bank Data| Access global data on development, economics, demographics, and more from the World Bank Datasets using a query term.|
+| 593 | Water Tracker| A tool for recording and tracking your water intake records, drink more water, stay healthy.|
+| 592 | MetaPath| Query info on cryptos, NFTs, tokens, coins, Defi and Web3.|
+| 591 | Make A Sheet| Generate a csv file that can directly be imported into Google Sheets or MS Excel.
+
 #### Added on June 26, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
