@@ -1,7 +1,19 @@
-# 602 Official ChatGPT Plugins (Updated June 27, 2023) 🧩
+# 610 Official ChatGPT Plugins (Updated June 28, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 28, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 610 | Space| Space data including NASA.|
+| 609 | Catch Them All| Catch Them All is a plugin into the PokeAPI Pokemon API.|
+| 608 | Stoic| Get a stoic quote by typing 'stoic'.|
+| 607 | Everyprint3D| Generate 3D ideas and bring them to life with our expert support.|
+| 606 | Chaca Market Product| Get detailed information about products on Chaca Market|
+| 605 | Seats.aero| Instantly discover flights that can be booked with points and miles.|
+| 604 | Plooral| Explore the Plooral Eduployment platform and search for jobs and learning content.|
+| 603 | MetaMentor by AxonAI| MetaMentor personalizes your learning path in any topic and provides you with PDF,HTML and DOCX study guides.
+
 #### Added on June 27, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
