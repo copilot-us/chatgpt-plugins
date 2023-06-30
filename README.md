@@ -1,7 +1,23 @@
-# 610 Official ChatGPT Plugins (Updated June 28, 2023) 🧩
+# 622 Official ChatGPT Plugins (Updated June 30, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on June 30, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 622 | Empregos Agro| Explore the Empregos Agro platform and search for jobs and learning content in the agro-business. Powered by Plooral.|
+| 621 | Testosterone Meals| Designed diet plans that aim to boost your testosterone levels naturally.|
+| 620 | QR Codes| Create QR codes.|
+| 619 | AlbaDOC| Your trusted source for Canadian drug information.|
+| 618 | Prayer Times| Get Prayer Times for all over world in seconds.|
+| 617 | Code Library Search| Answer any questions about Python libraries (Currently Langchain and Openai). Can answer version specific questions.|
+| 616 | GrabJobs| Find a job and apply in GrabJobs.|
+| 615 | Alarm Advisor| Get expert advice on Telenot alarm systems and personalized support for your home and business security.|
+| 614 | Weather Meteosource| Accurate weather for chat-based insights - current, forecasted, and historical. Updated in real-time.|
+| 613 | CommonEvents| Search nearby events in Korea.|
+| 612 | FilmFindr| Tell me your favorite movies and I'll recommend your next cinematic gem!|
+| 611 | Eduguide| A tool designed to respond to college admission-related inquiries.
+
 #### Added on June 28, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
