@@ -1,7 +1,35 @@
-# 622 Official ChatGPT Plugins (Updated June 30, 2023) 🧩
+# 646 Official ChatGPT Plugins (Updated July 4, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on July 4, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 646 | Vivid Seats| Discover local events and find tickets with Vivid Seats.|
+| 645 | AIMaster| The prompt is too difficult, now you only need to provide the desired prompt keywords, and you can use the prompt.|
+| 644 | BrowserPilot| Explore and quality-assure webpages, PDFs, and data to generate articles based on URLs.|
+| 643 | Ping Task Assistant| Add your own TODOs, plan and delegate tasks. Automatically assign projects and people.|
+| 642 | AFinChat| Get information and analyze A-share stocks, but search for information only from China.|
+| 641 | Whimsical Diagrams| Create and edit flowcharts and mind maps.|
+| 640 | Find a Tour| Find a tour, activity, or experience to do in locations across the world.|
+| 639 | Charge My EV| Locate EV charging stations by various providers, including Tesla supercharger locations.|
+| 638 | Ibotta Shopping| Your perfect shopping companion! Search for products from thousands of retailers. Only available in the US.|
+| 637 | Save| Save articles, data, ideas and research findings. It is an efficient way to access this stored content in the future.|
+| 636 | Minecraft Chocolate| Ask for recomendations about Minecraft mods and modpacks. Uses Modrinth API.|
+| 635 | Passive DNS Pivots| Global pDNS 800 Billion records searchable. Unearth nefarious domains within minutes of creation.|
+| 634 | Maimovie| Maimovie, the AI-powered movie search, understands any conversational prompt like "movies with plot twists", "tyrant"|
+| 633 | Service Check| Check if services are running and how fast they are responding. You can check Website, Email, Domain Lookup and Ping.|
+| 632 | Music| Generate music, compose music, create music and listen to music. Save music and refer it in the future.|
+| 631 | Alchemy| Request real-time blockchain data for chains like Ethereum, Polygon, Arbitrum and Optimism through natural language.|
+| 630 | MixerBox Prompt Pro| Generate ideal prompts instantly! Ensure accurate and comprehensive responses effortlessly!|
+| 629 | Diary| Kickstart your diary journey. Keeping a diary is designed to be effortless and beneficial.|
+| 628 | Dream Reader| Read and decode your dreams and unveil your innermost thoughts and desires.|
+| 627 | Quantum Ready Check| Check if a website is using quantum-safe key exchange. This helps ensure your website is quantum ready.|
+| 626 | Daily Learning| Unlock your full potential with a personalized education journey featuring custom-tailored lesson plans!|
+| 625 | Mino| Discover the easiest way to find the best coupons for thousands of online stores.|
+| 624 | Amazon Gift Chooser| Curated gifts for every occasion and special person.|
+| 623 | WPressGenie| Manages a WordPress site. You can get, view and analyze details of WordPress posts and content.
+
 #### Added on June 30, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
