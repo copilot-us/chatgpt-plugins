@@ -1,7 +1,26 @@
-# 646 Official ChatGPT Plugins (Updated July 4, 2023) 🧩
+# 661 Official ChatGPT Plugins (Updated July 6, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on July 6, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 661 | Shein Discovery| Get your fashion and lifestyle recommendations from Shein.|
+| 660 | Property Finder UK| Find properties for sale or rent in the UK.|
+| 659 | Persona| Dive into simulated chat adventures with your beloved heroes, experts, and celebs!.|
+| 658 | OhMyPlug| Search and discover extensions with OhMyPlug! It guides you through the best addons in the store and explains them 🔍🧩💡.|
+| 657 | BlendED| Create educational resources (question papers, bubble sheets, worksheets, etc.) instantly from your teaching material.|
+| 656 | YouTube Summaries| Insights & Summaries for YouTube videos.|
+| 655 | Workout Generator| Create strength training workouts, for goals like muscle building, strength, and fat loss.|
+| 654 | Trax Codes| Access the largest collection of up-to-date Canadian building codes and other regulations for the construction industry.|
+| 653 | AI Extensions| Craft your extensions with ease! Step-by-step guidance at your fingertips.|
+| 652 | BILD News| Stay up-to-date with Germany's leading source for the latest news on politics, sports, entertainment, and more.|
+| 651 | Nominus.com| Check if your domain name is available. We support all ccTLDs and gTLDs.|
+| 650 | Create Landing Page| Edit detailed landing page for a marketing company.|
+| 649 | Kokoro| Learn with Kokoro!|
+| 648 | Chat TMDB| Movies, Actors and TV shows from TMDB, a database like IMDB.|
+| 647 | Snappy Gifts| Personalized gift options for any budget or event, now or later, recipient's choice.
+
 #### Added on July 4, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
