@@ -1,7 +1,60 @@
-# 661 Official ChatGPT Plugins (Updated July 6, 2023) 🧩
+# 710 Official ChatGPT Plugins (Updated July 12, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on July 12, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 710 | [Export Chat to PDF](https://c-export.copilot.us/)| I will export your chat conversation to a PDF file, ready for download and share.	|
+| 709 | [Job Cover Letter](https://c-coverletter.copilot.us/)| I'll make a powerful, ATS-friendly cover letter for your job application. Ideal for email or LinkedIn use.	|
+| 708 | ValidatorAI| Get objective feedback and an elevator pitch for your business idea.	|
+| 707 | Hashtag Analytics| Engage AI - Retrieve hashtag follower counts, trends and suggestions to increase reach on LinkedIn.	|
+| 706 | Shop Rewards| Amazon product shopping search, conveniently query products, get discounts and discounted products more quickly.	|
+| 705 | Network Monitor| Monitor websites, email servers, check dns resolution, ping services and check for quantum safe encryption.	|
+| 704 | Linkhouse| Easy tool for link-building campaigns.	|
+| 703 | Promptest| Craft better prompts using /enhance, /feedback before a prompt. Skill up with /brainstorm, /workout.	|
+| 702 | ixigo| PLAN your trips! Search for best flights & get recommendations where you can travel on your budget.	|
+| 701 | Calculator Tools| Create any app, calculator, tool, tracker, or game instantly with AI.	|
+| 700 | Denison Yachting| Search yachts for sale, charters, new construction, crew placement, and more with Denison Yachting.	|
+| 699 | WriteEasy| Get AI generated articles by providing a topic and links to use for inspiration or data.	|
+| 698 | Lucid| Easily clarify complexity when you create and edit diagrams in chat.	|
+| 697 | Jio| Explore TiraBeauty, JioCinema, JioMart, and JioFiber in one go. Shop, stream, and surf with ease!	|
+| 696 | Bible| Explore Bible's content with detailed interpretations, comparisons, and feature to find related verses.	|
+| 695 | TaskOracle| Hey Neo, take the red pill less, let me guide you with the optimal tools to smash your to-do list like Hulk.	|
+| 694 | Kargo Takibi| Track where your the parcel is, its movements and more for Turkish cargo providers.	|
+| 693 | TomTom| Explore maps, get traffic updates, find destinations, plan routes and access local insights.	|
+| 692 | AIQuest| An interactive text adventure. Your choices shape the AI-crafted narrative. Each playthrough is a unique story.	|
+| 691 | Tint Bolt| Tint Bolt is an administrative tool that helps automotive window tinting businesses manage their day to day operations.	|
+| 690 | DayApp| Get connected with any company representative without waiting on hold or pressing buttons in IVR.	|
+| 689 | Express Tracking| An assistant for tracking international express logistics.	|
+| 688 | Podcast Search| This tool explores podcasts from PodcastIndex.org, a platform for decentralized audio content discovery.	|
+| 687 | UwU Translator| Use this to translate text into 'UwU' language.	|
+| 686 | MixerBox QR| Create stunning AI-generated QR code images instantly! Make your QR code leave a lasting impression!	|
+| 685 | SuperStock Fine Art| Returns a set of URLs to examples of fine art requested by user.	|
+| 684 | PromptRecruit| PromptRecruit gives you the ability to talk with your recruitment system!	|
+| 683 | Course Hero| Get course-specific study materials from Course Hero's library.	|
+| 682 | GanalyticsAI| Connect to your Google Analytics adn get data with AI using simple prompts.	|
+| 681 | Scholarly Graph Link| You can search papers, authors, datasets and software. It has access to Figshare, Arxiv, and many others.	|
+| 680 | API Bot| This is a conversational bot that lets you ask questions about a variety of common APIs.	|
+| 679 | BrowserOp| Browse dozens of webpages in one query. Fetch information more efficiently.	|
+| 678 | Datasheet.Chat| Gateway to interactive, and intelligent chat with any electrical components datasheet.	|
+| 677 | GoPlus Security AI| Get crypto security information by using GoPlus Security API.	|
+| 676 | Party Planner| Plan the perfect party.	|
+| 675 | FCA FS Search| Search FCA and get product, individual and firm info using PRN, IRN and FRN.	|
+| 674 | Serpstat SEO Tool| Discover SEO keywords for a specific topic and analyze SEO metrics/backlink data for a domain with Serpstat.com.	|
+| 673 | Wikipedia| Ask questions about general knowledge, current events, and breaking news, and get up-to-date answers from Wikipedia.	|
+| 672 | xkcd AI| Immerse yourself in the humor and wisdom of xkcd comics with personalized explanations.	|
+| 671 | Love Discounts UK| Ask for the best Love Discounts UK codes for 10,000+ stores.	|
+| 670 | Video Captions| Convert Youtube links into transcribed text, enable asking questions, create chapters, and summarize its content.	|
+| 669 | Halifax Bylaws| Your Halifax Bylaw's Expert.	|
+| 668 | MLB Stats| Access up-to-date baseball news and statistics for players and teams across the MLB.	|
+| 667 | AeroDex| Aviation data from aviationweather.gov for entertainment. Not for pre-flight decision making.	|
+| 666 | Aligned| Help the World -- automatically share LLM misbehaviors with the community! Aligned is the global platform for alignment.	|
+| 665 | Mini Games| Play text based games in your chat! Hangman, tictactoe, adventures, or make your own!	|
+| 664 | GIFT SENSAI| Find perfect gifts for friends, family, and colleagues on Amazon.com. Best for birthdays, Christmas & anniversaries.	|
+| 663 | CapCut| Submit your video ideas, and let AI craft a script, find suitable footage, and merge everything into a polished video.	|
+| 662 | Staypia| Find your perfect travel destination & hotels. Look for pet-friendly towns in USA, stargazing spots in Europe, and more!	
+
 #### Added on July 6, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
