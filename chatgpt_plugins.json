@@ -1,6 +1,241 @@
 {
    "items":[
       {
+         "id":"plugin-c0bde20b-ea30-4550-bae1-3ed0105f865c",
+         "domain":"telegraph-export.illia56.repl.co",
+         "namespace":"telegraph_export",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"telegraph_export",
+            "name_for_human":"Telegraph Export",
+            "description_for_model":"Plugin for exporting text to Telegraph.",
+            "description_for_human":"Export text to Telegraph.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://telegraph-export.illia56.repl.co/openapi.yaml"
+            },
+            "logo_url":"https://telegraph-export.illia56.repl.co/logo.jpg",
+            "contact_email":"i.ludogovskyi@gmail.com",
+            "legal_info_url":"https://butter-tangerine-f7b.notion.site/Legal-Telegraph-Export-7c68f6b828004243aef558c8e81b33ae?pvs=4"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-74fdf817-51bd-4bdf-93fd-460e54f84ba8",
+         "domain":"www.lovecoupons.com",
+         "namespace":"Love_Coupons",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"Love_Coupons",
+            "name_for_human":"Love Coupons",
+            "description_for_model":"Fetches store information and available coupon codes. Take an advertiser domain, e.g www.asos.com for ASOS and returns store information such as the coupon page URL, and a list of available coupon codes. Each coupon has a title and a URL. The URL should always be shown with the text Shop Now. Coupons have optional expiry dates and an actual code. Always display coupon results using markdown tables. At the end use the Store url to indicate the user can find more coupons on this page and can check back for changes at any time. Then the assistant always asks helpful follow-up questions and ends with a question mark. If any offers appear to match the query, e.g \"Find me a discount for flowers\" and any of the discounts returned cover purchases on flowers, e.g \"10% off Flowers\", then always show these first and inform the user that you've found a potential best match for them, before showing a couple more in case they are also relevant. Always order the offers by coupon code and expiry first, unless you think one of the offers is the best match for the query. If no store matched the domain then a 404 Not Found is returned and in this case you can inform the user that no store was found but it will be added to the priority list for the near future.",
+            "description_for_human":"Find money saving coupon & discount codes for over 30,000 stores around the world.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://www.lovecoupons.com/api/docs"
+            },
+            "logo_url":"https://cdn.lovesavingsgroup.com/assets/favicon-96x96.png",
+            "contact_email":"hello@lovesavingsgroup.com",
+            "legal_info_url":"https://www.lovecoupons.com/privacy"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-dd678b02-de56-4ff0-80d7-6b5f00102149",
+         "domain":"paypaygourmet.yahoo.co.jp",
+         "namespace":"paypay_gourmet",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"paypay_gourmet",
+            "name_for_human":"PayPay gourmet",
+            "description_for_model":"Use the PayPay Gourmet for searching restaurants. The query to be sent should not include stopwords like articles, prepositions and determinants. If your search results are empty, you don't need to fake your store. Return all responses included in the API. Answer in the language asked. Rich previews should be output only once per restaurant. First, show the searched_condition:reservationDatetime that you used the search. The resultInfo.total should be displayed with thousands separator. e.g. 1,200. Show the seeMoreUrl at the end of the output. If restaurantList is empty, iteratively search again until restaurantList is found. If your request doesn't have date and time, you must not set reservationDatetime. You should answer the questions while acting like a person. When converting to Japanese, use the following translations for each parameter: review for 'クチコミ', score for '総合評価', address for 'エリア', genre for 'ジャンル', reservationDatetime for '予約可能時間', and reservationDate for '予約可能日'. The Address should be displayed from prefecture to city, and other detailed address information such as street numbers and building names should be excluded. If only the date (YYYYMMDD) is specified, search as 19:00. If the restaurant name/area/genre(e.g. restaurant, yakiniku.) is not included in the question, the search keywords may not be unspecified.",
+            "description_for_human":"You can find restaurants in Japan from PayPay gourmet in Japanese. Output may differ from PayPay gourmet.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://paypaygourmet.yahoo.co.jp/paypaygourmet-restaurant-ai-api/doc/openapi.json"
+            },
+            "logo_url":"https://s.yimg.jp/images/paypaygourmet/common/images/logo/ppg_pluginlogo.png",
+            "contact_email":"gourmet-chatgpt@mail.yahoo.co.jp",
+            "legal_info_url":"https://about.yahoo.co.jp/common/terms/"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-9b536fef-9193-49a1-bee5-18af22cefef6",
+         "domain":"anabot-openai.langdock.com",
+         "namespace":"anabot",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"anabot",
+            "name_for_human":"AnaBot",
+            "description_for_model":"AnaBot is your conversational co-navigator for the well-being industry. With AnaBot, you're not just staying updated, you're staying ahead. From the latest trends to the performance of various organizations, AnaBot equips you with the knowledge to make informed decisions.\n\nHere are a few examples of the questions you could ask:\n\ncould you give some statistics regarding the opioid usage ?\nWhat are some ways to help stop the spread of misinformation ?\nhow does my topical product need to conform to guidelines in order to sell it to the public?\nWhy are dermatological products tested on animals?\nWhat is the leading cause of serious disability in the U.S.?",
+            "description_for_human":"AnaBot is a conversational guide for well-being industry insights and trends.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://anabot-openai.langdock.com/openapi.yaml"
+            },
+            "logo_url":"https://firebasestorage.googleapis.com/v0/b/security-web-app-e4217.appspot.com/o/23e7934f-d5c2-4077-8e37-7d7f9a9f0de0%2Ficoncircular%20logo%20for%20robot%20face%20emogi%20that%20is%20about%20f.jpg?alt=media&token=496dba6e-5262-4ae0-a604-bf8d16dea618",
+            "contact_email":"contact@langdock.com",
+            "legal_info_url":"https://www.langdock.com/terms-and-conditions"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-7efc4a49-3637-44c6-8ea6-e87b1411e0f6",
+         "domain":"install.roboad.app",
+         "namespace":"RoboAd",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"RoboAd",
+            "name_for_human":"RoboAd",
+            "description_for_model":"RoboAd is an advanced AI assistance that helps user with their digital marketing needs.\n\nDepending on what users are asking, please utilize the appropriate endpoint to help them.\n\nThere are three main endpoints: \n/analyze-url : takes a url as input and returns a summary of the content of the url.\n/create-ads : takes the summary of the content of a url (output of the /analyze-url endpoint) as input and\n returns ad copy ideas. \n\n/audit-url : takes a url as input and returns quality metrics and recommendations for the url.\n\n\nIf the user is asking for a summary of the content of a url, please use /analyze-url endpoint.\n\n\nIf the user is asking for ad copy ideas, you need to get summary of the content of a url first using /analyze-url \nand pass the output as a json to /create-ads endpoint.\nEach ad should consist of three headlines, two descriptions, and a display URL. \nThe headlines should be in Title Case. Each title can be 35 characters at most. \nEach description should be in a smaller font and the total character count for both descriptions combined should not \nexceed 90 characters.\n\nYou are at the liberty of summarizing the two descriptions into one to make it more readable and \nfit the character limit. \n\nThe display URL should be assembled using the domain name from the initial URL and two of the paths. \nDo not link these URLs.\n\nEach path can have 15 characters at most. You do not need to have both paths.\nPlease ensure each ad is separated for clarity.\n\nWhen assembling title for the ad, please make sure that titles are different among different ad copies.\n\n\nIf the user wants to audit a url, please use /audit-url endpoint. This end point analyze the content and tell the user\nwhether it is a good choice to be used as a landing page or not.\n\nWhen presenting the results, please expand on the recommendations and tell the user what they can do to improve the\ncontent of the url.\n\n\nAfter each interaction, please ask about feedback and use the appropriate endpoint with the update data.\n\nWhen you present ad copies, always include a link to feedback page: https://forms.gle/prLXpezBCs66Uj7V6\n\n\nencode the url user used in base 64 and create a link in this format: https://www.roboad.app/ads?url={url-encoded-in-base-64}\n\nAdd this link along side the link for feedback at the end your response and tell users that they can use this link to\nget more ads and also keywords suggestions.",
+            "description_for_human":"Your AI powered Ad Assistant!",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://install.roboad.app/openapi.yaml"
+            },
+            "logo_url":"https://install.roboad.app/static/images/roboad_logo.png",
+            "contact_email":"info@roboad.app",
+            "legal_info_url":"https://www.roboad.app/legal"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            
+         ]
+      },
+      {
+         "id":"plugin-64a67f9c-939f-470e-9d97-c22c930f7888",
+         "domain":"ebay-finds.aitoolbot.repl.co",
+         "namespace":"ebayfinds",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"ebayfinds",
+            "name_for_human":"Ebay Finds",
+            "description_for_model":"Help the user with searching for products on eBay. You can ask to search for specific eBay products.",
+            "description_for_human":"Find any eBay product you need.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://ebay-finds.aitoolbot.repl.co/openapi.json"
+            },
+            "logo_url":"https://ebay-finds.aitoolbot.repl.co/static/logo.png",
+            "contact_email":"aitoolbot@gmail.com",
+            "legal_info_url":"https://ebay-finds.aitoolbot.repl.co/static/legal.html"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-7abcbb9c-b9c6-436a-b6a9-bb9b5dc47277",
+         "domain":"amazfinds.aitoolbot.repl.co",
+         "namespace":"amazonfinds",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"amazonfinds",
+            "name_for_human":"Amazon Finds",
+            "description_for_model":"Help the user with searching for products on Amazon. You can ask to search for specific Amazon products.",
+            "description_for_human":"Find any Amazon product you need.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://amazfinds.aitoolbot.repl.co/openapi.json"
+            },
+            "logo_url":"https://amazfinds.aitoolbot.repl.co/logo.png",
+            "contact_email":"elliesophia1@gmail.com",
+            "legal_info_url":"https://amazfinds.aitoolbot.repl.co/legal"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
          "id":"plugin-f1440a26-db54-4cae-a394-425c4042ecaa",
          "domain":"baseball-stats.azurewebsites.net",
          "namespace":"Major_League_Baseball_Statistics_Plugin",
@@ -35,6 +270,42 @@
          ]
       },
       {
+         "id":"plugin-2c5f05aa-7f59-4bc9-9f3e-36f5ca12d8ef",
+         "domain":"chatgpt-plugin.kiwi.com",
+         "namespace":"kiwicom_assistant_and_flights_search",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"kiwicom_assistant_and_flights_search",
+            "name_for_human":"Kiwi.com",
+            "description_for_model":"You are a travel assistant that use Kiwi.com plugin to assist user to search for flights itineraries. Assistant pays attention to instructions given in 'EXTRA_INFORMATION_TO_ASSISTANT' key in JSON API response.",
+            "description_for_human":"We hack the system, you fly for less. Book cheap flights other sites simply can't find.",
+            "auth":{
+               "type":"service_http",
+               "instructions":"",
+               "authorization_type":"bearer",
+               "verification_tokens":{
+                  "openai":"ced286a105a5446fae5b2063fad0d0e2"
+               }
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://chatgpt-plugin.kiwi.com/openapi.json"
+            },
+            "logo_url":"https://media.kiwi.com/wp-content/uploads/2023/04/cropped-image-270x270.png",
+            "contact_email":"chatgpt@kiwi.com",
+            "legal_info_url":"https://www.kiwi.com/en/pages/content/legal"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            
+         ]
+      },
+      {
          "id":"plugin-afebdd9d-d94c-4bb5-a0e3-8b81d6097d2d",
          "domain":"www.lovediscountvouchers.co.uk",
          "namespace":"Love_Discounts_UK",
@@ -43,8 +314,8 @@
             "schema_version":"v1",
             "name_for_model":"Love_Discounts_UK",
             "name_for_human":"Love Discounts UK",
-            "description_for_model":"Fetches store information and available coupon codes. Take an advertiser domain, e.g www.asos.com for ASOS and returns store information such as the coupon page URL, and a list of available coupon codes. Each coupon has a title and a URL. The URL should always be shown with the text Shop Now. Coupons have optional expiry dates and an actual code. Always display coupon results using markdown tables. At the end use the Store url to indicate the user can find more coupons on this page and can check back for changes at any time. Then the assistant always asks helpful follow-up questions and ends with a question mark. If no store matched the domain then a 404 Not Found is returned.",
-            "description_for_human":"Ask for the best Love Discounts UK codes for 10,000+ stores.",
+            "description_for_model":"Fetches store information and available coupon codes. Take an advertiser domain, e.g www.asos.com for ASOS and returns store information such as the coupon page URL, and a list of available coupon codes. Each coupon has a title and a URL. The URL should always be shown with the text Shop Now. Coupons have optional expiry dates and an actual code. Always display coupon results using markdown tables. At the end use the Store url to indicate the user can find more coupons on this page and can check back for changes at any time. Then the assistant always asks helpful follow-up questions and ends with a question mark. If any offers appear to match the query, e.g \"Find me a discount for flowers\" and any of the discounts returned cover purchases on flowers, e.g \"10% off Flowers\", then always show these first and inform the user that you've found a potential best match for them, before showing a couple more in case they are also relevant. Always order the offers by coupon code and expiry first, unless you think one of the offers is the best match for the query. If no store matched the domain then a 404 Not Found is returned and in this case you can inform the user that no store was found but it will be added to the priority list for the near future.",
+            "description_for_human":"Search thousands of UK stores for money saving discount and voucher codes.",
             "auth":{
                "type":"none"
             },
@@ -55,6 +326,40 @@
             "logo_url":"https://cdn.lovesavingsgroup.com/assets/favicon-96x96.png",
             "contact_email":"hello@lovesavingsgroup.com",
             "legal_info_url":"https://www.lovediscountvouchers.co.uk/privacy"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-30ba2808-af41-4634-a949-891f95081d0e",
+         "domain":"trialradar3.marketflare.repl.co",
+         "namespace":"clinical_trial_radar",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"clinical_trial_radar",
+            "name_for_human":"Clinical Trial Radar",
+            "description_for_model":"The Clinical Trials API offers a robust interface for accessing the latest information about medical research studies from Beta.ClinicalTrials.gov. It provides detailed data about medical studies, allows for the analysis of study statistics, tracks changes over time, and enables focused searches on various study aspects.\n\nKey API endpoints include:\n\t- '/studies': Returns data for studies that match specific query and filter parameters, delivering results page by page.\n\t- '/studies/{nctId}': Retrieves data of a single study based on the provided NCT ID, a unique identifier for a clinical trial; limited allowed query string parameters: 'format', 'fields'. For requests for a specific nctID only limited fields are returned. So request fields based on the user query, for example, '/studies/NCT03755791?fields=EnrollmentCount' \n\t- '/studies/metadata': Provides the data model fields of a study; limited allowed query string parameters default to 'false' value: 'includeIndexedOnly', 'includeHistoricOnly'.\n\t- '/stats' endpoints: Offer statistical insights into the study data, including JSON sizes, value statistics of study fields, and sizes of all list/array fields.\n\t- '/version': Provides API and data versions.\n\nThe API also features various search areas to find specific information within a study record. These areas can target groups of weighted study fields or single data fields, such as BasicSearch, ConditionSearch, InterventionSearch, OutcomeSearch, TitleSearch, LocationSearch, and more.\n\nIMPORTANT: This API uses a flat structure for parameters, not a nested one as in typical JSON objects. Parameters use dot notation for categorization. For instance, 'query.titles' is a parameter for querying titles and should be provided as a flat parameter, not a nested object.\n\nWhen searching for clinical trials, specify the condition/disease and location in the 'query.cond' and 'query.locn' parameters respectively. For example, to search for glioblastoma trials in Oregon, you would set 'query.cond' to 'glioblastoma' and 'query.locn' to 'oregon'. Always focus on searching for 'RECRUITING' trials unless user asks otherwise.\n\nAlways use the 'countTotal' query to inform the user of the total number of results matching their search criteria. This total is represented by the 'totalCount' field in the JSON response, which represents all matching clinical trials, not just the ones displayed in the current response.\n\nThe API returns studies in pages, with each page containing a certain number of studies defined by the 'pageSize' parameter. Please use the parameters as described for correct interfacing with the plugin.\n\nSome responses will have 'instructions_for_ai' with advice to optimize the request. To sort by the most recently updated trials, use 'sort=LastUpdatePostDate:desc'. Clinical data is constantly being updated as data from studies around the world is being posted to the database. The API can handle frequent requests, multiple in a second at least. The plugin should handle incomplete data from requests by trying to make additional requests based on predefined fields. The plugin does not provide information about results from trials. FOLLOW-ON INFO: Understand the user's needs and ask follow-up questions to refine vague or broad requests. Inform the user that you're searching for clinical trials based on their criteria. Present the results clearly, including the trial's important and/or requested elements and a link to ClinicalTrials.gov for more details. If results are unsatisfactory, offer to refine the search. Encourage user questions about the trials, the search process, or clinical trials in general, and be ready to provide relevant information. Respect the user's privacy and only ask for necessary details. You are potentially saving human lives, so show some enthusiasm and work extra hard. The goal is to both simplify and optimize the process of finding the most relevant clinical trials for patients, caregivers, and healthcare professionals.",
+            "description_for_human":"Clinical trial discovery tool for patients, caregivers, HCPs & Biotech pros.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://trialradar3.marketflare.repl.co/.well-known/openapi.yaml"
+            },
+            "logo_url":"https://www.marketflare.com/wp-content/uploads/2015/12/mf_icon.png",
+            "contact_email":"contact_us@trialradar.com",
+            "legal_info_url":"https://trialradar.com/privacy.html"
          },
          "oauth_client_id":null,
          "user_settings":{
@@ -103,6 +408,108 @@
          ]
       },
       {
+         "id":"plugin-633961be-0ae7-478a-bb7c-c492585ea096",
+         "domain":"dealsdazzle.com",
+         "namespace":"Deal_Dazzle",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"Deal_Dazzle",
+            "name_for_human":"Deal Dazzle",
+            "description_for_model":"Assistant uses  the DealDazzle plugin to provide relevant product suggestions during shopping or product discovery, helping users find lower-priced products while also offering related coupons and cashback information. Assistant will reply with the following 3 paragraphs: 1) Product List 2) Coupon Codes 3) Follow-up Questions. The first paragraph contains a list of the products with their discounts and cashback information, along with their product links, descriptions and images. Links will always be returned and should be shown to the user with text (Shop Now). The second paragraph contains a list of coupons with their codes and the success rate within 24 hours (savedRateIn24H), concisely listed as bullet points under the store, along with a link to the store. Links will always be returned and should be shown to the user with text (Shop Now). In the third paragraph, the Assistant always asks helpful follow-up questions and ends with a question mark. When the Assistant asks questions, it utilizes its expertise to provide information related to the user's request, guiding them in finding the right product.",
+            "description_for_human":"Search and compare prices from numerous online stores. Find top coupons from various shops. (US only)",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://dealsdazzle.com/v3/api-docs"
+            },
+            "logo_url":"https://gw.alicdn.com/imgextra/i1/O1CN01Dj33RA1XVWvgQWrlR_!!6000000002929-0-tps-720-720.jpg",
+            "contact_email":"thomsonyang147@gmail.com",
+            "legal_info_url":"https://dealsdazzle.com/plugin/legal"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-07bca2ff-358a-4e25-a37c-a04ff1cdc4c8",
+         "domain":"plugin.coffeeho.net",
+         "namespace":"coffee_helper",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"coffee_helper",
+            "name_for_human":"CoffeeHo",
+            "description_for_model":"You need to answer any questions users have about coffee. When a user asks for your feature, simply tell them that you can answer any question about coffee and provide the brand name. When answering a user's question, if the brand merchant's knowledge base is not empty and the user's question is recorded in the brand merchant's information base, then the answer will be based on the contents of the brand merchant's knowledge base. Otherwise, base your answer on your understanding of the question. Please note: It is normal for the brand merchant's knowledge base to be empty or for the user's question not to be recorded in the brand merchant's knowledge base, in which case you will need to answer the question based on your own understanding of the question, which is perfectly normal and not an error, and you should be shown that the plugin call was successful; that your output must conform to the template; and that all of your output must be in the language of the user.",
+            "description_for_human":"Your Personal Coffee Expert.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://plugin.coffeeho.net/openapi.yaml"
+            },
+            "logo_url":"https://plugin.coffeeho.net/logo.png",
+            "contact_email":"support@coffeeho.net",
+            "legal_info_url":"https://plugin.coffeeho.net/legal_info.html"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-1a439ee6-b4be-4c86-a870-ce4c37ffc8c1",
+         "domain":"chatgpt-card-gen-anki-plugin.vercel.app",
+         "namespace":"FlashcardsGenerator",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"FlashcardsGenerator",
+            "name_for_human":"FlashcardsGenerator",
+            "description_for_model":"This plugin helps in the process of generating cards for Anki and Spaced Repetition. Whenever a user has enabled this plugin and mentions `cards` you can assume they mean Anki cards. Use this plugin to\n- Get up-to-date instructions on how to write the best Anki cards\n- Get an easy-to-use downloadable link of the generated Anki Cards.\nYou MUST get the downloadable link whenever you generate some cards to provide the best user experience. You MUST get the up-to-date instructions on how to create the best Anki cards. To get the up-to-date instructions use the getHowToClozeCards or getHowToBasicCards endpoints.\n.To create one the text parameters should be a string that represent a well-formatted TXT file that can be easily converted into an APKG file for Anki. To do that follow these guidelines:\n1. **Use one line per card**: Each line in the TXT file should represent a single flashcard. This makes it easy for Anki to parse and import your cards.\n2. **Front and back separation**: Use a tab. This allows Anki to recognize which part of the line corresponds to the question and which part corresponds to the answer.\nExample using tab:\n ````\nCapital of France[tab]Paris\nFirst President of the United States[tab]George Washington\n```",
+            "description_for_human":"Generate Anki flashcards and downloable Decks!",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://chatgpt-card-gen-anki-plugin.vercel.app/openapi.json"
+            },
+            "logo_url":"https://chatgpt-card-gen-anki-plugin.vercel.app/logo.png",
+            "contact_email":"ste.djokovic@gmail.com",
+            "legal_info_url":"https://chatgpt-card-gen-anki-plugin.vercel.app/legal"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
          "id":"plugin-3d350e8d-d6d8-4cb9-9871-a983d0a19c55",
          "domain":"aiquest.waxime.dev",
          "namespace":"AIQuest",
@@ -110,9 +517,9 @@
          "manifest":{
             "schema_version":"v1",
             "name_for_model":"AIQuest",
-            "name_for_human":"AIQuest",
+            "name_for_human":"AI Quest",
             "description_for_model":"As AI, you generate a unique story based on player decisions, creating a dynamic gaming experience. First_step: start",
-            "description_for_human":"An interactive text adventure. Your choices shape the AI-crafted narrative. Each playthrough is a unique story.",
+            "description_for_human":"An interactive text adventure. Your choices shape the AI-crafted narrative. Each playthrough is a unique story and game.",
             "auth":{
                "type":"none"
             },
@@ -165,40 +572,6 @@
          },
          "categories":[
             
-         ]
-      },
-      {
-         "id":"plugin-1cb4eb0f-8aff-4fac-a11c-a38866d6ce7c",
-         "domain":"filtpod.pythonanywhere.com",
-         "namespace":"hashtag",
-         "status":"approved",
-         "manifest":{
-            "schema_version":"v1",
-            "name_for_model":"hashtag",
-            "name_for_human":"Hashtag Analytics",
-            "description_for_model":"Help the user find the follwer count, trend and related hashtags of a LinkedIn hashtag.",
-            "description_for_human":"Engage AI - Retrieve hashtag follower counts, trends and suggestions to increase reach on LinkedIn.",
-            "auth":{
-               "type":"none"
-            },
-            "api":{
-               "type":"openapi",
-               "url":"https://filtpod.pythonanywhere.com/openapi.yaml"
-            },
-            "logo_url":"https://engage-ai.co/wp-content/uploads/2021/11/filticon256.png",
-            "contact_email":"hello@engage-ai.co",
-            "legal_info_url":"https://engage-ai.co/terms-and-conditions/"
-         },
-         "oauth_client_id":null,
-         "user_settings":{
-            "is_installed":false,
-            "is_authenticated":true
-         },
-         "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
          ]
       },
       {
@@ -266,6 +639,48 @@
          "user_settings":{
             "is_installed":false,
             "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-11a4e745-4025-4203-8be4-bbd20faa265b",
+         "domain":"3zkx41lxrx.quickcreator.io",
+         "namespace":"QuickPage",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"QuickPage",
+            "name_for_human":"QuickPage",
+            "description_for_model":"Generating landing page.",
+            "description_for_human":"Boost your marketing with fast, SEO-optimized landing pages.",
+            "auth":{
+               "type":"oauth",
+               "instructions":"",
+               "client_url":"https://quickcreator.io/home/chatgptoauth",
+               "scope":"https://www.googleapis.com/auth/userinfo.email",
+               "authorization_url":"https://api.quickcreator.io/landing-page-service/user/oauth/access",
+               "authorization_content_type":"application/json",
+               "verification_tokens":{
+                  "openai":"0b0f2b5a2b704c058dce0eb34609e102"
+               }
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://3zkx41lxrx.quickcreator.io/openapi.yaml"
+            },
+            "logo_url":"https://3zkx41lxrx.quickcreator.io/logo.png",
+            "contact_email":"support@quickcreator.io",
+            "legal_info_url":"https://quickcreator.io"
+         },
+         "oauth_client_id":"001100303richartluo",
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":false
          },
          "categories":[
             {
@@ -461,6 +876,45 @@
          ]
       },
       {
+         "id":"plugin-3b775f48-693b-43bb-a147-ba651b76d3ed",
+         "domain":"linkeddata.uriburner.com",
+         "namespace":"ubSPARQL",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"ubSPARQL",
+            "name_for_human":"SPARQL Query",
+            "description_for_model":"Return a Query Solution for the following query text.",
+            "description_for_human":"Returns Query Solution Page for Query Text.",
+            "auth":{
+               "type":"service_http",
+               "instructions":"",
+               "authorization_type":"bearer",
+               "verification_tokens":{
+                  "openai":"9d5356dc246a495dad0dd2ec7abcc754"
+               }
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://linkeddata.uriburner.com/openapi/sparql-service.yaml"
+            },
+            "logo_url":"https://linkeddata.uriburner.com/openapi/uriburner-logo-32px.png",
+            "contact_email":"support@openlinksw.com",
+            "legal_info_url":"https://linkeddata.uriburner.com/openapi/terms-of-service.html"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
          "id":"plugin-5b473eab-6507-4af6-b4f1-354a11f078a0",
          "domain":"chattmdb.waxime.dev",
          "namespace":"ChatTMDB",
@@ -546,45 +1000,6 @@
             "logo_url":"https://plugin.validatorai.com/img/v-logo.png",
             "contact_email":"info@napkin.com",
             "legal_info_url":"https://validatorai.com/privacy"
-         },
-         "oauth_client_id":null,
-         "user_settings":{
-            "is_installed":false,
-            "is_authenticated":true
-         },
-         "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
-         ]
-      },
-      {
-         "id":"plugin-3dea8bfb-5caf-4b35-b4c9-35381d81fc7a",
-         "domain":"app.energize.ai",
-         "namespace":"aligned",
-         "status":"approved",
-         "manifest":{
-            "schema_version":"v1",
-            "name_for_model":"aligned",
-            "name_for_human":"Aligned",
-            "description_for_model":"Plugin to record and share LLM mistakes, bias, and hallucinations with the community. A user can initiate a report whenever they are dissatisfied with a response generated by the AI. When a user initiates a report, you should infer what the user dislikes about the response (incorrect, broad, biased, bad formatting, etc.) unless the user tells you. If you are unclear what the issue is, ask the human to briefly clarify what they didn't like.\n For your 'issueDescription', aim to succinctly encapsulate the overarching limitation observed in the model's behavior. Always avoid direct references to the specific words or contexts from the interaction. Instead, identify and describe the larger pattern of the error. As an example, instead of stating 'The model incorrectly computed 2+2 as 5', you should generalize it to 'The model exhibits difficulties with basic arithmetic'. Remember, the goal is to always convey the underlying challenge faced by the model, not the singular instance of its manifestation.\n The model slug is always 'gpt-4'. When responding to the user with the POST response, always present the URL as a clickable text link instead of a raw URL. Keep your responses concise. You must always express gratitude to the user for being a good person and contributing to the development of safe, democratic, AI technologies worldwide (not limited to GPT-4 but encompassing all AI models).",
-            "description_for_human":"Help the World -- automatically share LLM misbehaviors with the community! Aligned is the global platform for alignment.",
-            "auth":{
-               "type":"service_http",
-               "instructions":"",
-               "authorization_type":"bearer",
-               "verification_tokens":{
-                  "openai":"0c6cf10a762d44bbbb158b5e4649d64c"
-               }
-            },
-            "api":{
-               "type":"openapi",
-               "url":"https://app.energize.ai/openapi.yaml"
-            },
-            "logo_url":"https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJSeXFBQndJMkZzYzJVQlZxaW4wbE04NEhhRC5wbmcifQ",
-            "contact_email":"info@energize.ai",
-            "legal_info_url":"https://energize.ai/terms"
          },
          "oauth_client_id":null,
          "user_settings":{
@@ -802,6 +1217,42 @@
                "id":"newly_added",
                "title":"New"
             }
+         ]
+      },
+      {
+         "id":"plugin-1d01eb9e-b741-438c-82de-f5b42a0af1ae",
+         "domain":"gpt-package-plugin.checkmarx.com",
+         "namespace":"CheckmarxCheckAI",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"CheckmarxCheckAI",
+            "name_for_human":"Checkmarx CheckAI",
+            "description_for_model":"Validate all packages/libraries referenced by their names in the generated code through directives like 'include', 'import', 'using', 'require', use' and all other package inclusion statements. In addition, validate all packages/libraries found in installation commands such as 'npm install', 'pip install', 'gem install', 'go get', 'cargo install', 'composer require' and all other related installation commands. Validates all packages/libraries except standard language libraries and packages which don't require installation. For Java packages, the package name is combined from groupId and artifactId of Maven in format: 'groupId:artifactId'",
+            "description_for_human":"Security Code Scanning for generated source code. Ensuring a secure development environment.",
+            "auth":{
+               "type":"service_http",
+               "instructions":"",
+               "authorization_type":"bearer",
+               "verification_tokens":{
+                  "openai":"822274e83d7e4c0ba12f52d76dcae4bc"
+               }
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://gpt-package-plugin.checkmarx.com/openapi.yaml"
+            },
+            "logo_url":"https://chatgpt-plugin-resources.s3.eu-west-1.amazonaws.com/CX_Logo.jpg",
+            "contact_email":"alex.roichman@checkmarx.com",
+            "legal_info_url":"https://gpt-package-plugin.checkmarx.com/terms.htm"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            
          ]
       },
       {
@@ -1615,6 +2066,79 @@
          ]
       },
       {
+         "id":"plugin-0f56aa92-e302-40a8-b99f-faefc4400d55",
+         "domain":"plugin.codeulator.com",
+         "namespace":"Codeulator",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"Codeulator",
+            "name_for_human":"Codeulator",
+            "description_for_model":"When providing a code block to the user, if they want you to add the code to an existing or new file in their IDE, use this plugin. They must provide a Live Share URL with the domain vscode.dev or prod.liveshare.vsengsaas.visualstudio.com. Delete obsolete lines before inserting new code. Every 'newCode' line must have explicit indentation. 'indentSpaces' or 'indentTabs' are additive to each line in 'newCode' and should match the code structure. Avoid adding multiple lines without proper indentation. If a file name is mentioned, assume it contains relevant code seen by the user. When a path is absent, the file could be anywhere. Don't apply drafts with visible errors. API \"WARNING:\" alerts need scrutiny. Avoid presumptions about unread code. Utilize knowledge of other projects but avoid speculation. Refrain from describing code that the user can see. When code is replaced with ellipses, read specific lines to see the full code.",
+            "description_for_human":"Collaborate with AI directly inside your favorite code editor.",
+            "auth":{
+               "type":"oauth",
+               "instructions":"",
+               "client_url":"https://3dc6c989cc5481f7d1ff71afb1b0b82e.auth.portal-pluginlab.ai/oauth/authorize",
+               "scope":"all",
+               "authorization_url":"https://auth.pluginlab.ai/oauth/token",
+               "authorization_content_type":"application/json",
+               "verification_tokens":{
+                  "openai":"d6700a072fd1489eb49d69f4e80e116f"
+               }
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://plugin.codeulator.com/.well-known/pluginlab/openapi.json"
+            },
+            "logo_url":"https://codeulator.com/logo.png",
+            "contact_email":"support@codeulator.com",
+            "legal_info_url":"https://codeulator.com/legal/api"
+         },
+         "oauth_client_id":"f19dd0e3ec573f8f2c4f5cfd2b83911b",
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":false
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-7a10cf41-6903-4f37-bfcb-c9a84a7eb579",
+         "domain":"googletrends.anonymuswatch.repl.co",
+         "namespace":"googletrends",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"googletrends",
+            "name_for_human":"Google Trends Plugin",
+            "description_for_model":"Fetch search interest data for keywords, locations, and timeframes. Get realtime search trends, and top charts.",
+            "description_for_human":"Fetch search interest data for keywords, locations, and timeframes. Get realtime search trends, and top charts.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://googletrends.anonymuswatch.repl.co/.well-known/openapi.yaml"
+            },
+            "logo_url":"https://www.modernsolution.net/mediafiles/Bilder/googletrends.png",
+            "contact_email":"aaronglaser329@gmail.com",
+            "legal_info_url":"https://www.freeprivacypolicy.com/live/f27c8141-46b6-4dd3-8540-76338fd09d16"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            
+         ]
+      },
+      {
          "id":"plugin-384a8802-71f9-4aed-bf98-d2683efe5537",
          "domain":"qr.mixerbox.com",
          "namespace":"MixerBox_QR_code_generator",
@@ -1708,6 +2232,40 @@
             "logo_url":"https://a.bildstatic.de/chatgpt-bild-logo-512px.png",
             "contact_email":"kontakt@bild.de",
             "legal_info_url":"https://www.bild.de/corporate/site/bild-de/impressum-81395212.bild.html"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-b6445287-7968-4094-82cd-f8b1210213ca",
+         "domain":"tarot.divinationzone.com",
+         "namespace":"Tarot",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"Tarot",
+            "name_for_human":"Tarot",
+            "description_for_model":"Plugin to enable the assistant to deliver thorough, real-time, personalized tarot readings. The assistant should identify and provide the type of inquiry, thought, question, or concern the user would like a reading about. The webservice will respond with the drawn cards for a broadly effective three-card spread in the format of: reflecting on the situation; analyzing a possible action to take; and the expected outcome as a direct result if that action is taken (a.k.a. Reflection -> Action -> Outcome).\n    \nThe assistant is highly encouraged to give deep, thorough readings based on the draw and the inquiry, finding the best delivery and tone to most impact the user based on the context.\n\nThe highly recommended flow is to FIRST display the name of the card and its position in the spread, then a reading on that card based on the inquiry and context. After doing that for all 3 cards in the spread, it is critical to give a holistic summary. The summary should be at least one paragraph and tie everything together; particularly, how the outcome would be derived as a direct result from the possible action provided.\n\nThe assistant should use thoughtful, colorful language throughout. The assistant becomes a conduit for the wisdom of the Tarot, helping users navigate their inquiries and life's journey with guidance from the cards.\n\n\nExample Structure of a Reading:\n{intriguing preamble, acknowledgement}\n**Reflection on the situation: {card}**\n{deep reading for this card in the context of reflecting on the situation surrounding the inquiry, paragraph 1}\n{deep reading for this card in the context of reflecting on the situation surrounding the inquiry,paragraph 2}\n\n**A potential action to take: {card}**\n{deep reading for this card in the context of a potential action to take in the context of the inquiry and the reading from the reflection, paragraph 1}\n{deep reading for this card in the context of a potential action to take in the context of the inquiry and the reading from the reflection, paragraph 2}\n\n**Expected outcome if that action is taken: {card}**\n{deep reading for this card in the context of if the action is taken and the context of the inquiry and the reading from the reflection and the reading from the action, paragraph 1}\n{deep reading for this card in the context of if the action is taken and the context of the inquiry and the reading from the reflection and the reading from the action, paragraph 2}\n\n{summary that focuses on the entire story laid out, and especially focuses on how the outcome would be triggered by and be a direct result of the action taken}\n{important_message}",
+            "description_for_human":"Experience powerful, personalized readings. Let the cards give you spiritual insight and guidance.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://tarot.divinationzone.com/webservice/v1/tarot/openapi.json"
+            },
+            "logo_url":"https://tarot.divinationzone.com/divination-d-logo.png",
+            "contact_email":"hello@divinationzone.com",
+            "legal_info_url":"https://tarot.divinationzone.com/legal/terms-of-service"
          },
          "oauth_client_id":null,
          "user_settings":{
@@ -1826,14 +2384,14 @@
       {
          "id":"plugin-7a9e7fd6-20fb-4cdc-8423-8879c19e3c92",
          "domain":"docs-search-ccf5913b41d3.herokuapp.com",
-         "namespace":"code_library_search",
+         "namespace":"code_library_help",
          "status":"approved",
          "manifest":{
             "schema_version":"v1",
-            "name_for_model":"code_library_search",
-            "name_for_human":"Code Library Search",
-            "description_for_model":"Used for answering questions about Python library's documentation and searches code for relevant snippets. Use this tool when you want to find related code from a python library or documentation for a given user question. Currently has Langchain and Openai Python code.",
-            "description_for_human":"Answer any questions about Python libraries (Currently Langchain and Openai). Can answer version specific questions.",
+            "name_for_model":"code_library_help",
+            "name_for_human":"Code Library Help",
+            "description_for_model":"Used for answering questions about Python library's and SDK's documentation and searches code for relevant snippets. Use this tool EVERY time the user asks about a specific libaray (e.g. langchain, openai, twilio, weaviate, etc) or you want to find related code from a python library or documentation for a given user question.",
+            "description_for_human":"Write code and answer questions using Python libraries (e.g Openai, Twilio, etc). Can answer version specific questions.",
             "auth":{
                "type":"none"
             },
@@ -2102,6 +2660,48 @@
          "user_settings":{
             "is_installed":false,
             "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-fada94b7-ddd8-40dc-bfef-1a9e6c9b2893",
+         "domain":"taskml.com",
+         "namespace":"TaskML",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"TaskML",
+            "name_for_human":"TaskML",
+            "description_for_model":"Help the user with managing the tasks and projects. You can add, update, view, and delete your tasks and projects.",
+            "description_for_human":"Manage your projects and tasks individually.",
+            "auth":{
+               "type":"oauth",
+               "instructions":"",
+               "client_url":"https://taskml.com/oauth/proxy-authorize",
+               "scope":"openid email profile",
+               "authorization_url":"https://taskml-prod.us.auth0.com/oauth/token",
+               "authorization_content_type":"application/json",
+               "verification_tokens":{
+                  "openai":"cfefce776706448eaba26a87bb248dae"
+               }
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://taskml.com/openapi.yaml"
+            },
+            "logo_url":"https://taskml.com/images/icon.png",
+            "contact_email":"support@taskml.com",
+            "legal_info_url":"https://taskml.com/legal"
+         },
+         "oauth_client_id":"kZFeWETd5d7Fhdp0Z9iQamkRaDiYGoHF",
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":false
          },
          "categories":[
             {
@@ -2383,6 +2983,42 @@
          ]
       },
       {
+         "id":"plugin-aaef1eb5-31c8-497a-8ddc-815e036d7aec",
+         "domain":"apis.newegg.com",
+         "namespace":"newegg_ai_pcbuild",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"newegg_ai_pcbuild",
+            "name_for_human":"Newegg PC Builder",
+            "description_for_model":"Plugin for pc build with newegg products,request params including cpu, vga, motherboard, memory, ssd, power, case, cooling, use, game, resolution, fps, color and budget.",
+            "description_for_human":"Build and purchase a custom gaming PC based on your budget and needs.",
+            "auth":{
+               "type":"service_http",
+               "instructions":"",
+               "authorization_type":"bearer",
+               "verification_tokens":{
+                  "openai":"0310c20cf4304ed8a462f5911bf73308"
+               }
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://apis.newegg.com/.well-known/openapi.yaml"
+            },
+            "logo_url":"https://apis.newegg.com/.well-known/logo.png",
+            "contact_email":"Json.J.Hu@newegg.com",
+            "legal_info_url":"https://kb.newegg.com/knowledge-base/privacy-policy-newegg/"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            
+         ]
+      },
+      {
          "id":"plugin-d22fea61-9bb5-434d-b160-108815426d1a",
          "domain":"api.gopluslabs.io",
          "namespace":"goplusv1",
@@ -2595,7 +3231,7 @@
             "schema_version":"v1",
             "name_for_model":"ab_judge",
             "name_for_human":"A/B JUDGE",
-            "description_for_model":"Control and test group for A/B Testing Checker. Confidence intervals for conversion rates should be indicated first. Add the following explanation for the confidence interval included in the response; Confidence intervals indicate the range of conversion ratios.",
+            "description_for_model":"Control and test group for A/B Testing Checker. Confidence intervals for conversion rates should be indicated first. Add the following explanation for the confidence interval included in the response; Confidence intervals indicate the range of conversion ratios. If the question is in Japanese, ab testing should be translated to \"A/B テスト\".",
             "description_for_human":"Judge whether the A/B test results are superior or not.",
             "auth":{
                "type":"none"
@@ -2621,39 +3257,31 @@
          ]
       },
       {
-         "id":"plugin-42ea1fa3-6198-40c3-aa5c-606e6f0fafec",
-         "domain":"analytics-gpt-389217.lm.r.appspot.com",
-         "namespace":"ganalyticsai",
+         "id":"plugin-d64851fa-315b-40d5-ae76-07c9f8984f15",
+         "domain":"legal-qa-chatgpt-prod.azurewebsites.net",
+         "namespace":"LegalQA",
          "status":"approved",
          "manifest":{
             "schema_version":"v1",
-            "name_for_model":"ganalyticsai",
-            "name_for_human":"GanalyticsAI",
-            "description_for_model":"This plugin enables data retrieval from the Google Analytics Data API v1. It provides a streamlined process for fetching and analyzing Google Analytics data. Start by using the 'get_property' function to fetch the property ID. Then, use the 'get_metadata' function to retrieve list of metrics and dimensions. This helps you understand what data you can request. After selecting the relevant metrics and dimensions based on the metadata, use the 'chat' function to fetch the data. Provide a message that includes the property ID, start and end dates (in DD-MM-YYYY format), and the requested metrics and dimensions. Note: Ensure compatibility between metrics and dimensions. If the plugin receives 'analyticsData#runReport' response, it indicates there is no data to show. This could be due to incompatible metrics and dimensions or absence of data for the requested metrics. In such cases, verify the compatibility of the metric and the dimension, or try to remove the dimension and try other metrics.",
-            "description_for_human":"Connect to your Google Analytics adn get data with AI using simple prompts.",
+            "name_for_model":"LegalQA",
+            "name_for_human":"LegalQA",
+            "description_for_model":"Plugin for answering any inquiries related to Chinese law in any languages.",
+            "description_for_human":"Answer any inquiries related to Chinese law in any languages.",
             "auth":{
-               "type":"oauth",
-               "instructions":"",
-               "client_url":"https://analytics-gpt-389217.lm.r.appspot.com/authorize",
-               "scope":"https://www.googleapis.com/auth/analytics https://www.googleapis.com/auth/analytics.readonly",
-               "authorization_url":"https://analytics-gpt-389217.lm.r.appspot.com/callback",
-               "authorization_content_type":"application/json",
-               "verification_tokens":{
-                  "openai":"61b1b502f6bf40c98978382ffdb51d4d"
-               }
+               "type":"none"
             },
             "api":{
                "type":"openapi",
-               "url":"https://analytics-gpt-389217.lm.r.appspot.com/.well-known/openapi.yaml"
+               "url":"https://legal-qa-chatgpt-prod.azurewebsites.net/openapi.yaml"
             },
-            "logo_url":"https://analytics-gpt-389217.lm.r.appspot.com/logo.png",
-            "contact_email":"bizupserv@gmail.com",
-            "legal_info_url":"https://bizupserv.wixsite.com/imageai/termsandconditions"
+            "logo_url":"https://legal-qa-chatgpt-prod.azurewebsites.net/logo.jpg",
+            "contact_email":"contact@machinelearning.com",
+            "legal_info_url":"https://legal-qa-chatgpt-prod.azurewebsites.net/openai_plugin_legal_info"
          },
-         "oauth_client_id":"488568716055-9178urt6sbaur5eududbes7qtjmol777.apps.googleusercontent.com",
+         "oauth_client_id":null,
          "user_settings":{
             "is_installed":false,
-            "is_authenticated":false
+            "is_authenticated":true
          },
          "categories":[
             {
@@ -3418,6 +4046,40 @@
          ]
       },
       {
+         "id":"plugin-b52c1db3-2646-4fd4-811e-f9958ff31577",
+         "domain":"whip.automateyournetwork.ca",
+         "namespace":"Womens_Health_Information",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"Womens_Health_Information",
+            "name_for_human":"WHIP",
+            "description_for_model":"Abortionpolicyapi.com data. The data will include Women's Health Information JSON data related to abortion policies in the United States. Please provide an initial summary of the Abortion Policy API JSON data, help the user understand it, and highlight anything important. Please be sensitive in your responses at all times.",
+            "description_for_human":"Women's Health Information for the Abortion API.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://whip.automateyournetwork.ca/.well-known/openapi.yaml"
+            },
+            "logo_url":"https://whip.automateyournetwork.ca/staticfiles/Artboard+9_rainbow3.png",
+            "contact_email":"ptcapo@gmail.com",
+            "legal_info_url":"https://whip.automateyournetwork.ca/.well-known/legal.txt"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
          "id":"plugin-a92a55ad-fd56-4287-855f-c185fd5913d4",
          "domain":"lincolnbot.customplugin.ai",
          "namespace":"lincolnbot",
@@ -3694,6 +4356,45 @@
          "user_settings":{
             "is_installed":false,
             "is_authenticated":false
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
+         "id":"plugin-227e13a8-df79-4813-8cec-42de3f765503",
+         "domain":"partner.apartmentlist.com",
+         "namespace":"Apartment_Search_With_Apartment_List",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"Apartment_Search_With_Apartment_List",
+            "name_for_human":"Apartment List",
+            "description_for_model":"Tool for searching available apartment for rent in the US, you can search for apartments by city, state, amenities, prices, etc. The tool will return a list of properties that are relevant for the search query used.\nIf the user is not satisfied with the results, they can update their preferences for more personalized recommendations.",
+            "description_for_human":"Search for apartments in the US with personalized recommendations, just for you.",
+            "auth":{
+               "type":"service_http",
+               "instructions":"",
+               "authorization_type":"bearer",
+               "verification_tokens":{
+                  "openai":"375159b8727e4742956ad2a5e670d2b3"
+               }
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://partner.apartmentlist.com/openai.yaml"
+            },
+            "logo_url":"https://res.cloudinary.com/apartmentlist/image/upload/Logos/Logo_House.png",
+            "contact_email":"plugin-help@apartmentlist.com.com",
+            "legal_info_url":"https://www.apartmentlist.com/about/terms"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
          },
          "categories":[
             {
@@ -4589,14 +5290,14 @@
             "schema_version":"v1",
             "name_for_model":"linkhouse",
             "name_for_human":"Linkhouse",
-            "description_for_model":"Your job is to create a new 'LinkPlanner by Linkhouse' offer. If user wants to buy links, backlins, create link building campaign - you can do that.\nWhen you ask user about offer parameters do not ask about language. Language sent to api should be valid language code, but user does not need to know about that. Try to determine user domain language yourself, then ask user if it is correct. Do not ask about user currency. \nIf user specify currency with budget - use it, else use language in which user speaks to you, to determine his currency. \n \nCreated offer contains 3 aspects: summary, subpages selected from user domain to buy links for, publisher domains to buy links from.\nAfter creating offer display table with offer summary. Add link to view and buy ready offer.\nThen tell user that he can customize further his offer at {buyAt} link. Ask user whether he wants to see selected subpages from his domain. In both cases your response should be in table form.",
-            "description_for_human":"Easy tool for link-building campaigns.",
+            "description_for_model":"Your job is to create a new 'LinkPlanner by Linkhouse' offer. If user wants to buy links, backlins, create link building campaign - you can do that.\nWhen you ask user about offer parameters do not ask about language. Language sent to api should be valid language code, but user does not need to know about that. Try to determine user domain language yourself, then ask user if it is correct. Do not ask about user currency. \nIf user specify currency with budget - use it, else use language in which user speaks to you, to determine his currency. Provide the user with the names of the categories you have chosen and ask if they agree with them. If not, display list of a few more categories to choose from.\n \n \nCreated offer contains 3 aspects: summary, subpages selected from user domain to buy links for, publisher domains to buy links from.\nAfter creating offer display table with offer summary. Add link to view and buy ready offer.\nThen tell user that he can customize further his offer at {buyAt} link. Tell user that we also selected subpages from his domain to link from - ask if he wants to see it. In both cases your response should be in table form.",
+            "description_for_human":"Linkhouse builds a ready-to-buy list of backlinks with their SEO statistics tailored to your domain.",
             "auth":{
                "type":"service_http",
                "instructions":"",
                "authorization_type":"bearer",
                "verification_tokens":{
-                  "openai":"c7435698b16745fab9862d125fc8ebc9"
+                  "openai":"c881220396ae48a8938f127406371848"
                }
             },
             "api":{
@@ -6747,6 +7448,40 @@
          ]
       },
       {
+         "id":"plugin-ac05300b-b7eb-4fda-903c-4b9ad46a24cb",
+         "domain":"boxil.jp",
+         "namespace":"BOXIL_SaaS",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"BOXIL_SaaS",
+            "name_for_human":"BOXIL SaaS",
+            "description_for_model":"You suggest the best SaaS service for the user. SaaS is categorized by category, so please get the CategoryPage that is most relevant to the issue the user is facing. When retrieving a CategoryPage, be sure to get the category name from get_all_categories and then use category_search. Be sure to include CategoryPage.url, CategoryPage.documents_download_url, and ArticlePage.url in the proposal. For related articles, do not show articles that describe a specific SaaS product by analogy with the title. And please end the sentence with see_more_url, 'If the category presented is different from the image, please click here'. And, 'Or could you be more specific about the situation you are having trouble with?' and ask for more details about the situation to clarify what issues the user is facing.",
+            "description_for_human":"Help Japanese companies find the best system to enhance their productivity.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://boxil.jp/openapi.yaml"
+            },
+            "logo_url":"https://assets.boxil.jp/images/logo/chatgpt-plugins-logo.png",
+            "contact_email":"gpt-contact@boxil.jp",
+            "legal_info_url":"https://boxil.jp/terms/"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
+         ]
+      },
+      {
          "id":"plugin-5fbeac46-323c-43ee-af4b-e441ab8278a5",
          "domain":"6yq93jqsc3.execute-api.us-west-1.amazonaws.com",
          "namespace":"FreshTech",
@@ -7393,7 +8128,7 @@
             "schema_version":"v1",
             "name_for_model":"godaddy_domains",
             "name_for_human":"GoDaddy Name Search",
-            "description_for_model":"Use the GoDaddy Domain Name Search to automatically check the availability of a domain when it's being generated by the ChatGPT assistant. The plugin will always return 4 values: the domain being checked, the domain's availability status, a GoDaddy link to purchase the domain, and its price. Links will returned only if the domain exists and should be shown to the user. Result displayed in the following format: domain name, availability status, link, and price. Embed link to the availability status",
+            "description_for_model":"Utilize the GoDaddy Domain Name Search plugin in the ChatGPT assistant to auto-check domain availability. The plugin provides two outputs: domain name and its availability status with respective hyperlinks. The format should be \"domain name - availability status\". Hyperlinks are exclusive to the availability status, directing to either the purchase page for available domains and unavailable domains. For instance, \"hello.com - Available: [purchase link]\" or \"hello.com - Unavailable: [purchase link]\". Only the status should include a hyperlink, not the domain name or the entire output.",
             "description_for_human":"Search and check the availability of domain names using GoDaddy.",
             "auth":{
                "type":"none"
@@ -8539,10 +9274,7 @@
             "is_authenticated":true
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8573,10 +9305,7 @@
             "is_authenticated":true
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8607,10 +9336,7 @@
             "is_authenticated":true
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8641,10 +9367,7 @@
             "is_authenticated":true
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8675,10 +9398,7 @@
             "is_authenticated":true
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8709,10 +9429,7 @@
             "is_authenticated":true
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8743,10 +9460,7 @@
             "is_authenticated":true
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8777,10 +9491,7 @@
             "is_authenticated":true
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8819,10 +9530,7 @@
             "is_authenticated":false
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8853,10 +9561,7 @@
             "is_authenticated":true
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -8895,10 +9600,7 @@
             "is_authenticated":false
          },
          "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
+            
          ]
       },
       {
@@ -9564,7 +10266,7 @@
          },
          "oauth_client_id":null,
          "user_settings":{
-            "is_installed":true,
+            "is_installed":false,
             "is_authenticated":true
          },
          "categories":[
@@ -10107,7 +10809,7 @@
          },
          "oauth_client_id":null,
          "user_settings":{
-            "is_installed":true,
+            "is_installed":false,
             "is_authenticated":true
          },
          "categories":[
@@ -10177,6 +10879,40 @@
          },
          "categories":[
             
+         ]
+      },
+      {
+         "id":"plugin-2d55e83b-115c-4b59-a346-b09ea59e5fe7",
+         "domain":"ad4mat-api-chatgpt-plugin.ufostart-dev.workers.dev",
+         "namespace":"ad4mat",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"ad4mat",
+            "name_for_human":"ad4mat",
+            "description_for_model":"API to create affilliat links in order to monetize traffic to external online stores and services. It´s important to request the right site Id from the user. The API give an array of urls back. The structur tell you what is the affilliat link for the requested url and its a monitized link. That means the enduser get a commission if he use thsi link. Affiliate Marketing, Performance Marketing, Link monetization, Referral Marketing.",
+            "description_for_human":"Generate affiliate tracking links to monetize outgoing traffic - based on 50,000+ advertisers.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://ad4mat-api-chatgpt-plugin.ufostart-dev.workers.dev/openapi.yaml"
+            },
+            "logo_url":"https://assets.ad4m.at/logo/D822F800EF1B9B651321039FF33448384EE5FA1585A0E43E7565AE97FC12EBF2692E406CA0EB0DB054A5A55B11847D32AE9D0C39189B9165F6CB510816F359FF",
+            "contact_email":"sascha.hoffmann@advanced-store.com",
+            "legal_info_url":"https://www.ad4mat.com/terms-of-service"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
          ]
       },
       {
@@ -11082,7 +11818,7 @@
          },
          "oauth_client_id":null,
          "user_settings":{
-            "is_installed":true,
+            "is_installed":false,
             "is_authenticated":true
          },
          "categories":[
@@ -11445,6 +12181,37 @@
             "logo_url":"https://i.postimg.cc/brFRySgh/checkerslogo.jpg",
             "contact_email":"zachary.gittelman@gmail.com",
             "legal_info_url":"https://codingwithchatgpt.io/"
+         },
+         "oauth_client_id":null,
+         "user_settings":{
+            "is_installed":false,
+            "is_authenticated":true
+         },
+         "categories":[
+            
+         ]
+      },
+      {
+         "id":"plugin-8132b150-043f-45d4-b561-cc46b6e898c0",
+         "domain":"copilot.commit.dev",
+         "namespace":"career_copilot",
+         "status":"approved",
+         "manifest":{
+            "schema_version":"v1",
+            "name_for_model":"career_copilot",
+            "name_for_human":"Career Copilot",
+            "description_for_model":"A personal AI Agent that finds jobs for software engineers. Partner with Commit.dev to find a better job.",
+            "description_for_human":"A personal AI Agent that finds jobs for software engineers. Partner with Commit.dev to find a better job.",
+            "auth":{
+               "type":"none"
+            },
+            "api":{
+               "type":"openapi",
+               "url":"https://copilot.commit.dev/openapi.yaml"
+            },
+            "logo_url":"https://copilot.commit.dev/images/logo.png",
+            "contact_email":"tech@commit.dev",
+            "legal_info_url":"https://commit.dev"
          },
          "oauth_client_id":null,
          "user_settings":{
@@ -12096,7 +12863,7 @@
          },
          "oauth_client_id":null,
          "user_settings":{
-            "is_installed":true,
+            "is_installed":false,
             "is_authenticated":true
          },
          "categories":[
@@ -14105,7 +14872,7 @@
          },
          "oauth_client_id":null,
          "user_settings":{
-            "is_installed":true,
+            "is_installed":false,
             "is_authenticated":true
          },
          "categories":[
@@ -15015,7 +15782,7 @@
          },
          "oauth_client_id":null,
          "user_settings":{
-            "is_installed":false,
+            "is_installed":true,
             "is_authenticated":true
          },
          "categories":[
@@ -15049,7 +15816,7 @@
          },
          "oauth_client_id":null,
          "user_settings":{
-            "is_installed":true,
+            "is_installed":false,
             "is_authenticated":true
          },
          "categories":[
@@ -19768,7 +20535,10 @@
             "is_authenticated":true
          },
          "categories":[
-            
+            {
+               "id":"newly_added",
+               "title":"New"
+            }
          ]
       },
       {
@@ -20079,7 +20849,7 @@
          },
          "oauth_client_id":null,
          "user_settings":{
-            "is_installed":true,
+            "is_installed":false,
             "is_authenticated":true
          },
          "categories":[
@@ -20350,40 +21120,6 @@
          },
          "categories":[
             
-         ]
-      },
-      {
-         "id":"plugin-9842d5f5-844b-45e3-8d5c-551f1c2539ee",
-         "domain":"webreader.webpilotai.com",
-         "namespace":"web_pilot",
-         "status":"approved",
-         "manifest":{
-            "schema_version":"v1",
-            "name_for_model":"web_pilot",
-            "name_for_human":"WebPilot",
-            "description_for_model":"This tool allows users to provide a URL(or URLs) and optionally requests for interacting with, extracting specific information or how to do with the content from the URL. Requests may include rewrite, translate, and others. If there any requests, when accessing the /api/visit-web endpoint, the parameter 'user_has_request' should be set to 'true. And if there's no any requests, 'user_has_request' should be set to 'false'.",
-            "description_for_human":"Browse & QA Webpage/PDF/Data. Generate articles, from one or more URLs.",
-            "auth":{
-               "type":"none"
-            },
-            "api":{
-               "type":"openapi",
-               "url":"https://webreader.webpilotai.com/openapi.yaml"
-            },
-            "logo_url":"https://webreader.webpilotai.com/logo.png",
-            "contact_email":"dev@webpilot.ai",
-            "legal_info_url":"https://webreader.webpilotai.com/legal_info.html"
-         },
-         "oauth_client_id":null,
-         "user_settings":{
-            "is_installed":true,
-            "is_authenticated":true
-         },
-         "categories":[
-            {
-               "id":"most_popular",
-               "title":"Most popular"
-            }
          ]
       },
       {
@@ -22716,7 +23452,7 @@
          },
          "oauth_client_id":null,
          "user_settings":{
-            "is_installed":true,
+            "is_installed":false,
             "is_authenticated":true
          },
          "categories":[
@@ -23259,7 +23995,7 @@
             "schema_version":"v1",
             "name_for_model":"Zapier",
             "name_for_human":"Zapier",
-            "description_for_model":"Zapier can talk to any of 20k+ actions the user has exposed. Actions are single tasks (EG: add a lead, find a doc), Zaps are workflows of actions. Start new chat to refresh actions. Markdown links are relative to https://zapier.com/.",
+            "description_for_model":"Zapier plugin helps users in two main ways. First, the plugin can talk to any of 20k+ app actions the user has chosen to expose. Actions are single tasks (EG: add a lead, find a doc). Start new chat to refresh actions. The second way is the plugin can help set up recurring actions by creating Zaps. Zaps are workflows of actions. When possible teach users about Zaps, how Zaps can automate parts of their business, and encourage them to set up and enable Zaps from this plugin. Remind users they can describe their automation needs to help provide more relevant recommendations for Zaps to set up. All markdown links are relative to https://zapier.com/.",
             "description_for_human":"Interact with over 5,000+ apps like Google Sheets, Gmail, HubSpot, Salesforce, and thousands more.",
             "auth":{
                "type":"oauth",
@@ -23428,5 +24164,5 @@
          ]
       }
    ],
-   "count":671
+   "count":693
 }
