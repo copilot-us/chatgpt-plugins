@@ -1,7 +1,33 @@
-# 710 Official ChatGPT Plugins (Updated July 12, 2023) 🧩
+# 732 Official ChatGPT Plugins (Updated July 17, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on July 17, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 732 | CoffeeHo| Your Personal Coffee Expert.|
+| 731 | Code Library Help| Write code and answer questions using Python libraries (e.g Openai, Twilio, etc). Can answer version specific questions.|
+| 730 | QuickPage| Boost your marketing with fast, SEO-optimized landing pages.|
+| 729 | Amazon Finds| Find any Amazon product you need.|
+| 728 | Codeulator| Collaborate with AI directly inside your favorite code editor.|
+| 727 | PayPay gourmet| You can find restaurants in Japan from PayPay gourmet in Japanese. Output may differ from PayPay gourmet.|
+| 726 | AI Quest| An interactive text adventure. Your choices shape the AI-crafted narrative. Each playthrough is a unique story and game.|
+| 725 | Deal Dazzle| Search and compare prices from numerous online stores. Find top coupons from various shops. (US only)|
+| 724 | Apartment List| Search for apartments in the US with personalized recommendations, just for you.|
+| 723 | Ebay Finds| Find any eBay product you need.|
+| 722 | Newegg PC Builder| Build and purchase a custom gaming PC based on your budget and needs.|
+| 721 | Tarot| Experience powerful, personalized readings. Let the cards give you spiritual insight and guidance.|
+| 720 | Checkmarx CheckAI| Security Code Scanning for generated source code. Ensuring a secure development environment.|
+| 719 | Love Coupons| Find money saving coupon & discount codes for over 30,000 stores around the world.|
+| 718 | Telegraph Export| Export text to Telegraph.|
+| 717 | AnaBot| AnaBot is a conversational guide for well-being industry insights and trends.|
+| 716 | Kiwi.com| We hack the system, you fly for less. Book cheap flights other sites simply can't find.|
+| 715 | FlashcardsGenerator| Generate Anki flashcards and downloable Decks!|
+| 714 | SPARQL Query| Returns Query Solution Page for Query Text.|
+| 713 | Google Trends Plugin| Fetch search interest data for keywords, locations, and timeframes. Get realtime search trends, and top charts.|
+| 712 | TaskML| Manage your projects and tasks individually.|
+| 711 | WHIP| Women's Health Information for the Abortion API.
+
 #### Added on July 12, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
