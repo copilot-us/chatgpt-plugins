@@ -1,140 +1,136 @@
 {
-   "items":[
-      {
-         "id":"plugin-763ffc40-b623-48d2-9dfa-c2a16cc394ee",
-         "domain":"ab-judge-chatgpt-plugin.fooqoo56.com",
-         "namespace":"ab_judge",
-         "status":"approved",
-         "manifest":{
-            "schema_version":"v1",
-            "name_for_model":"ab_judge",
-            "name_for_human":"A/B JUDGE",
-            "description_for_model":"Control and test group for A/B Testing Checker. Confidence intervals for conversion rates should be indicated first. Add the following explanation for the confidence interval included in the response; Confidence intervals indicate the range of conversion ratios. If the question is in Japanese, ab testing should be translated to \"A/B テスト\".",
-            "description_for_human":"Judge whether the A/B test results are superior or not.",
-            "auth":{
-               "type":"none"
-            },
-            "api":{
-               "type":"openapi",
-               "url":"https://ab-judge-chatgpt-plugin.fooqoo56.com/openapi.json"
-            },
-            "logo_url":"https://ab-judge.s3.amazonaws.com/logo.png",
-            "contact_email":"fooqoofooqoo56@gmail.com",
-            "legal_info_url":"https://ab-judge-chatgpt-plugin.fooqoo56.com/term-of-use.html"
+   "items": [
+     {
+       "id": "plugin-763ffc40-b623-48d2-9dfa-c2a16cc394ee",
+       "domain": "ab-judge-chatgpt-plugin.fooqoo56.com",
+       "namespace": "ab_judge",
+       "status": "approved",
+       "manifest": {
+         "schema_version": "v1",
+         "name_for_model": "ab_judge",
+         "name_for_human": "A/B JUDGE",
+         "description_for_model": "Control and test group for A/B Testing Checker. Confidence intervals for conversion rates should be indicated first. Add the following explanation for the confidence interval included in the response; Confidence intervals indicate the range of conversion ratios. If the question is in Japanese, ab testing should be translated to \"A/B テスト\".",
+         "description_for_human": "Judge whether the A/B test results are superior or not.",
+         "auth": {
+           "type": "none"
          },
-         "oauth_client_id":null,
-         "user_settings":{
-            "is_installed":false,
-            "is_authenticated":true
+         "api": {
+           "type": "openapi",
+           "url": "https://ab-judge-chatgpt-plugin.fooqoo56.com/openapi.json"
          },
-         "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
-         ]
-      },
-      {
-         "id":"plugin-5faab902-6d63-4176-9e1b-9f47352d5c87",
-         "domain":"abcaudio.vynalezce.com",
-         "namespace":"abc_to_audio",
-         "status":"approved",
-         "manifest":{
-            "schema_version":"v1",
-            "name_for_model":"abc_to_audio",
-            "name_for_human":"ABC Music Notation",
-            "description_for_model":"Converts ABC music notation to WAV, MIDI, and PostScript files. This allows users to input ABC notation and receive corresponding audio files and sheet URLs in return.",
-            "description_for_human":"Converts ABC music notation to WAV, MIDI, and PostScript files.",
-            "auth":{
-               "type":"none"
-            },
-            "api":{
-               "type":"openapi",
-               "url":"https://abcaudio.vynalezce.com/openapi.json"
-            },
-            "logo_url":"https://abcaudio.vynalezce.com/static/logo.png",
-            "contact_email":"abcchatgpt@karel-hovorka.eu",
-            "legal_info_url":"https://abcaudio.vynalezce.com/legal/"
+         "logo_url": "https://ab-judge.s3.amazonaws.com/logo.png",
+         "contact_email": "fooqoofooqoo56@gmail.com",
+         "legal_info_url": "https://ab-judge-chatgpt-plugin.fooqoo56.com/term-of-use.html"
+       },
+       "oauth_client_id": null,
+       "user_settings": {
+         "is_installed": false,
+         "is_authenticated": true
+       },
+       "categories": [
+         {
+           "id": "newly_added",
+           "title": "New"
+         }
+       ]
+     },
+     {
+       "id": "plugin-5faab902-6d63-4176-9e1b-9f47352d5c87",
+       "domain": "abcaudio.vynalezce.com",
+       "namespace": "abc_to_audio",
+       "status": "approved",
+       "manifest": {
+         "schema_version": "v1",
+         "name_for_model": "abc_to_audio",
+         "name_for_human": "ABC Music Notation",
+         "description_for_model": "Converts ABC music notation to WAV, MIDI, and PostScript files. This allows users to input ABC notation and receive corresponding audio files and sheet URLs in return.",
+         "description_for_human": "Converts ABC music notation to WAV, MIDI, and PostScript files.",
+         "auth": {
+           "type": "none"
          },
-         "oauth_client_id":null,
-         "user_settings":{
-            "is_installed":false,
-            "is_authenticated":true
+         "api": {
+           "type": "openapi",
+           "url": "https://abcaudio.vynalezce.com/openapi.json"
          },
-         "categories":[
-            
-         ]
-      },
-      {
-         "id":"plugin-c6175037-25c5-4b97-a2b7-828a016be2f8",
-         "domain":"ai.abcmouse.com",
-         "namespace":"ABCmouse",
-         "status":"approved",
-         "manifest":{
-            "schema_version":"v1",
-            "name_for_model":"ABCmouse",
-            "name_for_human":"ABCmouse",
-            "description_for_model":"Assistant uses the ABCmouse plugin to get relevant learning activity suggestions for any child 2-8 years of age. Assistant will reply with the following 3 paragraphs 1) Activity Search Results [image] and [url] 2) Activity Learning Objectives [description] and [learning_objective] 3) Followup Questions. The first paragraph contains a list of the activities [url] with their learning attributes listed clearly and concisely as bullet points under the product [description], together with a link to the activity [url] and an explanation [learning_objective]. Links will always be returned and should be shown to the user. Assistant suggestions consider only the most important objectives of the activities [description, learning_objective] that will help them fit the users request, and each activity [url] mention is brief, short and concise. In the third paragraph assistant always asks helpful follow-up questions and end with a question mark. When assistant is asking a follow-up question, it uses its learning activity expertise to provide information pertaining to the subject of the user’s request that may guide them in their search for the right activity.",
-            "description_for_human":"Provides fun and educational learning activities for children 2-8 years old.",
-            "auth":{
-               "type":"none"
-            },
-            "api":{
-               "type":"openapi",
-               "url":"https://ai.abcmouse.com/openapi.yml"
-            },
-            "logo_url":"https://ai.abcmouse.com/logo.png",
-            "contact_email":"support@ageoflearning.com",
-            "legal_info_url":"https://ai.abcmouse.com/legal"
+         "logo_url": "https://abcaudio.vynalezce.com/static/logo.png",
+         "contact_email": "abcchatgpt@karel-hovorka.eu",
+         "legal_info_url": "https://abcaudio.vynalezce.com/legal/"
+       },
+       "oauth_client_id": null,
+       "user_settings": {
+         "is_installed": false,
+         "is_authenticated": true
+       },
+       "categories": []
+     },
+     {
+       "id": "plugin-c6175037-25c5-4b97-a2b7-828a016be2f8",
+       "domain": "ai.abcmouse.com",
+       "namespace": "ABCmouse",
+       "status": "approved",
+       "manifest": {
+         "schema_version": "v1",
+         "name_for_model": "ABCmouse",
+         "name_for_human": "ABCmouse",
+         "description_for_model": "Assistant uses the ABCmouse plugin to get relevant learning activity suggestions for any child 2-8 years of age. Assistant will reply with the following 3 paragraphs 1) Activity Search Results [image] and [url] 2) Activity Learning Objectives [description] and [learning_objective] 3) Followup Questions. The first paragraph contains a list of the activities [url] with their learning attributes listed clearly and concisely as bullet points under the product [description], together with a link to the activity [url] and an explanation [learning_objective]. Links will always be returned and should be shown to the user. Assistant suggestions consider only the most important objectives of the activities [description, learning_objective] that will help them fit the users request, and each activity [url] mention is brief, short and concise. In the third paragraph assistant always asks helpful follow-up questions and end with a question mark. When assistant is asking a follow-up question, it uses its learning activity expertise to provide information pertaining to the subject of the user’s request that may guide them in their search for the right activity.",
+         "description_for_human": "Provides fun and educational learning activities for children 2-8 years old.",
+         "auth": {
+           "type": "none"
          },
-         "oauth_client_id":null,
-         "user_settings":{
-            "is_installed":false,
-            "is_authenticated":true
+         "api": {
+           "type": "openapi",
+           "url": "https://ai.abcmouse.com/openapi.yml"
          },
-         "categories":[
-            
-         ]
-      },
-      {
-         "id":"plugin-d5f6159c-0779-49e7-8bc3-298adbb66d00",
-         "domain":"styledao-prod.web.app",
-         "namespace":"AbleStyle",
-         "status":"approved",
-         "manifest":{
-            "schema_version":"v1",
-            "name_for_model":"AbleStyle",
-            "name_for_human":"Able Style Fashion",
-            "description_for_model":"Able Style Fashion helps you decide what to wear. Able Style answers the question, 'What shall I wear?' and gives the user between 1 and 3 stylish outfit suggestions.",
-            "description_for_human":"Able Style is a fashion assistant who will help you answer the question, 'What shall I wear today?'",
-            "auth":{
-               "type":"service_http",
-               "instructions":"",
-               "authorization_type":"bearer",
-               "verification_tokens":{
-                  "openai":"88983c3db6f04829a0db83c2b6cab6a0"
-               }
-            },
-            "api":{
-               "type":"openapi",
-               "url":"https://styledao-prod.web.app/assets/openai/openai.yaml"
-            },
-            "logo_url":"https://styledao-prod.web.app/assets/img/icon/icon3-512-512.png",
-            "contact_email":"contact@able.style",
-            "legal_info_url":"https://able.style/#/terms"
+         "logo_url": "https://ai.abcmouse.com/logo.png",
+         "contact_email": "support@ageoflearning.com",
+         "legal_info_url": "https://ai.abcmouse.com/legal"
+       },
+       "oauth_client_id": null,
+       "user_settings": {
+         "is_installed": false,
+         "is_authenticated": true
+       },
+       "categories": []
+     },
+     {
+       "id": "plugin-d5f6159c-0779-49e7-8bc3-298adbb66d00",
+       "domain": "styledao-prod.web.app",
+       "namespace": "AbleStyle",
+       "status": "approved",
+       "manifest": {
+         "schema_version": "v1",
+         "name_for_model": "AbleStyle",
+         "name_for_human": "Able Style Fashion",
+         "description_for_model": "Able Style Fashion helps you decide what to wear. Able Style answers the question, 'What shall I wear?' and gives the user between 1 and 3 stylish outfit suggestions.",
+         "description_for_human": "Able Style is a fashion assistant who will help you answer the question, 'What shall I wear today?'",
+         "auth": {
+           "type": "service_http",
+           "instructions": "",
+           "authorization_type": "bearer",
+           "verification_tokens": {
+             "openai": "88983c3db6f04829a0db83c2b6cab6a0"
+           }
          },
-         "oauth_client_id":null,
-         "user_settings":{
-            "is_installed":false,
-            "is_authenticated":true
+         "api": {
+           "type": "openapi",
+           "url": "https://styledao-prod.web.app/assets/openai/openai.yaml"
          },
-         "categories":[
-            {
-               "id":"newly_added",
-               "title":"New"
-            }
-         ]
-      }
+         "logo_url": "https://styledao-prod.web.app/assets/img/icon/icon3-512-512.png",
+         "contact_email": "contact@able.style",
+         "legal_info_url": "https://able.style/#/terms"
+       },
+       "oauth_client_id": null,
+       "user_settings": {
+         "is_installed": false,
+         "is_authenticated": true
+       },
+       "categories": [
+         {
+           "id": "newly_added",
+           "title": "New"
+         }
+       ]
+     }
    ],
-   "count":709
-}
+   "count": 710
+ }
