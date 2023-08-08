@@ -1,7 +1,161 @@
-# 732 Official ChatGPT Plugins (Updated July 17, 2023) 🧩
+# 882 Official ChatGPT Plugins (Updated August 8, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
  - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+#### Added on August 8, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 882 | [Graduate Resume](https://c-resume4graduates.copilot.us/)| I'll create you an ATS-friendly recent college/graduate resume, designed to land your first job.|
+| 881 | [C-Level Resume](https://c-level-resume.copilot.us/)| I'll create an ATS-optimized C-Level executive resume, designed to land your senior-level job.|
+| 880 | [Job Description](https://job-description.copilot.us/)| I'll write you an effective job description that attracts top-quality talent for your next interview.|
+| 879 | The Bolt| Energize your chat with tools from thebolt.ai that enhance your productivity and workflow.|
+| 878 | Letter Writer| Create sleek, professional letters instantly. Business letters, cover letters, recommendation letters, and more.|
+| 877 | Omio| See schedules and book on Omio. Be moved!|
+| 876 | Developer Doc Search| Access thousands of open source packages and their documentation effortlessly.|
+| 875 | Lei Brasileira| Updates on Brazilian legislation and information about the operation of the Legal Briefing solution.|
+| 874 | CSV Creator| Create a CSV file given text.|
+| 873 | Glamai| The ultimate beauty app to find makeup and skincare that match your needs. Like "a non-sticky sunscreen for traveling".|
+| 872 | Take Code Captures| Capture, beautify, and share your code snippets easily.|
+| 871 | Numerology| Unleash the power of numbers. In seconds, find guidance and understand your true spiritual self.|
+| 870 | AnalyticsAI| Connect to your Google Analytics™ and get data with AI using simple prompts.|
+| 869 | Lawyer Search (CA)| Search for lawyers by name, specialty, language, and City. Currently limited to California, USA.|
+| 868 | Convert Assistant| Provides guidance regarding Convert.com's AB testing tool.|
+| 867 | GigTown| Discover a world of local musical talent and live music performances with the GigTown integration.|
+| 866 | Namr.pro| Say "namr" to find awesome domains for your personal or professional brand.|
+| 865 | Swft cross chain| Querying cross chain info and swap coins.|
+| 864 | AladinBooks| Search for books on Aladin.|
+| 863 | KonnectzIT| Integrate to connect & automate your favourite Marketing, CRM, Payments and many more applications.|
+| 862 | Zhibo8 Sports| Provides schedules for NBA, CBA, CSL, Premier League, Serie A, La Liga, Bundesliga, and Ligue 1.|
+| 861 | Resume Genie| Resume creation made simple. Easily generate an attractive resume. Tailor it further by adding the job post description.|
+| 860 | Climesumer| Find sustainable alternatives to products.|
+| 859 | GetByBus| GetByBus is online travel platform selling bus and ferry tickets for more than 5000 operators.|
+| 858 | myTomorrows Search| Discover and filter clinical trials worldwide; updated daily.|
+| 857 | AI Data Analyst| Dive into your data like never before. No code, no complex queries; just plain English.|
+| 856 | Responsive| Take screenshots of any website running on all devices and browsers you want !|
+| 855 | Check Website Down| Insert your website URL to check the availability. Pulsetic tests the uptime, availability & performance of a website.|
+| 854 | Kakuyasu Idou| Compare prices for express bus, flight and bullet train when traveling in Japan. Offer the best for booking!|
+| 853 | SuperColleague| Let AI tools do your work.|
+| 852 | Zeo Route Planner| Plan your routes efficiently with Zeo Route Planner. Perfect for deliveries, road trips, or city tours.|
+| 851 | Get Social Proof| Create engaging testimonials, customer stories and case studies using AI-powered interviews.|
+| 850 | MpcWallet| Unleashing Blockchain Transparency: Your Tool for Deep Dives into DeFi, NFTs, Tokens, and the Web3 Landscape.|
+| 849 | Jot it down| Remember details from your chats by jotting them down. You can add, remove and recall your 'jots.'|
+| 848 | ChatAFI| Search through select AFIs.|
+| 847 | Rephrase AI| Use Rephrase AI to convert text into talking avatar videos.|
+| 846 | Storybooks| Create bedtime stories that instill a love for reading, spark creativity, and build important life skills.|
+| 845 | AgentSQL| Interact with your Snowflake databases or your csv files.|
+| 844 | YT Summarizer| 💯Free YouTube Summarizer: Saves a lot of screen time by summarizing YouTube videos with timestamps.|
+| 843 | Game Box| Discover, play, and solve classic games like Blackjack, Tic-Tac-Toe, Word Guess, Sudoku, 24, Yahtzee, and more!|
+| 842 | Moodo| Moodo® is one of a kind aroma diffuser, that can mix up to 4 scents. Moodo version 3+ allows air purifying too.|
+| 841 | RPAMAKER| Run and deploy ROBOTFRAMEWORK scripts to RPAMAKER.|
+| 840 | Chat With Excel| Transform your spreadsheet interactions and analysis by conversing as if you were a friend.|
+| 839 | WOXO| Turn your prompts into cool videos. Create eye-catching content in a snap!|
+| 838 | Quizizz| Gamify your text quizzes and content to drive engagement for assessment, instruction, and practice.|
+| 837 | Affilitizer| Find all affiliate programs and advertisers including the network they are available in.|
+| 836 | SteamReviewsWatcher| Get steam reviews for the requested game and process them as you want, make summary's, extract pros and cons, etc.|
+| 835 | G2.com| Find the best software and service solutions to your business needs.|
+| 834 | Monarch Initiative| Search and retrieve basic information from the Monarch Initiative knowledge graph.|
+| 833 | Chat with Confluence| Chat with your Confluence wiki. Share your Confluence pages (and other links!) as context, and get personalised answers.|
+| 832 | JiraTalk| Boost Jira’s efficiency via automated project management operations, strategic user insights, and detailed analytics.|
+| 831 | Spreadsheets AI| Effortlessly converse with spreadsheets; use commands to analyze, filter, or visualize your data.|
+| 830 | World Records| Step into a world that celebrates the highest levels of human accomplishment. Witness the records!|
+| 829 | Accurate PDF| Interactive conversations with PDFs of any length, with accurate quotes and page citations. Powered by Avian.io|
+| 828 | QuickBlog| Generate SEO-Optimized Blog Pages Quickly with AI and Publish to the Internet with One Click.|
+| 827 | Foxit PDF Assistant| This plugin converts PDF and Office documents interchangeably, supporting formats like Word, Excel, and PowerPoint.|
+| 826 | Moment Of Zen Spext| A knowledge retrieval system for the Moment Of Zen podcast in Spext.|
+| 825 | Access Google Sheet| Ask your Google Sheets questions & chat with excel. Enter Google Drive link to start!|
+| 824 | James Allen Jewelry| Experience the future of diamond and jewelry shopping where stunning quality meets unparalleled customization.|
+| 823 | WizeCharts| Create and share beatiful and highly customizable charts.|
+| 822 | Chainstack| Enables natural language interaction with EVM blockchains using Chainstack's infrastructure.|
+| 821 | Quick News Digest| Access personalized world news curated to match your unique preferences.|
+| 820 | Speedy SEO Marketing| SEO tool for your Shopify store, ecommerce website or any business. Create strategy, blogs and social content.|
+| 819 | MixerBox Diagrams| Create, edit, and showcase diagrams through chat! Make presenting your data incredibly simple!|
+| 818 | Forma Cloud| Learn how to drastically reduce your company’s cloud computing costs with the power of our automated solution.|
+| 817 | Abortion Information| Abortion Information from the Abortion API.|
+| 816 | Webpage Summarizer| Allow the bot to access information contained in a webpage via its URL, by default returning a summary.|
+| 815 | QS World Uni Ranking| Research the performance of universities across the globe using QS World Uni Rankings 2024.|
+| 814 | Invoice Pilot| Easily create an invoice or estimate as a PDF file.|
+| 813 | Solana Labs| Explore Solana blockchain data.|
+| 812 | MixerBox ChatDrive| The best Google Drive AI assistant! Easily manage any files: PDFs, PPTs, images, docs, sheets, etc.|
+| 811 | For.io App Creator| Create feature-rich web apps by simply writing the requirements.|
+| 810 | Prompt Hotkey| Don't waste your time repeating prompts. Create your custom hotkeys and just type 'hotkey'.|
+| 809 | Wantedly Visit| It will help you find a job in Japan or Singapore.|
+| 808 | Able| 🔌🚀 Use store addons without install! Simply type ‘Able PlugName’ for 1-click testing of chat extension and instant run.|
+| 807 | InstaSite| Ask to create a landing page - get a one-page website that can be a presentation of your project.|
+| 806 | MixerBox Calculator| Your digital math assistant for precise calculations! Accuracy and efficiency in one place!|
+| 805 | Book Tickets| Explore and secure tickets for a variety of events around the world.|
+| 804 | Smart Slides| Smart Slides: AI-powered tool for rapid PowerPoint presentations. Just input needs and let AI do the rest.|
+| 803 | Flowise Support Help| A Conversational Agent to ask questions about how to install and use Flowise.|
+| 802 | VPLATE Video Ads| Hey AI, Create Video Ads - Enter Product Info, Get Stunning Video Ads in a Snap!|
+| 801 | Aardvark AI| Search for Products on Google Shopping in Real-Time, No Ads, Only Trusted Stores.|
+| 800 | Popfun AI| Personalized toy recommendations, ideas and gifts for kids.|
+| 799 | IFTTT| Ask IFTTT to run an action or query for a service you are connected to.|
+| 798 | SingleStore| Query your SingleStore database in English.|
+| 797 | FileChat| File management, in-depth analysis, and quick information retrieval.|
+| 796 | 20 Minuten (CH) News| Get the latest News from 20 Minuten about Switzerland and the world.|
+| 795 | Visualize Your Data| Instantly transform your raw data into stunning, insightful visuals and charts.|
+| 794 | PointsRecap| Daily stock market updates, trading insights and view points summary from YouTube traders.|
+| 793 | BlendED Worksheet| Create educational resources (question papers, bubble sheets, worksheets, etc.) instantly from your teaching material.|
+| 792 | AAASummarize.app| Summarize YouTube videos, web pages, and PDF documents by providing a link. This is a free preview.|
+| 791 | Idomoo Lucas| Turn any response into a useful video in seconds! Plus, easily edit and customize your video.|
+| 790 | Exercise Consulting| Manage your exercise routine. You can view exercises for different body parts and get details about each exercise.|
+| 789 | Shopping Finder| EBay product shopping search, conveniently query products, get discounts and discounted products more quickly.|
+| 788 | VELTRA| A tool designed to provide personalized tour activity suggestions.|
+| 787 | PHITURE| Search for keywords to obtain information about their popularity, impressions, etc.|
+| 786 | MintbaseAction| Submit transactions to the NEAR Protocol. It only works on Testnet. Use this for testing purposes only.|
+| 785 | A-to-Z Video Summary| YouTube Summaries. You can also search for videos and navigate through popular ones.|
+| 784 | Bibsonomy| Helps you to research scientific publications, manage your Bibsonomy library and analyze its content.|
+| 783 | everysize| Search for sneakers in your size and get the best price from 60+ shops (only in DE).|
+| 782 | Urban Ladder| Search & Browse from Urban Ladder Product Catalog.|
+| 781 | SG Parking| Offers real-time HDB carpark availability in Singapore. Search by address for nearby parking space info.|
+| 780 | I Ching| Unlock ancient I-Ching wisdom: embrace spirituality, ignite creativity & conquer life's changes!|
+| 779 | PDF Magic| Create beautiful PDFs instantly. Resumes, cover letters, reports, agreements, forms, and more.|
+| 778 | MindfulDataAI| Search with Google. You can search the web with Google when you are asking a question about something recent.|
+| 777 | A+QuickVoice| Get your text converted to audio quickly. Supports over 100 languages ​​and 300+ speakers.|
+| 776 | BibGuru| Supercharge your research: generate accurate citations in APA, MLA, and Harvard.|
+| 775 | Engage AI| Retrieve hashtag follower counts, trends & suggestions to increase your content reach on LinkedIn.|
+| 774 | TypeScript Analyzer| Analyzes TypeScript, JSX/TSX, and JavaScript files for linting, autocompletion, error checking, and type checking.|
+| 773 | ScrapingBee| Search Google for finding general information and urls. Or scrape websites for the most real-time specific information.|
+| 772 | PDF Creator| Create a PDF file in seconds.|
+| 771 | A+QuickURL| Shorten your links and track clicks on them.|
+| 770 | Michelangelo| Create high quality images based on different art styles by leveraging the power of generative AI using DALL-E 2.|
+| 769 | HubCart POD Designer| Brainstorm print-on-demand design ideas, then make POD designs. Created with DALL·E.|
+| 768 | BGG Assistant| Discover board games with BoardGameGeek Assistant! Find games, see trending games, monitor your plays and collection...|
+| 767 | Typeform| Create forms, quizzes, and surveys—designed to stand out.|
+| 766 | Emotimg| The images(maid character) attached make the conversation more enjoyable.|
+| 765 | A+QuickSEO| Get a quick SEO audit for a specific URL.|
+| 764 | Scrapee| Scrape the text content of any website.|
+| 763 | Paperpile| Supercharge your research: search millions of scientific papers in seconds.|
+| 762 | Mercari| Explore a variety of products on Mercari, Japan’s largest C2C marketplace.|
+| 761 | Horoscope| Get near-term readings for your life's journey. Harness the stars' wisdom for spiritual guidance.|
+| 760 | Back4App| Use natural language to create, deploy, and scale apps, backend, databases, cloud functions, and APIs.|
+| 759 | DOCX Maker| Create a DOCX file from text.|
+| 758 | Tryp.com| Tryp.com's AI-driven inspirational travel engine, allows adventurous souls to travel way more, for way less!|
+| 757 | Page Whisperer| Generate content for your web page.|
+| 756 | Saltwire Search| Interact with the news instead of just reading it.|
+| 755 | A+European Train| Search for train and bus connections in Europe with schedules.|
+| 754 | Graph Constructor| A tool for creating spider and bar graphs.|
+| 753 | MC Expert| MC Expert provides guidance on Minecraft command, plugin, and Skript development.|
+| 752 | Astro Insights| A companion simplifying complex astrophysics tasks.|
+| 751 | OWIS| Explore the capabilities of the OWIS system for seamless workflow and document management.|
+| 750 | TR Timetables| Query for the ID for Taiwan Railway stations and timetables for the specified departure and destination station.|
+| 749 | DobaWorldFactory| World Factory: Searching for the best manufacturers worldwide.|
+| 748 | A+ Doc Maker| Generate beautiful PDFs in seconds. Resumes, cover letters, proposals and more. Also supports DOCX, XLSX, CSV and HTML.|
+| 747 | Sahih AI| Query a list of islamic hadiths from our prophet Muhammed (PBUH)'s sunnah based on the 6 sahih hadith books|
+| 746 | AskYourPDF Pro| Unlock the power of your documents with the pro version of AskYourPDF! Bring information to your fingertips today.|
+| 745 | The Remembotron| Simple long term memory. Store lists, tasks, and other information. Recover it in other chats when you need it.|
+| 744 | Outreach AI| Generate a personalized sales email for a prospect to whom you want to reach out to for selling your service.|
+| 743 | Safe to run| Directual is a full-stack no-code platform that is great for launching web and web3 apps of any complexity and scale.|
+| 742 | ListFriendly| Discover the best-fit real estate agents tailored specifically to optimize the sale of your home.|
+| 741 | "A+ Ads by Bestever"| Unlock stunning image ads with just a link. Our AI scripts, polishes your visuals, and generates magic!|
+| 740 | Runes| Unveil the mystic power of runes for profound insights to guide your personal and spiritual journey.|
+| 739 | A Mail Please| Send an email to yourself.|
+| 738 | Ask Link Bot| Conversational bot to ask a question about a link and receive an answer based on that.|
+| 737 | Diffbot| Access the world's knowledge and real-time Web data with Diffbot's Knowledge Graph.|
+| 736 | GoWithGuide| Book a private customizable tour with a local guide.|
+| 735 | Link Analyzer| Analyze a link for safety and security.|
+| 734 | Only Trivia Up!| Answer trivia quizzes and 'only go up' in this interactive learning game as you climb a staircase of knowledge.|
+| 733 | The Knot| All-In-One wedding planning with tools, guides, & inspo to make your wedding journey effortless.
+
 #### Added on July 17, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
