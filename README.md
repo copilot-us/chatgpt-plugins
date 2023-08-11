@@ -1,6 +1,20 @@
-# 882 Official ChatGPT Plugins (Updated August 8, 2023) 🧩
+# 892 Official ChatGPT Plugins (Updated August 11, 2023) 🧩
 
  - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json). 
+#### Added on August 11, 2023
+| #     | Name                 | Description                                                                                                           |
+|-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 892 | Data Interpreter| Analyze your data using a Python code interpreter in a secure execution environment.|
+| 891 | LevinBot| Search research papers and transcripts of talks from Dr. Michael Levin's Lab.|
+| 890 | Medical Device EU| Discover all relevant Guidances, Regulations and Requirements in the European Medical Devices field.|
+| 889 | Recipe Finder| Explore meals for all diets: vegan, keto, gluten-free. Dive into curated foods and ingredients. Elevate your cooking.|
+| 888 | RiskmonsterCorpDB| Searching for Japanese corporations from Riskmonster's own database of 5 million companies in Japan.|
+| 887 | Sentiment Analysis| 🎭 Sentiment Analysis 🔬 ⏐ Use: /analyze, /checkthis, /feedback, /score, /sentiment, or /instructions for help.|
+| 886 | Check Point Security| Check Point security reputation about IP, URL, File hashes - Get their current risk and classification.|
+| 885 | Flight Tracker| Access real-time flight statuses and dive into extensive historical flight data instantly.|
+| 884 | Words Pro| Dive into an endless sea of five-letter mysteries. Can you decode them all?|
+| 883 | The Bolt| Energize your chat with tools from thebolt.ai that enhance your productivity and workflow.
+
 #### Added on August 8, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
