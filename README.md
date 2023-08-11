@@ -1,7 +1,6 @@
 # 882 Official ChatGPT Plugins (Updated August 8, 2023) 🧩
 
- - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json).
- - [As table with logos and description](https://github.com/jopilot-net/jopilot-4-job-seekers/blob/main/chat-gpt-plugins.md). Updated on May 18, 2023
+ - [JSON](https://raw.githubusercontent.com/jopilot-net/jopilot-4-job-seekers/main/chatgpt_plugins.json). 
 #### Added on August 8, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
