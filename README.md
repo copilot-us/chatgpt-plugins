@@ -9,8 +9,6 @@
  - How does the ChatGPT plugin store look? ![Screenshot](https://github.com/copilot-us/chatgpt-plugins/raw/main/Screenshot%202023-08-14%20135258.png)
 
 
-
-
 #### Added on August 11, 2023
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
