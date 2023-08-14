@@ -2,8 +2,13 @@
 
  - Download all plugins in JSON [here](https://raw.githubusercontent.com/copilot-us/chatgpt-plugins/main/chatgpt_plugins.json).
 
-### How the ChatGPT plugin store look on Aug 14, 2023.
-![Screenshot](https://raw.githubusercontent.com/copilot-us/chatgpt-plugins/master/Screenshot%202023-08-14%20135258.png)
+### FAQ
+ - [How to install ChatGPT plugins?](https://youtu.be/jkDjvSucBD8)
+ - [Where to find the list of all ChatGPT plugins?](https://plugins.copilot.us/)
+ - How does the ChatGPT plugin store look? ![Screenshot](https://github.com/copilot-us/chatgpt-plugins/raw/main/Screenshot%202023-08-14%20135258.png)
+
+
+
 
 #### Added on August 11, 2023
 | #     | Name                 | Description                                                                                                           |
