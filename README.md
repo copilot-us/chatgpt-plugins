@@ -5,6 +5,7 @@
 ### FAQ
  - [How to install ChatGPT plugins?](https://youtu.be/jkDjvSucBD8)
  - [Where to find the list of all ChatGPT plugins?](https://plugins.copilot.us/)
+ - [What are the featured ChatGPT plugins](https://raw.githubusercontent.com/copilot-us/chatgpt-plugins/main/featured-plugin.json)
  - How does the ChatGPT plugin store look? ![Screenshot](https://github.com/copilot-us/chatgpt-plugins/raw/main/Screenshot%202023-08-14%20135258.png)
 
 
