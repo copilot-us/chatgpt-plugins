@@ -9,7 +9,7 @@
  - How does the ChatGPT plugin store look? ![Screenshot](https://github.com/copilot-us/chatgpt-plugins/raw/main/Screenshot%202023-08-14%20135258.png)
 
 
-#### Added on August 11, 2023
+#### Added on August 11, 2023 (I'm not currently updating the table below. Please find the list of plugins in the chatgpt_plugins.json file)
 | #     | Name                 | Description                                                                                                           |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
 | 892 | Data Interpreter| Analyze your data using a Python code interpreter in a secure execution environment.|
