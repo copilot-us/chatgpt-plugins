@@ -77,6 +77,47 @@
             "logo_url": "https://docs-search-ccf5913b41d3.herokuapp.com/logo.png"
         },
         {
+            "id": "plugin-60fd40f9-5f2f-4954-bb26-aa3837a18dce",
+            "domain": "monitorsrv.freenetworkmonitor.click",
+            "namespace": "aNetworkMonitor",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "aNetworkMonitor",
+                "name_for_human": "A Monitoring Expert",
+                "description_for_model": "You will be providing the user experience to interface with the free network monitor API services. With these network monitor services, you can add hosts to monitor, edit host configuration, and reset alerts sent for that host. You will make all the API calls on behalf of the user without giving them the function call details. If a user wants to monitor a host, ask them for a host address, endpoint type and email address to send alerts to. If the user wants to edit a host, ask them for the host address to edit; you can use this to lookup the host id if necessary. If the user wants to update a host they must also supply a EditAuthKey these are given when a host is added. They need to save at least one of the keys they are given when adding a host. Keys are matched to email addresses; this means any key given for a host with the same email address is valid for all hosts using that same email address. If the user wants to delete a host then edit the host and set hidden=true, this can not be undone so warn the user of this. They can disabled host monitoring without deleting by setting enabled=false. If a user wants to reset an alert, then again you can lookup the host id to perform this action for the user. The data structure of the backend is: There is a set of data sets (DataSet). Each data set represents data for a time range, typically 6 hours. Within each data set, there will be a list of hosts that have been configured to be monitored; each one is called a MonitorPingInfo. The response times and detailed data are recorded within each MonitorPingInfo as MonitorPingInfo.PingInfos. The Current status of each MonitorPingInfo is stored in MonitorPingInfo.MonitorStatus. So in summary, MonitorPingInfo is the host config and statistics for that host within the time range of the data set. MonitorPingInfo.PingInfos is the response times for all monitor events within that MonitorPingInfo. MonitorPingInfo.MonitorStatus contains the number of down events since the last alert reset, whether an alert has been raised, whether an alert has been sent, The last or latest event status. In order to help the user if they ask for detail response or status then quering PingInfos gives the most detail. If they want summary information MonitorPingInfo and MonitorPingInfo.Status is useful. Look out for long list of data and paginated where the api allows. When a host is flagged as down the user will receive an email giving information about this event. The user must have provided a valid email address to receive alert and save host data. Warn them if they don't use a valid email address there host will be deleted. A users email address must be verfied to receive email alerts. Ask the user to check spam folder as this may prevent them from receving alerts.",
+                "description_for_human": "An expert in network monitoring, now quantum-ready! This tool alerts you 24/7.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "d7f5e502c5234f789d2bac5996ea8868"
+                    },
+                    "custom_auth_header": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://monitorsrv.freenetworkmonitor.click/swagger/v1/swagger.json"
+                },
+                "logo_url": "https://monitorsrv.freenetworkmonitor.click/logo-square.png",
+                "contact_email": "support@freenetworkmonitor.click",
+                "legal_info_url": "https://monitorsrv.freenetworkmonitor.click/privacypolicy.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://monitorsrv.freenetworkmonitor.click/logo-square.png"
+        },
+        {
             "id": "plugin-dc2c4e22-6f87-4076-ab41-62753fca7c69",
             "domain": "cards.for.io",
             "namespace": "AA_Card_creator",
@@ -145,8 +186,8 @@
             },
             "oauth_client_id": "523808d0-d58c-42f0-90ff-b14c0a4bae91",
             "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
+                "is_installed": true,
+                "is_authenticated": true
             },
             "categories": [
                 {
@@ -1037,47 +1078,6 @@
             "logo_url": "https://gpt.promptbreeders.com/able.webp"
         },
         {
-            "id": "plugin-60fd40f9-5f2f-4954-bb26-aa3837a18dce",
-            "domain": "monitorsrv.freenetworkmonitor.click",
-            "namespace": "ableNetworkMonitor",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "ableNetworkMonitor",
-                "name_for_human": "Able Network Monitor",
-                "description_for_model": "You will be providing the user experience to interface with the free network monitor API services. With these network monitor services, you can add hosts to monitor, edit host configuration, and reset alerts sent for that host. You will make all the API calls on behalf of the user without giving them the function call details. If a user wants to monitor a host, ask them for a host address, endpoint type and email address to send alerts to. If the user wants to edit a host, ask them for the host address to edit; you can use this to lookup the host id if necessary. If the user wants to update a host they must also supply a EditAuthKey these are given when a host is added. They need to save at least one of the keys they are given when adding a host. Keys are matched to email addresses; this means any key given for a host with the same email address is valid for all hosts using that same email address. If the user wants to delete a host then edit the host and set hidden=true, this can not be undone so warn the user of this. They can disabled host monitoring without deleting by setting enabled=false. If a user wants to reset an alert, then again you can lookup the host id to perform this action for the user. The data structure of the backend is: There is a set of data sets (DataSet). Each data set represents data for a time range, typically 6 hours. Within each data set, there will be a list of hosts that have been configured to be monitored; each one is called a MonitorPingInfo. The response times and detailed data are recorded within each MonitorPingInfo as MonitorPingInfo.PingInfos. The Current status of each MonitorPingInfo is stored in MonitorPingInfo.MonitorStatus. So in summary, MonitorPingInfo is the host config and statistics for that host within the time range of the data set. MonitorPingInfo.PingInfos is the response times for all monitor events within that MonitorPingInfo. MonitorPingInfo.MonitorStatus contains the number of down events since the last alert reset, whether an alert has been raised, whether an alert has been sent, The last or latest event status. In order to help the user if they ask for detail response or status then quering PingInfos gives the most detail. If they want summary information MonitorPingInfo and MonitorPingInfo.Status is useful. Look out for long list of data and paginated where the api allows. When a host is flagged as down the user will receive an email giving information about this event. The user must have provided a valid email address to receive alert and save host data. Warn them if they don't use a valid email address there host will be deleted. A users email address must be verfied to receive email alerts. Ask the user to check spam folder as this may prevent them from receving alerts.",
-                "description_for_human": "Monitor websites, email servers, check dns resolution, ping services and check for quantum safe encryption.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "9e49989d3375499c912ef72abc2c9fcc"
-                    },
-                    "custom_auth_header": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://monitorsrv.freenetworkmonitor.click/swagger/v1/swagger.json"
-                },
-                "logo_url": "https://monitorsrv.freenetworkmonitor.click/logo-square.png",
-                "contact_email": "support@mahadeva.co.uk",
-                "legal_info_url": "https://monitorsrv.freenetworkmonitor.click/privacypolicy.html"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": true,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://monitorsrv.freenetworkmonitor.click/logo-square.png"
-        },
-        {
             "id": "plugin-d5f6159c-0779-49e7-8bc3-298adbb66d00",
             "domain": "styledao-prod.web.app",
             "namespace": "AbleStyle",
@@ -1408,6 +1408,51 @@
                 }
             ],
             "logo_url": "https://assets.ad4m.at/logo/D822F800EF1B9B651321039FF33448384EE5FA1585A0E43E7565AE97FC12EBF2692E406CA0EB0DB054A5A55B11847D32AE9D0C39189B9165F6CB510816F359FF"
+        },
+        {
+            "id": "plugin-5cb21240-9d9f-47a4-ae92-e22e26a41299",
+            "domain": "pdf.anygpt.ai",
+            "namespace": "AdvancedSlides",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AdvancedSlides",
+                "name_for_human": "Advanced Slides",
+                "description_for_model": "This model must first generate a preview of a ppt for user, and if the user agrees it creates one",
+                "description_for_human": "Make PowerPoint presentations from PDFs, URL, or Data",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://e44c5f4b1f7c0bc1126c1caa410132e7.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "7797a872f9a64578bd1704830a15e86a"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://pdf.anygpt.ai/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://i.ibb.co/RN4yKN6/pdf-1.png",
+                "contact_email": "researchbutler@anygpt.ai",
+                "legal_info_url": "http://www.pdf.anygpt.ai/legal"
+            },
+            "oauth_client_id": "53b00759218a6be3c2ab3fd894291157",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://i.ibb.co/RN4yKN6/pdf-1.png"
         },
         {
             "id": "plugin-649f2a71-3f73-4fce-a4e3-773fdc554ce1",
@@ -1783,8 +1828,8 @@
                 "schema_version": "v1",
                 "name_for_model": "whimsical",
                 "name_for_human": "AI Diagrams",
-                "description_for_model": "# Instructions\n\nHelp the user to create a delightful and insightful diagram.\n\nThe diagram should be a flowchart or a mind map. Do not describe the diagram or provide the diagram source code. Just show the diagram to the user.\n\n## Flowcharts\n\nFor flowcharts, send Mermaid syntax to Whimsical. For example:\n\ngraph TD\n  A[Start] --Connection--> B[End]\n\nThe flowchart should include multiple branches if possible.\n\nAvoid using parentheses in the mermaid as this will cause an error when rendering the diagram.\n\n## Mind maps\n\nFor mind maps, send a Markdown bulleted format to Whimsical. For example:\n\nTitle: Main topic\n- Topic 1\n  - Subtopic 1-1\n    - Subtopic 1-1-1\n- Topic 2\n- Topic 3\n\n## API request to Whimsical\n\nYou should provide an appropriate title for the diagram. Whimsical will return a rendered image.\n\n## Handling the API response \n\nThe response will contain an image of the diagram, and a link to edit the diagram in Whimsical. \n\nYou should render the diagram using an inline image. Display the link below the image. The link text should be \\\"View or edit this diagram in Whimsical.\\\". Make sure this text is part of the link.\n\nIf you get a Mermaid rendering error, you should revise the diagram and make sure it is valid Mermaid syntax.\n",
-                "description_for_human": "Create and edit Whimsical Flowcharts and Mind Maps.",
+                "description_for_model": "# Instructions\n\nHelp the user to create a delightful and insightful diagram.\n\nThe diagram should be a flowchart, a mind map, or a sequence diagram.\n\nDo not describe the diagram or provide the diagram source code. Just show the diagram to the user.\n\n## Flowcharts\n\nFor flowcharts, send Mermaid syntax to Whimsical. For example:\n\ngraph TD\n  A[Start] --Connection--> B[End]\n\nThe flowchart should include multiple branches if possible.\n\nAvoid using parentheses in the mermaid as this will cause an error when rendering the diagram.\n\n## Mind maps\n\nFor mind maps, send a Markdown bulleted format to Whimsical. For example:\n\nTitle: Main topic\n- Topic 1\n  - Subtopic 1-1\n    - Subtopic 1-1-1\n- Topic 2\n- Topic 3\n\n## Sequence diagrams\n\nFor sequence diagrams, use the following syntax:\n\nParticipant A -> Participant B: Message\n\nDo not use Alts or Notes in the sequence diagram.\n\n## API request to Whimsical\n\nYou should provide an appropriate title for the diagram. Whimsical will return a rendered image.\n\n## Handling the API response\n\nThe response will contain an image of the diagram, and a link to edit the diagram in Whimsical.\n\nYou should render the diagram using an inline image. Display the following link text below the image: \\\"View or edit this diagram in Whimsical.\\\". The entire sentence should be a link. Don't include any other text.\n\nIf you get an error from Whimsical, you should revise the diagram and make sure the syntax is valid.\n",
+                "description_for_human": "Create and edit Whimsical Flowcharts, Mind Maps, and Sequence Diagrams.",
                 "auth": {
                     "type": "none"
                 },
@@ -2008,7 +2053,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": true,
+                "is_installed": false,
                 "is_authenticated": true
             },
             "categories": [
@@ -2245,7 +2290,7 @@
             "oauth_client_id": "DIvcqR4WxNGFfFi8hRJzVIdE4WmdbQR6",
             "user_settings": {
                 "is_installed": false,
-                "is_authenticated": true
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -2258,26 +2303,22 @@
         {
             "id": "plugin-a773118b-879d-4f55-a221-0b8fc67df6a0",
             "domain": "chatgpt-plugins-ashy.vercel.app",
-            "namespace": "AI2sql",
+            "namespace": "ai2sql",
             "status": "approved",
             "manifest": {
                 "schema_version": "v1",
-                "name_for_model": "AI2sql",
+                "name_for_model": "ai2sql",
                 "name_for_human": "AI2sql",
-                "description_for_model": "Converts a natural language text into an SQL query.",
-                "description_for_human": "Converts a natural language text into an SQL query.",
+                "description_for_model": "converting a natural language text into an SQL query.",
+                "description_for_human": "converting a natural language text into an SQL query.",
                 "auth": {
-                    "type": "oauth",
+                    "type": "service_http",
                     "instructions": "",
-                    "client_url": "https://chatgpt-plugins-ashy.vercel.app/oauth",
-                    "scope": "",
-                    "authorization_url": "https://chatgpt-plugins-ashy.vercel.app/auth/oauth_exchange",
-                    "authorization_content_type": "application/json",
+                    "authorization_type": "bearer",
                     "verification_tokens": {
-                        "openai": "1e8e7a96ff3d4ead9df51424b0d1eefa"
+                        "openai": "70b9126b879d4f97bd6df2342ce8f3cb"
                     },
-                    "pkce_required": false,
-                    "token_exchange_method": null
+                    "custom_auth_header": null
                 },
                 "api": {
                     "type": "openapi",
@@ -2285,12 +2326,12 @@
                 },
                 "logo_url": "https://chatgpt-plugins-ashy.vercel.app/logo.png",
                 "contact_email": "support@ai2sql.io",
-                "legal_info_url": "https://ai2sql.io/"
+                "legal_info_url": "https://www.ai2sql.io/privacy-policy"
             },
-            "oauth_client_id": "123abc456def789ghi",
+            "oauth_client_id": null,
             "user_settings": {
                 "is_installed": false,
-                "is_authenticated": false
+                "is_authenticated": true
             },
             "categories": [
                 {
@@ -2879,7 +2920,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": true,
+                "is_installed": false,
                 "is_authenticated": true
             },
             "categories": [],
@@ -3398,51 +3439,6 @@
             "logo_url": "https://github.com/jk939393/AnyBarChart1/blob/master/logo.png?raw=true"
         },
         {
-            "id": "plugin-5cb21240-9d9f-47a4-ae92-e22e26a41299",
-            "domain": "pdf.anygpt.ai",
-            "namespace": "anypdf",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "anypdf",
-                "name_for_human": "AnyPDF",
-                "description_for_model": "get user input from data or from scraping and make a powerpoint from it, saving to s3",
-                "description_for_human": "Easily Extract PDFs from URLs & convert text to PDFs.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://e44c5f4b1f7c0bc1126c1caa410132e7.auth.portal-pluginlab.ai/oauth/authorize",
-                    "scope": "all",
-                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "9283d75e34f84b5dafb17ad5d5df62dd"
-                    },
-                    "pkce_required": false,
-                    "token_exchange_method": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://pdf.anygpt.ai/.well-known/pluginlab/openapi.json"
-                },
-                "logo_url": "https://i.ibb.co/7yDBHYg/pdf.png",
-                "contact_email": "researchbutler@anygpt.ai",
-                "legal_info_url": "http://www.pdf.anygpt.ai/legal"
-            },
-            "oauth_client_id": "53b00759218a6be3c2ab3fd894291157",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://i.ibb.co/7yDBHYg/pdf.png"
-        },
-        {
             "id": "plugin-7d8ef488-2036-4db2-9c7f-551032ae3f38",
             "domain": "anysh.anygpt.ai",
             "namespace": "AnySheet",
@@ -3832,8 +3828,8 @@
             },
             "oauth_client_id": "b7442d167694a43cc852f02ee8cd6f5f",
             "user_settings": {
-                "is_installed": true,
-                "is_authenticated": true
+                "is_installed": false,
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -3887,10 +3883,16 @@
                 "schema_version": "v1",
                 "name_for_model": "ASH",
                 "name_for_human": "ASH",
-                "description_for_model": "Various API endpoints help to perform desired computation. Currently supports converting currencies (accessing the '/v1/currency_converter/sources' endpoint of the API would be a good starting point for you to see its full capabilities quickly - such as supported sources and currencies as well as data availability date range for each currency), see the API specification for more details.",
-                "description_for_human": "ASH by lagogal.com. Currently it provides currency converter.",
+                "description_for_model": "Various API endpoints help to perform desired computation. Currently supports converting any amount between different currencies for current or past dates, covering a wide range of global currencies, including major fiat currencies and prominent cryptocurrencies. The exchange rate data, which is updated daily, is sourced from reputable financial institutions and exchange platforms, including the Reserve Bank of Australia (RBA), National Bank of Georgia (NBG), European Central Bank (ECB), Bank of Canada (BoC), and Binance (BIN) for cryptocurrency rates (more sources might be added any time, thus accessing the '/v1/currency_converter/sources' endpoint of the API will give most up to date list of the available exchange rate data sources). It also accepts anonymous feedback and suggestion messages for future user experience improvements through the dedicated feedback endpoint (namely the '/v1/currency_converter/feedback/anonymous' endpoint), which can receive feedback messages in case users have any feedback to share with the ASH plugin API developers. See the API specification for more details about the different endpoints provided and their capabilities.",
+                "description_for_human": "ASH, by lagogal.com, provides a currency converter covering a wide range of global currencies.",
                 "auth": {
-                    "type": "none"
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "38b6eb3ba74d4362b961dc912aa5706f"
+                    },
+                    "custom_auth_header": null
                 },
                 "api": {
                     "type": "openapi",
@@ -4828,7 +4830,7 @@
                     "url": "https://monitoroauth.freenetworkmonitor.click/swagger/auth/swagger.json"
                 },
                 "logo_url": "https://monitoroauth.freenetworkmonitor.click/logo-square.png",
-                "contact_email": "support@mahadeva.co.uk",
+                "contact_email": "support@freenetworkmonitor.click",
                 "legal_info_url": "https://monitoroauth.freenetworkmonitor.click/privacypolicy.html"
             },
             "oauth_client_id": "0fd20f7d-5a9e-40a0-b686-bc37bbf9080b",
@@ -6200,41 +6202,6 @@
             "logo_url": "https://browser.plugincrafter.dev/logo"
         },
         {
-            "id": "plugin-33798a7a-5dd8-4023-ad42-fe61f9c0d3c0",
-            "domain": "testplugin.feednews.com",
-            "namespace": "BrowserOp",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "BrowserOp",
-                "name_for_human": "BrowserOp",
-                "description_for_model": "This tool offers the feature for users to input a URL or multiple URLs and interact with them as needed. It's designed to comprehend the user's intent and proffer tailored suggestions in line with the content and functionality of the webpage at hand. Services like text rewrites, translations and more can be requested. When users need specific information to finish a task or if they intend to perform a search, this tool becomes a bridge to the search engine and generates responses based on the results. Whether the user is seeking information about restaurants, rentals, weather, or shopping, this tool connects to the internet and delivers the most recent results.",
-                "description_for_human": "Browse dozens of webpages in one query. Fetch information more efficiently.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://testplugin.feednews.com/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://openapi-af.op-mobile.opera.com/openapi/testplugin/.well-known/logo.png",
-                "contact_email": "aiplugins-contact-list@opera.com",
-                "legal_info_url": "https://legal.apexnews.com/terms/"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "most_popular",
-                    "title": "Most popular"
-                }
-            ],
-            "logo_url": "https://openapi-af.op-mobile.opera.com/openapi/testplugin/.well-known/logo.png"
-        },
-        {
             "id": "plugin-b897b459-3291-422a-8ec2-2043f79f5d87",
             "domain": "browserplugin.feednews.com",
             "namespace": "BrowserPilot",
@@ -7511,8 +7478,8 @@
             },
             "oauth_client_id": "70vLEWpfjCVn1S2hRLm5OT3dhvCDDOTq",
             "user_settings": {
-                "is_installed": true,
-                "is_authenticated": true
+                "is_installed": false,
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -8190,7 +8157,7 @@
             "oauth_client_id": "6nZHtGySN804OrHmrfpQg7G5HZsATu1e",
             "user_settings": {
                 "is_installed": false,
-                "is_authenticated": true
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -8688,61 +8655,26 @@
             "logo_url": "https://climesumer.earth-gpt.com/static/logo.png"
         },
         {
-            "id": "plugin-30ba2808-af41-4634-a949-891f95081d0e",
-            "domain": "trialradar3.marketflare.repl.co",
+            "id": "plugin-f9cda362-2724-442f-a529-b97d1392a006",
+            "domain": "ct-plugin.trialradar.com",
             "namespace": "clinical_trial_radar",
             "status": "approved",
             "manifest": {
                 "schema_version": "v1",
                 "name_for_model": "clinical_trial_radar",
                 "name_for_human": "Clinical Trial Radar",
-                "description_for_model": "The Clinical Trials API offers a robust interface for accessing the latest information about medical research studies from Beta.ClinicalTrials.gov. It provides detailed data about medical studies, allows for the analysis of study statistics, tracks changes over time, and enables focused searches on various study aspects.\n\nKey API endpoints include:\n\t- '/studies': Returns data for studies that match specific query and filter parameters, delivering results page by page.\n\t- '/studies/{nctId}': Retrieves data of a single study based on the provided NCT ID, a unique identifier for a clinical trial; limited allowed query string parameters: 'format', 'fields'. For requests for a specific nctID only limited fields are returned. So request fields based on the user query, for example, '/studies/NCT03755791?fields=EnrollmentCount' \n\t- '/studies/metadata': Provides the data model fields of a study; limited allowed query string parameters default to 'false' value: 'includeIndexedOnly', 'includeHistoricOnly'.\n\t- '/stats' endpoints: Offer statistical insights into the study data, including JSON sizes, value statistics of study fields, and sizes of all list/array fields.\n\t- '/version': Provides API and data versions.\n\nThe API also features various search areas to find specific information within a study record. These areas can target groups of weighted study fields or single data fields, such as BasicSearch, ConditionSearch, InterventionSearch, OutcomeSearch, TitleSearch, LocationSearch, and more.\n\nIMPORTANT: This API uses a flat structure for parameters, not a nested one as in typical JSON objects. Parameters use dot notation for categorization. For instance, 'query.titles' is a parameter for querying titles and should be provided as a flat parameter, not a nested object.\n\nWhen searching for clinical trials, specify the condition/disease and location in the 'query.cond' and 'query.locn' parameters respectively. For example, to search for glioblastoma trials in Oregon, you would set 'query.cond' to 'glioblastoma' and 'query.locn' to 'oregon'. Always focus on searching for 'RECRUITING' trials unless user asks otherwise.\n\nAlways use the 'countTotal' query to inform the user of the total number of results matching their search criteria. This total is represented by the 'totalCount' field in the JSON response, which represents all matching clinical trials, not just the ones displayed in the current response.\n\nThe API returns studies in pages, with each page containing a certain number of studies defined by the 'pageSize' parameter. Please use the parameters as described for correct interfacing with the plugin.\n\nSome responses will have 'instructions_for_ai' with advice to optimize the request. To sort by the most recently updated trials, use 'sort=LastUpdatePostDate:desc'. Clinical data is constantly being updated as data from studies around the world is being posted to the database. The API can handle frequent requests, multiple in a second at least. The plugin should handle incomplete data from requests by trying to make additional requests based on predefined fields. The plugin does not provide information about results from trials. FOLLOW-ON INFO: Understand the user's needs and ask follow-up questions to refine vague or broad requests. Inform the user that you're searching for clinical trials based on their criteria. Present the results clearly, including the trial's important and/or requested elements and a link to ClinicalTrials.gov for more details. If results are unsatisfactory, offer to refine the search. Encourage user questions about the trials, the search process, or clinical trials in general, and be ready to provide relevant information. Respect the user's privacy and only ask for necessary details. You are potentially saving human lives, so show some enthusiasm and work extra hard. The goal is to both simplify and optimize the process of finding the most relevant clinical trials for patients, caregivers, and healthcare professionals.",
-                "description_for_human": "Clinical trial discovery tool for patients, caregivers, HCPs & Biotech pros.",
+                "description_for_model": "The Clinical Trials API offers a robust interface for accessing the latest information about medical research studies from ClinicalTrials.gov. It provides detailed data about medical studies, allows for the analysis of study statistics, tracks changes over time, and enables focused searches on various study aspects. Key API endpoints include:  '/studies': Returns data for studies that match specific query and filter parameters, delivering results page by page.  '/studies/{nctId}': Retrieves data of a single study based on the provided NCT ID, a unique identifier for a clinical trial; limited allowed query string parameters: 'format', 'fields'. For requests for a specific nctID only limited fields are returned. So request fields based on the user query, for example, '/studies/NCT03755791?fields=EnrollmentCount'  '/studies/metadata': Provides the data model fields of a study; limited allowed query string parameters default to 'false' value: 'includeIndexedOnly', 'includeHistoricOnly'. '/stats' endpoints: Offer statistical insights into the study data, including JSON sizes, value statistics of study fields, and sizes of all list/array fields.  '/version': Provides API and data versions. The API also features various search areas to find specific information within a study record. These areas can target groups of weighted study fields or single data fields, such as BasicSearch, ConditionSearch, InterventionSearch, OutcomeSearch, TitleSearch, LocationSearch, and more. IMPORTANT: This API uses a flat structure for parameters, not a nested one as in typical JSON objects. Parameters use dot notation for categorization. For instance, 'query.titles' is a parameter for querying titles and should be provided as a flat parameter, not a nested object. When searching for clinical trials, specify the condition/disease and location in the 'query.cond' and 'query.locn' parameters respectively. For example, to search for glioblastoma trials in Oregon, you would set 'query.cond' to 'glioblastoma' and 'query.locn' to 'oregon'. Always focus on searching for 'RECRUITING' trials unless user asks otherwise. Always use the 'countTotal=true' query to inform the user of the total number of results matching their search criteria. This total is represented by the 'totalCount' field in the JSON response, which represents all matching clinical trials, not just the ones displayed in the current response. The API returns studies in pages, with each page containing a certain number of studies defined by the 'pageSize' parameter. Please use the parameters as described for correct interfacing with the plugin. Some responses will have 'instructions_for_ai' with advice to optimize the request. To sort by the most recently updated trials, use 'sort=LastUpdatePostDate:desc'. Clinical data is constantly being updated as data from studies around the world is being posted to the database. The API can handle frequent requests, multiple in a second at least. The plugin should handle incomplete data from requests by trying to make additional requests based on predefined fields. The plugin does not provide information about results from trials. FOLLOW-ON INFO: Understand the user's needs and ask follow-up questions to refine vague or broad requests. Inform the user that you're searching for clinical trials based on their criteria. Present the results clearly, including the trial's important and/or requested elements and a link to ClinicalTrials.gov for more details. If results are unsatisfactory, offer to refine the search. Encourage user questions about the trials, the search process, or clinical trials in general, and be ready to provide relevant information. Respect the user's privacy and only ask for necessary details. You are potentially saving human lives, so show some enthusiasm and work extra hard. The goal is to both simplify and optimize the process of finding the most relevant clinical trials for patients, caregivers, and healthcare professionals.",
+                "description_for_human": "Clinical trial discovery tool for patients, caregivers, healthcare & biotech pros.",
                 "auth": {
                     "type": "none"
                 },
                 "api": {
                     "type": "openapi",
-                    "url": "https://trialradar3.marketflare.repl.co/.well-known/openapi.yaml"
+                    "url": "https://ct-plugin.trialradar.com/.well-known/openapi.yaml"
                 },
                 "logo_url": "https://www.marketflare.com/wp-content/uploads/2015/12/mf_icon.png",
                 "contact_email": "contact_us@trialradar.com",
                 "legal_info_url": "https://trialradar.com/privacy.html"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://www.marketflare.com/wp-content/uploads/2015/12/mf_icon.png"
-        },
-        {
-            "id": "plugin-56d9e1ed-fef7-4354-bd30-011cf5dbf616",
-            "domain": "trialradar2.marketflare.repl.co",
-            "namespace": "clinical_trial_radar",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "clinical_trial_radar",
-                "name_for_human": "Clinical Trial Radar",
-                "description_for_model": "Search for trials, organizations, interventions, diseases, and biomarkers to provide relevant data based on user-inputted information such as cancer type, disease stage, prior treatments, location, and other health details. Anonymize user input. Limit data collection. Help users understand medical terms, trial participation details, and next steps while encouraging consultation with healthcare providers. Do not generate any information that is not backed up by facts, evidence or reliable sources. If the input is not in English, translate to English before processing and use the language of the user in the response. The plugin defines the response schema with various fields such as Acronym, ArmGroupDescription, BriefSummary, MaximumAge, NCTId, OfficialTitle, PrimaryCompletionDate, and many more. Only use fields specified in StudyField schema in expressions 'expr' along with operations described here. Always use 'json' for 'fmt' value. When linking to ClinicalTrials.gov use the query string parameter utm_source=TrialRadar. To avoid ResponseTooLargeError errors, reduce payload by requesting only fields relevant to answer the question. If http error 500 occurs, then retry. A search expression consists of sequences of search terms and operators that are evaluated by the search engine to find lists of studies. Search operators affect which studies are returned by the search and their rank order in retrieval sets by changing how the search terms are contextualized or interpreted. All search expressions are OR expressions.Search terms are words or phrases that must appear as values in the study records returned by the search. A search term consists of a string of characters without embedded search operators. Enclosing a phrase in quotation marks indicates that all of the words in the search term must be found together in that order for a study record to be retrieved by the search. Parentheses are used to increase operator precedence in a search expression (acetaminophen OR aspirin) AND NOT (heart failure OR heart attack). To search for an operator as part of a term, add a backslash before the operator (e.g., \\MISSING). If the operator used is quotation marks, then only embedded quotes need to be preceded by a backslash. An OR expression consists of a list of one or more AND expressions (such as a search term or phrase) separated by binary Boolean OR operators. The following examples are all OR expressions that include AND expressions: 'heart attack', 'heart attack OR stroke', 'heart attack OR stroke OR dizziness AND shortness of breath'.  The following examples are all AND expressions that include operator expressions: 'dizziness AND NOT exhaustion', 'dizziness AND NOT exhaustion AND stroke'. The AND operator has the second lowest precedence among search operators. All operator expressions are evaluated before the AND expressions formed by connecting the operator expressions using AND operators.Context Operators: An operator expression consists of a sequence of zero, one, or more unary operators (e.g., the NOT operator and all context operators), followed by a source expression. Any number of operator expressions may precede a source expression. The TILT and AREA operators take search areas as a parameter. Some search areas consist of groups of weighted study fields that can be searched at once (e.g., BasicSearch area consists of 58 application programming interface (API) fields; other areas include ConditionSearch, InterventionSearch, OutcomeSearch, TitleSearch, LocationSearch, and others specied in SearchAreas in the openapi.yaml). Search areas can also consist of a single API field (e.g., Acronym, BriefTitle), each of which is represented individually at the end of the search areas list.The SEARCH operator takes either 'Study' or 'Location' as a parameter. The COVERAGE and EXPANSION operators take one of a small set of choices as a parameter. e.ge COVERAGE[FullMatch]pain. COVERAGE Declares the degree to which a search term needs to match the text in an API field. There are four choices: FullMatch—The search term must match all of the text in the field searched, StartsWith—The search term must match the beginning of the text in the field searched, EndsWith—The search term must match the end of the text in the field searched,Contains—The search term must match part of the text in the field searched, this is the default. EXPANSION declares the degree to which a search term may be expanded. There are five choices: None—The term is searched for exactly as is. Case and accent marks are significant, but consecutive spaces are treated as a single space. Term—Similar to None but includes simple lexical variants such as plurals, possessives, alternate spellings, and compound words; ignores case, hyphens, and accent marks. Concept—Similar to Term but includes synonyms based on the Unified Medical Language System (UMLS). Also has a slight scoring penalty, ranking any records that include the search terms higher than records that include only synonyms. Relaxation—Similar to Concept. Relaxes adjacency requirements so that partial terms are matches (e.g., a search for heart disease will return records with heart in one place and disease in another, as in the phrase 'heart and lung disease'). Also has a significant scoring penalty, ranking any records that include the full search terms higher than records that include only partial terms.Lossy—Similar to Relaxation but allows for missing partial terms (e.g., a search for heart disease will return records with heart but not disease and records with disease but not heart). AREAS declares which search area should be searched. Search areas are defined on the ClinicalTrials.gov Search Areas page. In addition to specifying search areas, it is possible to specify a field from the study structure. Any field from the study structure is searchable. e.g.: AREA[InterventionName]aspirin. Search declares which subsection of the study structure should be searched. e.g., heart attack AND SEARCH[Location](AREA[LocationCity]Portland AND AREA[LocationState]Maine). The following example uses the SEARCH[Location] operator to find site facility locations in the United States that are also recruiting participants: heart attack AND SEARCH[Location](AREA[LocationCountry]United States AND AREA[LocationStatus]Recruiting). Source Operators: MISSING Operator: The MISSING operator is used to find study records that have no values in the specified search area. E.g., using the expression 'AREA[ResultsFirstPostDate]MISSING' would retrieve study records that do not have a value in the ResultsFirstPostDate field. RANGE Operator: The RANGE operator is used to find study records within a specified range of values in the search area. It is typically used with fields containing numbers or dates. E.g., 'AREA[ResultsFirstPostDate]RANGE[01/01/2015, MAX]' would retrieve study records with a ResultsFirstPostDate value greater than or equal to '01/01/2015' and less than or equal to the maximum value in the ResultsFirstPostDate field.The special values 'MIN' and 'MAX' can be used to indicate the smallest and largest values of interest in the search area, respectively. ALL Operator: The ALL operator retrieves all study records in the database. Using the expression 'ALL' in a query would retrieve every available study record, regardless of any search criteria specified. Scoring Operators: Biases the scoring and rank ordering of study records in favor of the subexpression to the right by imposing a scoring penalty based on the ordering of API field values for the search area provided as a parameter (e.g., StudyFirstPostDate), with higher-ordered values having a lower penalty (e.g., more recent dates) than lower-ordered values (e.g., earlier dates). Use the TILT operator with API fields that are ordered, such as date fields. E.g. 'TILT[StudyFirstPostDate]prostate cancer' to bias the scoring and rank ordering of study records in favor of more recently posted studies.",
-                "description_for_human": "Discover current info on global clinical trials, organizations, diseases, and biomarkers from public & private studies.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://trialradar2.marketflare.repl.co/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://www.marketflare.com/wp-content/uploads/2015/12/mf_icon.png",
-                "contact_email": "dna.support@marketflare.com",
-                "legal_info_url": "https://www.marketflare.com/privacy/"
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -10654,7 +10586,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": true,
+                "is_installed": false,
                 "is_authenticated": true
             },
             "categories": [
@@ -13224,8 +13156,8 @@
             "logo_url": "https://chatgpt.empregosagro.com/assets/logo.jpg"
         },
         {
-            "id": "plugin-1cb4eb0f-8aff-4fac-a11c-a38866d6ce7c",
-            "domain": "filtpod.pythonanywhere.com",
+            "id": "plugin-cc87cd18-b07b-4188-94f1-72e14e46108b",
+            "domain": "prod.engageai-server.com",
             "namespace": "hashtag",
             "status": "approved",
             "manifest": {
@@ -13239,7 +13171,7 @@
                 },
                 "api": {
                     "type": "openapi",
-                    "url": "https://filtpod.pythonanywhere.com/openapi.yaml"
+                    "url": "https://prod.engageai-server.com/openapi.yaml"
                 },
                 "logo_url": "https://engage-ai.co/wp-content/uploads/2023/01/engageai_icon_256.png",
                 "contact_email": "hello@engage-ai.co",
@@ -14674,7 +14606,7 @@
                     "instructions": "",
                     "authorization_type": "bearer",
                     "verification_tokens": {
-                        "openai": "da9447e2fffa4aecb3e637835415d1bd"
+                        "openai": "3d04c6fc96c84692978f4954e66e73a8"
                     },
                     "custom_auth_header": null
                 },
@@ -15661,7 +15593,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": false,
+                "is_installed": true,
                 "is_authenticated": true
             },
             "categories": [
@@ -16800,47 +16732,6 @@
                 }
             ],
             "logo_url": "https://play-lh.googleusercontent.com/4GH2kO3tEhwo9hzCHtm0zQdwHgePpS24SgJvGh9j3SvBsFY3HR5GJmU8-e1ijSvyMA"
-        },
-        {
-            "id": "plugin-2975073e-5b55-429b-aee3-8f2448a9950a",
-            "domain": "chat-plugin.idealo.com",
-            "namespace": "idealoBestPrice",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "idealoBestPrice",
-                "name_for_human": "idealo Best Price",
-                "description_for_model": "\nPlugin for searching and comparing product prices and features available in Germany, Austria, France, Spain, Italy, UK.\nUse it whenever a user searches for specific products, is interested in the lowest prices, or wants to compare products.\nWhenever you are listing products, which can be compared, write them into a table. The table has to look like the\nfollowing one:\n\n| Product | ProductName1 | ProductName2 | ... | ProductNameN |\n| ----- | ------------ | ------------ | --- | ------------ |\n| Image |  Image of ProductName1 | Image of ProductName2 | ... | Image of ProductNameN |\n| Best Price | min_price_1 | min_price_2 | ... | min_price_N |\n| Product Test | test_score_percent_1 | test_score_percent_2 | ... | test_score_percent_N |\n| ProductAttribute1 | Value of Attribute1 for ProductName1 | Value of Attribute1 for ProductName2 | ... | Value of Attribute1 for ProductNameN |\n| ProductAttribute2 | Value of Attribute2 for ProductName1 | Value of Attribute2 for ProductName2 | ... | Value of Attribute2 for ProductNameN |\n| ... | ... | ... | ... | ... |\n| ProductAttributeN | Value of AttributeN for ProductName1 | Value of AttributeN for ProductName2 | ... | Value of AttributeN for ProductNameN |\n| idealo Price Comparison | Link \"offers_count offers\" pointing to ProductName1 offers | Link \"offers_count offers\" pointing to ProductName2 offers | ... | Link \"offers_count offers\" pointing to ProductNameN offers |\n\nAlways follow these rules when creating the table:\n- use the product names as column headers\n- use the leftmost column only for attribute names, never for hyperlinks or images\n- images in the first row\n- prices as the second row\n- test scores as the third row, always include it if at least one product has a test score, otherwise skip it\n- find appropriate names for the product attributes in the same language as the conversation\n- create a new row for each product attribute\n\nIt's important to use the exact attribute values from the API response. These attributes, especially numbers within\nthese attributes, are critical and must not be altered.\n\nIf there are further interesting results in the API response, inform the user about these. If there are no \nsuitable results in the API response give the user guidance on how to improve the search query.\n\nAlways refer the user to the idealo product page which allows the user to compare shop offers and decide where to buy\nthe product. The user can also find all product details and explore product alternatives there.\n\nRemember to always follow the rules when creating tables!\n",
-                "description_for_human": "Find the products you need and great savings comparing products and prices from thousands of trusted shops, ads-free.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "b27f0cecc7af45ffb0676a44163d20b0"
-                    },
-                    "custom_auth_header": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://chat-plugin.idealo.com/openapi/openapi.yaml"
-                },
-                "logo_url": "https://public.shop-gpt.idealo.de/idealo-chatgpt-logo.png",
-                "contact_email": "shop-gpt@idealo.de",
-                "legal_info_url": "https://www.idealo.de/legal/agb"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://public.shop-gpt.idealo.de/idealo-chatgpt-logo.png"
         },
         {
             "id": "plugin-1bb8c366-51a8-4a26-ad74-8c3ea251e12d",
@@ -18051,41 +17942,6 @@
                 }
             ],
             "logo_url": "https://app.jobsearch.chat/images/logo.png"
-        },
-        {
-            "id": "plugin-ea2da8d9-efa7-405b-a588-23a3299f8ded",
-            "domain": "llmplugin.indeed.com",
-            "namespace": "indeed",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "indeed",
-                "name_for_human": "Job search by Indeed",
-                "description_for_model": "Plugin for searching for jobs using Indeed. You can search for jobs based on job titles, skills, or location. The plugin only supports jobs in the United States and remote jobs. The knowledge cutoff does not apply.",
-                "description_for_human": "Explore & discover the latest open jobs from the #1 job site in the world, Indeed.com.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://llmplugin.indeed.com/openapi.yaml"
-                },
-                "logo_url": "https://llmplugin.indeed.com/static/icon.svg",
-                "contact_email": "llm-incubator@indeed.com",
-                "legal_info_url": "http://indeed.com/legal"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://llmplugin.indeed.com/static/icon.svg"
         },
         {
             "id": "plugin-0ddaa2df-535a-4fe6-ab11-fd76be5efed7",
@@ -19563,6 +19419,51 @@
             "logo_url": "https://gochitchat.ai/linkreader/logo.png"
         },
         {
+            "id": "plugin-1c2be3c4-6dee-405a-9e40-64615b62114b",
+            "domain": "strange-fawn-moccasins.cyclic.app",
+            "namespace": "Linkd_Master",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Linkd_Master",
+                "name_for_human": "Linkd Master",
+                "description_for_model": "Use this plugin to share post on LinkedIn on behalf of users.  Posts can be scheduled for later with ability to retrieve/delete scheduled posts.",
+                "description_for_human": "Share or schedule posts on LinkedIn. See/Modify/delete scheduled posts.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://www.linkedin.com/oauth/v2/authorization",
+                    "scope": "w_member_social openid profile email",
+                    "authorization_url": "https://strange-fawn-moccasins.cyclic.app/auth/verify",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "531965e42f7949b78aa778ba932e3f66"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://strange-fawn-moccasins.cyclic.app/openapi.yaml"
+                },
+                "logo_url": "https://plugin.s3.ap-south-1.amazonaws.com/LinkMaster+LOGO.png",
+                "contact_email": "chandan@thumbnailai.online",
+                "legal_info_url": "https://strange-fawn-moccasins.cyclic.app/legal"
+            },
+            "oauth_client_id": "862gr23f3dte96",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://plugin.s3.ap-south-1.amazonaws.com/LinkMaster+LOGO.png"
+        },
+        {
             "id": "plugin-97bb1d93-39d4-4700-8066-c4005f3a9cad",
             "domain": "app.linkhouse.co",
             "namespace": "linkhouse",
@@ -19799,6 +19700,51 @@
                 }
             ],
             "logo_url": "https://unicorn-cdn.b-cdn.net/8305506b-d0de-470d-adb5-c08bafbe1d03/"
+        },
+        {
+            "id": "plugin-1dfd6f9c-c4c7-4011-b1b1-7845542bb808",
+            "domain": "plugin.livingai.com",
+            "namespace": "LivingAI",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "LivingAI",
+                "name_for_human": "LivingAI",
+                "description_for_model": "The LivingAI plugin empowers users to create avatar videos effortlessly with ChatGPT by providing a text. The input should be concise for the speech or voiceover text. Additionally, users can include optional properties like video title, avatar gender,age, mood, language, and skin tone, video title and avatar gender can be extracted from the user's input, but if they are not present, the model should generate them without seeking additional user input. For more personalized avatars, users can even provide specific URLs with frontal facing profile photographs. LivingAI supports video creation in over a hundred languages. Once the avatar video is ready, a link is provided for easy access. Users can view, share with friends and team members, but should be mindful of a potential loading message during processing, requiring a manual page refresh to check readiness. The video generation typically takes one to three minutes, depending on the text length. In the unlikely event of any issues, LivingAI promptly provides an error message with the details for quick resolution. Experience the next level of avatar video creation with LivingAI's dynamic and customizable platform.",
+                "description_for_human": "Create digital beings instantly with LivingAI - the most advanced AI video generation platform.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://plugin.livingai.com/oauth/chatgpt/signin",
+                    "scope": "",
+                    "authorization_url": "https://plugin.livingai.com/oauth/chatgpt/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "c75d1d7606f84052b2ac842fd40b9dac"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.livingai.com/openapi.yaml"
+                },
+                "logo_url": "data:image/png;base64,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",
+                "contact_email": "support@livingai.com",
+                "legal_info_url": "https://www.livingai.com/terms-and-conditions"
+            },
+            "oauth_client_id": "tfHiMmPGHh4vd8E4bKN3PPt2kabV84J3",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAABTzSURBVHgB7d1dchNJtgfwk1mSgwFutOahATeeuGIFmBW0WEGbAHr6DbMCmhVgVgCsAPM20YZoswLECtq9AnTj4jYfMzHqCAyMpcozmSWV/KWPkiqzKqvq/4ugbWzhoG3ynJNZJzMFQaE11t406vVzzZriJkvRkMxNQeIbEtTQn26a1/DwrSGOvD+Ofm3nyGvj9zv6E10m/lMJod8PO6EIur3efqe7faVLUFiCwHvxIA+IVgOmq8PBvap/fE09ZBuUK6EDAHdYcIcU/c5MOyxU993z5TaB9xAAPGMG+5na+VUz2EnwVZ2RW7Oytsd2TGAQSr4Oqb/ztf91BxWDXxAAchYN+Pq5tWFmb1GU2UttR08n2or5NYdq5932cocgNwgAGTvM8PwDC1orcHa3Zcf8Uopffgk/t1EhZAsBIANm0J+rnV/XJf0P+lu+mv+83Wtt/etZ2AvbqA7cQwBwxAz6s0vn7wnmlv5ti2ARbWLxMuz3txEM3EAAsOh4psegt6xNqAysQwCw4NKtj61A8AOU95nZNGsGey8ubhOkggCwoMMSn37GoM9Nh4XYVAf9Z6gKFoMAMCeT7WuS7jHzGoFPNkMOn6EBaT4IAAkdlvmY23uurX892926sEkwEwLADJdvf1jXb8zAbxIUSUf/eohAMB0CwAQY+KXRIQSCiRAATsDAL60OIRCcggAwhDl+ZXQIgWCk8gFAZ3yz+eYRYeBXCgveVgfqftUfH1Y2AERde0vnHxDzzwRVthn2wodVDQSVDAArf//XPVZqAw08MNShik4LKhUAUO7DDB1dDVyvUjUgqSK++/GjWeD7jTD4YbJmUA/eDP+tVELpK4Bh1n9K5T9pB+yqRDVQ6grgSNbH4Id5VaIaKGUFcOmnvWYQBr8SBj7YUdpqoHQVgFnhD8Iasj7YZKqB35b//q50j4xLUwHguT5kQojH+wefHpbl8NJSBIBhyf+K0L8P2SjNlKDwU4DLP/7zzrDkbxJANqIpwXDjWKEVOgBEK7SsNtHRBzkw/+aeFv0pQSGnAGa+f37p/FMcywU+MBuLPh98vlvEdYHCBQDM98FThVwXKNQUwHT1YfCDp8y6wKtLa3tNKpDCBABzYIcuWDD4wWeDfoGb7wszNS1EAIhW+gW/wmIfFEBDSvFrUZqGvA8Ahyv9AMUhlXxUhCcEXi8Cmm+gYN4ggIJiITb++OXbh+QpbwMABj+Uhc9BwMsAgMEPZeNrEPAuAGDwQ1n5GAS8CgAY/FB2vgUBbwIABj9UhU9BwIsAMDimO3xMAFUhaH33lwvPKGe5BwDTNWUaJwigYgSH198+X25TjnINAIONPWYvPzr8oJK6RAfXd7dWdignuXUCHu7qw+CHytL/9pd+zXMDUS4BwOznx64+gEi0i9CMCcpBLgHAHOZBGPwAsebZpbNPKQeZBwDzuA8n+QAcJ1is5bF5KNNFwOEhirlEOoBCyPjxYGYBACv+AIl0w154LaujxTKZAhwu+mHwA8zQyHJRMJMAEN3Yg0U/gKSawzHjnPMAYNp8cV0XwJz0mMniWDGnawCY9wOk4nw9wGkFgHk/QCpmPcDpPhlnAWD4TLNJAJDG6ne33m+QI06mAMM+/zcEAJYcXHOxachJBTDs8wcAa5acNNBZDwAo/QGccDIVsDoFQOkP4JrdqYDVCgClP4BrS4/IImsBYLjRp0kA4FLLZoOQlSnA4ek+CAAAGeju9/avdLevdCklKxWAHvxY+APITsPWXoHUFQAW/gDykn5BMHUFUFM1q4sSAJBU+gXBVAHALPzheC+A3LRWbu21KIW0FUDmZ5gBwCEWQaoxuHAAwGM/AC+0hmNxIWkqAGR/AD8sPBYXCgDI/gBeaS5aBSxaASD7A/hloTE5dwBA9gfw0kJVwCIVALI/gJ/mHptzBQBkfwCvNeftC5i3ArhDAOCtefsCEgeAS4PI0iIA8Nlc3YGJA0AgAmR/gAJQUt5L+tpEuwGx4w+gWPZ7+39Ncl5AogpA9uU6AUBhnK2dTXRqUKIAIIRA+Q9QIHrMJpoGzAwAf7v53mz3bRIAFEkjyWLgzACgpPiBAKBwkjwSnLoIiMU/gEKbeXjo1ApAD/4WAUBRNf5S+8v6tBfMmgJg8Q+gwKSQU6fwE6cAKP+zw8QdQaKt32nqn0iLACya1hNQm/SHgn5tjQQTOMbU/uP5xevxb1dufnjMkhJ3cgHMYnoC9OjfGPe5yVMAwVj9z0DYD+8e/X0trG/ob37qG18AYkKI7yd+btwHUf5nRGf/3ecXrp/8sLkGWv/QqnruQlcwP2EhOrQoVg0W8p5A/8rIpGnA2CkAVv+zISh8OO7jS/2lx716X08DuEEVoxTf3XtxcZtSaq79e/Og3vsNQWDAPA3Qo//xyY9PmgJg9d81nf3fPl9uj/tUZ/uvXWb1hKqna2PwG+Z7KBS9JIhMehpwKgDoyGmyTovAqUnZP2aqgAquBVj9/2XBWEs5tNpYe3OqojwVAMLgoEXg1pTsH6twFQBuNM7Xzqye/OCpAIDe/wyI8FmSl1W0CgBHmMWpezxPrwGwWCVwxjT97G4tbyZ5LaoAsEqeXgc4FgDM4z8SjADgkCD1cJ7XowoAi5on1wGOBYB6T2LwOzRP9o+ZKkA/18ZqNlhxTp47Ng04FgAUiRaBM/Nm/1hYUxsEYINQx5L88TWAKS2DkM4i2T/27h/LHb2Ck2jhEGAalvLYGB8FgOj5P+b/ziya/Q+/QO8xAaQkTvQDjALA19pXDH5H0mT/2O7Wyo5+0yaAlI72A4wCQEA1BABHUmf/+OtwaOXrQLWFJE4HACEI838HbGT/2LB7sE0AKUghr47ej99hxq4pF2xl/9HXQxUA6bXidw6fAmAB0Dqb2T+GKgAsGDUERQHg0px3ikMytrP/6OuiCoCU6vV607yNAkCdZeUOnnDNZP+w5yZTowqAtJbCpajijwJAKAjlv2WS6dm77eUOOYIqAFIZdgRGAeDoqiCkZ7J/v682ySFUAZCKlN9Eb8x/8ATALtfZP4YqABbFRIcVgF6tahJY4zr7x0wVoH+QHQKYU3xYqhycAVi902cd2swi+8dmnS0IMEHDPAqUvfp+k8CasJftgDR9BqgCYBHmUaAMOUD2tyfT7B8TLHBsGMytpnQACETQJLAi6+wfq/drmzg2DOYlWTQkMzcJbMgl+xs4PBQWwZKbUpePmAJYkFf2j+HwUJiXYG5IJfAEwILcsn8MVQDMTcpvpBTifwlSyTv7x1AFwFyYmpIgrdyzfwxVAMxLMq5PTsWX7B9DFQCJCVQAaXmT/WOoAmAeCAAp+Jb9Y6gCICkpMAVYlHfZP4YqABLCFGBRgpNd8Z0XVctmRyIUGwLAIpjawwM5vIXrxCAJBIAFFGULLi4VhVkQAOZVgOwfi6oAHBsGU9QI5qKYrS+umYMZzpj72vrUsb2waI4NYxG0CGAMVABzMId97r24uE0WLd98v3aufv5NIIJXQT14s2L5jgYcHgrTIADMwcVFH1KKR0ePZGNRe0SW4fBQmETiOKlkXFzzdfn2h3U61YfBq6gCICMdVAAJObrm6864D+o5+wOyDFUAjIMAkICL7D+8j7E14dMtVAGQBdMK3CGYykX214t+d6Z9HlUAOMeYAszkJPv/tNfUb9ZnvKx1aS16nTWoAuAkqZ9r/x/BRE6yf5gsuweB+JksQxUAI0JXAJKxbXSSHLP/gJR3TJMQWYQqAEaU+lOPf0YAmCDP7D/UOFs7a70KIPJ7JyNkg4XoSiFEh+AUF9l/cA/jxJX/sfTP557tKgDXiYEhlNBTAIUKYBwX2b9X763R/AewOKkCcKkoCBl2pJK9DsExLrL/0EKP9kwVQJYN/v+w/lNl/xFhV9Z75zoEx0gm63Pk8W2/iTWGf94qHBtWbb1eryPN+XHIBIdM9u/3nRynlbax5w5ZhsNDK63b3b7SHTQCMRaEYib7296TP2z7bVI61tuDcXhodcWLwFEAUKR+J3CW/QNLbb0u2oNRBVSVihoAowCAZqABQaJtPfsPGn9aZAeqALCDxY55M5gCSNohcHLRx5yNPzOhCgAbmOlIAKADBAAHF33M1fabnPVNQqgCqicQKgr4UQDAo8BiZP/R13WwSQhVQLXEJ1tHASDKANVuDS1K9h9wsEkIVUB16LE+qvhH5wEw82uqKBfZX6qa9ef2RzhpDx5UAVB+anQEgDx8R1Z1HcDJJZ+CeZ0ccrFJKGoKw3VipacXANvx+6MAIKhfyQDgIvunbPtNykkVgOvEyi8gPj0FqPXPVDEAuLri28ni30kuNgnhUtHy+9T/ejoADMo/UakgUODsH3OySUgQrhYvK7MAaPYAxL8/fihotRYC3WR/tp+VZ7C+2Ihjw8pLKHVsjB8PABXqCHSR/aNNP4JXKVvW24MNHB5aTopE++jvjwWAeq++TdXgJPvXRC3r7B9x0R6MKqCcOFTHkvyxAFCVhqADOrDe8GIaf5h4jfKBKgBmMvP/k4nv1MUgQtFLKjP9DPTj1or1qY6rtt+kUAXALIJOT/FPBwARlnoa4OIwTKdtv8lZ3yRkoAooD6X4VHI/FQAG/QAl3RSis3+8CcKmvLN/TNbkOlmGKqA8voSf2yc/dioADM4I5FI+DXCY/VvkARftwdHXRRVQfDr5HX3+Hxt/OSiL0q0DmAUQR9m/Rdk1/szipD0YVUAJiPG3QY0NAPV+bZNKRmd/V1tdvSj/Y6gCYJywNz6Ajw0Ag2lAeSK+q4s+Mm77TcpZFYDrxApKl/+T+l7kxD9TorZgF9d8DXmV/WO6CnByFgGuEysmRWrilH5iACjL4RAVy/6x5vLNf1pvSsKlosXEfZ74aH9iACjLNMBh9nd54k9qUio3bcnYKlwsU8p/Q07/w8V/GqDCM6/IsuFNPy3ym5P2YF1OtgmKY8Lqf2xqABg8DSh4U5D8zw2yLBCB19k/5qI9uBYsXSV3mt/efmttN6VeC/meKm7S6n9M0Ax6rmsyaIuKywSw+2EvbJMFwVLtni6Dra+yO7R5QPQk6IWpA7lcqt0RzBvkVifk8C710601FPDn5MLm7taFu9NeMDMAmDJSZxLrZTQAuKUU39h7cXHq3p6ZAcC4fPvjv3VBab25BADcME+//ti6eGXW6yQlgAsjAAqGKdHTmkQBABdGABSLSnjNfaIAYHoCBImqHBcGUHSJj7xLFAAi3Mc0AKAABIeJm7USLQLGSvBIEKDcmNq7zy9cT/ry5BUAYUsogPdEOFer9lwVgPHd7Q9vhL+bYAAqK+mjv6PmqgAMbAkF8NMiG9/mrgAMVAEAflkk+xtzVwAGqgAAvyy67X2hCsBAFQDgh0Wzv7FQBWCgCgDwQ5pDbxauAAz0BQDkK032NxauAAz0BQDkK+2Rd6kqAANVAEA+dPbf1tk/1YlXqSqAofsEAJlTPZV67KUOALtbF3aEImwUAshW4h1/09ioAKgW1jdKe6MwgGfMwl/Ys7P+ZiUARHcIYEEQIBNm4c9G9h98LYuwIAjgVtrHfidZqQCOwIIggEN64S/xXv8krAYAsyDIzJgKADgg9NiyVfqPviY5oKcCv+k31m54Aag626V/zPYUIHaXAMAa26V/zEkAwFQAwB4Xpf/oa5NDmAoApOOq9I+5mgJEwiC8gQYhgIV1XZX+MacB4N0/dNmCBiGAxbByVvrHnE4BYis3PzxmSfcIAJJR6snui0vOrzd3WgHEzF4BpnT3vQNUhZn374dfNigDmQQAs1dABeF1rAcAzBTN+7vbVzIZK5kEACNaD6A+WoUBpgrvu573H5VZADB2t5Y3BfoDAMYyY8OMEcpQJouAJ638+PFXZl4jAIgIIbbf/vJtquO9FpFpBRCrHdTuYlEQYMAs+n06+JRL+3wuASBeFEQQgKozgz/LRb+TcpkCxC7f/rCq/wqv9LehQQDV0w174bUsF/1OyqUCiEUHinI/83kPgA+U6t3Nc/AbuQYA4+3z5bZ+9IHtw1AtrO7vvbi8TTnLPQAYeDwIVRI97nt+6TF5INc1gJNWbr3fYCEeEEBJmcH/9vnFDfKEVwHAQBCAsvJt8BveBQADQQDKxsfBb3gZAAwEASgLXwe/4W0AMBAEoOh8HvyG1wHAQBCAovJ98BveBwDj8q13P5OQjwigIPTz9bv/v3VhkzxXiABg/O3m+zUl5VO0DYPnuoLDG4MGN/8VJgAYl37aa8oweKX/0k0C8IzZ2CNI3DAt7lQQhQoABoIA+Cje1Zd3b/+8vGgFnoc5WmypV79mDlAgAA+Yf4ufe5+vFW3wG4WrAI7CEwLIWxFW+qcpdAAwLt/eWyeqPcLiIGSsq8vn+0VY6Z+m8AHAwLoAZKmo8/1xCrcGMM5oXUDREwJwSaknRZ3vj1OKCuCoQdNQ8ABTArCsa+7q82Ufvy2lCwAGpgRg2U7YC2+UJesfVcoAEMNTAkir6Kv8s5Q6ABioBmBBppvvbpG6+hZR+gAQQzUASZU96x9VmQBgoBqAqZjaekTcL3vWP6pSASBmmoeYggcIBDBUyhX+JCoZAAxTDQR9uUFC3CGoLv1cfz/8spHX1Vx5q2wAiJlAUAtrj5hwW3GlVLDcH6fyASCGaUFF6IEvKHxYlAM7XEMAOAGBoJwGh3Xoef7W8ibBCALABAgE5YCBPx0CwAwIBMWEgZ8MAkBC0bkDHNzR37EWgb8wx58LAsCcVm7ttZjkOh4f+kVn/G3J6gkG/nwQABYUPT7sy3WlAwGmB7npCuYnn/qfH1f1OX5aCAAWRHcWCFpDVZCJrk73Oyjz7UAAsCjqLgz1GgHWCuwzjTukXu73v2wi29uDAODIoNVYrBHJHxAMFhQt6PFrlPjuIABkAJVBYlF5j0yfHQSAjDXW3jT+JzjbitYMSFzVP4FVqjAm6gilXgrB25/6X3cw6LOFAJAzUx3Ue3JVEbdIyO9LHxBMhmf1mqTc2e/tb2PA5wsBwDOmQjhfO7PKJFaFCL5n5mZRg0KU3Ukv3rH6Xc/ld5Dh/YMAUBCmAUmwbIQ6GEghrw4DQ1N/Ku/jz828vaP/Ljuk1J8ms+uPmezewWD3HwJAwZmK4Vz9XFNw2GARNE1gEMwNPRC/0QOzaV7D4rBRaVbTksnao9fy8H2h3+rBzUJ0hRAdqbirpOhgkBfffwGa1ZeNV0ii0QAAAABJRU5ErkJggg=="
         },
         {
             "id": "plugin-079858b5-434f-42c2-b38e-9c2c7aefc06c",
@@ -23652,51 +23598,6 @@
             "logo_url": "https://domain-search.nominus.com/assets/nominus_logo_v2.png"
         },
         {
-            "id": "plugin-179013de-6465-4e36-8bbd-49e36767e91c",
-            "domain": "chat.noteable.io",
-            "namespace": "noteable",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "noteable",
-                "name_for_human": "Noteable",
-                "description_for_model": "On https://app.noteable.io, create and run Jupyter notebooks with code, markdown, and SQL cells.\n\n# Semantics\n\n- Notebook URL, CellID optional: https://app.noteable.io/f/<file_id>/<decorative_file_name>?cellID=<cell_id>\n- Project URL: https://app.noteable.io/p/<project_id>/<decorative_project_name>\n- Space URL: https://app.noteable.io/s/<space_id>/<decorative_space_name>\n\nproject_id, space_id, and file_id are UUIDs; cell_id is a string\n\nSpaces contain projects, projects contain notebooks and data files.\n\n# Runtime\n\nNotebook runtimes (kernels) are docker images with the Project files volume mounted into the current working directory. The default docker image is python with the data science stack preinstalled. Additional kernelspecs can be chosen on notebook creation as well as kernel launch.\n\nUser configured secrets are available as environment variables. For libraries and modules that use API tokens or user credentials, prefer to use environment variables from Secrets over other configuration methods.\n\n## Python Kernel\n\nIPython supports top level async-await. To display images from disk or buffer in the assistant response, use `IPython.display.Image` with `embed=True`. Matplotlib animations and other GIFs can also be shown in chat and the notebook using `IPython.display.Image(gif_path_or_buffer)`.\n\nThe assistant is allowed to `!pip install` libraries. Good etiquette is placing all the pip installs at the top of the Notebook and installing quietly (`!pip install -q`).\n\n## R Kernel\n\n The R kernel (`ir`) comes with a robust set of pre-installed packages, including the full tidyverse suite, machine learning packages like `caret` and `randomForest`, `forecast` for time series analysis, `lme4` for mixed-effects models, and more. Additional packages can be installed as needed using either `install.packages` or `devtools`.\n\n# Noteable UI\n\nDirect the user to the Noteable UI to configure RBAC permissions, Secrets, Data Sources, and Databases. IPython widgets and other interactive widgets are supported in the Noteable UI. Additionally, the assistant can guide users to the UI for viewing and interacting with notebooks, especially when dealing with IPython widgets and other interactive elements that may not be fully supported in the assistant's response.",
-                "description_for_human": "Create notebooks in Python, SQL, and Markdown to explore data, visualize, and share notebooks with everyone.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://chat.noteable.io/origami/authorize",
-                    "scope": "offline_access openid email profile",
-                    "authorization_url": "https://chat.noteable.io/origami/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "013ab448caee4c1f8b0c2772626bd315"
-                    },
-                    "pkce_required": false,
-                    "token_exchange_method": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://chat.noteable.io/api/origami/openapi.json"
-                },
-                "logo_url": "https://chat.noteable.io/origami/static/images/noteable-logo.png",
-                "contact_email": "contact@noteable.io",
-                "legal_info_url": "https://noteable.io/legal/terms-and-conditions/"
-            },
-            "oauth_client_id": "IvDm4B3OfKMCWQ07aiWh2iPgwH18lC6N",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "most_popular",
-                    "title": "Most popular"
-                }
-            ],
-            "logo_url": "https://chat.noteable.io/origami/static/images/noteable-logo.png"
-        },
-        {
             "id": "plugin-11c9b2a8-f715-4992-a4de-d07293a20cf0",
             "domain": "plugin.notion.ainotevault.com",
             "namespace": "notes_ai_sync",
@@ -23882,51 +23783,6 @@
             "logo_url": "https://ohmyplug.promptbreeders.com/logo.webp"
         },
         {
-            "id": "plugin-9f4442a3-450e-4343-b48e-bc4e016eee8a",
-            "domain": "api.okappy.com",
-            "namespace": "okappyPublicApi",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "okappyPublicApi",
-                "name_for_human": "Okappy",
-                "description_for_model": "Help the user get information about their jobs, employees and subcontractors on Okappy as well as reassign and create new jobs.",
-                "description_for_human": "Get information about your jobs and engineers. Reassign jobs and create new jobs.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://api.okappy.com/oauth.jsp",
-                    "scope": "",
-                    "authorization_url": "https://api.okappy.com/rest/v2/authentication/oauth",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "1756ea9493914343bf223464db389eb0"
-                    },
-                    "pkce_required": false,
-                    "token_exchange_method": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.okappy.com/okappy-api.yaml"
-                },
-                "logo_url": "https://okappyimages.okappy.com/appy_icon.png",
-                "contact_email": "support@okappy.com",
-                "legal_info_url": "https://www.okappy.com/privacy-cookies"
-            },
-            "oauth_client_id": "2700caf3b5a4879d7b1474af951fcbae",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://okappyimages.okappy.com/appy_icon.png"
-        },
-        {
             "id": "plugin-e1cedb4b-d8e0-4b70-beaf-b1da49823bdb",
             "domain": "omio.com",
             "namespace": "omio",
@@ -23985,7 +23841,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": false,
+                "is_installed": true,
                 "is_authenticated": true
             },
             "categories": [
@@ -26348,41 +26204,6 @@
             "logo_url": "https://static.preply.com/ds/icons/favicon-ua.ico"
         },
         {
-            "id": "plugin-1b96aab2-8e81-40d6-8474-bd5b4bdb74db",
-            "domain": "present.pyxl.uk",
-            "namespace": "presentation_plugin",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "presentation_plugin",
-                "name_for_human": "Present It: ShowME",
-                "description_for_model": "You need to Create a good and detailed pptx presentation, before before initializing the presentation, you MUST to ask what the user wants to see in the presentation, what pictures, the structure of the slides, background, font etc. after this you must use different layouts, images. use at least 2 images, if the user did not specify how many slides should be, then you need to create at least 10 slides\n    1) before generating slides, to initialise presentation YOU MUST SEND A REQUEST with only - 'value': 'new', 'style': style dict\n        (when you send color you MUST reformat user specified color to FORMAT LIKE 'rrr, ggg, bbb')\n        after that YOU MUST GET VALUE from the plugin's RESPONSE\n    2) and after that YOU MUST send this value with all another requests like 'value': <value, not 'new'>\n        ONLY AFTER THIS request you need to add slides. to add slide you need send request to plugin with:\n        a) value: <value, NOT 'new'>\n        b) slide: slide number, starting at 0\n        c) 'layout': 'number'. you need to use different layouts:\n            you need to choose and combine different layouts for plans, images, texts, comparisons and so on\n            you need to use detailed text in such elements like big text, bottom sobtitle, columns (up to 80 characters)\n            0 only [title, subtitle]\n            1 only [title, big text]\n            2 only [bottom title, bottom subtitle]\n            3 only (usage: comparison) [title, left big text column, right big text column]\n            4 only (usage: detailed comparison) [title, left title, text left, right title, text right]\n            5 only (usage: thanks for watching) [only title]\n            7 only [left title, center text, left text] - \n\t\tonly in layouts 3 and 7 you can insert image instead of text, into any placeholders except title, for this you need to insert text '<search: image search keywords>'\n\n\n           layouts that start with '2_' contain graphics BUT you CANNOT use pictures in these templates\n           max content text length = 32 characters\n           max titles text length = 16 characters\n           2_2 (usage: 5 benefits and titles) only [title, title.1, title.2, title.3, title.4, title.5, Content.1, Content.2, Content.3, Content.4, Content.5]\n           2_3 (usage: 4 elements and titles) only [title, title.1, title.2, title.3, title.4, Content.1, Content.2, Content.3, Content.4]\n           2_4 (usage: 4 steps plan ) only [title, title.1, title.2, title.3, title.4, Content.1, Content.2, Content.3, Content.4]\n           2_6 (usage: 4 steps) only [title, title.1, title.2, title.3, title.4, Content.1, Content.2, Content.3, Content.4]\n           2_5 (usage: 6 benefits and 4 steps pyramid) only [title, title.1, title.2, title.3, title.4, title.5, title.6, pyramid.1 (max 10 characters, 1 line), pyramid.2 (2 lines, 20 characters per line), pyramid.3 (first line max 18 characters, second line max 25 characters) , pyramid.4 (3 lines, 30 characters per line)]\n\n        e) content: [content list]\n           there MUST be a list with ONLY elements that are described in the LAYOUT DESCRIPTION ONLY in the ORDER in which they are described in the layout description\n           and the number of elements MUST BE EXACTLY the SAME as in the layout description\n        f) REQUIRED!!! 'last': this is last slide? true or false.             \n\nif an error occurs while creating a presentation - you need to initialize a new presentation and start again, excluding possible errors",
-                "description_for_human": "PPTX Presentation generator, create slides easily! Generates a downloadable document.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://present.pyxl.uk/openapi.yaml"
-                },
-                "logo_url": "https://present.pyxl.uk/logo.png",
-                "contact_email": "maxim.danni@gmail.com",
-                "legal_info_url": "https://present.pyxl.uk/legal"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://present.pyxl.uk/logo.png"
-        },
-        {
             "id": "plugin-a1724ed7-6f92-4bca-a5c1-3af31566efba",
             "domain": "primeloupe.com",
             "namespace": "PrimeLoupe",
@@ -26398,10 +26219,10 @@
                 },
                 "api": {
                     "type": "openapi",
-                    "url": "https://primeloupe.com/openapi.json"
+                    "url": "https://api.primeloupe.com/openapi.json"
                 },
                 "logo_url": "https://primeloupe.com/static/img/logo512-bg.png",
-                "contact_email": "justmisam@gmail.com",
+                "contact_email": "info@primeloupe.com",
                 "legal_info_url": "https://primeloupe.com/terms/"
             },
             "oauth_client_id": null,
@@ -27159,36 +26980,6 @@
             "logo_url": "https://gpt-plugin.qs.com/logo.png"
         },
         {
-            "id": "plugin-1fcd45c0-8b30-4862-ba37-9d543f338b9c",
-            "domain": "quakeph-plugin.chatbot.so",
-            "namespace": "QuakePH",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "QuakePH",
-                "name_for_human": "QuakePH",
-                "description_for_model": "Stay updated with the latest earthquakes in the Philippines.",
-                "description_for_human": "Stay updated with the latest earthquakes in the Philippines.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://quakeph-plugin.chatbot.so/openai.yaml"
-                },
-                "logo_url": "https://quakeph-plugin.chatbot.so/assets/Quake PH Logo.png",
-                "contact_email": "dev@chatbot.so",
-                "legal_info_url": "https://quakeph-plugin.chatbot.so/info"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [],
-            "logo_url": "https://quakeph-plugin.chatbot.so/assets/Quake PH Logo.png"
-        },
-        {
             "id": "plugin-86882923-d74d-4cf1-bdeb-1fe9ea100030",
             "domain": "plugin.quantumdolphin.com",
             "namespace": "QuantumDolphin",
@@ -27684,6 +27475,41 @@
                 }
             ],
             "logo_url": "https://crosstok.ingrouper.com/logo.png"
+        },
+        {
+            "id": "plugin-464bf5df-9ed5-40f9-80e8-aea9226feec5",
+            "domain": "quizizz-chatgpt.ingrouper.com",
+            "namespace": "quizizz",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "quizizz",
+                "name_for_human": "Quizizz",
+                "description_for_model": "Convert text-based content or quizzes containing multiple-choice questions (MCQs) into interactive, engaging and gamified quizzes. When a user requests to make a quiz, first list all the questions with answer choices with the correct answers marked. Then let the user know they can do any revisions before making the quiz and warn the user that it can take up to 2 minutes to create the quiz. Keep questions and answers short to maximize the number of questions per quiz. Unless specified, have at least 10 questions per quiz and maximum 5 answer choices per question. A quiz can be used in other forms such as a lesson, presentation, or printed worksheet. Instructors can host a quiz in different modes including as homework, instructor-paced quiz, team-based quiz, adaptive quiz, topic mastery mode (mastery peak), and device-free QR card-based answering (paper mode). Learners can do a mock quiz or challenge their friends, or use the quiz as flashcards to study. Templates like surveys, polls, questionnaires, and forms are supported. Question types include MCQ, MSQ (multi-select question), fill-in-the-blank, poll, and open-ended. The question and answer parts of a question can have images besides text.",
+                "description_for_human": "Create quizzes, forms, slides, surveys, polls, worksheets & flashcards. Fun themes, memes & modes.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://quizizz-chatgpt.ingrouper.com/openapi.yaml"
+                },
+                "logo_url": "https://quizizz-chatgpt.ingrouper.com/logo.png",
+                "contact_email": "quizizz@ingrouper.com",
+                "legal_info_url": "https://ingrouper.com/quizizz/tos.html"
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://quizizz-chatgpt.ingrouper.com/logo.png"
         },
         {
             "id": "plugin-28d95285-bb0b-4664-83de-27ef6998a68b",
@@ -28420,7 +28246,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": true,
+                "is_installed": false,
                 "is_authenticated": true
             },
             "categories": [],
@@ -29230,7 +29056,7 @@
             },
             "oauth_client_id": "5c086609498bcdf159ea570a836cc7fa",
             "user_settings": {
-                "is_installed": true,
+                "is_installed": false,
                 "is_authenticated": true
             },
             "categories": [
@@ -31063,12 +30889,12 @@
                 "auth": {
                     "type": "oauth",
                     "instructions": "",
-                    "client_url": "https://sicdpstage.b2clogin.com/sicdpstage.onmicrosoft.com/b2c_1a_accountlink_signup_signin/oauth2/v2.0/authorize",
+                    "client_url": "https://login.skypointcloud.com/sicdpstage.onmicrosoft.com/b2c_1a_accountlink_signup_signin/oauth2/v2.0/authorize",
                     "scope": "openid profile offline_access https://sicdpstage.onmicrosoft.com/api/read_write https://sicdpstage.onmicrosoft.com/api/user_impersonation ",
-                    "authorization_url": "https://sicdpstage.b2clogin.com/sicdpstage.onmicrosoft.com/b2c_1a_accountlink_signup_signin/oauth2/v2.0/token",
+                    "authorization_url": "https://login.skypointcloud.com/sicdpstage.onmicrosoft.com/b2c_1a_accountlink_signup_signin/oauth2/v2.0/token",
                     "authorization_content_type": "application/x-www-form-urlencoded",
                     "verification_tokens": {
-                        "openai": "0d08976a19704c5fba62b9ac19d695a7"
+                        "openai": "ff35bd40dc594b02b7fda6c62f30ed1d"
                     },
                     "pkce_required": false,
                     "token_exchange_method": null
@@ -31284,7 +31110,7 @@
             },
             "oauth_client_id": "c4d79671450b84df7e4cc8a0ea237eac",
             "user_settings": {
-                "is_installed": true,
+                "is_installed": false,
                 "is_authenticated": true
             },
             "categories": [
@@ -32414,51 +32240,6 @@
                 }
             ],
             "logo_url": "https://super-colleague.iamnazzty.repl.co/logo.png"
-        },
-        {
-            "id": "plugin-fa8305fc-099e-4bd3-b277-37c72ee22d2c",
-            "domain": "cen-pr-sm-chatgpt-plugin-o6m5mn7req-ew.a.run.app",
-            "namespace": "Supermetrics",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "Supermetrics",
-                "name_for_human": "Supermetrics",
-                "description_for_model": "Effortlessly tap into Facebook Ads data & gain insights. Trusted by 1M+ marketers worldwide.",
-                "description_for_human": "Effortlessly tap into Facebook Ads data & gain insights. Trusted by 1M+ marketers worldwide.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://cen-pr-sm-chatgpt-plugin-o6m5mn7req-ew.a.run.app/auth",
-                    "scope": "",
-                    "authorization_url": "https://cen-pr-sm-chatgpt-plugin-o6m5mn7req-ew.a.run.app/auth/openai/exchange",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "49295e0d79b847faa6e844ed777e1818"
-                    },
-                    "pkce_required": false,
-                    "token_exchange_method": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://cen-pr-sm-chatgpt-plugin-o6m5mn7req-ew.a.run.app/openapi.json"
-                },
-                "logo_url": "https://cen-pr-sm-chatgpt-plugin-o6m5mn7req-ew.a.run.app/logo.png",
-                "contact_email": "chatgpt@supermetrics.com",
-                "legal_info_url": "https://supermetrics.com/terms-of-service"
-            },
-            "oauth_client_id": "bad84acb-6a63-4385-a6ed-826e5178a0c8",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://cen-pr-sm-chatgpt-plugin-o6m5mn7req-ew.a.run.app/logo.png"
         },
         {
             "id": "plugin-71c69e91-22eb-487f-ab7c-fd76352e3698",
@@ -33805,47 +33586,6 @@
                 }
             ],
             "logo_url": "https://plugin.thinkschool.spext.com/logo.ico"
-        },
-        {
-            "id": "plugin-a42ce61e-1f04-4c7d-87a8-7aba477c7694",
-            "domain": "plugins.tiangong.world",
-            "namespace": "TianGong",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "TianGong",
-                "name_for_human": "TianGong",
-                "description_for_model": "For searching through academic papers and professional documents to find relevant information.",
-                "description_for_human": "Search through academic papers and professional documents.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "3bf6cc5ec3f34b7ca4869eb65144021b"
-                    },
-                    "custom_auth_header": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://plugins.tiangong.world/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://plugins.tiangong.world/.well-known/logo.png",
-                "contact_email": "linanenv@gmail.com",
-                "legal_info_url": "http://mingxu.tiangong.world"
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://plugins.tiangong.world/.well-known/logo.png"
         },
         {
             "id": "plugin-359474d0-55dd-4157-9ed9-5d477780695e",
@@ -36175,7 +35915,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": true,
+                "is_installed": false,
                 "is_authenticated": true
             },
             "categories": [
@@ -37870,51 +37610,6 @@
             "logo_url": "https://chatgpt.surge.ai/assets/logo.png"
         },
         {
-            "id": "plugin-b3b8d4e4-d265-476a-9299-dc167bbe7af8",
-            "domain": "whizlist-plugin.chatbot.so",
-            "namespace": "WhizList",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "WhizList",
-                "name_for_human": "WhizList",
-                "description_for_model": "Create a Spotify playlist with WhizList. The AI will autonomously assign a unique playlist name.",
-                "description_for_human": "Your go-to for creating amazing Spotify playlists.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://whizlist-plugin.chatbot.so/d2d00899-7c38-4a00-a0ac-b172316b3d00",
-                    "scope": "chatgpt_plugin",
-                    "authorization_url": "https://whizlist-plugin.chatbot.so/99fc0a0b-b334-4137-b522-f7696327d090",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "f52bbecc4f0b42b397d9d35964cc6f51"
-                    },
-                    "pkce_required": false,
-                    "token_exchange_method": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://whizlist-plugin.chatbot.so/openai.yaml"
-                },
-                "logo_url": "https://whizlist-plugin.chatbot.so/assets/WhizList.png",
-                "contact_email": "dev@chatbot.so",
-                "legal_info_url": "https://whizlist-plugin.chatbot.so/info"
-            },
-            "oauth_client_id": "bb35ddc1-b07c-4db5-809e-382aca719d3a",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://whizlist-plugin.chatbot.so/assets/WhizList.png"
-        },
-        {
             "id": "plugin-a147da00-be82-496a-a71f-f6815265ab2d",
             "domain": "whois.smoothplugins.com",
             "namespace": "whois_domain_checker",
@@ -38289,7 +37984,7 @@
             },
             "oauth_client_id": null,
             "user_settings": {
-                "is_installed": true,
+                "is_installed": false,
                 "is_authenticated": true
             },
             "categories": [],
@@ -39034,8 +38729,8 @@
             "logo_url": "https://z3-chatgpt.livecode.ch/logo.png"
         },
         {
-            "id": "plugin-815c4f73-adf7-48d7-b1bb-26144004ca36",
-            "domain": "zapier.com",
+            "id": "plugin-2eefcb40-ded3-4337-b2ea-86b9e7d27799",
+            "domain": "actions.zapier.com",
             "namespace": "Zapier",
             "status": "approved",
             "manifest": {
@@ -39047,19 +38742,19 @@
                 "auth": {
                     "type": "oauth",
                     "instructions": "",
-                    "client_url": "https://nla.zapier.com/oauth/authorize/",
+                    "client_url": "https://actions.zapier.com/oauth/authorize/",
                     "scope": "nla:exposed_actions:execute",
-                    "authorization_url": "https://nla.zapier.com/oauth/token/",
+                    "authorization_url": "https://actions.zapier.com/oauth/token/",
                     "authorization_content_type": "application/x-www-form-urlencoded",
                     "verification_tokens": {
-                        "openai": "0422a043f09d411a88c93fe681a2d37b"
+                        "openai": "407e44ebbf4c4c34b9c2256f19ef59cc"
                     },
                     "pkce_required": false,
                     "token_exchange_method": null
                 },
                 "api": {
                     "type": "openapi",
-                    "url": "https://nla.zapier.com/api/v1/dynamic/openapi.json"
+                    "url": "https://actions.zapier.com/api/v1/dynamic/openapi.json"
                 },
                 "logo_url": "https://cdn.zappy.app/8f853364f9b383d65b44e184e04689ed.png",
                 "contact_email": "nla@zapier.com",
@@ -39068,7 +38763,7 @@
             "oauth_client_id": "nla-N9tKkxgiCXY8VlD5ukyqyIpBCMWHhuhtT7H0",
             "user_settings": {
                 "is_installed": false,
-                "is_authenticated": true
+                "is_authenticated": false
             },
             "categories": [
                 {
@@ -39225,5 +38920,5 @@
             "logo_url": "https://gptplugin.duoduocdn.com/logo.png"
         }
     ],
-    "count": 1047
+    "count": 1039
 }
