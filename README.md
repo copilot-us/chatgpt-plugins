@@ -1,4 +1,4 @@
-## 1048 Official ChatGPT Plugins (Updated Nov 8, 2023) 🧩
+## 1039 Official ChatGPT Plugins (Updated Jan 9, 2024) 🧩
 
  - Download all plugins in JSON [here](https://raw.githubusercontent.com/copilot-us/chatgpt-plugins/main/chatgpt_plugins.json).
 
